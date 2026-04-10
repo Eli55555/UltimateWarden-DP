@@ -9,7 +9,7 @@
         "frame": "goal",
         "announce_to_chat": true
     },
-    "parent": "warden:warden/temple_join",
+    "parent": "warden:warden/temple_floor_1",
     "criteria": {
         "requirement": {
       "trigger": "minecraft:inventory_changed",

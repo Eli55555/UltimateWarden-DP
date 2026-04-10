@@ -3,7 +3,7 @@
         "icon": {
             "id": "minecraft:black_glazed_terracotta"
         },
-        "hidden": false,
+        "hidden": true,
         "title": {"translate": "ultimate_warden.advancements.welcome.temple.title", "fallback": "A Place for more Wardens"},
         "description": {"translate": "ultimate_warden.advancements.welcome.temple.description", "fallback": "Enter the Warden Temple."},
         "frame": "goal",

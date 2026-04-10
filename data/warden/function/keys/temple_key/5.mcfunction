@@ -27,10 +27,13 @@ execute if entity @a[tag=warden_temple_key] run execute if score ultimatewarden 
 
 
 
-execute if entity @a[tag=warden_temple_key] run execute if score ultimatewarden warden_temple_activated matches 1.. run execute in warden:ultimatewarden run tp @a[tag=warden_temple_key] -149 36.00 -23
-execute if entity @a[tag=warden_temple_key] run execute if score ultimatewarden warden_temple_activated matches 1.. run execute in warden:ultimatewarden run spawnpoint @a[tag=warden_temple_key] -149 36 -23
+execute if entity @a[tag=warden_temple_key] run execute if score ultimatewarden warden_temple_activated matches 1 run execute in warden:ultimatewarden run tp @a[tag=warden_temple_key] -149 36.00 -23
+execute if entity @a[tag=warden_temple_key] run execute if score ultimatewarden warden_temple_activated matches 1 run execute in warden:ultimatewarden run spawnpoint @a[tag=warden_temple_key] -149 36 -23
+
+execute if entity @a[tag=warden_temple_key] run execute if score ultimatewarden warden_temple_activated matches 2.. run execute in warden:ultimatewarden run tp @a[tag=warden_temple_key] -146 -38 -27
+execute if entity @a[tag=warden_temple_key] run execute if score ultimatewarden warden_temple_activated matches 2.. run execute in warden:ultimatewarden run spawnpoint @a[tag=warden_temple_key] -146 -38 -27
+
 execute if entity @a[tag=warden_temple_key] run advancement grant @a[tag=warden_temple_key] only warden:warden/temple_join
-execute if entity @a[tag=warden_temple_key] run execute if score ultimatewarden warden_temple_activated matches 1.. run tag @a[tag=warden_temple_key] add warden_temple
 
 execute if entity @a[tag=warden_temple_key] run scoreboard players add ultimatewarden warden_temple_player-count 1
 execute if entity @a[tag=warden_temple_key] run clear @a[tag=warden_temple_key] minecraft:nautilus_shell[custom_data={warden_temple_key:1b}]
