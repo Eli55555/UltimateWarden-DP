@@ -16,7 +16,10 @@ execute if entity @a[tag=warden_temple_key] run execute if score ultimatewarden 
 execute if entity @a[tag=warden_temple_key] run execute if score ultimatewarden warden_temple_activated matches 0 run execute in warden:ultimatewarden run place template warden:tempel.02 -194 -5 -74
 execute if entity @a[tag=warden_temple_key] run execute if score ultimatewarden warden_temple_activated matches 0 run execute in warden:ultimatewarden run place template warden:tempel.03 -194 -5 -26
 execute if entity @a[tag=warden_temple_key] run execute if score ultimatewarden warden_temple_activated matches 0 run execute in warden:ultimatewarden run place template warden:tempel.04 -146 -5 -26
-
+execute if entity @a[tag=warden_temple_key] run execute if score ultimatewarden warden_temple_activated matches 0 run execute in warden:ultimatewarden run place template warden:tempel.05 -146 -53 -74
+execute if entity @a[tag=warden_temple_key] run execute if score ultimatewarden warden_temple_activated matches 0 run execute in warden:ultimatewarden run place template warden:tempel.06 -146 -5 -74
+execute if entity @a[tag=warden_temple_key] run execute if score ultimatewarden warden_temple_activated matches 0 run execute in warden:ultimatewarden run place template warden:tempel.07 -146 -53 -74
+execute if entity @a[tag=warden_temple_key] run execute if score ultimatewarden warden_temple_activated matches 0 run execute in warden:ultimatewarden run place template warden:tempel.08 -146 -53 -74
 
 
 execute if entity @a[tag=warden_temple_key] run execute if score ultimatewarden warden_temple_activated matches 0 run scoreboard players set ultimatewarden warden_temple_activated 1
