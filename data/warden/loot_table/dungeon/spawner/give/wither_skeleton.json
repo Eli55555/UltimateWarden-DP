@@ -1,0 +1,83 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "trial_spawner",
+                    "functions": [
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "item_name": "Wither Skeleton Spawner",
+                                "block_entity_data": {
+                                    "id": "trial_spawner",
+                                    "normal_config": {
+                                        "spawn_range": 20,
+                                        "total_mobs": 10,
+                                        "simultaneous_mobs": 3,
+                                        "simultaneous_mobs_added_per_player": 2,
+                                        "ticks_between_spawn": 3,
+                                        "total_mobs_added_per_player": 3,
+                                        "spawn_potentials": [
+                                            {
+                                                "data": {
+                                                    "entity": {
+                                                        "id": "wither_skeleton"
+                                                    }
+                                                },
+                                                "weight": 1
+                                            }
+                                        ],
+                                        "loot_tables_to_eject": [
+                                            {
+                                                "data": "warden:dungeon/spawner/loot/wither_skeleton_normal",
+                                                "weight": 7
+                                            },
+                                            {
+                                                "data": "warden:dungeon/spawner/loot/key_normal",
+                                                "weight": 3
+                                            }
+                                        ]
+                                    },
+                                    "ominous_config": {
+                                        "spawn_range": 20,
+                                        "total_mobs": 20,
+                                        "simultaneous_mobs": 3,
+                                        "simultaneous_mobs_added_per_player": 2,
+                                        "ticks_between_spawn": 1,
+                                        "total_mobs_added_per_player": 5,
+                                        "spawn_potentials": [
+                                            {
+                                                "data": {
+                                                    "entity": {
+                                                        "id": "wither_skeleton"
+                                                    }
+                                                },
+                                                "weight": 1
+                                            }
+                                        ],
+                                        "loot_tables_to_eject": [
+                                            {
+                                                "data": "warden:dungeon/spawner/loot/wither_skeleton_ominous",
+                                                "weight": 7
+                                            },
+                                            {
+                                                "data": "warden:dungeon/spawner/loot/key_ominous",
+                                                "weight": 3
+                                            }
+                                        ]
+                                    },
+                                    "required_player_range": 30,
+                                    "target_cooldown_length": 4000,
+                                    "cooldown_ends_at": 0
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+} 

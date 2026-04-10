@@ -1,0 +1,33 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "nautilus_shell",
+                    "functions": [
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "custom_name": [{"translate":"ultimate_warden.dungeon.boss.key","fallback":"??? Key"}],
+                                "rarity": "epic",
+                                "lore": [
+                                    {"text":""},
+                                    {"translate":"ultimate_warden.dungeon.boss.key.lore.1", "fallback": "Hold it for 10 seconds to start the Final Fight"}
+                                ],
+                                "item_model": "ultimate_warden:dungeon_boss_key",
+                                "damage_resistant": {
+                                    "types": "#minecraft:is_fire"
+                                },
+                                "custom_data": {
+                                    "warden_boss_key":1
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

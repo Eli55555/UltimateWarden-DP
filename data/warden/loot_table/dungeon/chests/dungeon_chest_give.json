@@ -1,0 +1,21 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "chest",
+                    "functions": [
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "container_loot": {"loot_table": "warden:dungeon/chests/dungeon_chest"}
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

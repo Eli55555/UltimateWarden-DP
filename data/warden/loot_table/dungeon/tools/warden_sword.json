@@ -1,0 +1,33 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "netherite_sword",
+                    "functions": [
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "custom_name": [{"translate":"ultimate_warden.dungeon.weapon.wardensword","fallback":"Warden Sword","color": "dark_blue"}],
+                                "custom_data": {
+                                    "warden_sword":1
+                                },
+                                "rarity": "epic",
+                                "item_model": "ultimate_warden:dungeon_weapon_wardensword",
+                                "enchantments": {
+                                    "warden:warden_slayer": 4,
+                                    "mending": 1,
+                                    "unbreaking": 4,
+                                    "sharpness": 4,
+                                    "looting": 3
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

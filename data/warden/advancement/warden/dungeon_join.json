@@ -1,0 +1,32 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:polished_blackstone"
+        },
+        "hidden": true,
+        "title": {"translate": "ultimate_warden.advancements.welcome.dungeon.title", "fallback": "A Place for the Warden"},
+        "description": {"translate": "ultimate_warden.advancements.welcome.dungeon.description", "fallback": "Enter the Warden Dungeon."},
+        "frame": "goal",
+        "announce_to_chat": true
+    },
+    "parent": "warden:warden/root",
+     "criteria": {
+        "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:nautilus_shell"
+            ],
+            "predicates": {
+              "custom_data": {
+                "warden_dungeon_join":1
+              }
+            }
+          }
+        ]
+    }
+    }
+    }
+}

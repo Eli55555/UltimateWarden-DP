@@ -1,0 +1,35 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:nautilus_shell",
+            "components": {
+                "item_model": "ultimate_warden:dungeon_vault_ominous_key"
+            }
+        },
+        "hidden": false,
+        "title": {"translate": "ultimate_warden.advancements.dungeon.vault.key.ominous.title", "fallback": "The Power of Ominous"},
+        "description": {"translate": "ultimate_warden.advancements.dungeon.vault.key.ominous.description", "fallback": "Hopefully, I have luck"},
+        "frame": "goal",
+        "announce_to_chat": true
+    },
+    "parent": "warden:warden/dungeon_vault_normal_key",
+    "criteria": {
+        "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:diamond_horse_armor"
+            ],
+            "predicates": {
+              "custom_data": {
+                "ultimate_warden.dungeon.vault.ominous.key":1
+              }
+            }
+          }
+        ]
+    }
+    }
+    }
+}

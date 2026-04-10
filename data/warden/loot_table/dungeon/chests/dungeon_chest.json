@@ -1,0 +1,200 @@
+{
+  "pools": [
+     {
+      "rolls": {
+        "min": 6,
+        "max": 9
+      },
+      "entries": [
+        {
+                    "type": "minecraft:item",
+                    "name": "nautilus_shell",
+                    "weight": 3,
+                    "functions": [
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "custom_name": [{"translate":"ultimate_warden.dungeon.weapon.wardensword.skin","fallback": "Warden Sword - Skin","color": "dark_blue"}],
+                                "custom_data": {
+                                    "warden_sword_skin":1,
+                                    "warden_skin": 1
+                                },
+                                "item_model": "ultimate_warden:wardensword_skin",
+                                "lore": [
+                                    {"text": ""},
+                                    {"translate":"ultimate_warden.dungeon.weapon.wardensword.skin.lore.1", "fallback": "Right click this in your offhand while holding a Sword to apply"},
+                                    {"translate":"ultimate_warden.dungeon.weapon.wardensword.skin.lore.2", "fallback": "the Power of the Warden to your Sword. Your Sword will get:"},
+                                    {"translate":"ultimate_warden.dungeon.weapon.wardensword.skin.lore.3", "fallback": "» A Custom Model"},
+                                    {"translate":"ultimate_warden.dungeon.weapon.wardensword.skin.lore.4", "fallback": "» Sharpness V"},
+                                    {"translate":"ultimate_warden.dungeon.weapon.wardensword.skin.lore.5", "fallback": "» Warden Slayer IV"}
+                                ],
+                                "consumable": {
+                                    "consume_seconds": 5555555555
+                                },
+                                "enchantments": {
+                                    "unbreaking": 1
+                                },
+                                "tooltip_display": {
+                                    "hidden_components": [
+                                        "enchantments"
+                                    ]
+                                },
+                                "max_stack_size": 1
+                            }
+                        }
+                    ]
+                },
+        {
+                    "type": "minecraft:item",
+                    "name": "nautilus_shell",
+                    "weight": 3,
+                    "functions": [
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "custom_name": [{"translate":"ultimate_warden.dungeon.weapon.wardenpickaxe.skin","fallback": "Warden Pickaxe - Skin","color": "dark_blue"}],
+                                "custom_data": {
+                                    "warden_pickaxe_skin":1,
+                                    "warden_skin": 1
+                                },
+                                "item_model": "ultimate_warden:wardenpickaxe_skin",
+                                "lore": [
+                                    {"text": ""},
+                                    {"translate":"ultimate_warden.dungeon.weapon.wardenpickaxe.skin.lore.1", "fallback": "Right click this in your offhand while holding a Pickaxe to apply"},
+                                    {"translate":"ultimate_warden.dungeon.weapon.wardenpickaxe.skin.lore.2", "fallback": "the Power of the Warden to your Pickaxe. Your Pickaxe will get:"},
+                                    {"translate":"ultimate_warden.dungeon.weapon.wardenpickaxe.skin.lore.3", "fallback": "» A Custom Model"},
+                                    {"translate":"ultimate_warden.dungeon.weapon.wardenpickaxe.skin.lore.4", "fallback": "» Efficiency V"},
+                                    {"translate":"ultimate_warden.dungeon.weapon.wardenpickaxe.skin.lore.5", "fallback": "» Mending"}
+                                ],
+                                "consumable": {
+                                    "consume_seconds": 5555555555
+                                },
+                                "enchantments": {
+                                    "unbreaking": 1
+                                },
+                                "tooltip_display": {
+                                    "hidden_components": [
+                                        "enchantments"
+                                    ]
+                                },
+                                "max_stack_size": 1
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "nautilus_shell",
+                    "weight": 3,
+                    "functions": [
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "custom_name": [{"translate":"ultimate_warden.dungeon.weapon.wardenaxe.skin","fallback": "Warden Axe - Skin","color": "dark_blue"}],
+                                "custom_data": {
+                                    "warden_axe_skin":1,
+                                    "warden_skin": 1
+                                },
+                                "item_model": "ultimate_warden:wardenaxt_skin",
+                                "lore": [
+                                    {"text": ""},
+                                    {"translate":"ultimate_warden.dungeon.weapon.wardenaxe.skin.lore.1", "fallback": "Right click this in your offhand while holding an Axe to apply"},
+                                    {"translate":"ultimate_warden.dungeon.weapon.wardenaxe.skin.lore.2", "fallback": "the Power of the Warden to your Axe. Your Axe will get:"},
+                                    {"translate":"ultimate_warden.dungeon.weapon.wardenaxe.skin.lore.3", "fallback": "» A Custom Model"},
+                                    {"translate":"ultimate_warden.dungeon.weapon.wardenaxe.skin.lore.4", "fallback": "» Sharpness V"},
+                                    {"translate":"ultimate_warden.dungeon.weapon.wardenaxe.skin.lore.5", "fallback": "» Efficiency V"}
+                                ],
+                                "consumable": {
+                                    "consume_seconds": 5555555555
+                                },
+                                "enchantments": {
+                                    "unbreaking": 1
+                                },
+                                "tooltip_display": {
+                                    "hidden_components": [
+                                        "enchantments"
+                                    ]
+                                },
+                                "max_stack_size": 1
+                            }
+                        }
+                    ]
+                },
+        {
+                    "type": "minecraft:item",
+                    "name": "nautilus_shell",
+                    "weight": 8,
+                    "functions": [
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "custom_name": [{"translate":"ultimate_warden.dungeon.home.key","fallback": "Dungeon Home Key","color": "green"}],
+                                "rarity": "epic",
+                                "lore": [
+                                    {"text":""},
+                                    {"translate":"ultimate_warden.dungeon.home.key.lore.1", "fallback": "Hold this key for 10 seconds to"},
+                                    {"translate":"ultimate_warden.dungeon.home.key.lore.2", "fallback": "return to the overworld."}
+                                ],
+                                "item_model": "ultimate_warden:dungeon_leave_key",
+                                "damage_resistant": {
+                                    "types": "#minecraft:is_fire"
+                                },
+                                "custom_data": {
+                                    "warden_home_key":1
+                                }
+                            }
+                        }
+                    ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "enchanted_golden_apple",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "name": "book",
+          "weight": 30,
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": "warden:warden_slayer"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "book",
+          "weight": 30,
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": "minecraft:unbreaking"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "book",
+          "weight": 30,
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": "minecraft:mending"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_apple",
+          "weight": 100
+        },
+        {
+          "type": "minecraft:item",
+          "name": "experience_bottle",
+          "weight": 170
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "trial_spawner",
+                    "functions": [
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "block_entity_data": {
+                                    "id": "trial_spawner",
+                                    "normal_config": {
+                                        "spawn_range": 11,
+                                        "total_mobs": 1,
+                                        "simultaneous_mobs": 1,
+                                        "simultaneous_mobs_added_per_player": 1,
+                                        "ticks_between_spawn": 1,
+                                        "total_mobs_added_per_player": 1,
+                                        "spawn_potentials": [
+                                            {
+                                                "data": {
+                                                    "entity": {
+                                                        "id": "warden",
+                                                        "DeathLootTable": "warden:temple/spawner/floor1/warden_loot",
+                                                        "Brain": {
+                                                            "memories": {
+                                                                "minecraft:dig_cooldown": {
+                                                                    "value": {},
+                                                                    "ttl": 9999999
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                               },
+                                                "weight": 1
+                                            }
+                                        ]
+                                    },
+                                    "ominous_config": {
+                                        "spawn_range": 11,
+                                        "total_mobs": 3,
+                                        "simultaneous_mobs": 1,
+                                        "simultaneous_mobs_added_per_player": 1,
+                                        "ticks_between_spawn": 1,
+                                        "total_mobs_added_per_player": 1,
+                                        "spawn_potentials": [
+                                            {
+                                                "data": {
+                                                    "entity": {
+                                                        "id": "warden",
+                                                        "DeathLootTable": "warden:temple/spawner/floor1/warden_loot",
+                                                        "Brain": {
+                                                            "memories": {
+                                                                "minecraft:dig_cooldown": {
+                                                                    "value": {},
+                                                                    "ttl": 9999999
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                },
+                                                "weight": 1
+                                            }
+                                        ],
+                                        "loot_tables_to_eject": [
+                                            {
+                                                "data": "warden:temple/spawner/floor1/warden_spawner_loot",
+                                                "weight": 1
+                                            }
+                                        ]
+                                    },
+                                    "required_player_range": 22,
+                                    "target_cooldown_length": 2000,
+                                    "ejecting_loot_table": "warden:temple/spawner/floor1/warden_spawner_loot",
+                                    "cooldown_ends_at": 0
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+} 

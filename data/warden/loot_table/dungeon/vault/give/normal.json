@@ -1,0 +1,50 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "vault",
+          "functions": [
+            {
+              "function": "set_components",
+              "components": {
+                "block_entity_data": {
+                  "id": "vault",
+                  "config": {
+                    "loot_table": "warden:dungeon/vault/loot/normal",
+                    "key_item": {
+                      "id": "minecraft:golden_horse_armor",
+                      "components": {
+                        "item_model": "ultimate_warden:dungeon_vault_normal_key",
+                        "item_name": {
+                          "translate": "ultimate_warden.dungeon.key.vault.normal",
+                          "fallback": "Dungeon Vault Key",
+                          "color": "blue",
+                          "italic": false
+                        },
+                        "!equippable": {},
+                        "tooltip_display": {
+                          "hidden_components": [
+                            "equippable",
+                            "attribute_modifiers"
+                          ]
+                        },
+                        "custom_data": {
+                          "ultimate_warden.dungeon.vault.normal.key": 1
+                        },
+                        "max_stack_size": 64
+                      }
+                    }
+                  }
+                },
+                "item_name": "Dungeon Vault"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

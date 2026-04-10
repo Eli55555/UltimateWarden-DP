@@ -1,0 +1,35 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:netherite_axe",
+            "components": {
+                  "item_model": "ultimate_warden:wardenaxt"
+            }
+        },
+        "hidden": false,
+        "title": {"translate": "ultimate_warden.advancements.dungeon.wardenaxe.title", "fallback": "The Trees are scared of me..."},
+        "description": {"translate": "ultimate_warden.advancements.dungeon.wardenaxe.description", "fallback": "...because I have a Warden Axe"},
+        "frame": "goal",
+        "announce_to_chat": true
+    },
+    "parent": "warden:warden/skin_get",
+    "criteria": {
+        "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:netherite_axe"
+            ],
+            "predicates": {
+              "custom_data": {
+                "ultimate_warden:warden_axe":1
+              }
+            }
+          }
+        ]
+    }
+    }
+    }
+}

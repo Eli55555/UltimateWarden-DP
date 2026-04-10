@@ -1,0 +1,53 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "vault",
+          "functions": [
+            {
+              "function": "set_components",
+              "components": {
+                "block_entity_data": {
+                  "id": "vault",
+                  "config": {
+                    "loot_table": "warden:dungeon/vault/loot/ominous",
+                    "key_item": {
+                      "id": "minecraft:diamond_horse_armor",
+                      "components": {
+                        "item_model": "ultimate_warden:dungeon_vault_ominous_key",
+                        "item_name": {
+                          "translate": "ultimate_warden.dungeon.key.vault.ominous",
+                          "fallback": "Ominous Dungeon Vault Key",
+                          "color": "blue",
+                          "italic": false
+                        },
+                        "!equippable": {},
+                        "tooltip_display": {
+                          "hidden_components": [
+                            "equippable",
+                            "attribute_modifiers"
+                          ]
+                        },
+                        "custom_data": {
+                          "ultimate_warden.dungeon.vault.ominous.key": 1
+                        },
+                        "max_stack_size": 64
+                      }
+                    }
+                  }
+                },
+                "block_state": {
+                  "ominous": "true"
+                },
+                "item_name": "Ominous Dungeon Vault"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

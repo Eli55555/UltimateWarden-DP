@@ -1,0 +1,1 @@
+loot give @s loot warden:keys/dungeon/reset_key

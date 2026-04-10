@@ -1,0 +1,69 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "trial_spawner",
+                    "functions": [
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "block_entity_data": {
+                                    "id": "trial_spawner",
+                                    "normal_config": {
+                                        "spawn_range": 22,
+                                        "total_mobs": 8,
+                                        "simultaneous_mobs": 3,
+                                        "simultaneous_mobs_added_per_player": 2,
+                                        "ticks_between_spawn": 10,
+                                        "total_mobs_added_per_player": 3,
+                                        "spawn_potentials": [
+                                            {
+                                                "data": {
+                                                    "entity": {
+                                                        "id": "wither_skeleton"
+                                                    }
+                                                },
+                                                "weight": 1
+                                            }
+                                        ]
+                                    },
+                                    "ominous_config": {
+                                        "spawn_range": 22,
+                                        "total_mobs": 16,
+                                        "simultaneous_mobs": 3,
+                                        "simultaneous_mobs_added_per_player": 2,
+                                        "ticks_between_spawn": 5,
+                                        "total_mobs_added_per_player": 5,
+                                        "spawn_potentials": [
+                                            {
+                                                "data": {
+                                                    "entity": {
+                                                        "id": "wither_skeleton"
+                                                    }
+                                                },
+                                                "weight": 1
+                                            }
+                                        ],
+                                        "loot_tables_to_eject": [
+                                            {
+                                                "data": "warden:temple/spawner/floor1/wither-skeleton_spawner_loot",
+                                                "weight": 1
+                                            }
+                                        ]
+                                    },
+                                    "required_player_range": 30,
+                                    "target_cooldown_length": 4000,
+                                    "ejecting_loot_table": "warden:temple/spawner/floor1/wither-skeleton_spawner_loot",
+                                    "cooldown_ends_at": 0
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+} 

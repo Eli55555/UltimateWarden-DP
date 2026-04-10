@@ -1,0 +1,50 @@
+{
+    "pools": [
+        {
+            "rolls": {
+                "min": 3,
+                "max": 9
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "book",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "enchant_randomly",
+                            "options": [
+                                "warden:warden_protection"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "enchanted_golden_apple",
+                    "weight": 5
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "golden_apple",
+                    "weight": 13
+                },
+                {
+                    "type": "item",
+                    "name": "golden_carrot",
+                    "weight": 15
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "bread",
+                    "weight": 20
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "apple",
+                    "weight": 30
+                }
+            ]
+        }
+    ]
+}

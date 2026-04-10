@@ -1,0 +1,35 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "nautilus_shell",
+                    "functions": [
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "custom_name": [{"translate":"ultimate_warden.WIP.key","fallback":"WIP Key","color": "yellow"}],
+                                "rarity": "epic",
+                                "lore": [
+                                    {"text":""},
+                                    {"translate":"ultimate_warden.WIP.key.lore.1", "fallback": "The temple is not finished yet."},
+                                    {"translate":"ultimate_warden.WIP.key.lore.2", "fallback": "Check Modrinth/Curseforge for new updates."},
+                                    {"translate":"ultimate_warden.WIP.key.lore.3", "fallback": "With this key, you can return to the Overworld."}
+                                ],
+                                "item_model": "ultimate_warden:dungeon_boss_key",
+                                "damage_resistant": {
+                                    "types": "#minecraft:is_fire"
+                                },
+                                "custom_data": {
+                                    "warden_WIP_key":1
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

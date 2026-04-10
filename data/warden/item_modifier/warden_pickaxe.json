@@ -1,0 +1,34 @@
+[
+  {
+    "function": "minecraft:set_components",
+    "components": {
+      "minecraft:item_model": "ultimate_warden:dungeon_weapon_wardenpickaxe"
+    },
+    "conditions": []
+  },
+  {
+    "function": "minecraft:set_enchantments",
+    "enchantments": {
+      "minecraft:efficiency": 5,
+      "minecraft:mending": 1
+    },
+    "add": false,
+    "conditions": []
+  },
+  {
+    "function": "minecraft:set_name",
+    "name": {
+      "translate": "ultimate_warden.dungeon.weapon.wardenpickaxe",
+      "fallback": "Warden Pickaxe",
+      "color": "dark_blue"
+    }
+  },
+  {
+    "function": "minecraft:set_components",
+    "components": {
+      "minecraft:custom_data": {
+        "ultimate_warden:warden_pickaxe": 1
+      }
+    }
+  }
+]

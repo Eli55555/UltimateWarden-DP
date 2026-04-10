@@ -1,0 +1,35 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:nautilus_shell",
+            "components": {
+                  "item_model": "ultimate_warden:dungeon_leave_key"
+            }
+        },
+        "hidden": true,
+        "title": {"translate": "ultimate_warden.advancements.dungeon.leave.title", "fallback": "Is this a flying Player?"},
+        "description": {"translate": "ultimate_warden.advancements.dungeon.leave.description", "fallback": "Finish the dungeon."},
+        "frame": "task",
+        "announce_to_chat": true
+    },
+    "parent": "warden:warden/boss_killed",
+    "criteria": {
+        "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:nautilus_shell"
+            ],
+            "predicates": {
+              "custom_data": {
+                "warden_dungeon_leave":1
+              }
+            }
+          }
+        ]
+    }
+    }
+    }
+}
