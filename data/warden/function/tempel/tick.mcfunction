@@ -28,6 +28,9 @@ execute in warden:ultimatewarden run fill -187 27 -5 -189 27 -5 redstone_lamp
 
 
 # Floor 2
+function warden:tempel/floor2/tick
+
+execute if entity @a[tag=uw.temple.floor.2] run execute if score ultimatewarden warden_temple_activated matches 1 run scoreboard players set ultimatewarden warden.temple.floor2.Mobs 1
 execute if entity @a[tag=uw.temple.floor.2] run execute if score ultimatewarden warden_temple_activated matches 1 run scoreboard players set ultimatewarden warden_temple_activated 2
 
 

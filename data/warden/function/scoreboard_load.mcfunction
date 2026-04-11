@@ -18,6 +18,7 @@ scoreboard objectives add warden_temple_key dummy
 scoreboard objectives add warden_temple_join dummy
 scoreboard objectives add warden_temple_activated dummy
 scoreboard objectives add warden_temple_player-count dummy
+scoreboard objectives add warden.temple.floor2.Mobs dummy
 
 scoreboard objectives add warden_bossbar dummy
 
@@ -56,6 +57,7 @@ scoreboard players add ultimatewarden warden_temple_key 0
 scoreboard players add ultimatewarden warden_temple_join 0
 scoreboard players add ultimatewarden warden_temple_activated 0
 scoreboard players add ultimatewarden warden_temple_player-count 0
+scoreboard players add ultimatewarden warden.temple.floor2.Mobs 0
 
 scoreboard players add ultimatewarden warden_bossbar 0
 
