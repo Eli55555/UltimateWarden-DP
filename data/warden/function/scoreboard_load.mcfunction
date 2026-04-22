@@ -8,6 +8,9 @@ scoreboard objectives add warden_dungeon_home_key dummy
 scoreboard objectives add warden_dungeon_boss_key dummy
 scoreboard objectives add warden_dungeon_boss_key_debug dummy
 
+scoreboard objectives add warden.dungeon.close_dungeon.active dummy
+scoreboard objectives add warden.dungeon.close_dungeon.timer dummy
+
 scoreboard objectives add warden.ultimate_warden dummy
 scoreboard objectives add warden.ultimate_warden_debug dummy
 
@@ -46,6 +49,9 @@ scoreboard players add ultimatewarden warden_dungeon_home_key 0
 
 scoreboard players add ultimatewarden warden_dungeon_boss_key 0
 scoreboard players add ultimatewarden warden_dungeon_boss_key_debug 0
+
+scoreboard players add ultimatewarden warden.dungeon.close_dungeon.active 0
+scoreboard players add ultimatewarden warden.dungeon.close_dungeon.timer 0
 
 scoreboard players add ultimatewarden warden.ultimate_warden 0
 scoreboard players add ultimatewarden warden.ultimate_warden_debug 0

@@ -11,3 +11,4 @@ execute if score ultimatewarden warden_dungeon_activated matches 3 run execute u
 execute if score ultimatewarden warden_dungeon_activated matches 4 run clear @a[tag=uw.dungeon] minecraft:nautilus_shell[custom_data={warden_home_key:1b}]
 
 
+execute if score ultimatewarden warden_dungeon_activated matches 4 run execute if score ultimatewarden warden.dungeon.close_dungeon.active matches 0 run function warden:dungeon/boss/close_dungeon_manager
