@@ -15,7 +15,7 @@
                                     "warden_sword_skin":1,
                                     "warden_skin": 1
                                 },
-                                "item_model": "ultimate_warden:wardensword_skin",
+                                "item_model": "ultimate_warden:warden_sword_skin",
                                 "lore": [
                                     {"text": ""},
                                     {"translate":"ultimate_warden.dungeon.weapon.wardensword.skin.lore.1", "fallback": "Right click this in your offhand while holding a Sword to apply"},

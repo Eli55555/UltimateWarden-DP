@@ -3,7 +3,7 @@
         "icon": {
             "id": "minecraft:nautilus_shell",
             "components": {
-                  "item_model": "ultimate_warden:wardensword_skin"
+                  "item_model": "ultimate_warden:warden_sword_skin"
             }
         },
         "hidden": false,

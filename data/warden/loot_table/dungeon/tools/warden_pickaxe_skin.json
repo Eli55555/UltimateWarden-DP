@@ -15,7 +15,7 @@
                                     "warden_pickaxe_skin":1,
                                     "warden_skin": 1
                                 },
-                                "item_model": "ultimate_warden:wardenpickaxe_skin",
+                                "item_model": "ultimate_warden:warden_pickaxe_skin",
                                 "lore": [
                                     {"text": ""},
                                     {"translate":"ultimate_warden.dungeon.weapon.wardenpickaxe.skin.lore.1", "fallback": "Right click this in your offhand while holding a Pickaxe to apply"},

@@ -2,7 +2,7 @@
   {
     "function": "minecraft:set_components",
     "components": {
-      "minecraft:item_model": "ultimate_warden:dungeon_weapon_wardensword"
+      "minecraft:item_model": "ultimate_warden:warden_sword"
     },
     "conditions": []
   },

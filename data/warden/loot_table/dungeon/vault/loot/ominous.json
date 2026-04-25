@@ -25,7 +25,7 @@
                   "warden_pickaxe_skin": 1,
                   "warden_skin": 1
                 },
-                "item_model": "ultimate_warden:wardenpickaxe_skin",
+                "item_model": "ultimate_warden:warden_pickaxe_skin",
                 "lore": [
                   {
                     "text": ""
@@ -86,7 +86,7 @@
                   "warden_axe_skin": 1,
                   "warden_skin": 1
                 },
-                "item_model": "ultimate_warden:wardenaxt_skin",
+                "item_model": "ultimate_warden:warden_axe_skin",
                 "lore": [
                   {
                     "text": ""

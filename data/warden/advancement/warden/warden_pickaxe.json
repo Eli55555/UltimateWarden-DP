@@ -3,7 +3,7 @@
         "icon": {
             "id": "minecraft:netherite_pickaxe",
             "components": {
-                  "item_model": "ultimate_warden:dungeon_weapon_wardenpickaxe"
+                  "item_model": "ultimate_warden:warden_pickaxe"
             }
         },
         "hidden": false,

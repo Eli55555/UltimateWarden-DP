@@ -3,7 +3,7 @@
         "icon": {
             "id": "minecraft:netherite_axe",
             "components": {
-                  "item_model": "ultimate_warden:wardenaxt"
+                  "item_model": "ultimate_warden:warden_axe"
             }
         },
         "hidden": false,

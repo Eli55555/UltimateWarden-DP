@@ -15,7 +15,7 @@
                                     "warden_axe_skin":1,
                                     "warden_skin": 1
                                 },
-                                "item_model": "ultimate_warden:wardenaxt_skin",
+                                "item_model": "ultimate_warden:warden_axe_skin",
                                 "lore": [
                                     {"text": ""},
                                     {"translate":"ultimate_warden.dungeon.weapon.wardenaxe.skin.lore.1", "fallback": "Right click this in your offhand while holding an Axe to apply"},

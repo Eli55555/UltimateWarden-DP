@@ -2,7 +2,7 @@
   {
     "function": "minecraft:set_components",
     "components": {
-      "minecraft:item_model": "ultimate_warden:wardenaxt"
+      "minecraft:item_model": "ultimate_warden:warden_axe"
     },
     "conditions": []
   },

@@ -8,7 +8,7 @@ function warden:tempel/tick
 
 function warden:dungeon/boss/fight/tick
 
-
+function warden:model_fix
 
 
 clear @a nautilus_shell[custom_data={warden_dungeon_join:1b}]

@@ -15,12 +15,10 @@
                                     "warden_pickaxe":1
                                 },
                                 "rarity": "epic",
-                                "item_model": "ultimate_warden:dungeon_weapon_wardenpickaxe",
+                                "item_model": "ultimate_warden:warden_pickaxe",
                                 "enchantments": {
                                     "mending": 1,
-                                    "unbreaking": 4,
-                                    "efficiency": 4,
-                                    "fortune": 3
+                                    "efficiency": 5
                                 }
                             }
                         }
