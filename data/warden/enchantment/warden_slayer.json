@@ -4,7 +4,7 @@
       "fallback": "Warden Slayer",
       "color": "gold"
     },
-    "supported_items": "#minecraft:enchantable/melee_weapon",
+    "supported_items": "#warden:enchantable/warden_slayer",
     "weight": 4,
     "max_level": 4,
     "min_cost": {

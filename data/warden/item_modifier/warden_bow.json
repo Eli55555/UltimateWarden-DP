@@ -1,0 +1,34 @@
+[
+  {
+    "function": "minecraft:set_components",
+    "components": {
+      "minecraft:item_model": "ultimate_warden:warden_bow"
+    },
+    "conditions": []
+  },
+  {
+    "function": "minecraft:set_enchantments",
+    "enchantments": {
+      "minecraft:power": 5,
+      "warden:warden_bow": 1
+    },
+    "add": false,
+    "conditions": []
+  },
+  {
+    "function": "minecraft:set_name",
+    "name": {
+      "translate": "ultimate_warden.temple.weapon.warden_bow",
+      "fallback": "Warden Bow",
+      "color": "dark_blue"
+    }
+  },
+  {
+    "function": "minecraft:set_components",
+    "components": {
+      "minecraft:custom_data": {
+        "ultimate_warden:warden_bow": 1
+      }
+    }
+  }
+]

@@ -140,21 +140,18 @@
         },
         {
           "type": "minecraft:item",
-          "name": "netherite_scrap",
+          "name": "diamond_block",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "silence_armor_trim_smithing_template",
           "weight": 4
         },
         {
           "type": "minecraft:item",
-          "name": "book",
-          "weight": 5,
-          "functions": [
-            {
-              "function": "enchant_randomly",
-              "options": [
-                "warden:warden_protection"
-              ]
-            }
-          ]
+          "name": "netherite_scrap",
+          "weight": 4
         },
         {
           "type": "minecraft:item",
