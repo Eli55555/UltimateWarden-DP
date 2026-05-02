@@ -21,6 +21,7 @@ scoreboard objectives add warden_temple_key dummy
 scoreboard objectives add warden_temple_join dummy
 scoreboard objectives add warden_temple_activated dummy
 scoreboard objectives add warden.temple.floor2.Mobs dummy
+scoreboard objectives add warden.temple.floor2.timer dummy
 
 scoreboard objectives add warden_bossbar dummy
 
