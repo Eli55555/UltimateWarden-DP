@@ -7,7 +7,7 @@ execute in warden:ultimatewarden run forceload add -99 -74 -194 21
 
 
 function warden:bossbar/bossbar_set
-
+function warden:settings/storage_save
 
 # Scoreboard create
 

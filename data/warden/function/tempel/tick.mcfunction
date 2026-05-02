@@ -7,12 +7,17 @@ execute if score ultimatewarden warden_temple_activated matches 0 run execute in
 # Tags
 execute in warden:ultimatewarden run execute positioned -146 -4 -27 run tag @a[distance=..100] add uw.temple
 execute in warden:ultimatewarden run execute positioned -146 -4 -27 run tag @a[distance=1001..] remove uw.temple
+execute as @a unless dimension warden:ultimatewarden run tag @s remove uw.temple
+
 
 execute in warden:ultimatewarden run execute positioned -148 26 -43 run tag @a[distance=..10] add uw.temple.floor.1
 execute in warden:ultimatewarden run execute positioned -148 26 -43 run tag @a[distance=11..] remove uw.temple.floor.1
+execute as @a unless dimension warden:ultimatewarden run tag @s remove uw.temple.floor.1
+
 
 execute in warden:ultimatewarden run execute positioned -146 -33 -27 run tag @a[distance=..10] add uw.temple.floor.2
 execute in warden:ultimatewarden run execute positioned -146 -33 -27 run tag @a[distance=11..] remove uw.temple.floor.2
+execute as @a unless dimension warden:ultimatewarden run tag @s remove uw.temple.floor.2
 
 
 
