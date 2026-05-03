@@ -1,0 +1,18 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:netherite_sword"
+        },
+        "hidden": false,
+        "title": {"translate": "ultimate_warden.advancements.temple.floor2.complete.title", "fallback": "I hate Arena Fights"},
+        "description": {"translate": "ultimate_warden.advancements.temple.floor2.complete.description", "fallback": "Finish the Arena Fight."},
+        "frame": "task",
+        "announce_to_chat": true
+    },
+    "parent": "warden:warden/temple_floor_2",
+     "criteria": {
+        "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+    }
+}

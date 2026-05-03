@@ -27,13 +27,10 @@ execute if score ultimatewarden warden.temple.floor2.timer matches 4 run execute
 
 
 
-# Timer 130 - 4x Ravager
+# Timer 130 - 2x Ravager
 execute if score ultimatewarden warden.temple.floor2.timer matches 7 run execute in warden:ultimatewarden run summon ravager -138 -34 -35 {Tags:["uw.temple.floor.2.mob"]}
-execute if score ultimatewarden warden.temple.floor2.timer matches 7 run execute in warden:ultimatewarden run summon ravager -154 -34 -35 {Tags:["uw.temple.floor.2.mob"]}
 execute if score ultimatewarden warden.temple.floor2.timer matches 7 run execute in warden:ultimatewarden run summon ravager -154 -34 -19 {Tags:["uw.temple.floor.2.mob"]}
-execute if score ultimatewarden warden.temple.floor2.timer matches 7 run execute in warden:ultimatewarden run summon ravager -138 -34 -19 {Tags:["uw.temple.floor.2.mob"]}
 execute if score ultimatewarden warden.temple.floor2.timer matches 7 run execute in warden:ultimatewarden run playsound minecraft:block.trial_spawner.spawn_mob master @a[tag=uw.temple]
-execute if score ultimatewarden warden.temple.floor2.timer matches 7 run execute in warden:ultimatewarden run particle minecraft:witch -138 -34 -35 0.1 0.1 0.1 0.3 10 force
 
 
 

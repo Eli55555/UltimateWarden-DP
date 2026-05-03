@@ -4,6 +4,7 @@ execute if score ultimatewarden warden.settings.load_message_activated matches 0
 execute in warden:ultimatewarden run forceload add 0 0 95 67
 execute in warden:ultimatewarden run forceload add -29 82 -54 57
 execute in warden:ultimatewarden run forceload add -99 -74 -194 21
+execute in warden:ultimatewarden run forceload add -143 22 -147 26
 
 
 function warden:bossbar/bossbar_set
@@ -16,6 +17,7 @@ function warden:settings/storage_save
 function warden:scoreboard_load
 
 team add ultimate_warden
+team add warden_skeleton
 
 
 #give Eli12_5 barrel[container_loot={"loot_table":"warden:keys/temple/etage1/barrel"}]
