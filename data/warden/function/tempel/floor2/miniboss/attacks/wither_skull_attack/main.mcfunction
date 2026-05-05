@@ -1,0 +1,6 @@
+scoreboard players set ultimatewarden warden.temple.floor2.warden_skeleton.wither_skull 1
+function warden:tempel/floor2/miniboss/attacks/wither_skull_attack/spawn
+
+schedule function warden:tempel/floor2/miniboss/attacks/wither_skull_attack/1 10s
+
+#execute as @a[tag=uw.temple] run summon wither_skull ~ ~6.5 ~ {Tags:["uw.temple.warden_skeleton.skull"],Motion:[0.0,-0.5,0.0]}

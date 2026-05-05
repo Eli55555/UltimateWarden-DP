@@ -9,5 +9,7 @@ execute if score ultimatewarden warden.temple.floor2.Mobs matches 1..6 run funct
 
 
 
-execute if score ultimatewarden warden.temple.floor2.Mobs matches 1..7 run schedule function warden:tempel/floor2/mobs/counter 1s replace
+execute if score ultimatewarden warden.temple.floor2.Mobs matches 1..7 if score ultimatewarden warden.temple.floor2.timer matches ..230 run schedule function warden:tempel/floor2/mobs/counter 1s replace
+execute if score ultimatewarden warden.temple.floor2.timer matches 230.. run scoreboard players set ultimatewarden warden.temple.floor2.timer 0
+
 

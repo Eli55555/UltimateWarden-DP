@@ -31,3 +31,12 @@ bossbar add ultimate_warden "Ultimate Warden"
 bossbar set ultimate_warden style notched_20
 bossbar set ultimate_warden color red
 bossbar set ultimate_warden max 1024
+
+
+
+scoreboard objectives add warden_skeleton dummy
+
+bossbar add warden_skeleton "Warden Skeleton"
+bossbar set warden_skeleton style notched_12
+bossbar set warden_skeleton color blue
+bossbar set warden_skeleton max 512
