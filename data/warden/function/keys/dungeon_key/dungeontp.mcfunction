@@ -8,11 +8,11 @@ execute if score ultimatewarden warden_dungeon_activated matches ..2 run scorebo
 advancement grant @a[tag=warden_dungeon_key] only warden:warden/dungeon_join
 
 
-execute if score ultimatewarden warden_dungeon_activated matches ..2 run execute if entity @a[tag=warden_dungeon_key] run execute in warden:ultimatewarden run tp @a[tag=warden_dungeon_key] 5 -103 33
-execute if score ultimatewarden warden_dungeon_activated matches ..2 run execute if entity @a[tag=warden_dungeon_key] run execute in warden:ultimatewarden run spawnpoint @a[tag=warden_dungeon_key] 5 -103 33
+execute if score ultimatewarden warden_dungeon_activated matches ..2 run execute if entity @a[tag=warden_dungeon_key] run execute in warden:ultimatewarden run tp @a[tag=warden_dungeon_key] 5 57 33
+execute if score ultimatewarden warden_dungeon_activated matches ..2 run execute if entity @a[tag=warden_dungeon_key] run execute in warden:ultimatewarden run spawnpoint @a[tag=warden_dungeon_key] 5 57 33
 
-execute if score ultimatewarden warden_dungeon_activated matches 3.. run execute if entity @a[tag=warden_dungeon_key] run execute in warden:ultimatewarden run tp @a[tag=warden_dungeon_key] -32 -80 70
-execute if score ultimatewarden warden_dungeon_activated matches 3.. run execute if entity @a[tag=warden_dungeon_key] run execute in warden:ultimatewarden run spawnpoint @a[tag=warden_dungeon_key] -32 -80 70
+execute if score ultimatewarden warden_dungeon_activated matches 3.. run execute if entity @a[tag=warden_dungeon_key] run execute in warden:ultimatewarden run tp @a[tag=warden_dungeon_key] -32 80 70
+execute if score ultimatewarden warden_dungeon_activated matches 3.. run execute if entity @a[tag=warden_dungeon_key] run execute in warden:ultimatewarden run spawnpoint @a[tag=warden_dungeon_key] -32 80 70
 execute if score ultimatewarden warden_dungeon_activated matches 3.. run execute if entity @a[tag=warden_dungeon_key] run execute in warden:ultimatewarden run advancement grant @a[tag=warden_dungeon_key] only warden:warden/bossroom_enter
 
 

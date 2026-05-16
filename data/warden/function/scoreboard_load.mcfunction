@@ -1,3 +1,5 @@
+scoreboard objectives add warden.version dummy
+
 scoreboard objectives add warden_dungeon_key dummy
 scoreboard objectives add warden_dungeon_key_debug dummy
 scoreboard objectives add warden_dungeon_activated dummy
@@ -37,6 +39,8 @@ scoreboard objectives add warden.settings.temple_activated dummy
 
 
 
+
+scoreboard players add ultimatewarden warden.version 0
 
 scoreboard players add @a warden_dungeon_key 0
 scoreboard players add @a warden_dungeon_key_debug 0

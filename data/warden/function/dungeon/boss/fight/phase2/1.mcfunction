@@ -1,5 +1,5 @@
-execute in warden:ultimatewarden run fill -52 -80 59 -31 -80 80 minecraft:lava replace sculk_vein
-execute in warden:ultimatewarden run fill -52 -80 59 -31 -80 80 minecraft:lava replace air
+execute in warden:ultimatewarden run fill -52 80 59 -31 80 80 minecraft:lava replace sculk_vein
+execute in warden:ultimatewarden run fill -52 80 59 -31 80 80 minecraft:lava replace air
 
 
 effect clear @a[tag=uw.dungeon] fire_resistance 

@@ -1,5 +1,5 @@
-execute in warden:ultimatewarden run fill -52 -80 59 -31 -77 80 minecraft:air replace lava
-execute in warden:ultimatewarden run fill -52 -80 59 -31 -77 80 minecraft:air replace bedrock
+execute in warden:ultimatewarden run fill -52 80 59 -31 83 80 minecraft:air replace lava
+execute in warden:ultimatewarden run fill -52 80 59 -31 83 80 minecraft:air replace bedrock
 
 effect clear @e[tag=ultimate_warden] levitation
 

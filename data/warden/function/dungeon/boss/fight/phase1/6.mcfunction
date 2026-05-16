@@ -1,6 +1,6 @@
 scoreboard players set ultimatewarden warden.ultimate_warden 4
 
-execute in warden:ultimatewarden run tp @e[tag=ultimate_warden] -33 -76.00 61
+execute in warden:ultimatewarden run tp @e[tag=ultimate_warden] -33 84.00 61
 
 execute as @a[tag=uw.dungeon] run damage @s 30 lightning_bolt
 execute at @a[tag=uw.dungeon] run summon lightning_bolt
