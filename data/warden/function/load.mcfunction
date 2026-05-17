@@ -6,6 +6,7 @@ execute in warden:ultimatewarden run forceload add -29 82 -54 57
 execute in warden:ultimatewarden run forceload add -99 -74 -194 21
 execute in warden:ultimatewarden run forceload add -143 22 -147 26
 
+function warden:keys/dungeon_key/timer
 
 function warden:bossbar/bossbar_set
 function warden:settings/storage_save
