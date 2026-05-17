@@ -30,12 +30,11 @@ execute if entity @a[tag=warden_temple_key] run execute if score ultimatewarden 
 
 
 
+execute if entity @a[tag=warden_temple_key] if score ultimatewarden warden_temple_activated matches 1 run execute as @a[tag=warden_temple_key] at @s in warden:ultimatewarden run spawnpoint @a[distance=..5] -149 187 -23
+execute if entity @a[tag=warden_temple_key] if score ultimatewarden warden_temple_activated matches 1 run execute as @a[tag=warden_temple_key] at @s in warden:ultimatewarden run tp @a[distance=..5] -149 187 -23
 
-execute if entity @a[tag=warden_temple_key] run execute if score ultimatewarden warden_temple_activated matches 1 run execute in warden:ultimatewarden run tp @a[tag=warden_temple_key] -149 187.00 -23
-execute if entity @a[tag=warden_temple_key] run execute if score ultimatewarden warden_temple_activated matches 1 run execute in warden:ultimatewarden run spawnpoint @a[tag=warden_temple_key] -149 187 -23
-
-execute if entity @a[tag=warden_temple_key] run execute if score ultimatewarden warden_temple_activated matches 2.. run execute in warden:ultimatewarden run tp @a[tag=warden_temple_key] -146 113 -27
-execute if entity @a[tag=warden_temple_key] run execute if score ultimatewarden warden_temple_activated matches 2.. run execute in warden:ultimatewarden run spawnpoint @a[tag=warden_temple_key] -146 113 -27
+execute if entity @a[tag=warden_temple_key] if score ultimatewarden warden_temple_activated matches 2.. run execute as @a[tag=warden_temple_key] at @s in warden:ultimatewarden run tp @a[distance=..5] -146 113 -27
+execute if entity @a[tag=warden_temple_key] if score ultimatewarden warden_temple_activated matches 2.. run execute as @a[tag=warden_temple_key] at @s in warden:ultimatewarden run spawnpoint @a[distance=..5] -146 113 -27
 
 execute if entity @a[tag=warden_temple_key] run advancement grant @a[tag=warden_temple_key] only warden:warden/temple_join
 
