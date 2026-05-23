@@ -8,7 +8,7 @@ execute positioned as @e[tag=warden_skeleton_clone] in warden:ultimatewarden run
 
 
 execute as @e[type=armor_stand,tag=uw.temple.warden_skeleton.attack.skeleton] at @s in warden:ultimatewarden run spreadplayers ~ ~ 1 10 false @s
-execute as @e[type=armor_stand,tag=uw.temple.warden_skeleton.attack.skeleton] at @s in warden:ultimatewarden run tp @s ~ -38 ~ ~ ~
+execute as @e[type=armor_stand,tag=uw.temple.warden_skeleton.attack.skeleton] at @s in warden:ultimatewarden run tp @s ~ 113 ~ ~ ~
 
 scoreboard players set ultimatewarden warden.temple.floor2.warden_skeleton.skeleton 1
 
