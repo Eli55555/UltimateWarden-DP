@@ -39,8 +39,8 @@ execute if entity @a[tag=warden_temple_key] if score ultimatewarden warden_templ
 execute if entity @a[tag=warden_temple_key] run execute as @a[tag=warden_temple_key] at @s run advancement grant @a[distance=..5] only warden:warden/temple_join
 
 
-execute if entity @a[tag=warden_temple_key] run clear @a[tag=warden_temple_key] minecraft:nautilus_shell[custom_data={warden_temple_key:1b}]
-execute if entity @a[tag=warden_temple_key] run clear @a[tag=warden_temple_key] minecraft:nautilus_shell[custom_data={warden_home_key:1b}]
+execute if entity @a[tag=warden_temple_key] run execute as @a[tag=warden_temple_key] at @s run clear @a[distance=..5] minecraft:nautilus_shell[custom_data={warden_temple_key:1b}]
+execute if entity @a[tag=warden_temple_key] run execute as @a[tag=warden_temple_key] at @s run clear @a[distance=..5] minecraft:nautilus_shell[custom_data={warden_home_key:1b}]
 
 scoreboard players set ultimatewarden warden_temple_key 0
 
