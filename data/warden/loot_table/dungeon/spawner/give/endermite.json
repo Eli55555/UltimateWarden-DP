@@ -10,7 +10,7 @@
                         {
                             "function": "set_components",
                             "components": {
-                                "item_name": "Endermite Spawner",
+                                "item_name": "Endermite Spawner V2",
                                 "block_entity_data": {
                                     "id": "trial_spawner",
                                     "normal_config": {
@@ -18,7 +18,7 @@
                                         "total_mobs": 15,
                                         "simultaneous_mobs": 3,
                                         "simultaneous_mobs_added_per_player": 5,
-                                        "ticks_between_spawn": 2,
+                                        "ticks_between_spawn": 20,
                                         "total_mobs_added_per_player": 3,
                                         "spawn_potentials": [
                                             {
@@ -34,11 +34,11 @@
                                         "loot_tables_to_eject": [
                                             {
                                                 "data": "warden:dungeon/spawner/loot/endermite_normal",
-                                                "weight": 7
+                                                "weight": 6
                                             },
                                             {
                                                 "data": "warden:dungeon/spawner/loot/key_normal",
-                                                "weight": 3
+                                                "weight": 4
                                             }
                                         ]
                                     },
@@ -47,7 +47,7 @@
                                         "total_mobs": 20,
                                         "simultaneous_mobs": 3,
                                         "simultaneous_mobs_added_per_player": 2,
-                                        "ticks_between_spawn": 1,
+                                        "ticks_between_spawn": 10,
                                         "total_mobs_added_per_player": 5,
                                         "spawn_potentials": [
                                             {
@@ -63,16 +63,16 @@
                                         "loot_tables_to_eject": [
                                             {
                                                 "data": "warden:dungeon/spawner/loot/endermite_ominous",
-                                                "weight": 7
+                                                "weight": 6
                                             },
                                             {
                                                 "data": "warden:dungeon/spawner/loot/key_ominous",
-                                                "weight": 3
+                                                "weight": 4
                                             }
                                         ]
                                     },
                                     "required_player_range": 30,
-                                    "target_cooldown_length": 4000,
+                                    "target_cooldown_length": 36000,
                                     "cooldown_ends_at": 0
                                 }
                             }
