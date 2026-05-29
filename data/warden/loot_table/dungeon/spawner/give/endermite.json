@@ -10,7 +10,7 @@
                         {
                             "function": "set_components",
                             "components": {
-                                "item_name": "Endermite Spawner V2",
+                                "item_name": "Endermite Spawner V3",
                                 "block_entity_data": {
                                     "id": "trial_spawner",
                                     "normal_config": {
