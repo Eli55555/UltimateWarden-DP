@@ -1,4 +1,4 @@
-advancement revoke @s only warden:warden/skins/use_warden_pickaxe_skin
+advancement revoke @s only warden:warden/skin_manage/use_warden_pickaxe_skin
 
 
 
