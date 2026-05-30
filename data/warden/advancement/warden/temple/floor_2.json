@@ -4,8 +4,8 @@
             "id": "minecraft:polished_blackstone_bricks"
         },
         "hidden": true,
-        "title": {"translate": "ultimate_warden.advancements.welcome.temple.floor2.title", "fallback": "A Arena for Wardens"},
-        "description": {"translate": "ultimate_warden.advancements.welcome.temple.floor2.description", "fallback": "Reach the second floor of the Temple."},
+        "title": {"translate": "ultimate_warden.advancements.temple.floor2.title", "fallback": "A Arena for Wardens"},
+        "description": {"translate": "ultimate_warden.advancements.temple.floor2.description", "fallback": "Reach the second floor of the Temple."},
         "frame": "goal",
         "announce_to_chat": true
     },

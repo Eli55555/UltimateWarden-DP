@@ -7,8 +7,8 @@
             }
         },
         "hidden": false,
-        "title": {"translate": "ultimate_warden.advancements.temple.warden_bow.title", "fallback": "I have a Warden Bow and you don't!!!"},
-        "description": {"translate": "ultimate_warden.advancements.temple.warden_bow.description", "fallback": "Get the Warden Bow."},
+        "title": {"translate": "ultimate_warden.advancements.skins.warden_bow.title", "fallback": "I have a Warden Bow and you don't!!!"},
+        "description": {"translate": "ultimate_warden.advancements.skins.warden_bow.description", "fallback": "Get the Warden Bow."},
         "frame": "goal",
         "announce_to_chat": true
     },

@@ -7,8 +7,8 @@
             }
         },
         "hidden": true,
-        "title": {"translate": "ultimate_warden.advancements.dungeon.home.title", "fallback": "I want to get out of here, Mom"},
-        "description": {"translate": "ultimate_warden.advancements.dungeon.home.description", "fallback": "Exit the dungeon with the Home Key"},
+        "title": {"translate": "ultimate_warden.advancements.dungeon.home_key.title", "fallback": "I want to get out of here, Mom"},
+        "description": {"translate": "ultimate_warden.advancements.dungeon.home_key.description", "fallback": "Exit the dungeon with the Home Key"},
         "frame": "task",
         "announce_to_chat": true
     },

@@ -16,3 +16,4 @@ advancement grant @s only warden:warden/temple/floor_1
 advancement grant @s only warden:warden/temple/floor_2
 advancement grant @s only warden:warden/temple/warden_protection
 advancement grant @s only warden:warden/temple/temple_join
+advancement grant @s only warden:warden/dungeon/elite_warden_killed

@@ -7,8 +7,8 @@
             }
         },
         "hidden": false,
-        "title": {"translate": "ultimate_warden.advancements.dungeon.bossroom.title", "fallback": "The Final Fight"},
-        "description": {"translate": "ultimate_warden.advancements.dungeon.bossroom.description", "fallback": "Enter the Ultimate Warden boss fight."},
+        "title": {"translate": "ultimate_warden.advancements.dungeon.bossroom_enter.title", "fallback": "The Final Fight"},
+        "description": {"translate": "ultimate_warden.advancements.dungeon.bossroom_enter.description", "fallback": "Enter the Ultimate Warden boss fight."},
         "frame": "task",
         "announce_to_chat": true
     },

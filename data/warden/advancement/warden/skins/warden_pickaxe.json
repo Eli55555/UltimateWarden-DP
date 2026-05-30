@@ -7,8 +7,8 @@
             }
         },
         "hidden": false,
-        "title": {"translate": "ultimate_warden.advancements.dungeon.wardenpickaxe.title", "fallback": "A Pickaxe Skin"},
-        "description": {"translate": "ultimate_warden.advancements.dungeon.wardenpickaxe.description", "fallback": "I like Skins and Mining, so why not both?"},
+        "title": {"translate": "ultimate_warden.advancements.skins.warden_pickaxe.title", "fallback": "A Pickaxe Skin"},
+        "description": {"translate": "ultimate_warden.advancements.skins.warden_pickaxe.description", "fallback": "I like Skins and Mining, so why not both?"},
         "frame": "goal",
         "announce_to_chat": true
     },

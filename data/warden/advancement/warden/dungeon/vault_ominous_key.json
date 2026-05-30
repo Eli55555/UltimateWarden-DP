@@ -7,8 +7,8 @@
             }
         },
         "hidden": false,
-        "title": {"translate": "ultimate_warden.advancements.dungeon.vault.key.ominous.title", "fallback": "The Power of Ominous"},
-        "description": {"translate": "ultimate_warden.advancements.dungeon.vault.key.ominous.description", "fallback": "Hopefully, I have luck"},
+        "title": {"translate": "ultimate_warden.advancements.dungeon.vault_ominous_key.title", "fallback": "The Power of Ominous"},
+        "description": {"translate": "ultimate_warden.advancements.dungeon.vault_ominous_key.description", "fallback": "Hopefully, I have luck"},
         "frame": "goal",
         "announce_to_chat": true
     },

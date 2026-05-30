@@ -7,8 +7,8 @@
             }
         },
         "hidden": false,
-        "title": {"translate": "ultimate_warden.advancements.dungeon.wardenaxe.title", "fallback": "The Trees are scared of me..."},
-        "description": {"translate": "ultimate_warden.advancements.dungeon.wardenaxe.description", "fallback": "...because I have a Warden Axe"},
+        "title": {"translate": "ultimate_warden.advancements.skins.warden_axe.title", "fallback": "The Trees are scared of me..."},
+        "description": {"translate": "ultimate_warden.advancements.skins.warden_axe.description", "fallback": "...because I have a Warden Axe"},
         "frame": "goal",
         "announce_to_chat": true
     },

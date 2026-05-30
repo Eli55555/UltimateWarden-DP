@@ -4,12 +4,12 @@
             "id": "minecraft:sculk"
         },
         "hidden": false,
-        "title": {"translate": "ultimate_warden.advancements.dungeon.bosskill.title", "fallback": "The Elite Warden was a easy boss"},
-        "description": {"translate": "ultimate_warden.advancements.dungeon.bosskill.description", "fallback": "Kill the Elite Warden."},
+        "title": {"translate": "ultimate_warden.advancements.dungeon.elite_warden_killed.title", "fallback": "The Elite Warden was a easy boss"},
+        "description": {"translate": "ultimate_warden.advancements.dungeon.elite_warden_killed.description", "fallback": "Kill the Elite Warden."},
         "frame": "challenge",
         "announce_to_chat": true
     },
-    "parent": "warden:warden/bossroom_enter",
+    "parent": "warden:warden/dungeon/bossroom_enter",
     "criteria": {
     "kill_warden": {
       "trigger": "minecraft:player_killed_entity",

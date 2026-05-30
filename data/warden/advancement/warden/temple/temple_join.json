@@ -4,8 +4,8 @@
             "id": "minecraft:black_glazed_terracotta"
         },
         "hidden": true,
-        "title": {"translate": "ultimate_warden.advancements.welcome.temple.title", "fallback": "A Place for more Wardens"},
-        "description": {"translate": "ultimate_warden.advancements.welcome.temple.description", "fallback": "Enter the Warden Temple."},
+        "title": {"translate": "ultimate_warden.advancements.temple.temple_join.title", "fallback": "A Place for more Wardens"},
+        "description": {"translate": "ultimate_warden.advancements.temple.temple_join.description", "fallback": "Enter the Warden Temple."},
         "frame": "goal",
         "announce_to_chat": true
     },

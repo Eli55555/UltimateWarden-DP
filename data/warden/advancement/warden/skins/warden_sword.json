@@ -7,8 +7,8 @@
             }
         },
         "hidden": false,
-        "title": {"translate": "ultimate_warden.advancements.dungeon.wardensword.title", "fallback": "My first Sword Skin"},
-        "description": {"translate": "ultimate_warden.advancements.dungeon.wardensword.description", "fallback": "I want more Skins!!!"},
+        "title": {"translate": "ultimate_warden.advancements.skins.warden_sword.title", "fallback": "My first Sword Skin"},
+        "description": {"translate": "ultimate_warden.advancements.skins.warden_sword.description", "fallback": "I want more Skins!!!"},
         "frame": "goal",
         "announce_to_chat": true
     },
