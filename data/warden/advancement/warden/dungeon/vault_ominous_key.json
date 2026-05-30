@@ -12,7 +12,7 @@
         "frame": "goal",
         "announce_to_chat": true
     },
-    "parent": "warden:warden/dungeon_vault_normal_key",
+    "parent": "warden:warden/dungeon/vault_normal_key",
     "criteria": {
         "requirement": {
       "trigger": "minecraft:inventory_changed",

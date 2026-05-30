@@ -12,7 +12,7 @@
         "frame": "goal",
         "announce_to_chat": true
     },
-    "parent": "warden:warden/skin_get",
+    "parent": "warden:warden/dungeon/skin_main",
     "criteria": {
         "requirement": {
       "trigger": "minecraft:inventory_changed",

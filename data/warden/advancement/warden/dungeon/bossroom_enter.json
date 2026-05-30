@@ -12,7 +12,7 @@
         "frame": "task",
         "announce_to_chat": true
     },
-    "parent": "warden:warden/dungeon_join",
+    "parent": "warden:warden/dungeon/dungeon_join",
     "criteria": {
         "requirement": {
       "trigger": "minecraft:inventory_changed",

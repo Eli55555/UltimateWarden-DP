@@ -4,8 +4,8 @@
             "id": "minecraft:sculk"
         },
         "hidden": false,
-        "title": {"translate": "ultimate_warden.advancements.dungeon.bosskill.title", "fallback": "The Ultimate Warrior"},
-        "description": {"translate": "ultimate_warden.advancements.dungeon.bosskill.description", "fallback": "Kill the Ultimate Warden."},
+        "title": {"translate": "ultimate_warden.advancements.dungeon.bosskill.title", "fallback": "The Elite Warden was a easy boss"},
+        "description": {"translate": "ultimate_warden.advancements.dungeon.bosskill.description", "fallback": "Kill the Elite Warden."},
         "frame": "challenge",
         "announce_to_chat": true
     },
@@ -16,7 +16,7 @@
       "conditions": {
         "entity": {
           "type": "minecraft:warden",
-         "team": "ultimate_warden" 
+         "team": "elite_warden" 
         }
       }
     }

@@ -3,16 +3,16 @@
         "icon": {
             "id": "minecraft:nautilus_shell",
             "components": {
-                "item_model": "ultimate_warden:temple_key"
+                  "item_model": "ultimate_warden:warden_sword_skin"
             }
         },
         "hidden": false,
-        "title": {"translate": "ultimate_warden.advancements.dungeon.temple_key.title", "fallback": "A mysterious Key"},
-        "description": {"translate": "ultimate_warden.advancements.dungeon.temple_key.description", "fallback": "Maybe this key is bringing us cookies"},
-        "frame": "goal",
+        "title": {"translate": "ultimate_warden.advancements.skin.title", "fallback": "How many Skins do you have in Fortnite?"},
+        "description": {"translate": "ultimate_warden.advancements.skin.description", "fallback": "Obtain a Skin."},
+        "frame": "task",
         "announce_to_chat": true
     },
-    "parent": "warden:warden/dungeon_join",
+    "parent": "warden:warden/dungeon/dungeon_join",
     "criteria": {
         "requirement": {
       "trigger": "minecraft:inventory_changed",
@@ -24,7 +24,7 @@
             ],
             "predicates": {
               "custom_data": {
-                "warden_temple_key":1
+                "warden_skin":1
               }
             }
           }

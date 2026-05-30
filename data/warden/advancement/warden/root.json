@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "id": "minecraft:sculk_catalyst"
+            "id": "minecraft:sculk"
         },
         "title": {"translate": "ultimate_warden.advancements.welcome.title", "fallback": "Ultimate Warden"},
         "description": {"translate": "ultimate_warden.advancements.welcome.description", "fallback": "Welcome to Ultimate Warden."},

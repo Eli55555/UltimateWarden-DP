@@ -12,7 +12,7 @@
         "frame": "task",
         "announce_to_chat": true
     },
-    "parent": "warden:warden/boss_killed",
+    "parent": "warden:warden/dungeon/elite_warden_killed",
     "criteria": {
         "requirement": {
       "trigger": "minecraft:inventory_changed",

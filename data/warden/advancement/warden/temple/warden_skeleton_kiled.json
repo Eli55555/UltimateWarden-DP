@@ -9,7 +9,7 @@
         "frame": "challenge",
         "announce_to_chat": true
     },
-    "parent": "warden:warden/temple_floor_2",
+    "parent": "warden:warden/temple/floor_2",
     "criteria": {
     "kill_warden": {
       "trigger": "minecraft:player_killed_entity",

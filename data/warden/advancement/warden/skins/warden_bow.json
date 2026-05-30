@@ -12,7 +12,7 @@
         "frame": "goal",
         "announce_to_chat": true
     },
-    "parent": "warden:warden/warden_skeleton_kiled",
+    "parent": "warden:warden/temple/warden_skeleton_kiled",
     "criteria": {
         "requirement": {
       "trigger": "minecraft:inventory_changed",
