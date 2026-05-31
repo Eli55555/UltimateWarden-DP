@@ -3,8 +3,8 @@
         "icon": {
             "id": "minecraft:sculk"
         },
-        "title": {"translate": "ultimate_warden.advancements.welcome.title", "fallback": "Ultimate Warden"},
-        "description": {"translate": "ultimate_warden.advancements.welcome.description", "fallback": "Welcome to Ultimate Warden."},
+        "title": {"translate": "ultimate_warden.advancements.root.title", "fallback": "Ultimate Warden"},
+        "description": {"translate": "ultimate_warden.advancements.root.description", "fallback": "Welcome to Ultimate Warden."},
         "background": "block/sculk",
         "frame": "task",
         "announce_to_chat": false,

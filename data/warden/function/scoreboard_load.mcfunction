@@ -28,6 +28,11 @@ scoreboard objectives add warden.temple.floor2.warden_skeleton.poisen dummy
 scoreboard objectives add warden.temple.floor2.warden_skeleton.skeleton dummy
 
 scoreboard objectives add warden_bossbar dummy
+scoreboard objectives add warden.bossbar.warden dummy
+scoreboard objectives add warden.bossbar.warden2 dummy
+scoreboard objectives add warden.bossbar.warden3 dummy
+scoreboard objectives add warden.bossbar.elite_warden dummy
+scoreboard objectives add warden.bossbar.warden_skeleton dummy
 
 scoreboard objectives add warden.settings.load_message_activated dummy
 scoreboard objectives add warden.settings.bossbar_activated dummy

@@ -4,7 +4,7 @@ scoreboard players add ultimatewarden warden.ultimate_warden 0
 scoreboard players add ultimatewarden warden.ultimate_warden_debug 0
 
 
-
+function warden:dungeon/boss/fight/lava_attack/tick
 
 
 execute if score ultimatewarden warden_dungeon_activated matches 3 run execute unless entity @e[tag=ultimate_warden] run scoreboard players set ultimatewarden warden_dungeon_activated 4

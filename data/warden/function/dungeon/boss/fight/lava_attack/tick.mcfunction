@@ -1,0 +1,1 @@
+execute as @a[tag=uw.dungeon] in warden:ultimatewarden at @s if block ~ ~ ~ lava run damage @s 9 lava
