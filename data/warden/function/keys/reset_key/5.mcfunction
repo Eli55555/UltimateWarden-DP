@@ -9,5 +9,5 @@ scoreboard players add ultimatewarden warden_temple_activated 0
 
 
 execute if entity @a[tag=warden_reset_key] run clear @a[tag=warden_reset_key] minecraft:nautilus_shell[custom_data={warden_reset_key:1b}]
-execute unless entity @a[tag=warden_dungeon_key] run scoreboard players set ultimatewarden warden_dungeon_key 0
+execute unless entity @a[tag=warden_dungeon_key] run scoreboard players set ultimatewarden warden.dungeon_key 0
 

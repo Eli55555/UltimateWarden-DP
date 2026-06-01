@@ -8,6 +8,6 @@ execute positioned as @e[type=armor_stand,tag=uw.dungeon.elite_warden.roll] in w
 
 execute positioned as @e[type=armor_stand,tag=uw.dungeon.elite_warden.roll] in warden:ultimatewarden if block ~ ~-1 ~ yellow_concrete if entity @e[type=warden,tag=elite_warden,limit=1] run function warden:dungeon/boss/fight/lightning_attack/main
 execute positioned as @e[type=armor_stand,tag=uw.dungeon.elite_warden.roll] in warden:ultimatewarden if block ~ ~-1 ~ red_concrete if entity @e[type=warden,tag=elite_warden,limit=1] run function warden:dungeon/boss/fight/lava_attack/main
-execute positioned as @e[type=armor_stand,tag=uw.dungeon.elite_warden.roll] in warden:ultimatewarden if block ~ ~-1 ~ light_blue_concrete if entity @e[type=warden,tag=elite_warden,limit=1] run function warden:dungeon/boss/fight/lava_attack/main
+execute positioned as @e[type=armor_stand,tag=uw.dungeon.elite_warden.roll] in warden:ultimatewarden if block ~ ~-1 ~ light_blue_concrete if entity @e[type=warden,tag=elite_warden,limit=1] run function warden:dungeon/boss/fight/mini_warden_attack/main
 
 

@@ -5,7 +5,7 @@ execute if score ultimatewarden warden.settings.dungeon_activated matches 1 run 
 execute if score ultimatewarden warden_dungeon_activated matches ..2 run scoreboard players set ultimatewarden warden_dungeon_activated 1
 
 
-advancement grant @s only warden:warden/dungeon_join
+advancement grant @s only warden:warden/dungeon/dungeon_join
 
 
 execute if score ultimatewarden warden_dungeon_activated matches ..2 in warden:ultimatewarden run tp @s 5 57 33
@@ -13,7 +13,7 @@ execute if score ultimatewarden warden_dungeon_activated matches ..2 in warden:u
 
 execute if score ultimatewarden warden_dungeon_activated matches 3.. in warden:ultimatewarden run tp @s -32 80 70
 execute if score ultimatewarden warden_dungeon_activated matches 3.. in warden:ultimatewarden run spawnpoint @s -32 80 70
-execute if score ultimatewarden warden_dungeon_activated matches 3.. in warden:ultimatewarden run advancement grant @s only warden:warden/bossroom_enter
+execute if score ultimatewarden warden_dungeon_activated matches 3.. in warden:ultimatewarden run advancement grant @s only warden:warden/dungeon/bossroom_enter
 
 
 clear @s nautilus_shell[custom_data={warden_dungeon_key:1b}]

@@ -16,4 +16,4 @@ clear @a nautilus_shell[custom_data={warden_dungeon_bossroom_join:1b}]
 
 
 
-execute if score ultimatewarden warden_bossbar matches 0 run function warden:bossbar/bossbar_reset_debug
+execute if score ultimatewarden warden.bossbar.reset matches 0 run function warden:bossbar/bossbar_reset_debug

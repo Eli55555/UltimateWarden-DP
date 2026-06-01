@@ -25,8 +25,8 @@ execute as @a at @s unless dimension warden:ultimatewarden run tag @s remove uw.
 
 
 # Advancements
-advancement grant @a[tag=uw.temple.floor.1] only warden:warden/temple_floor_1
-advancement grant @a[tag=uw.temple.floor.2] only warden:warden/temple_floor_2
+advancement grant @a[tag=uw.temple.floor.1] only warden:warden/temple/floor_1
+advancement grant @a[tag=uw.temple.floor.2] only warden:warden/temple/floor_2
 
 
 

@@ -26,12 +26,11 @@ scoreboard objectives add warden.temple.floor2.warden_skeleton.wither_skull dumm
 scoreboard objectives add warden.temple.floor2.warden_skeleton.poisen dummy
 scoreboard objectives add warden.temple.floor2.warden_skeleton.skeleton dummy
 
-scoreboard objectives add warden_bossbar dummy
-scoreboard objectives add warden.bossbar.warden dummy
-scoreboard objectives add warden.bossbar.warden2 dummy
-scoreboard objectives add warden.bossbar.warden3 dummy
-scoreboard objectives add warden.bossbar.elite_warden dummy
-scoreboard objectives add warden.bossbar.warden_skeleton dummy
+scoreboard objectives add warden.bossbar.reset dummy
+scoreboard objectives add warden.bossbar.1 dummy
+scoreboard objectives add warden.bossbar.2 dummy
+scoreboard objectives add warden.bossbar.3 dummy
+scoreboard objectives add warden.bossbar.max_health dummy
 
 scoreboard objectives add warden.settings.load_message_activated dummy
 scoreboard objectives add warden.settings.bossbar_activated dummy
@@ -75,7 +74,11 @@ scoreboard players add ultimatewarden warden.temple.floor2.timer 0
 scoreboard players add ultimatewarden warden.temple.floor2.warden_skeleton.wither_skull 0
 scoreboard players add ultimatewarden warden.temple.floor2.warden_skeleton.poisen 0
 scoreboard players add ultimatewarden warden.temple.floor2.warden_skeleton.skeleton 0
-scoreboard players add ultimatewarden warden_bossbar 0
+
+scoreboard players set ultimatewarden warden.bossbar.reset 0
+scoreboard players add ultimatewarden warden.bossbar.1 0
+scoreboard players add ultimatewarden warden.bossbar.2 0
+scoreboard players add ultimatewarden warden.bossbar.3 0
 
 scoreboard players add ultimatewarden warden.settings.load_message_activated 0
 scoreboard players add ultimatewarden warden.settings.bossbar_activated 0

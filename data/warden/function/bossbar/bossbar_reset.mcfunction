@@ -1,6 +1,6 @@
-tag @e[tag=warden_boss_bar] remove warden_boss_bar
-tag @e[tag=warden_boss_bar2] remove warden_boss_bar2
-tag @e[tag=warden_boss_bar3] remove warden_boss_bar3
+tag @e[tag=warden.bossbar.1] remove warden.bossbar.1
+tag @e[tag=warden.bossbar.2] remove warden.bossbar.2
+tag @e[tag=warden.bossbar.3] remove warden.bossbar.3
 
 
-scoreboard players set ultimatewarden warden_bossbar 0
+scoreboard players set ultimatewarden warden.bossbar.reset 0
