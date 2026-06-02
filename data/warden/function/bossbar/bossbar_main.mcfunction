@@ -25,7 +25,7 @@ tag @e[tag=warden.bossbar.1] add warden.bossbar.mob
 
 bossbar set warden.bossbar.1 name {selector:"@e[limit=1,tag=warden.bossbar.1]"}
 execute store result bossbar warden.bossbar.1 value run data get entity @e[tag=warden.bossbar.1,limit=1,sort=nearest] Health 1
-execute store result bossbar warden.bossbar.1 max run data get entity @e[tag=warden.bossbar.1,limit=1,sort=nearest] attributes[{id:"minecraft:max_health"}].base 1
+execute store result bossbar warden.bossbar.1 max run attribute @e[tag=warden.bossbar.1,limit=1,sort=nearest] max_health base get
 
 execute if entity @e[tag=warden.bossbar.1,tag=!warden.bossbar.color] run bossbar set warden.bossbar.1 color blue
 execute if entity @e[tag=warden.bossbar.1,tag=warden.bossbar.color.green] run bossbar set warden.bossbar.1 color green
@@ -58,7 +58,7 @@ tag @e[tag=warden.bossbar.2] add warden.bossbar.mob
 
 bossbar set warden.bossbar.2 name {selector:"@e[limit=1,tag=warden.bossbar.2]"}
 execute store result bossbar warden.bossbar.2 value run data get entity @e[tag=warden.bossbar.2,limit=1,sort=nearest] Health 1
-execute store result bossbar warden.bossbar.2 max run data get entity @e[tag=warden.bossbar.2,limit=1,sort=nearest] attributes[{id:"minecraft:max_health"}].base 1
+execute store result bossbar warden.bossbar.2 max run attribute @e[tag=warden.bossbar.2,limit=1,sort=nearest] max_health base get
 
 execute if entity @e[tag=warden.bossbar.2,tag=!warden.bossbar.color] run bossbar set warden.bossbar.2 color blue
 execute if entity @e[tag=warden.bossbar.2,tag=warden.bossbar.color.green] run bossbar set warden.bossbar.2 color green
@@ -91,7 +91,7 @@ tag @e[tag=warden.bossbar.3] add warden.bossbar.mob
 
 bossbar set warden.bossbar.3 name {selector:"@e[limit=1,tag=warden.bossbar.3]"}
 execute store result bossbar warden.bossbar.3 value run data get entity @e[tag=warden.bossbar.3,limit=1,sort=nearest] Health 1
-execute store result bossbar warden.bossbar.3 max run data get entity @e[tag=warden.bossbar.3,limit=1,sort=nearest] attributes[{id:"minecraft:max_health"}].base 1
+execute store result bossbar warden.bossbar.3 max run attribute @e[tag=warden.bossbar.3,limit=1,sort=nearest] max_health base get
 
 
 execute if entity @e[tag=warden.bossbar.3,tag=!warden.bossbar.color] run bossbar set warden.bossbar.3 color blue
@@ -125,7 +125,7 @@ tag @e[tag=warden.bossbar.4] add warden.bossbar.mob
 
 bossbar set warden.bossbar.4 name {selector:"@e[limit=1,tag=warden.bossbar.4]"}
 execute store result bossbar warden.bossbar.4 value run data get entity @e[tag=warden.bossbar.4,limit=1,sort=nearest] Health 1
-execute store result bossbar warden.bossbar.4 max run data get entity @e[tag=warden.bossbar.4,limit=1,sort=nearest] attributes[{id:"minecraft:max_health"}].base 1
+execute store result bossbar warden.bossbar.4 max run attribute @e[tag=warden.bossbar.4,limit=1,sort=nearest] max_health base get
 
 
 execute if entity @e[tag=warden.bossbar.4,tag=!warden.bossbar.color] run bossbar set warden.bossbar.4 color blue
@@ -159,7 +159,7 @@ tag @e[tag=warden.bossbar.5] add warden.bossbar.mob
 
 bossbar set warden.bossbar.5 name {selector:"@e[limit=1,tag=warden.bossbar.5]"}
 execute store result bossbar warden.bossbar.5 value run data get entity @e[tag=warden.bossbar.5,limit=1,sort=nearest] Health 1
-execute store result bossbar warden.bossbar.5 max run data get entity @e[tag=warden.bossbar.5,limit=1,sort=nearest] attributes[{id:"minecraft:max_health"}].base 1
+execute store result bossbar warden.bossbar.5 max run attribute @e[tag=warden.bossbar.5,limit=1,sort=nearest] max_health base get
 
 
 execute if entity @e[tag=warden.bossbar.5,tag=!warden.bossbar.color] run bossbar set warden.bossbar.5 color blue
