@@ -30,6 +30,8 @@ scoreboard objectives add warden.bossbar.reset dummy
 scoreboard objectives add warden.bossbar.1 dummy
 scoreboard objectives add warden.bossbar.2 dummy
 scoreboard objectives add warden.bossbar.3 dummy
+scoreboard objectives add warden.bossbar.4 dummy
+scoreboard objectives add warden.bossbar.5 dummy
 scoreboard objectives add warden.bossbar.max_health dummy
 
 scoreboard objectives add warden.settings.load_message_activated dummy
