@@ -13,6 +13,7 @@ scoreboard objectives add warden.dungeon.close_dungeon.active dummy
 scoreboard objectives add warden.dungeon.close_dungeon.timer dummy
 
 scoreboard objectives add warden.dungeon.elite_warden.attack.mini_warden dummy
+scoreboard objectives add warden.dungeon.elite_warden.attack.lightning dummy
 
 scoreboard objectives add warden_reset_key dummy
 scoreboard objectives add warden_WIP_key dummy
@@ -27,12 +28,6 @@ scoreboard objectives add warden.temple.floor2.warden_skeleton.poisen dummy
 scoreboard objectives add warden.temple.floor2.warden_skeleton.skeleton dummy
 
 scoreboard objectives add warden.bossbar.reset dummy
-scoreboard objectives add warden.bossbar.1 dummy
-scoreboard objectives add warden.bossbar.2 dummy
-scoreboard objectives add warden.bossbar.3 dummy
-scoreboard objectives add warden.bossbar.4 dummy
-scoreboard objectives add warden.bossbar.5 dummy
-scoreboard objectives add warden.bossbar.max_health dummy
 
 scoreboard objectives add warden.settings.load_message_activated dummy
 scoreboard objectives add warden.settings.bossbar_activated dummy
@@ -64,6 +59,7 @@ scoreboard players add ultimatewarden warden.dungeon.close_dungeon.active 0
 scoreboard players add ultimatewarden warden.dungeon.close_dungeon.timer 0
 
 scoreboard players add ultimatewarden warden.dungeon.elite_warden.attack.mini_warden 0
+scoreboard players add ultimatewarden warden.dungeon.elite_warden.attack.lightning 0
 
 scoreboard players add ultimatewarden warden_reset_key 0
 scoreboard players add ultimatewarden warden_WIP_key 0
@@ -78,9 +74,6 @@ scoreboard players add ultimatewarden warden.temple.floor2.warden_skeleton.poise
 scoreboard players add ultimatewarden warden.temple.floor2.warden_skeleton.skeleton 0
 
 scoreboard players set ultimatewarden warden.bossbar.reset 0
-scoreboard players add ultimatewarden warden.bossbar.1 0
-scoreboard players add ultimatewarden warden.bossbar.2 0
-scoreboard players add ultimatewarden warden.bossbar.3 0
 
 scoreboard players add ultimatewarden warden.settings.load_message_activated 0
 scoreboard players add ultimatewarden warden.settings.bossbar_activated 0

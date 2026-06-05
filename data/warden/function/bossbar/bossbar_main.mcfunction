@@ -17,10 +17,10 @@ tag @e[type=wither_skeleton,tag=warden_skeleton] add warden.bossbar
 
 
 # Bossbar 1
-execute as @a at @s if entity @e[tag=warden.bossbar,distance=..25,tag=!warden.bossbar.mob] run scoreboard players set @s warden.bossbar.1 1
-execute as @a at @s unless entity @e[tag=warden.bossbar,distance=..25,tag=!warden.bossbar.mob] run scoreboard players set @s warden.bossbar.1 0
+execute as @a at @s if entity @e[tag=warden.bossbar,distance=..25,tag=!warden.bossbar.mob] run tag @s add warden.bossbar.1.player
+execute as @a at @s unless entity @e[tag=warden.bossbar,distance=..25,tag=!warden.bossbar.mob] run tag @s remove warden.bossbar.1.player
 
-execute as @a[scores={warden.bossbar.1=1},limit=1,sort=random] at @s unless entity @e[tag=warden.bossbar,tag=warden.bossbar.1,tag=!warden.bossbar.mob] run tag @e[tag=warden.bossbar,limit=1,sort=nearest,tag=!warden.bossbar.mob] add warden.bossbar.1
+execute as @a[tag=warden.bossbar.1.player,limit=1,sort=random] at @s unless entity @e[tag=warden.bossbar,tag=warden.bossbar.1,tag=!warden.bossbar.mob] run tag @e[tag=warden.bossbar,limit=1,sort=nearest,tag=!warden.bossbar.mob] add warden.bossbar.1
 tag @e[tag=warden.bossbar.1] add warden.bossbar.mob
 
 bossbar set warden.bossbar.1 name {selector:"@e[limit=1,tag=warden.bossbar.1]"}
@@ -50,10 +50,10 @@ execute unless entity @e[tag=warden.bossbar.1] run bossbar set warden.bossbar.1 
 
 
 # Bossbar 2
-execute as @a at @s if entity @e[tag=warden.bossbar,distance=..25,tag=!warden.bossbar.mob] run scoreboard players set @s warden.bossbar.2 1
-execute as @a at @s unless entity @e[tag=warden.bossbar,distance=..25,tag=!warden.bossbar.mob] run scoreboard players set @s warden.bossbar.2 0
+execute as @a at @s if entity @e[tag=warden.bossbar,distance=..25,tag=!warden.bossbar.mob] run tag @s add warden.bossbar.2.player
+execute as @a at @s unless entity @e[tag=warden.bossbar,distance=..25,tag=!warden.bossbar.mob] run tag @s remove warden.bossbar.2.player
 
-execute as @a[scores={warden.bossbar.2=1},limit=1,sort=random] at @s unless entity @e[tag=warden.bossbar,tag=warden.bossbar.2,tag=!warden.bossbar.mob] run tag @e[tag=warden.bossbar,limit=1,sort=nearest,tag=!warden.bossbar.mob] add warden.bossbar.2
+execute as @a[tag=warden.bossbar.2.player,limit=1,sort=random] at @s unless entity @e[tag=warden.bossbar,tag=warden.bossbar.2,tag=!warden.bossbar.mob] run tag @e[tag=warden.bossbar,limit=1,sort=nearest,tag=!warden.bossbar.mob] add warden.bossbar.2
 tag @e[tag=warden.bossbar.2] add warden.bossbar.mob
 
 bossbar set warden.bossbar.2 name {selector:"@e[limit=1,tag=warden.bossbar.2]"}
@@ -83,10 +83,10 @@ execute unless entity @e[tag=warden.bossbar.2] run bossbar set warden.bossbar.2 
 
 
 # Bossbar 3
-execute as @a at @s if entity @e[tag=warden.bossbar,distance=..25,tag=!warden.bossbar.mob] run scoreboard players set @s warden.bossbar.3 1
-execute as @a at @s unless entity @e[tag=warden.bossbar,distance=..25,tag=!warden.bossbar.mob] run scoreboard players set @s warden.bossbar.3 0
+execute as @a at @s if entity @e[tag=warden.bossbar,distance=..25,tag=!warden.bossbar.mob] run tag @s add warden.bossbar.3.player
+execute as @a at @s unless entity @e[tag=warden.bossbar,distance=..25,tag=!warden.bossbar.mob] run tag @s remove warden.bossbar.3.player
 
-execute as @a[scores={warden.bossbar.3=1},limit=1,sort=random] at @s unless entity @e[tag=warden.bossbar,tag=warden.bossbar.3,tag=!warden.bossbar.mob] run tag @e[tag=warden.bossbar,limit=1,sort=nearest,tag=!warden.bossbar.mob] add warden.bossbar.3
+execute as @a[tag=warden.bossbar.3.player,limit=1,sort=random] at @s unless entity @e[tag=warden.bossbar,tag=warden.bossbar.3,tag=!warden.bossbar.mob] run tag @e[tag=warden.bossbar,limit=1,sort=nearest,tag=!warden.bossbar.mob] add warden.bossbar.3
 tag @e[tag=warden.bossbar.3] add warden.bossbar.mob
 
 bossbar set warden.bossbar.3 name {selector:"@e[limit=1,tag=warden.bossbar.3]"}
@@ -117,10 +117,10 @@ execute unless entity @e[tag=warden.bossbar.3] run bossbar set warden.bossbar.3 
 
 
 # Bossbar 4
-execute as @a at @s if entity @e[tag=warden.bossbar,distance=..25,tag=!warden.bossbar.mob] run scoreboard players set @s warden.bossbar.4 1
-execute as @a at @s unless entity @e[tag=warden.bossbar,distance=..25,tag=!warden.bossbar.mob] run scoreboard players set @s warden.bossbar.4 0
+execute as @a at @s if entity @e[tag=warden.bossbar,distance=..25,tag=!warden.bossbar.mob] run tag @s add warden.bossbar.4.player
+execute as @a at @s unless entity @e[tag=warden.bossbar,distance=..25,tag=!warden.bossbar.mob] run tag @s remove warden.bossbar.4.player
 
-execute as @a[scores={warden.bossbar.4=1},limit=1,sort=random] at @s unless entity @e[tag=warden.bossbar,tag=warden.bossbar.4,tag=!warden.bossbar.mob] run tag @e[tag=warden.bossbar,limit=1,sort=nearest,tag=!warden.bossbar.mob] add warden.bossbar.4
+execute as @a[tag=warden.bossbar.4.player,limit=1,sort=random] at @s unless entity @e[tag=warden.bossbar,tag=warden.bossbar.4,tag=!warden.bossbar.mob] run tag @e[tag=warden.bossbar,limit=1,sort=nearest,tag=!warden.bossbar.mob] add warden.bossbar.4
 tag @e[tag=warden.bossbar.4] add warden.bossbar.mob
 
 bossbar set warden.bossbar.4 name {selector:"@e[limit=1,tag=warden.bossbar.4]"}
@@ -151,10 +151,10 @@ execute unless entity @e[tag=warden.bossbar.4] run bossbar set warden.bossbar.4 
 
 
 # Bossbar 5
-execute as @a at @s if entity @e[tag=warden.bossbar,distance=..25,tag=!warden.bossbar.mob] run scoreboard players set @s warden.bossbar.5 1
-execute as @a at @s unless entity @e[tag=warden.bossbar,distance=..25,tag=!warden.bossbar.mob] run scoreboard players set @s warden.bossbar.5 0
+execute as @a at @s if entity @e[tag=warden.bossbar,distance=..25,tag=!warden.bossbar.mob] run tag @s add warden.bossbar.5.player
+execute as @a at @s unless entity @e[tag=warden.bossbar,distance=..25,tag=!warden.bossbar.mob] run tag @s remove warden.bossbar.5.player
 
-execute as @a[scores={warden.bossbar.5=1},limit=1,sort=random] at @s unless entity @e[tag=warden.bossbar,tag=warden.bossbar.5,tag=!warden.bossbar.mob] run tag @e[tag=warden.bossbar,limit=1,sort=nearest,tag=!warden.bossbar.mob] add warden.bossbar.5
+execute as @a[tag=warden.bossbar.5.player,limit=1,sort=random] at @s unless entity @e[tag=warden.bossbar,tag=warden.bossbar.5,tag=!warden.bossbar.mob] run tag @e[tag=warden.bossbar,limit=1,sort=nearest,tag=!warden.bossbar.mob] add warden.bossbar.5
 tag @e[tag=warden.bossbar.5] add warden.bossbar.mob
 
 bossbar set warden.bossbar.5 name {selector:"@e[limit=1,tag=warden.bossbar.5]"}
