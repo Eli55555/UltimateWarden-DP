@@ -3,4 +3,13 @@ function warden:bossbar/bossbar_main {bossbar_id:2}
 function warden:bossbar/bossbar_main {bossbar_id:3}
 function warden:bossbar/bossbar_main {bossbar_id:4}
 function warden:bossbar/bossbar_main {bossbar_id:5}
-
+function warden:bossbar/bossbar_main {bossbar_id:6}
+function warden:bossbar/bossbar_main {bossbar_id:7}
+function warden:bossbar/bossbar_main {bossbar_id:8}
+function warden:bossbar/bossbar_main {bossbar_id:9}
+function warden:bossbar/bossbar_main {bossbar_id:10}
+function warden:bossbar/bossbar_main {bossbar_id:11}
+function warden:bossbar/bossbar_main {bossbar_id:12}
+function warden:bossbar/bossbar_main {bossbar_id:13}
+function warden:bossbar/bossbar_main {bossbar_id:14}
+function warden:bossbar/bossbar_main {bossbar_id:15}
