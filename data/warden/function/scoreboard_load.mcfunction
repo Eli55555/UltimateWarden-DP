@@ -28,6 +28,7 @@ scoreboard objectives add warden.temple.floor2.warden_skeleton.poisen dummy
 scoreboard objectives add warden.temple.floor2.warden_skeleton.skeleton dummy
 
 scoreboard objectives add warden.bossbar.reset dummy
+scoreboard objectives add warden.bossbar.id.check dummy
 
 scoreboard objectives add warden.settings.load_message_activated dummy
 scoreboard objectives add warden.settings.bossbar_activated dummy
@@ -74,6 +75,7 @@ scoreboard players add ultimatewarden warden.temple.floor2.warden_skeleton.poise
 scoreboard players add ultimatewarden warden.temple.floor2.warden_skeleton.skeleton 0
 
 scoreboard players set ultimatewarden warden.bossbar.reset 0
+scoreboard players set ultimatewarden warden.bossbar.id.check 0
 
 scoreboard players add ultimatewarden warden.settings.load_message_activated 0
 scoreboard players add ultimatewarden warden.settings.bossbar_activated 0

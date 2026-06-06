@@ -8,7 +8,7 @@ execute in warden:ultimatewarden run forceload add -143 22 -147 26
 
 function warden:keys/dungeon_key/timer
 
-function warden:bossbar/bossbar_set
+
 function warden:settings/storage_save
 
 function warden:scoreboard_load

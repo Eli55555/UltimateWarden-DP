@@ -1,5 +1,5 @@
 function warden:tempel/floor2/miniboss/attacks/tick
-function warden:bossbar/bossbar_main
+function warden:bossbar/bossbar_tick
 function warden:keys/key_tick
 
 function warden:dungeon/tick
