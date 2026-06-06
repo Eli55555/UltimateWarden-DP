@@ -13,13 +13,14 @@ tag @e[type=wither_skeleton,tag=warden_skeleton] add warden.bossbar
 # Bossbar create
 scoreboard players set ultimatewarden warden.bossbar.id.check 0
 $execute store success score ultimatewarden warden.bossbar.id.check run bossbar get warden.bossbar.$(bossbar_id) value
-$execute if score ultimatewarden warden.bossbar.id.check matches 0 run function warden:bossbar/bossbar_set {bossbar_id:$(bossbar_id)}
-
+$execute if score ultimatewarden warden.bossbar.id.check matches 0 if entity @e[tag=warden.bossbar.$(bossbar_id)] run function warden:bossbar/bossbar_set {bossbar_id:$(bossbar_id)}
 
 
 # Bossbar
 $execute as @a at @s if entity @e[tag=warden.bossbar,distance=..25,tag=!warden.bossbar.mob] run tag @s add warden.bossbar.$(bossbar_id).player
 $execute as @a at @s unless entity @e[tag=warden.bossbar,distance=..25,tag=!warden.bossbar.mob] run tag @s remove warden.bossbar.$(bossbar_id).player
+$execute unless entity @e[tag=warden.bossbar.$(bossbar_id)] unless entity @a[tag=warden.bossbar.$(bossbar_id).player] run bossbar remove warden.bossbar.$(bossbar_id)
+$execute unless entity @e[tag=warden.bossbar.$(bossbar_id)] unless entity @a[tag=warden.bossbar.$(bossbar_id).player] run return fail
 
 $execute as @a[tag=warden.bossbar.$(bossbar_id).player,limit=1,sort=random] at @s unless entity @e[tag=warden.bossbar,tag=warden.bossbar.$(bossbar_id),tag=!warden.bossbar.mob] run tag @e[tag=warden.bossbar,limit=1,sort=nearest,tag=!warden.bossbar.mob] add warden.bossbar.$(bossbar_id)
 $tag @e[tag=warden.bossbar.$(bossbar_id)] add warden.bossbar.mob
