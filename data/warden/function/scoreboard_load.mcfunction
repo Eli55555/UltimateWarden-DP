@@ -20,6 +20,7 @@ scoreboard objectives add warden.dungeon.elite_warden.attack.slowness dummy
 
 scoreboard objectives add warden.reset.dungeon dummy
 scoreboard objectives add warden.reset.temple dummy
+scoreboard objectives add warden.reset.advancements dummy
 scoreboard objectives add warden.reset.scoreboard dummy
 
 scoreboard objectives add warden_WIP_key dummy

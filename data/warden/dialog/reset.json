@@ -34,6 +34,21 @@
     },
     {
       "type": "minecraft:single_option",
+      "key": "warden_advancements_reset",
+      "label": "Ultimate Warden Advancements",
+      "options": [
+        {
+          "id": "0",
+          "display": "❌"
+        },
+        {
+          "id": "1",
+          "display": "✅"
+        }
+      ]
+    },
+    {
+      "type": "minecraft:single_option",
       "key": "warden_scoreboard_reset",
       "label": "Scoreboards (everything)",
       "options": [
@@ -54,7 +69,7 @@
     },
     "action": {
       "type": "dynamic/run_command",
-      "template": "function warden:reset/reset {warden_dungeon_reset:$(warden_dungeon_reset),warden_temple_reset:$(warden_temple_reset),warden_scoreboard_reset:$(warden_scoreboard_reset)}"
+      "template": "function warden:reset/reset {warden_dungeon_reset:$(warden_dungeon_reset),warden_temple_reset:$(warden_temple_reset),warden_advancements_reset:$(warden_advancements_reset),warden_scoreboard_reset:$(warden_scoreboard_reset)}"
     }
   }
 }
