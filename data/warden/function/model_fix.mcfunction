@@ -1,3 +1,21 @@
+execute \
+unless entity @a[nbt={SelectedItem:{id:"minecraft:netherite_sword",components:{"minecraft:item_model":"ultimate_warden:dungeon_weapon_wardensword"}}}] \
+unless entity @a[nbt={SelectedItem:{id:"minecraft:diamond_sword",components:{"minecraft:item_model":"ultimate_warden:dungeon_weapon_wardensword"}}}] \
+unless entity @a[nbt={SelectedItem:{id:"minecraft:iron_sword",components:{"minecraft:item_model":"ultimate_warden:dungeon_weapon_wardensword"}}}] \
+unless entity @a[nbt={SelectedItem:{id:"minecraft:nautilus_shell",components:{"minecraft:item_model":"ultimate_warden:wardensword_skin"}}}] \
+\
+unless entity @a[nbt={SelectedItem:{id:"minecraft:netherite_pickaxe",components:{"minecraft:item_model":"ultimate_warden:dungeon_weapon_wardenpickaxe"}}}] \
+unless entity @a[nbt={SelectedItem:{id:"minecraft:diamond_pickaxe",components:{"minecraft:item_model":"ultimate_warden:dungeon_weapon_wardenpickaxe"}}}] \
+unless entity @a[nbt={SelectedItem:{id:"minecraft:iron_pickaxe",components:{"minecraft:item_model":"ultimate_warden:dungeon_weapon_wardenpickaxe"}}}] \
+unless entity @a[nbt={SelectedItem:{id:"minecraft:nautilus_shell",components:{"minecraft:item_model":"ultimate_warden:wardenpickaxe_skin"}}}] \
+\
+unless entity @a[nbt={SelectedItem:{id:"minecraft:netherite_axe",components:{"minecraft:item_model":"ultimate_warden:wardenaxt"}}}] \
+unless entity @a[nbt={SelectedItem:{id:"minecraft:diamond_axe",components:{"minecraft:item_model":"ultimate_warden:wardenaxt"}}}] \
+unless entity @a[nbt={SelectedItem:{id:"minecraft:iron_axe",components:{"minecraft:item_model":"ultimate_warden:wardenaxt"}}}] \
+unless entity @a[nbt={SelectedItem:{id:"minecraft:nautilus_shell",components:{"minecraft:item_model":"ultimate_warden:wardenaxt_skin"}}}] \
+run return fail
+
+
 
 # Warden Sword
 execute as @a if items entity @s weapon.mainhand minecraft:netherite_sword[item_model="ultimate_warden:dungeon_weapon_wardensword"] run item modify entity @s weapon.mainhand warden:warden_sword
