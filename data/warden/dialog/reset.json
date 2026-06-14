@@ -1,0 +1,60 @@
+{
+  "type": "notice",
+  "title": "Ultimate Warden Reset",
+  "inputs": [
+    {
+      "type": "minecraft:single_option",
+      "key": "warden_dungeon_reset",
+      "label": "Warden Dungeon",
+      "options": [
+        {
+          "id": "0",
+          "display": "❌"
+        },
+        {
+          "id": "1",
+          "display": "✅"
+        }
+      ]
+    },
+    {
+      "type": "minecraft:single_option",
+      "key": "warden_temple_reset",
+      "label": "Warden Temple",
+      "options": [
+        {
+          "id": "0",
+          "display": "❌"
+        },
+        {
+          "id": "1",
+          "display": "✅"
+        }
+      ]
+    },
+    {
+      "type": "minecraft:single_option",
+      "key": "warden_scoreboard_reset",
+      "label": "Scoreboards (everything)",
+      "options": [
+        {
+          "id": "0",
+          "display": "❌"
+        },
+        {
+          "id": "1",
+          "display": "✅"
+        }
+      ]
+    }
+  ],
+  "action": {
+    "label": {
+      "text": "Confirm"
+    },
+    "action": {
+      "type": "dynamic/run_command",
+      "template": "function warden:reset/reset {warden_dungeon_reset:$(warden_dungeon_reset),warden_temple_reset:$(warden_temple_reset),warden_scoreboard_reset:$(warden_scoreboard_reset)}"
+    }
+  }
+}

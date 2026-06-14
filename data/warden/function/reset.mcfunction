@@ -1,1 +1,1 @@
-loot give @s loot warden:keys/dungeon/reset_key
+dialog show @s warden:reset
