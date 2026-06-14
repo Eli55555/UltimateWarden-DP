@@ -39,6 +39,6 @@ execute as @e[type=armor_stand,tag=uw.dungeon.elite_warden.lava_attack.2] in war
 execute as @e[type=armor_stand,tag=uw.dungeon.elite_warden.lava_attack.3] in warden:ultimatewarden at @s run fill ~ ~ ~ ~ ~2 ~ bedrock
 execute as @e[type=armor_stand,tag=uw.dungeon.elite_warden.lava_attack.4] in warden:ultimatewarden at @s run fill ~ ~ ~ ~ ~3 ~ bedrock
 
-
+tag @e[tag=elite_warden] add warden.bossbar.color.red
 execute if entity @e[tag=elite_warden] run schedule function warden:dungeon/boss/fight/lava_attack/1 5s
 execute unless entity @e[tag=elite_warden] run schedule function warden:dungeon/boss/fight/lava_attack/5 1t

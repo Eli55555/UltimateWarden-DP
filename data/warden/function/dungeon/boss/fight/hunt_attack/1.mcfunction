@@ -5,4 +5,4 @@ data merge entity @e[tag=elite_warden,limit=1] {Anger: 120}
 effect give @e[tag=elite_warden] speed 10 2 true
 effect give @e[tag=elite_warden] strength 10 1 true
 
-schedule function warden:dungeon/boss/fight/slowness_attack/2 10s
+schedule function warden:dungeon/boss/fight/hunt_attack/2 10s

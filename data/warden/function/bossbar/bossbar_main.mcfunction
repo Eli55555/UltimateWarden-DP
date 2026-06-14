@@ -29,7 +29,7 @@ $bossbar set warden.bossbar.$(bossbar_id) name {selector:"@e[limit=1,tag=warden.
 $execute store result bossbar warden.bossbar.$(bossbar_id) value run data get entity @e[tag=warden.bossbar.$(bossbar_id),limit=1,sort=nearest] Health 1
 $execute store result bossbar warden.bossbar.$(bossbar_id) max run attribute @e[tag=warden.bossbar.$(bossbar_id),limit=1,sort=nearest] max_health base get
 
-$execute if entity @e[tag=warden.bossbar.$(bossbar_id),tag=!warden.bossbar.color] run bossbar set warden.bossbar.$(bossbar_id) color blue
+$execute if entity @e[tag=warden.bossbar.$(bossbar_id),tag=!warden.bossbar.color.green,tag=!warden.bossbar.color.pink,tag=!warden.bossbar.color.purple,tag=!warden.bossbar.color.red,tag=!warden.bossbar.color.white,tag=!warden.bossbar.color.yellow] run bossbar set warden.bossbar.$(bossbar_id) color blue
 $execute if entity @e[tag=warden.bossbar.$(bossbar_id),tag=warden.bossbar.color.green] run bossbar set warden.bossbar.$(bossbar_id) color green
 $execute if entity @e[tag=warden.bossbar.$(bossbar_id),tag=warden.bossbar.color.pink] run bossbar set warden.bossbar.$(bossbar_id) color pink
 $execute if entity @e[tag=warden.bossbar.$(bossbar_id),tag=warden.bossbar.color.purple] run bossbar set warden.bossbar.$(bossbar_id) color purple
