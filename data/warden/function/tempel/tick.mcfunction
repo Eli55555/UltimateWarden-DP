@@ -9,7 +9,7 @@ execute if score ultimatewarden warden_temple_activated matches 0 run execute in
 
 # Tags
 execute in warden:ultimatewarden run execute positioned -146 147 -27 run tag @a[distance=..100] add uw.temple
-execute in warden:ultimatewarden run execute positioned -146 147 -27 run tag @a[distance=1001..] remove uw.temple
+execute in warden:ultimatewarden run execute positioned -146 147 -27 run tag @a[distance=100..] remove uw.temple
 execute as @a at @s unless dimension warden:ultimatewarden run tag @s remove uw.temple
 
 
@@ -30,13 +30,9 @@ advancement grant @a[tag=uw.temple.floor.2] only warden:warden/temple/floor_2
 
 
 
-# Floor 1
-execute in warden:ultimatewarden run fill -187 178 -5 -189 178 -5 redstone_lamp
-
-
-
 # Floor 2
 function warden:tempel/floor2/mobs/main
+execute if entity @e[tag=warden_skeleton] run function warden:tempel/floor2/miniboss/attacks/tick
 
 execute if entity @a[tag=uw.temple.floor.2] run execute if score ultimatewarden warden_temple_activated matches 1 run scoreboard players set ultimatewarden warden.temple.floor2.Mobs 1
 execute if entity @a[tag=uw.temple.floor.2] run execute if score ultimatewarden warden_temple_activated matches 1 run scoreboard players set ultimatewarden warden_temple_activated 2
