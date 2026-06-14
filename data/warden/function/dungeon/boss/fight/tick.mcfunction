@@ -4,6 +4,7 @@ execute if score ultimatewarden warden_dungeon_activated matches 3 run execute i
 function warden:dungeon/boss/fight/lava_attack/tick
 function warden:dungeon/boss/fight/mini_warden_attack/tick
 function warden:dungeon/boss/fight/lightning_attack/tick
+function warden:dungeon/boss/fight/slowness_attack/tick
 
 
 execute if score ultimatewarden warden_dungeon_activated matches 3 run execute unless entity @e[tag=elite_warden] run scoreboard players set ultimatewarden warden_dungeon_activated 4

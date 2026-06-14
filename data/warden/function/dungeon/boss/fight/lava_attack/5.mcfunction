@@ -1,4 +1,6 @@
 execute in warden:ultimatewarden run fill -65 80 46 -31 83 80 air replace lava
+tp @e[tag=elite_warden] -48 80 63
+data merge entity @e[tag=elite_warden,limit=1] {NoAI:0b}
 
 execute as @e[type=armor_stand,tag=uw.dungeon.elite_warden.lava_attack.1] in warden:ultimatewarden at @s run fill ~ ~ ~ ~ ~ ~ air replace bedrock
 execute as @e[type=armor_stand,tag=uw.dungeon.elite_warden.lava_attack.2] in warden:ultimatewarden at @s run fill ~ ~ ~ ~ ~1 ~ air replace bedrock
