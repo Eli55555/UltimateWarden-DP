@@ -1,7 +1,5 @@
-
-scoreboard players set ultimatewarden warden_dungeon_home_key 0
-
-
-execute if entity @a[tag=warden_dungeon_home_key] run advancement grant @a[tag=warden_dungeon_home_key] only warden:warden/dungeon/home_key
-
-execute if entity @a[tag=warden_dungeon_home_key] run execute as @a[tag=warden_dungeon_home_key] run function warden:keys/home_key/3
+advancement grant @s only warden:warden/dungeon/home_key
+execute in minecraft:overworld run tp @s 0 222 0
+execute in minecraft:overworld run spawnpoint @s 0 100 0
+effect give @s slow_falling 32 0 true
+clear @s nautilus_shell[custom_data={warden_home_key:1b}] 1

@@ -10,10 +10,4 @@ function warden:dungeon/boss/fight/tick
 function warden:model_fix
 
 
-clear @a nautilus_shell[custom_data={warden_dungeon_join:1b}]
-clear @a nautilus_shell[custom_data={warden_dungeon_leave:1b}]
-clear @a nautilus_shell[custom_data={warden_dungeon_bossroom_join:1b}]
-
-
-
 execute if score ultimatewarden warden.bossbar.reset matches 0 run function warden:bossbar/bossbar_reset_debug
