@@ -5,7 +5,7 @@ $scoreboard players set ultimatewarden warden.reset.scoreboard $(warden_scoreboa
 
 execute if score ultimatewarden warden.reset.dungeon matches 1 run scoreboard players set ultimatewarden warden_dungeon_activated 0
 execute if score ultimatewarden warden.reset.temple matches 1 run scoreboard players set ultimatewarden warden_temple_activated 0
-execute if score ultimatewarden warden.reset.advancements matches 1 run execute as @a run function warden:debug/revoke_every_advancement
+execute if score ultimatewarden warden.reset.advancements matches 1 run execute as @a run function warden:reset/revoke_every_advancement
 execute if score ultimatewarden warden.reset.scoreboard matches 1 run scoreboard players reset ultimatewarden
 execute if score ultimatewarden warden.reset.scoreboard matches 1 run function warden:scoreboard_load
 
