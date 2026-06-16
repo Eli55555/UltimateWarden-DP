@@ -18,6 +18,7 @@ scoreboard objectives add warden.dungeon.close_dungeon.timer dummy
 scoreboard objectives add warden.dungeon.elite_warden.attack.mini_warden dummy
 scoreboard objectives add warden.dungeon.elite_warden.attack.lightning dummy
 scoreboard objectives add warden.dungeon.elite_warden.attack.slowness dummy
+scoreboard objectives add warden.dungeon.elite_warden.attack.darkness dummy
 
 scoreboard objectives add warden.reset.dungeon dummy
 scoreboard objectives add warden.reset.temple dummy
@@ -68,6 +69,7 @@ scoreboard players add ultimatewarden warden.dungeon.close_dungeon.timer 0
 scoreboard players add ultimatewarden warden.dungeon.elite_warden.attack.mini_warden 0
 scoreboard players add ultimatewarden warden.dungeon.elite_warden.attack.lightning 0
 scoreboard players add ultimatewarden warden.dungeon.elite_warden.attack.slowness 0
+scoreboard players add ultimatewarden warden.dungeon.elite_warden.attack.darkness 0
 
 scoreboard players add ultimatewarden warden.reset.dungeon 0
 scoreboard players add ultimatewarden warden.reset.temple 0

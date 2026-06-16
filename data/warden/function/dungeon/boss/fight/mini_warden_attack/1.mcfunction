@@ -2,4 +2,4 @@ execute as @e[tag=elite_warden] at @s in warden:ultimatewarden run summon warden
 scoreboard players set ultimatewarden warden.dungeon.elite_warden.attack.mini_warden 0
 tag @e[tag=elite_warden] remove warden.bossbar.color.green
 
-#execute if entity @e[tag=elite_warden] run schedule function warden:dungeon/boss/fight/roll_attack 3s
+execute if entity @e[tag=elite_warden] run schedule function warden:dungeon/boss/fight/roll_attack 3s

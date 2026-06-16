@@ -9,4 +9,4 @@ data merge entity @e[tag=elite_warden,limit=1] {Anger: 60}
 tag @e[tag=elite_warden] remove warden.bossbar.color.white
 
 # Roll Attack
-#execute if entity @e[tag=elite_warden] run schedule function warden:dungeon/boss/fight/roll_attack 3s
+execute if entity @e[tag=elite_warden] run schedule function warden:dungeon/boss/fight/roll_attack 3s

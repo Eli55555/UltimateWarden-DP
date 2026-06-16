@@ -9,4 +9,5 @@ execute as @e[type=armor_stand,tag=uw.dungeon.elite_warden.lava_attack.4] in war
 
 tag @e[tag=elite_warden] remove warden.bossbar.color.red
 execute as @e[tag=uw.dungeon.elite_warden.lava_attack] run kill @s
-#execute if entity @e[tag=elite_warden] run schedule function warden:dungeon/boss/fight/roll_attack 3s
+
+execute if entity @e[tag=elite_warden] run schedule function warden:dungeon/boss/fight/roll_attack 3s
