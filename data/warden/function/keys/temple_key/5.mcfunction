@@ -5,8 +5,8 @@ execute if score ultimatewarden warden.settings.temple_activated matches 1 run r
 
 
 # Tellraw
-execute if score ultimatewarden warden_temple_activated matches 1.. run tellraw @s [{"text":"[Ultimate Warden] ","bold":true,"color":"blue"},{"translate":"ultimate_warden.temple.key.message.join2","fallback":"You will enter an existing Temple run...","color":"red",bold:false}]
-execute if score ultimatewarden warden_temple_activated matches 0 run tellraw @s [{"text":"[Ultimate Warden] ","bold":true,"color":"blue"},{"translate":"ultimate_warden.temple.key.message.create2","fallback":"A new Temple run wil be created...","color":"red",bold:false}]
+execute if score ultimatewarden warden_temple_activated matches 1.. run tellraw @s [{"text":"[Ultimate Warden] ","bold":true,"color":"blue"},{"translate":"ultimate_warden.temple.key.message.join2","fallback":"Joining Temple...","color":"red",bold:false}]
+execute if score ultimatewarden warden_temple_activated matches 0 run tellraw @s [{"text":"[Ultimate Warden] ","bold":true,"color":"blue"},{"translate":"ultimate_warden.temple.key.message.create2","fallback":"Creating Temple...","color":"red",bold:false}]
 
 
 # Key back to chest
