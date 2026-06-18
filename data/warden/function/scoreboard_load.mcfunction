@@ -1,4 +1,5 @@
 scoreboard objectives add warden.version dummy
+scoreboard objectives add warden.model_fix trigger
 
 scoreboard objectives add warden.key.dungeon_key dummy
 scoreboard objectives add warden.key.home_key dummy
