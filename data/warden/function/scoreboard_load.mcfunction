@@ -50,7 +50,6 @@ scoreboard objectives add warden.settings.temple_activated dummy
 
 
 scoreboard players add ultimatewarden warden.version 0
-execute if score ultimatewarden warden.version matches 0 run scoreboard players set ultimatewarden warden.version 0308
 
 scoreboard players add @a warden.key.dungeon_key 0
 scoreboard players add @a warden.key.home_key 0

@@ -1,5 +1,5 @@
-execute if score ultimatewarden warden.settings.load_message_activated matches 0 run tellraw @a [{"text":"[Ultimate Warden] ","bold":true,"color":"blue"},{"translate":"ultimate_warden.load","fallback":"Loaded Ultimate Warden v0.3.S8 by Eli12_5", "color":"yellow",bold:false}]
-execute if score ultimatewarden warden.settings.load_message_activated matches 0 run tellraw @a [{"text":"[Ultimate Warden] ","bold":true,"color":"blue"},{"translate":"ultimate_warden.texture_pack_id.0_3.s8","fallback":"", "color":"green",bold:false},{"translate":"ultimate_warden.missing_texture","fallback":"Missing Texture pack", "color":"red",bold:false}]
+execute if score ultimatewarden warden.settings.load_message_activated matches 0 run tellraw @a [{"text":"[Ultimate Warden] ","bold":true,"color":"blue"},{"translate":"ultimate_warden.load","fallback":"Loaded Ultimate Warden v0.3.S8-P by Eli12_5", "color":"yellow",bold:false}]
+execute if score ultimatewarden warden.settings.load_message_activated matches 0 run tellraw @a [{"text":"[Ultimate Warden] ","bold":true,"color":"blue"},{"translate":"ultimate_warden.texture_pack_id.0_3.s8-p","fallback":"", "color":"green",bold:false},{"translate":"ultimate_warden.missing_texture","fallback":"Missing Texture pack", "color":"red",bold:false}]
 
 execute in warden:ultimatewarden run forceload add 0 0 95 67
 execute in warden:ultimatewarden run forceload add -29 82 -54 57
