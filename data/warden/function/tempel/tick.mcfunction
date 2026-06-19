@@ -1,9 +1,5 @@
 # Temple not Activated
-execute in warden:ultimatewarden run execute positioned -146 -4 -27 run execute as @a[distance=..100] run effect give @s minecraft:slow_falling 30 0 true
-execute in warden:ultimatewarden run execute positioned -146 -4 -27 run execute as @a[distance=..100] run execute in minecraft:overworld run tp @s 0 200 0
-
-execute if score ultimatewarden warden_temple_activated matches 0 run execute in warden:ultimatewarden run execute positioned -146 147 -27 run execute as @a[distance=..100] run effect give @s minecraft:slow_falling 30 0 true
-execute if score ultimatewarden warden_temple_activated matches 0 run execute in warden:ultimatewarden run execute positioned -146 147 -27 run execute as @a[distance=..100] run execute in minecraft:overworld run tp @s 0 200 0
+execute in warden:ultimatewarden run execute positioned -146 -4 -27 run execute as @a[distance=..100] run function warden:tempel/close_temple
 
 
 

@@ -8,4 +8,4 @@ execute in minecraft:overworld at @s run spawnpoint @s ~ ~ ~
 kill @e[tag=warden.close_dungeon.armor_stand]
 
 execute in minecraft:overworld at @s if entity @s[y=200,dy=50] run effect give @s slow_falling 32 0 true
-tellraw @s [{"text":"[Ultimate Warden] ","bold":true,"color":"blue"},{"translate":"ultimate_warden.dungeon.dungeon_closed.message","fallback":"The Dungeon is closed","color":"red",bold:false}]
+tellraw @s [{"text":"[Ultimate Warden] ","bold":true,"color":"blue"},{"translate":"ultimate_warden.temple.temple_closed.message","fallback":"The Temple is closed","color":"red",bold:false}]
