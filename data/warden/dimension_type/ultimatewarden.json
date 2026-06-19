@@ -1,9 +1,15 @@
 {
+  "attributes": {
+    "minecraft:gameplay/bed_rule": {
+      "can_set_spawn": "always",
+      "can_sleep": "never"
+    }
+  },
   "has_skylight": false,
   "has_ceiling": false,
   "coordinate_scale": 1,
   "ambient_light": 0,
-  "logical_height": 0,
+  "logical_height": 448,
   "skybox": "end",
   "infiniburn": "#minecraft:infiniburn_overworld",
   "min_y": -128,

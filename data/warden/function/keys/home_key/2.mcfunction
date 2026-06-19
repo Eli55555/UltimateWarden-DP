@@ -1,5 +1,12 @@
 advancement grant @s only warden:warden/dungeon/home_key
 execute in minecraft:overworld run tp @s 0 222 0
-execute in minecraft:overworld run spawnpoint @s 0 100 0
-effect give @s slow_falling 32 0 true
-clear @s nautilus_shell[custom_data={warden_home_key:1b}] 1
+execute in minecraft:overworld run spawnpoint @s 0 222 0
+
+execute in minecraft:overworld run summon armor_stand 0 200 0 {Tags:["warden.home_key.armor_stand"],Invisible:1b,Invulnerable:1b,NoGravity:1b}
+execute as @e[tag=warden.home_key.armor_stand] at @s run spreadplayers ~ ~ 0 5 false @s
+tp @s @e[tag=warden.home_key.armor_stand,limit=1]
+execute in minecraft:overworld at @s run spawnpoint @s ~ ~ ~
+kill @e[tag=warden.home_key.armor_stand]
+
+execute in minecraft:overworld at @s if entity @s[y=200,dy=50] run effect give @s slow_falling 32 0 true
+clear @s nautilus_shell[custom_data={warden_home_key:1b}]

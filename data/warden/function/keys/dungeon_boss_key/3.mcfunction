@@ -1,7 +1,7 @@
 
 execute if score ultimatewarden warden_dungeon_activated matches 1 run execute in warden:ultimatewarden run place template warden:dungeon.boss.room -29 78 82 180
 execute if entity @a[tag=warden_dungeon_boss_key] run execute in warden:ultimatewarden run tp @a[tag=uw.dungeon] -32 80 63
-execute if entity @a[tag=warden_dungeon_boss_key] run execute in warden:ultimatewarden run spawnpoint @a[tag=uw.dungeon] -32 80 63
+execute if entity @a[tag=warden_dungeon_boss_key] run execute in warden:ultimatewarden at @s run spawnpoint @a[tag=uw.dungeon] -32 80 63
 
 
 scoreboard players set ultimatewarden warden_dungeon_boss_key 0
