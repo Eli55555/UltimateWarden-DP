@@ -24,6 +24,13 @@ execute as @a[tag=uw.temple.floor.3] at @s unless dimension warden:ultimatewarde
 
 
 
+# Spawnpoints
+execute as @a[tag=uw.temple.floor.1] at @s run spawnpoint @s -148 176 -37
+execute as @a[tag=uw.temple.floor.2] at @s run spawnpoint @s -146 113 -27
+execute as @a[tag=uw.temple.floor.3] at @s run spawnpoint @s -171 63 -52
+
+
+
 # Advancements
 advancement grant @a[tag=uw.temple.floor.1] only warden:warden/temple/floor_1
 advancement grant @a[tag=uw.temple.floor.2] only warden:warden/temple/floor_2
@@ -47,3 +54,6 @@ execute if score ultimatewarden warden_temple_activated matches 0 if score ultim
 function warden:temple/floor3/tick
 execute if entity @a[tag=uw.temple.floor.3] run execute if score ultimatewarden warden_temple_activated matches 2 run scoreboard players set ultimatewarden warden.temple.floor3.guard 1
 execute if entity @a[tag=uw.temple.floor.3] run execute if score ultimatewarden warden_temple_activated matches 2 run scoreboard players set ultimatewarden warden_temple_activated 3
+
+execute if score ultimatewarden warden_temple_activated matches 0 if score ultimatewarden warden.temple.floor3.guard matches 1.. run scoreboard players set ultimatewarden warden.temple.floor3.guard 0
+

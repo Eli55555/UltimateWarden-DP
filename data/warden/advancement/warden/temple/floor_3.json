@@ -5,7 +5,7 @@
         },
         "hidden": true,
         "title": {"translate": "ultimate_warden.advancements.temple.floor3.title", "fallback": "The last floor, but a guard is waiting..."},
-        "description": {"translate": "ultimate_warden.advancements.temple.floor3.description", "fallback": "Reach the third floor of the Temple."},
+        "description": {"translate": "ultimate_warden.advancements.temple.floor3.description", "fallback": "Reach the third floor of the Temple"},
         "frame": "goal",
         "announce_to_chat": true
     },

@@ -4,8 +4,8 @@
             "id": "minecraft:wither_skeleton_skull"
         },
         "hidden": false,
-        "title": {"translate": "ultimate_warden.advancements.temple.warden_skeleton_kiled.title", "fallback": "Warden Skeletons have a very bad aim."},
-        "description": {"translate": "ultimate_warden.advancements.temple.warden_skeleton_kiled.description", "fallback": "Kill the Warden Skeleton."},
+        "title": {"translate": "ultimate_warden.advancements.temple.warden_skeleton_kiled.title", "fallback": "Warden Skeletons have a very bad aim"},
+        "description": {"translate": "ultimate_warden.advancements.temple.warden_skeleton_kiled.description", "fallback": "Kill the Warden Skeleton"},
         "frame": "challenge",
         "announce_to_chat": true
     },

@@ -5,6 +5,7 @@ execute if score ultimatewarden warden.settings.dungeon_activated matches 1 run 
 execute if score ultimatewarden warden_dungeon_activated matches ..2 run scoreboard players set ultimatewarden warden_dungeon_activated 1
 
 
+advancement grant @s only warden:warden/root
 advancement grant @s only warden:warden/dungeon/dungeon_join
 
 
