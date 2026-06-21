@@ -5,7 +5,7 @@
         },
         "title": {"translate": "ultimate_warden.advancements.root.title", "fallback": "Ultimate Warden"},
         "description": {"translate": "ultimate_warden.advancements.root.description", "fallback": "Welcome to Ultimate Warden."},
-        "background": "block/sculk",
+        "background": "ultimate_warden:gui/advancements/backgrounds/warden",
         "frame": "task",
         "announce_to_chat": false,
         "show_toast": false

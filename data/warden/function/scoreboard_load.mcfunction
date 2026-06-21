@@ -35,6 +35,7 @@ scoreboard objectives add warden.temple.floor2.timer dummy
 scoreboard objectives add warden.temple.floor2.warden_skeleton.wither_skull dummy
 scoreboard objectives add warden.temple.floor2.warden_skeleton.poisen dummy
 scoreboard objectives add warden.temple.floor2.warden_skeleton.skeleton dummy
+scoreboard objectives add warden.temple.floor3.guard dummy
 
 scoreboard objectives add warden.bossbar.reset dummy
 scoreboard objectives add warden.bossbar.id.check dummy

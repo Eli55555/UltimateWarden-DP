@@ -2,7 +2,7 @@ function warden:bossbar/bossbar_tick
 function warden:keys/key_tick
 
 function warden:dungeon/tick
-function warden:tempel/tick
+function warden:temple/tick
 
 function warden:dungeon/boss/fight/tick
 

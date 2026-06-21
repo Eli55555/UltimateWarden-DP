@@ -10,7 +10,7 @@
                         {
                             "function": "set_components",
                             "components": {
-                                "custom_name": [{"translate":"ultimate_warden.dungeon.boss.key","fallback":"??? Key"}],
+                                "custom_name": [{"translate":"ultimate_warden.dungeon.boss.key","fallback":"Dungeon Boss Key"}],
                                 "rarity": "epic",
                                 "lore": [
                                     {"text":""},
