@@ -44,13 +44,19 @@ $execute if entity @e[tag=warden.bossbar.$(bossbar_id),tag=warden.bossbar.style.
 $execute if entity @e[tag=warden.bossbar.$(bossbar_id),tag=warden.bossbar.style.notched_20] run bossbar set warden.bossbar.$(bossbar_id) style notched_20
 
 
-$execute at @e[tag=warden.bossbar.$(bossbar_id),tag=!warden.bossbar.distance.30,tag=!warden.bossbar.distance.35,tag=!warden.bossbar.distance.40,tag=!warden.bossbar.distance.45,tag=!warden.bossbar.distance.50,tag=!warden.bossbar.distance.55] run bossbar set warden.bossbar.1 players @a[distance=..25]
+$execute at @e[tag=warden.bossbar.$(bossbar_id),tag=!warden.bossbar.distance.30,tag=!warden.bossbar.distance.35,tag=!warden.bossbar.distance.40,tag=!warden.bossbar.distance.45,tag=!warden.bossbar.distance.50,tag=!warden.bossbar.distance.55,tag=!warden.bossbar.distance.60,tag=!warden.bossbar.distance.65,tag=!warden.bossbar.distance.70,tag=!warden.bossbar.distance.75,tag=!warden.bossbar.distance.80,tag=!warden.bossbar.distance.120] run bossbar set warden.bossbar.1 players @a[distance=..25]
 $execute at @e[tag=warden.bossbar.$(bossbar_id),tag=warden.bossbar.distance.30] run bossbar set warden.bossbar.$(bossbar_id) players @a[distance=..30]
 $execute at @e[tag=warden.bossbar.$(bossbar_id),tag=warden.bossbar.distance.35] run bossbar set warden.bossbar.$(bossbar_id) players @a[distance=..35]
 $execute at @e[tag=warden.bossbar.$(bossbar_id),tag=warden.bossbar.distance.40] run bossbar set warden.bossbar.$(bossbar_id) players @a[distance=..40]
 $execute at @e[tag=warden.bossbar.$(bossbar_id),tag=warden.bossbar.distance.45] run bossbar set warden.bossbar.$(bossbar_id) players @a[distance=..45]
 $execute at @e[tag=warden.bossbar.$(bossbar_id),tag=warden.bossbar.distance.50] run bossbar set warden.bossbar.$(bossbar_id) players @a[distance=..50]
 $execute at @e[tag=warden.bossbar.$(bossbar_id),tag=warden.bossbar.distance.55] run bossbar set warden.bossbar.$(bossbar_id) players @a[distance=..55]
+$execute at @e[tag=warden.bossbar.$(bossbar_id),tag=warden.bossbar.distance.60] run bossbar set warden.bossbar.$(bossbar_id) players @a[distance=..60]
+$execute at @e[tag=warden.bossbar.$(bossbar_id),tag=warden.bossbar.distance.65] run bossbar set warden.bossbar.$(bossbar_id) players @a[distance=..65]
+$execute at @e[tag=warden.bossbar.$(bossbar_id),tag=warden.bossbar.distance.70] run bossbar set warden.bossbar.$(bossbar_id) players @a[distance=..70]
+$execute at @e[tag=warden.bossbar.$(bossbar_id),tag=warden.bossbar.distance.75] run bossbar set warden.bossbar.$(bossbar_id) players @a[distance=..75]
+$execute at @e[tag=warden.bossbar.$(bossbar_id),tag=warden.bossbar.distance.80] run bossbar set warden.bossbar.$(bossbar_id) players @a[distance=..80]
+$execute at @e[tag=warden.bossbar.$(bossbar_id),tag=warden.bossbar.distance.120] run bossbar set warden.bossbar.$(bossbar_id) players @a[distance=..120]
 $execute unless entity @e[tag=warden.bossbar.$(bossbar_id)] run bossbar set warden.bossbar.$(bossbar_id) players @a[distance=0]
 
 

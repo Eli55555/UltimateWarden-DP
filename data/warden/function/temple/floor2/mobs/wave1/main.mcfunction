@@ -1,4 +1,5 @@
 execute if score ultimatewarden warden.temple.floor2.timer matches 1 run execute in warden:ultimatewarden run title @a[tag=uw.temple] actionbar {"text":"Wave 1","color":"dark_red"}
+execute if score ultimatewarden warden.temple.floor2.timer matches 1 run scoreboard players set ultimatewarden warden.temple.floor2.bossbar.wave 1
 # Timer 0 - Mob 1
 execute if score ultimatewarden warden.temple.floor2.timer matches 1 run execute in warden:ultimatewarden run summon endermite -142 113 -23 {Health:40,Tags:["warden.temple.floor.2.mob"]}
 execute if score ultimatewarden warden.temple.floor2.timer matches 1 run execute in warden:ultimatewarden run playsound minecraft:block.trial_spawner.spawn_mob master @a[tag=uw.temple]
@@ -65,4 +66,4 @@ execute if score ultimatewarden warden.temple.floor2.timer matches 10 run execut
 execute if score ultimatewarden warden.temple.floor2.timer matches 10 run execute in warden:ultimatewarden run playsound minecraft:block.trial_spawner.spawn_mob master @a[tag=uw.temple]
 
 execute if score ultimatewarden warden.temple.floor2.timer matches 10 run scoreboard players set ultimatewarden warden.temple.floor2.Mobs 3
-
+execute if score ultimatewarden warden.temple.floor2.timer matches 11 run scoreboard players set ultimatewarden warden.temple.floor2.timer.stop 1

@@ -31,7 +31,10 @@ scoreboard objectives add warden_WIP_key dummy
 scoreboard objectives add warden_temple_join dummy
 scoreboard objectives add warden_temple_activated dummy
 scoreboard objectives add warden.temple.floor2.Mobs dummy
+scoreboard objectives add warden.temple.floor2.bossbar.mobs dummy
+scoreboard objectives add warden.temple.floor2.bossbar.wave dummy
 scoreboard objectives add warden.temple.floor2.timer dummy
+scoreboard objectives add warden.temple.floor2.timer.stop dummy
 scoreboard objectives add warden.temple.floor2.warden_skeleton.wither_skull dummy
 scoreboard objectives add warden.temple.floor2.warden_skeleton.poisen dummy
 scoreboard objectives add warden.temple.floor2.warden_skeleton.skeleton dummy
@@ -82,7 +85,10 @@ scoreboard players add ultimatewarden warden_WIP_key 0
 scoreboard players add ultimatewarden warden_temple_join 0
 scoreboard players add ultimatewarden warden_temple_activated 0
 scoreboard players add ultimatewarden warden.temple.floor2.Mobs 0
+scoreboard players add ultimatewarden warden.temple.floor2.bossbar.mobs 0
+scoreboard players add ultimatewarden warden.temple.floor2.bossbar.wave 0
 scoreboard players add ultimatewarden warden.temple.floor2.timer 0
+scoreboard players add ultimatewarden warden.temple.floor2.timer.stop 0
 scoreboard players add ultimatewarden warden.temple.floor2.warden_skeleton.wither_skull 0
 scoreboard players add ultimatewarden warden.temple.floor2.warden_skeleton.poisen 0
 scoreboard players add ultimatewarden warden.temple.floor2.warden_skeleton.skeleton 0
