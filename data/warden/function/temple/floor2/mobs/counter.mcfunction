@@ -1,4 +1,4 @@
-scoreboard players add ultimatewarden warden.temple.floor2.timer 1
+execute if score ultimatewarden warden.temple.floor2.Mobs matches 3 in warden:ultimatewarden unless entity @e[tag=warden.temple.floor.2.mob] run scoreboard players add ultimatewarden warden.temple.floor2.timer 1
 
 
 execute if score ultimatewarden warden.temple.floor2.Mobs matches 1..6 run function warden:temple/floor2/mobs/wave1/main

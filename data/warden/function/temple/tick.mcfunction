@@ -39,7 +39,7 @@ advancement grant @a[tag=uw.temple.floor.3] only warden:warden/temple/floor_3
 
 
 # Floor 2
-function warden:temple/floor2/mobs/main
+execute if score ultimatewarden warden_temple_activated matches 2 run function warden:temple/floor2/mobs/main
 execute if entity @e[tag=warden_skeleton] run function warden:temple/floor2/miniboss/attacks/tick
 
 execute if entity @a[tag=uw.temple.floor.2] run execute if score ultimatewarden warden_temple_activated matches 1 run scoreboard players set ultimatewarden warden.temple.floor2.Mobs 1
