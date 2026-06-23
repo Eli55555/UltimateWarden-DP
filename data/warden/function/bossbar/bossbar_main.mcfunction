@@ -16,19 +16,24 @@ $execute store success score ultimatewarden warden.bossbar.id.check run bossbar 
 $execute if score ultimatewarden warden.bossbar.id.check matches 0 if entity @e[tag=warden.bossbar.$(bossbar_id)] run function warden:bossbar/bossbar_set {bossbar_id:$(bossbar_id)}
 
 
-# Bossbar
+# Bossbar Player Tag
 $execute as @a at @s if entity @e[tag=warden.bossbar,distance=..25,tag=!warden.bossbar.mob] run tag @s add warden.bossbar.$(bossbar_id).player
 $execute as @a at @s unless entity @e[tag=warden.bossbar,distance=..25,tag=!warden.bossbar.mob] run tag @s remove warden.bossbar.$(bossbar_id).player
+
+# Bosbar Remove
 $execute unless entity @e[tag=warden.bossbar.$(bossbar_id)] unless entity @a[tag=warden.bossbar.$(bossbar_id).player] run bossbar remove warden.bossbar.$(bossbar_id)
 $execute unless entity @e[tag=warden.bossbar.$(bossbar_id)] unless entity @a[tag=warden.bossbar.$(bossbar_id).player] run return fail
 
+# Bossbar Mob Tag
 $execute as @a[tag=warden.bossbar.$(bossbar_id).player,limit=1,sort=random] at @s unless entity @e[tag=warden.bossbar,tag=warden.bossbar.$(bossbar_id),tag=!warden.bossbar.mob] run tag @e[tag=warden.bossbar,limit=1,sort=nearest,tag=!warden.bossbar.mob] add warden.bossbar.$(bossbar_id)
 $tag @e[tag=warden.bossbar.$(bossbar_id)] add warden.bossbar.mob
 
+# Bossbar Name + Health + Max Health
 $bossbar set warden.bossbar.$(bossbar_id) name {selector:"@e[limit=1,tag=warden.bossbar.$(bossbar_id)]"}
 $execute store result bossbar warden.bossbar.$(bossbar_id) value run data get entity @e[tag=warden.bossbar.$(bossbar_id),limit=1,sort=nearest] Health 1
 $execute store result bossbar warden.bossbar.$(bossbar_id) max run attribute @e[tag=warden.bossbar.$(bossbar_id),limit=1,sort=nearest] max_health base get
 
+# Bossbar Color
 $execute if entity @e[tag=warden.bossbar.$(bossbar_id),tag=!warden.bossbar.color.green,tag=!warden.bossbar.color.pink,tag=!warden.bossbar.color.purple,tag=!warden.bossbar.color.red,tag=!warden.bossbar.color.white,tag=!warden.bossbar.color.yellow] run bossbar set warden.bossbar.$(bossbar_id) color blue
 $execute if entity @e[tag=warden.bossbar.$(bossbar_id),tag=warden.bossbar.color.green] run bossbar set warden.bossbar.$(bossbar_id) color green
 $execute if entity @e[tag=warden.bossbar.$(bossbar_id),tag=warden.bossbar.color.pink] run bossbar set warden.bossbar.$(bossbar_id) color pink
@@ -37,26 +42,15 @@ $execute if entity @e[tag=warden.bossbar.$(bossbar_id),tag=warden.bossbar.color.
 $execute if entity @e[tag=warden.bossbar.$(bossbar_id),tag=warden.bossbar.color.white] run bossbar set warden.bossbar.$(bossbar_id) color white
 $execute if entity @e[tag=warden.bossbar.$(bossbar_id),tag=warden.bossbar.color.yellow] run bossbar set warden.bossbar.$(bossbar_id) color yellow
 
+# Bossbar Style
 $execute if entity @e[tag=warden.bossbar.$(bossbar_id),tag=!warden.bossbar.style] run bossbar set warden.bossbar.$(bossbar_id) style progress
 $execute if entity @e[tag=warden.bossbar.$(bossbar_id),tag=warden.bossbar.style.notched_6] run bossbar set warden.bossbar.$(bossbar_id) style notched_6
 $execute if entity @e[tag=warden.bossbar.$(bossbar_id),tag=warden.bossbar.style.notched_10] run bossbar set warden.bossbar.$(bossbar_id) style notched_10
 $execute if entity @e[tag=warden.bossbar.$(bossbar_id),tag=warden.bossbar.style.notched_12] run bossbar set warden.bossbar.$(bossbar_id) style notched_12
 $execute if entity @e[tag=warden.bossbar.$(bossbar_id),tag=warden.bossbar.style.notched_20] run bossbar set warden.bossbar.$(bossbar_id) style notched_20
 
-
-$execute at @e[tag=warden.bossbar.$(bossbar_id),tag=!warden.bossbar.distance.30,tag=!warden.bossbar.distance.35,tag=!warden.bossbar.distance.40,tag=!warden.bossbar.distance.45,tag=!warden.bossbar.distance.50,tag=!warden.bossbar.distance.55,tag=!warden.bossbar.distance.60,tag=!warden.bossbar.distance.65,tag=!warden.bossbar.distance.70,tag=!warden.bossbar.distance.75,tag=!warden.bossbar.distance.80,tag=!warden.bossbar.distance.120] run bossbar set warden.bossbar.$(bossbar_id) players @a[distance=..25]
-$execute at @e[tag=warden.bossbar.$(bossbar_id),tag=warden.bossbar.distance.30] run bossbar set warden.bossbar.$(bossbar_id) players @a[distance=..30]
-$execute at @e[tag=warden.bossbar.$(bossbar_id),tag=warden.bossbar.distance.35] run bossbar set warden.bossbar.$(bossbar_id) players @a[distance=..35]
-$execute at @e[tag=warden.bossbar.$(bossbar_id),tag=warden.bossbar.distance.40] run bossbar set warden.bossbar.$(bossbar_id) players @a[distance=..40]
-$execute at @e[tag=warden.bossbar.$(bossbar_id),tag=warden.bossbar.distance.45] run bossbar set warden.bossbar.$(bossbar_id) players @a[distance=..45]
-$execute at @e[tag=warden.bossbar.$(bossbar_id),tag=warden.bossbar.distance.50] run bossbar set warden.bossbar.$(bossbar_id) players @a[distance=..50]
-$execute at @e[tag=warden.bossbar.$(bossbar_id),tag=warden.bossbar.distance.55] run bossbar set warden.bossbar.$(bossbar_id) players @a[distance=..55]
-$execute at @e[tag=warden.bossbar.$(bossbar_id),tag=warden.bossbar.distance.60] run bossbar set warden.bossbar.$(bossbar_id) players @a[distance=..60]
-$execute at @e[tag=warden.bossbar.$(bossbar_id),tag=warden.bossbar.distance.65] run bossbar set warden.bossbar.$(bossbar_id) players @a[distance=..65]
-$execute at @e[tag=warden.bossbar.$(bossbar_id),tag=warden.bossbar.distance.70] run bossbar set warden.bossbar.$(bossbar_id) players @a[distance=..70]
-$execute at @e[tag=warden.bossbar.$(bossbar_id),tag=warden.bossbar.distance.75] run bossbar set warden.bossbar.$(bossbar_id) players @a[distance=..75]
-$execute at @e[tag=warden.bossbar.$(bossbar_id),tag=warden.bossbar.distance.80] run bossbar set warden.bossbar.$(bossbar_id) players @a[distance=..80]
-$execute at @e[tag=warden.bossbar.$(bossbar_id),tag=warden.bossbar.distance.120] run bossbar set warden.bossbar.$(bossbar_id) players @a[distance=..120]
+# Bossbar Distance
+$execute at @e[tag=warden.bossbar.$(bossbar_id)] run bossbar set warden.bossbar.$(bossbar_id) players @a[distance=..25]
 $execute unless entity @e[tag=warden.bossbar.$(bossbar_id)] run bossbar set warden.bossbar.$(bossbar_id) players @a[distance=0]
 
 

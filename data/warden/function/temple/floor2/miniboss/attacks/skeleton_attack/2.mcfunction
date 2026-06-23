@@ -3,5 +3,5 @@ kill @e[type=armor_stand,tag=uw.temple.warden_skeleton.attack.skeleton]
 
 scoreboard players set ultimatewarden warden.temple.floor2.warden_skeleton.skeleton 0
 
-schedule function warden:temple/floor2/miniboss/roll_attack 4s
+schedule function warden:temple/floor2/miniboss/roll_attack 4s replace
 
