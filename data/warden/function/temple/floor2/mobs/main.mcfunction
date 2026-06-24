@@ -4,3 +4,4 @@ execute unless score ultimatewarden warden.temple.floor2.Mobs matches 8 if score
 
 execute if score ultimatewarden warden.temple.floor2.Mobs matches 7 unless entity @e[tag=warden.temple.floor.2.mob] run function warden:temple/floor2/open_walls
 
+execute as @e[tag=warden.temple.floor.2.mob,nbt={PersistenceRequired:false}] run data merge entity @s {PersistenceRequired:true}

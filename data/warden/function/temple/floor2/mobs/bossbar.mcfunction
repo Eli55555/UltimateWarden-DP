@@ -1,5 +1,5 @@
 # Armor Stand Spawn
-execute in warden:ultimatewarden unless entity @e[tag=warden.temple.floor.2.bossbar.mob,type=armor_stand] run summon armor_stand -146 111 -27 {CustomName:{text:"Wave",color:red,bold:true},attributes:[{id:max_health,base:55}],Health:55,Invisible:1b,Tags:["warden.bossbar","warden.bossbar.color.red","warden.bossbar.style.notched_12","warden.bossbar.distance.45","warden.temple.floor.2.bossbar.mob"]}
+execute in warden:ultimatewarden unless entity @e[tag=warden.temple.floor.2.bossbar.mob,type=armor_stand] run summon armor_stand -146 111 -27 {CustomName:{text:"Wave",color:red,bold:true},attributes:[{id:max_health,base:55}],Health:55,Invisible:1b,Tags:["warden.bossbar","warden.bossbar.color.red","warden.bossbar.style.notched_12","warden.temple.floor.2.bossbar.mob"]}
 
 
 # Name
