@@ -13,6 +13,16 @@
         "type": "minecraft:run_command",
         "command": "trigger warden.menu.statistics set 1"
       }
+    },
+    {
+      "label": {
+        "translate": "ultimate_warden.menu.button.credits",
+        "fallback": "§8Credits"
+      },
+      "action": {
+        "type": "show_dialog",
+        "dialog": "warden:credits"
+      }
     }
   ]
 }

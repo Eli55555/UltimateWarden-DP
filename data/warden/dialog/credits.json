@@ -1,0 +1,136 @@
+{
+  "type": "minecraft:multi_action",
+  "title": {
+    "translate": "ultimate_warden.menu.button.credits",
+    "fallback": "§8Credits"
+  },
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "  "
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "✦ MAIN ✦",
+        "color": "dark_aqua",
+        "bold": true
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": [
+        {
+          "text": "  ▪ Programming: ",
+          "color": "gray"
+        },
+        {
+          "text": "Eli12_5",
+          "color": "green"
+        }
+      ]
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "────────────────────",
+        "color": "dark_gray"
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "✦ DUNGEON ✦",
+        "color": "dark_aqua",
+        "bold": true
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": [
+        {
+          "text": "▪ Building: ",
+          "color": "gray"
+        },
+        {
+          "text": "NotRisk_v1_ & Eli12_5",
+          "color": "gold"
+        }
+      ]
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": [
+        {
+          "text": "▪ Redstone: ",
+          "color": "gray"
+        },
+        {
+          "text": "nino5559",
+          "color": "red"
+        }
+      ]
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "────────────────────",
+        "color": "dark_gray"
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "✦ TEMPLE ✦",
+        "color": "dark_aqua",
+        "bold": true
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": [
+        {
+          "text": "▪ Building: ",
+          "color": "gray"
+        },
+        {
+          "text": "EffectedCar7817 & Eli12_5",
+          "color": "gold"
+        }
+      ]
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": [
+        {
+          "text": "▪ Redstone: ",
+          "color": "gray"
+        },
+        {
+          "text": "nino5559",
+          "color": "red"
+        }
+      ]
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "  "
+      }
+    }
+  ],
+  "actions": [
+    {
+      "label": {
+        "translate": "ultimate_warden.menu.button.back",
+        "fallback": "§c« Back"
+      },
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "warden:menu"
+      }
+    }
+  ]
+}
