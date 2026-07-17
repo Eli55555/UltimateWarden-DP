@@ -6,17 +6,21 @@ execute in warden:ultimatewarden run forceload add -29 82 -54 57
 execute in warden:ultimatewarden run forceload add -99 -74 -194 21
 execute in warden:ultimatewarden run forceload add -143 22 -147 26
 
+# Key Timer
 function warden:keys/dungeon_key/timer
 function warden:keys/home_key/timer
 function warden:keys/temple_key/timer
 
+# Setting Storage
 function warden:settings/storage_save
 
+# Menu
+function warden:menu/statistics/playtime/playtime
+
+# Scoreboard Load
 function warden:scoreboard_load
 schedule function warden:version/load 1s
 
 team add elite_warden
 team add warden_skeleton
 
-
-#give Eli12_5 barrel[container_loot={"loot_table":"warden:keys/temple/etage1/barrel"}]

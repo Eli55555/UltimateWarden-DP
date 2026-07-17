@@ -67,14 +67,14 @@
                                         ],
                                         "loot_tables_to_eject": [
                                             {
-                                                "data": "warden:temple/spawner/floor1/warden_spawner_loot",
+                                                "data": "warden:temple/spawner/floor1/loot/warden_spawner_loot",
                                                 "weight": 1
                                             }
                                         ]
                                     },
                                     "required_player_range": 22,
                                     "target_cooldown_length": 2000,
-                                    "ejecting_loot_table": "warden:temple/spawner/floor1/warden_spawner_loot",
+                                    "ejecting_loot_table": "warden:temple/spawner/floor1/loot/warden_spawner_loot",
                                     "cooldown_ends_at": 0
                                 }
                             }

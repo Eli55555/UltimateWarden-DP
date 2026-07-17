@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:multi_action",
+  "title": "Ultimate Warden Menu",
+  "pause": false,
+  "actions": [
+    {
+      "label": {
+        "translate": "ultimate_warden.menu.button.statistics",
+        "fallback": "Statistics",
+        "color": "red"
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "trigger warden.menu.statistics set 1"
+      }
+    }
+  ]
+}

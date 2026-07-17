@@ -1,10 +1,26 @@
+#                                                                          Scoreboard Create
+# Main
 scoreboard objectives add warden.version dummy
 scoreboard objectives add warden.model_fix trigger
 
+# Trigger
+scoreboard objectives add warden.menu trigger
+scoreboard objectives add warden.menu.statistics trigger
+
+# Statistics
+scoreboard objectives add warden.statistics.playtime.seconds dummy
+scoreboard objectives add warden.statistics.playtime.minutes dummy
+scoreboard objectives add warden.statistics.playtime.hours dummy
+scoreboard objectives add warden.statistics.playtime.days dummy
+scoreboard objectives add warden.statistics.dungeon.clears dummy
+scoreboard objectives add warden.statistics.temple.clears dummy
+
+# Keys
 scoreboard objectives add warden.key.dungeon_key dummy
 scoreboard objectives add warden.key.home_key dummy
 scoreboard objectives add warden.key.temple_key dummy
 
+# Dungeon
 scoreboard objectives add warden_dungeon_activated dummy
 
 scoreboard objectives add warden_dungeon_leave_key dummy
@@ -21,6 +37,7 @@ scoreboard objectives add warden.dungeon.elite_warden.attack.lightning dummy
 scoreboard objectives add warden.dungeon.elite_warden.attack.slowness dummy
 scoreboard objectives add warden.dungeon.elite_warden.attack.darkness dummy
 
+# Reset
 scoreboard objectives add warden.reset.dungeon dummy
 scoreboard objectives add warden.reset.temple dummy
 scoreboard objectives add warden.reset.advancements dummy
@@ -28,6 +45,7 @@ scoreboard objectives add warden.reset.scoreboard dummy
 
 scoreboard objectives add warden_WIP_key dummy
 
+# Temple
 scoreboard objectives add warden_temple_join dummy
 scoreboard objectives add warden_temple_activated dummy
 scoreboard objectives add warden.temple.floor2.Mobs dummy
@@ -41,9 +59,11 @@ scoreboard objectives add warden.temple.floor2.warden_skeleton.skeleton dummy
 scoreboard objectives add warden.temple.floor3.guard dummy
 scoreboard objectives add warden.temple.floor3.guard.attack.tree dummy
 
+# Bossbar
 scoreboard objectives add warden.bossbar.reset dummy
 scoreboard objectives add warden.bossbar.id.check dummy
 
+# Settings
 scoreboard objectives add warden.settings.load_message_activated dummy
 scoreboard objectives add warden.settings.bossbar_activated dummy
 scoreboard objectives add warden.settings.dungeon_activated dummy
@@ -54,6 +74,7 @@ scoreboard objectives add warden.settings.temple_activated dummy
 
 
 
+#                                                                          Scoreboard Add
 scoreboard players add ultimatewarden warden.version 0
 
 scoreboard players add @a warden.key.dungeon_key 0

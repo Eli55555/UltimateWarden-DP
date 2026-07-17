@@ -4,5 +4,6 @@ execute if score ultimatewarden warden.dungeon.close_dungeon.timer matches 1.. r
 
 
 execute if score ultimatewarden warden.dungeon.close_dungeon.timer matches 1 run advancement grant @a[tag=uw.dungeon] only warden:warden/dungeon/dungeon_leave
+execute if score ultimatewarden warden.dungeon.close_dungeon.timer matches 1 run scoreboard players add @a[tag=uw.dungeon] warden.statistics.dungeon.clears 1
 execute if score ultimatewarden warden.dungeon.close_dungeon.timer matches 1 run scoreboard players set ultimatewarden warden_dungeon_activated 0
 execute if score ultimatewarden warden.dungeon.close_dungeon.timer matches 1 run scoreboard players set ultimatewarden warden.dungeon.close_dungeon.active 0

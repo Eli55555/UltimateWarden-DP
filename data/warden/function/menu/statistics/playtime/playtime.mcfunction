@@ -1,0 +1,17 @@
+# Playtime Add
+execute in warden:ultimatewarden run execute as @a[distance=0..] run scoreboard players add @s warden.statistics.playtime.seconds 1
+
+
+# Playtime Math
+execute as @a if score @s warden.statistics.playtime.seconds matches 60.. run scoreboard players add @s warden.statistics.playtime.minutes 1
+execute as @a if score @s warden.statistics.playtime.seconds matches 60.. run scoreboard players remove @s warden.statistics.playtime.seconds 60
+
+execute as @a if score @s warden.statistics.playtime.minutes matches 60.. run scoreboard players add @s warden.statistics.playtime.hours 1
+execute as @a if score @s warden.statistics.playtime.minutes matches 60.. run scoreboard players remove @s warden.statistics.playtime.minutes 60
+
+execute as @a if score @s warden.statistics.playtime.hours matches 24.. run scoreboard players add @s warden.statistics.playtime.days 1
+execute as @a if score @s warden.statistics.playtime.hours matches 24.. run scoreboard players remove @s warden.statistics.playtime.hours 24
+
+
+# Schedule
+schedule function warden:menu/statistics/playtime/playtime 1s replace
