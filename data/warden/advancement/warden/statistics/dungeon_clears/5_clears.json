@@ -1,0 +1,24 @@
+{
+    "display":{
+        "icon":{
+            "id": "minecraft:bookshelf",
+            "components": {
+                "enchantments": {
+                    "unbreaking": 1
+                }
+            }
+        },
+        "hidden": false,
+        "title": {"translate": "ultimate_warden.advancements.statistics.dungeon_clears.5_clears.title", "fallback": "Again... and Again... and Again..."},
+        "description": {"translate": "ultimate_warden.advancements.statistics.dungeon_clears.5_clears.description", "fallback": "Clear the dungeon five times","color": "aqua"},
+        "frame": "goal",
+        "announce_to_chat": true,
+        "show_toast": true
+    },
+    "parent": "warden:warden/statistics/dungeon_clears/2_clears",
+    "criteria": {
+        "requirement": {
+        "trigger": "impossible"
+        }
+    }
+}

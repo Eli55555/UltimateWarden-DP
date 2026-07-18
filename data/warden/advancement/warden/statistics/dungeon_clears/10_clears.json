@@ -1,0 +1,24 @@
+{
+    "display":{
+        "icon":{
+            "id": "minecraft:warden_spawn_egg",
+            "components": {
+                "enchantments": {
+                    "unbreaking": 1
+                }
+            }
+        },
+        "hidden": false,
+        "title": {"translate": "ultimate_warden.advancements.statistics.dungeon_clears.10_clears.title", "fallback": "Are You Living Here?"},
+        "description": {"translate": "ultimate_warden.advancements.statistics.dungeon_clears.10_clears.description", "fallback": "Clear the dungeon ten times"},
+        "frame": "challenge",
+        "announce_to_chat": true,
+        "show_toast": true
+    },
+    "parent": "warden:warden/statistics/dungeon_clears/5_clears",
+    "criteria": {
+        "requirement": {
+        "trigger": "impossible"
+        }
+    }
+}

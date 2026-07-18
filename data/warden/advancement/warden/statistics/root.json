@@ -1,0 +1,18 @@
+{
+    "display":{
+        "icon":{
+            "id": "minecraft:writable_book"
+        },
+        "hidden": false,
+        "title": {"translate": "ultimate_warden.advancements.statistics.root.title", "fallback": "Statistics"},
+        "description": {"translate": "ultimate_warden.advancements.statistics.root.description", "fallback": "Can you grind?"},
+        "frame": "goal",
+        "announce_to_chat": false
+    },
+    "parent": "warden:warden/root",
+    "criteria": {
+        "requirement": {
+        "trigger": "impossible"
+        }
+    }
+}

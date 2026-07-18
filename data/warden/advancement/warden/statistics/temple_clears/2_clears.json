@@ -1,0 +1,24 @@
+{
+    "display":{
+        "icon":{
+            "id": "minecraft:soul_lantern",
+            "components": {
+                "enchantments": {
+                    "unbreaking": 1
+                }
+            }
+        },
+        "hidden": false,
+        "title": {"translate": "ultimate_warden.advancements.statistics.temple_clears.2_clears.title", "fallback": "I've played these games before"},
+        "description": {"translate": "ultimate_warden.advancements.statistics.temple_clears.2_clears.description", "fallback": "Clear the temple twice"},
+        "frame": "task",
+        "announce_to_chat": true,
+        "show_toast": true
+    },
+    "parent": "warden:warden/statistics/root",
+    "criteria": {
+        "requirement": {
+        "trigger": "impossible"
+        }
+    }
+}
