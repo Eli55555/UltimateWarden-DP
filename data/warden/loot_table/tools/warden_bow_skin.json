@@ -1,46 +1,69 @@
 {
-    "pools": [
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
         {
-            "rolls": 1,
-            "entries": [
-                {
-                    "type": "minecraft:item",
-                    "name": "nautilus_shell",
-                    "functions": [
-                        {
-                            "function": "set_components",
-                            "components": {
-                                "custom_name": [{"translate":"ultimate_warden.temple.weapon.warden_bow.skin","fallback": "Warden Bow - Skin","color": "dark_blue"}],
-                                "custom_data": {
-                                    "warden_bow_skin":1,
-                                    "warden_skin": 1
-                                },
-                                "item_model": "ultimate_warden:warden_bow_skin",
-                                "lore": [
-                                    {"text": ""},
-                                    {"translate":"ultimate_warden.temple.weapon.warden_bow.skin.lore.1", "fallback": "Right click this in your offhand while holding a Bow to apply"},
-                                    {"translate":"ultimate_warden.temple.weapon.warden_bow.skin.lore.2", "fallback": "the Power of the Warden to your Bow. Your Bow will get:"},
-                                    {"translate":"ultimate_warden.temple.weapon.warden_bow.skin.lore.3", "fallback": "» A Custom Model"},
-                                    {"translate":"ultimate_warden.temple.weapon.warden_bow.skin.lore.4", "fallback": "» Power V"},
-                                    {"translate":"ultimate_warden.temple.weapon.warden_bow.skin.lore.5", "fallback": "» Warden Bow"}
-                                ],
-                                "consumable": {
-                                    "consume_seconds": 5555555555
-                                },
-                                "enchantments": {
-                                    "unbreaking": 1
-                                },
-                                "tooltip_display": {
-                                    "hidden_components": [
-                                        "enchantments"
-                                    ]
-                                },
-                                "max_stack_size": 1
-                            }
-                        }
-                    ]
-                }
-            ]
+          "type": "minecraft:item",
+          "name": "nautilus_shell",
+          "functions": [
+            {
+              "function": "set_components",
+              "components": {
+                "custom_name": [
+                  {
+                    "translate": "ultimate_warden.temple.weapon.warden_bow.skin",
+                    "fallback": "Warden Bow - Skin",
+                    "color": "dark_blue"
+                  }
+                ],
+                "custom_data": {
+                  "warden_bow_skin": 1,
+                  "warden_skin": 1
+                },
+                "item_model": "ultimate_warden:warden_bow_skin",
+                "lore": [
+                  {
+                    "text": ""
+                  },
+                  {
+                    "translate": "ultimate_warden.temple.weapon.warden_bow.skin.lore.1",
+                    "fallback": "Right click this in your offhand while holding a Bow to apply"
+                  },
+                  {
+                    "translate": "ultimate_warden.temple.weapon.warden_bow.skin.lore.2",
+                    "fallback": "the Power of the Warden to your Bow. Your Bow will get:"
+                  },
+                  {
+                    "translate": "ultimate_warden.temple.weapon.warden_bow.skin.lore.3",
+                    "fallback": "» A Custom Model"
+                  },
+                  {
+                    "translate": "ultimate_warden.temple.weapon.warden_bow.skin.lore.4",
+                    "fallback": "» Power V"
+                  },
+                  {
+                    "translate": "ultimate_warden.temple.weapon.warden_bow.skin.lore.5",
+                    "fallback": "» Warden Bow"
+                  }
+                ],
+                "consumable": {
+                  "consume_seconds": 5555555555
+                },
+                "enchantments": {
+                  "unbreaking": 1
+                },
+                "tooltip_display": {
+                  "hidden_components": [
+                    "enchantments"
+                  ]
+                },
+                "max_stack_size": 1
+              }
+            }
+          ]
         }
-    ]
+      ]
+    }
+  ]
 }

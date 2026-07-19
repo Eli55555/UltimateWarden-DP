@@ -1,0 +1,186 @@
+{
+  "type": "minecraft:multi_action",
+  "title": "Debug » Give » Skins/Tools",
+  "pause": false,
+  "columns": 3,
+  "actions": [
+    {
+      "label": [
+        {
+          "type": "object",
+          "object": "atlas",
+          "atlas": "minecraft:items",
+          "sprite": "ultimate_warden:item/warden_sword_skin_icon"
+        },
+        " Warden Sword Skin ",
+        {
+          "type": "object",
+          "object": "atlas",
+          "atlas": "minecraft:items",
+          "sprite": "ultimate_warden:item/warden_sword_skin_icon"
+        }
+      ],
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot warden:tools/warden_sword_skin"
+      }
+    },
+    {
+      "label": [
+        {
+          "type": "object",
+          "object": "atlas",
+          "atlas": "minecraft:items",
+          "sprite": "ultimate_warden:item/warden_pickaxe_skin_icon"
+        },
+        " Warden Pickaxe Skin ",
+        {
+          "type": "object",
+          "object": "atlas",
+          "atlas": "minecraft:items",
+          "sprite": "ultimate_warden:item/warden_pickaxe_skin_icon"
+        }
+      ],
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot warden:tools/warden_pickaxe_skin"
+      }
+    },
+    {
+      "label": [
+        {
+          "type": "object",
+          "object": "atlas",
+          "atlas": "minecraft:items",
+          "sprite": "ultimate_warden:item/warden_axe_skin_icon"
+        },
+        " Warden Axe Skin ",
+        {
+          "type": "object",
+          "object": "atlas",
+          "atlas": "minecraft:items",
+          "sprite": "ultimate_warden:item/warden_axe_skin_icon"
+        }
+      ],
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot warden:tools/warden_axe_skin"
+      }
+    },
+    {
+      "label": [
+        {
+          "type": "object",
+          "object": "atlas",
+          "atlas": "minecraft:items",
+          "sprite": "ultimate_warden:item/warden_sword_icon"
+        },
+        " Warden Sword ",
+        {
+          "type": "object",
+          "object": "atlas",
+          "atlas": "minecraft:items",
+          "sprite": "ultimate_warden:item/warden_sword_icon"
+        }
+      ],
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot warden:tools/warden_sword"
+      }
+    },
+    {
+      "label": [
+        {
+          "type": "object",
+          "object": "atlas",
+          "atlas": "minecraft:items",
+          "sprite": "ultimate_warden:item/warden_pickaxe_icon"
+        },
+        " Warden Pickaxe ",
+        {
+          "type": "object",
+          "object": "atlas",
+          "atlas": "minecraft:items",
+          "sprite": "ultimate_warden:item/warden_pickaxe_icon"
+        }
+      ],
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot warden:tools/warden_pickaxe"
+      }
+    },
+    {
+      "label": [
+        {
+          "type": "object",
+          "object": "atlas",
+          "atlas": "minecraft:items",
+          "sprite": "ultimate_warden:item/warden_axe_icon"
+        },
+        " Warden Axe ",
+        {
+          "type": "object",
+          "object": "atlas",
+          "atlas": "minecraft:items",
+          "sprite": "ultimate_warden:item/warden_axe_icon"
+        }
+      ],
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot warden:tools/warden_axe"
+      }
+    },
+    {
+      "label": [
+        {
+          "type": "object",
+          "object": "atlas",
+          "atlas": "minecraft:items",
+          "sprite": "ultimate_warden:item/warden_bow_skin_icon"
+        },
+        " Warden Bow Skin ",
+        {
+          "type": "object",
+          "object": "atlas",
+          "atlas": "minecraft:items",
+          "sprite": "ultimate_warden:item/warden_bow_skin_icon"
+        }
+      ],
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot warden:tools/warden_bow_skin"
+      }
+    },
+    {
+      "label": [
+        {
+          "type": "object",
+          "object": "atlas",
+          "atlas": "minecraft:items",
+          "sprite": "ultimate_warden:item/warden_bow_icon"
+        },
+        " Warden Bow ",
+        {
+          "type": "object",
+          "object": "atlas",
+          "atlas": "minecraft:items",
+          "sprite": "ultimate_warden:item/warden_bow_icon"
+        }
+      ],
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot warden:tools/warden_bow"
+      }
+    },
+    {
+      "label": {
+        "translate": "ultimate_warden.menu.button.back",
+        "fallback": "§c« Back"
+      },
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "warden:debug/give"
+      }
+    }
+  ]
+}

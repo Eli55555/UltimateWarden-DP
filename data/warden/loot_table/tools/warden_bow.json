@@ -5,26 +5,26 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "netherite_pickaxe",
+          "name": "bow",
           "functions": [
             {
               "function": "set_components",
               "components": {
                 "custom_name": [
                   {
-                    "translate": "ultimate_warden.dungeon.weapon.wardenpickaxe",
-                    "fallback": "Warden Pickaxe",
-                    "color": "blue"
+                    "translate": "ultimate_warden.dungeon.weapon.warden_bow",
+                    "fallback": "Warden Bow",
+                    "color": "dark_blue"
                   }
                 ],
                 "custom_data": {
-                  "ultimate_warden:warden_pickaxe": 1
+                  "ultimate_warden:warden_bow": 1
                 },
                 "rarity": "epic",
-                "item_model": "ultimate_warden:warden_pickaxe",
+                "item_model": "ultimate_warden:warden_bow",
                 "enchantments": {
-                  "mending": 1,
-                  "efficiency": 5
+                  "power": 5,
+                  "warden:warden_bow": 1
                 }
               }
             }

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:multi_action",
+  "title": "Ultimate Warden Debug",
+  "pause": false,
+  "actions": [
+    {
+      "label": "Give",
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "warden:debug/give"
+      }
+    }
+  ]
+}

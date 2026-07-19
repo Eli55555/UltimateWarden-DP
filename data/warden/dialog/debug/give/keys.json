@@ -1,0 +1,144 @@
+{
+  "type": "minecraft:multi_action",
+  "title": "Debug » Give » Keys",
+  "pause": false,
+  "columns": 3,
+  "actions": [
+    {
+      "label": [
+        {
+          "type": "object",
+          "object": "atlas",
+          "atlas": "minecraft:items",
+          "sprite": "ultimate_warden:item/dungeon_key"
+        },
+        " Dungeon Key ",
+        {
+          "type": "object",
+          "object": "atlas",
+          "atlas": "minecraft:items",
+          "sprite": "ultimate_warden:item/dungeon_key"
+        }
+      ],
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot warden:keys/dungeon/dungeon_key_key"
+      }
+    },
+    {
+      "label": [
+        {
+          "type": "object",
+          "object": "atlas",
+          "atlas": "minecraft:items",
+          "sprite": "ultimate_warden:item/dungeon_leave_key"
+        },
+        " Dungeon Home Key ",
+        {
+          "type": "object",
+          "object": "atlas",
+          "atlas": "minecraft:items",
+          "sprite": "ultimate_warden:item/dungeon_leave_key"
+        }
+      ],
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot warden:keys/dungeon/home_key"
+      }
+    },
+    {
+      "label": [
+        {
+          "type": "object",
+          "object": "atlas",
+          "atlas": "minecraft:items",
+          "sprite": "ultimate_warden:item/dungeon_boss_key"
+        },
+        " Dungeon Boss Key ",
+        {
+          "type": "object",
+          "object": "atlas",
+          "atlas": "minecraft:items",
+          "sprite": "ultimate_warden:item/dungeon_boss_key"
+        }
+      ],
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot warden:keys/dungeon/boss_key"
+      }
+    },
+    {
+      "label": [
+        {
+          "type": "object",
+          "object": "atlas",
+          "atlas": "minecraft:items",
+          "sprite": "ultimate_warden:item/dungeon_vault_normal_key"
+        },
+        " Dungeon Vault Key ",
+        {
+          "type": "object",
+          "object": "atlas",
+          "atlas": "minecraft:items",
+          "sprite": "ultimate_warden:item/dungeon_vault_normal_key"
+        }
+      ],
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot warden:dungeon/spawner/loot/key_normal"
+      }
+    },
+    {
+      "label": [
+        {
+          "type": "object",
+          "object": "atlas",
+          "atlas": "minecraft:items",
+          "sprite": "ultimate_warden:item/dungeon_vault_ominous_key"
+        },
+        " Dungeon Ominous Key ",
+        {
+          "type": "object",
+          "object": "atlas",
+          "atlas": "minecraft:items",
+          "sprite": "ultimate_warden:item/dungeon_vault_ominous_key"
+        }
+      ],
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot warden:dungeon/spawner/loot/key_ominous"
+      }
+    },
+    {
+      "label": [
+        {
+          "type": "object",
+          "object": "atlas",
+          "atlas": "minecraft:items",
+          "sprite": "ultimate_warden:item/temple_key"
+        },
+        " Temple Key ",
+        {
+          "type": "object",
+          "object": "atlas",
+          "atlas": "minecraft:items",
+          "sprite": "ultimate_warden:item/temple_key"
+        }
+      ],
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot warden:keys/temple/temple_key"
+      }
+    },
+    {
+      "label": {
+        "translate": "ultimate_warden.menu.button.back",
+        "fallback": "§c« Back"
+      },
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "warden:debug/give"
+      }
+    }
+  ]
+}

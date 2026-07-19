@@ -1,0 +1,59 @@
+{
+  "type": "minecraft:multi_action",
+  "title": "Debug » Give",
+  "pause": false,
+  "actions": [
+    {
+      "label": [
+        {
+          "type": "object",
+          "object": "atlas",
+          "atlas": "minecraft:items",
+          "sprite": "ultimate_warden:item/warden_sword_icon"
+        },
+        " Skins/Tools ",
+        {
+          "type": "object",
+          "object": "atlas",
+          "atlas": "minecraft:items",
+          "sprite": "ultimate_warden:item/warden_sword_skin_icon"
+        }
+    ],
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "warden:debug/give/skins"
+      }
+    },
+    {
+      "label": [
+        {
+          "type": "object",
+          "object": "atlas",
+          "atlas": "minecraft:items",
+          "sprite": "ultimate_warden:item/dungeon_key"
+        },
+        " Keys ",
+        {
+          "type": "object",
+          "object": "atlas",
+          "atlas": "minecraft:items",
+          "sprite": "ultimate_warden:item/temple_key"
+        }
+    ],
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "warden:debug/give/keys"
+      }
+    },
+    {
+      "label": {
+        "translate": "ultimate_warden.menu.button.back",
+        "fallback": "§c« Back"
+      },
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "warden:debug"
+      }
+    }
+  ]
+}
