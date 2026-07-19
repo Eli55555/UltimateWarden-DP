@@ -4,14 +4,42 @@
   "pause": false,
   "actions": [
     {
-      "label": "Give",
+      "label": [
+        {
+          "type": "object",
+          "object": "atlas",
+          "atlas": "minecraft:blocks",
+          "sprite": "block/command_block_front"
+        },
+        " Give ",
+        {
+          "type": "object",
+          "object": "atlas",
+          "atlas": "minecraft:blocks",
+          "sprite": "block/repeating_command_block_front"
+        }
+      ],
       "action": {
         "type": "minecraft:show_dialog",
         "dialog": "warden:debug/give"
       }
     },
     {
-      "label": "Advancements",
+      "label": [
+        {
+          "type": "object",
+          "object": "atlas",
+          "atlas": "minecraft:items",
+          "sprite": "item/golden_apple"
+        },
+        " Advancements ",
+        {
+          "type": "object",
+          "object": "atlas",
+          "atlas": "minecraft:items",
+          "sprite": "item/barrier"
+        }
+      ],
       "action": {
         "type": "minecraft:show_dialog",
         "dialog": "warden:debug/advancements"
