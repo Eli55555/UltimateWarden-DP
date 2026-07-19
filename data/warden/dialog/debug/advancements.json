@@ -9,19 +9,20 @@
           "type": "object",
           "object": "atlas",
           "atlas": "minecraft:items",
-          "sprite": "ultimate_warden:item/warden_sword_icon"
+          "sprite": "item/golden_apple"
         },
-        " Skins/Tools ",
+        " Grant Every Advancement ",
         {
           "type": "object",
           "object": "atlas",
           "atlas": "minecraft:items",
-          "sprite": "ultimate_warden:item/warden_sword_skin_icon"
+          "sprite": "item/golden_apple"
         }
       ],
+      "width": 200,
       "action": {
-        "type": "minecraft:show_dialog",
-        "dialog": "warden:debug/give/skins"
+        "type": "minecraft:run_command",
+        "command": "function warden:debug/grant_every_advancement"
       }
     },
     {
@@ -30,19 +31,20 @@
           "type": "object",
           "object": "atlas",
           "atlas": "minecraft:items",
-          "sprite": "ultimate_warden:item/dungeon_key"
+          "sprite": "item/barrier"
         },
-        " Keys ",
+        " Revoke Every Advancement ",
         {
           "type": "object",
           "object": "atlas",
           "atlas": "minecraft:items",
-          "sprite": "ultimate_warden:item/temple_key"
+          "sprite": "item/barrier"
         }
       ],
+      "width": 200,
       "action": {
-        "type": "minecraft:show_dialog",
-        "dialog": "warden:debug/give/keys"
+        "type": "minecraft:run_command",
+        "command": "function warden:debug/revoke_every_advancement"
       }
     },
     {
