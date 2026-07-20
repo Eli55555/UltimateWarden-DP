@@ -2,7 +2,7 @@
   "description": {
     "translate": "enchantment.ultimate_warden.warden_bow",
     "fallback": "Warden Bow",
-    "color": "dark_blue"
+    "color": "blue"
   },
   "supported_items": "#minecraft:enchantable/bow",
   "weight": 4,

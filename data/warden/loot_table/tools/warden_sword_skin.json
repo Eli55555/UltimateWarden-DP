@@ -11,11 +11,12 @@
             {
               "function": "set_components",
               "components": {
-                "custom_name": [
+                "item_name": [
                   {
-                    "translate": "ultimate_warden.dungeon.weapon.wardensword.skin",
+                    "translate": "ultimate_warden.tools.warden_sword.skin",
                     "fallback": "Warden Sword - Skin",
-                    "color": "dark_blue"
+                    "color": "dark_blue",
+                    "italic": false
                   }
                 ],
                 "custom_data": {
@@ -27,26 +28,58 @@
                   {
                     "text": ""
                   },
-                  {
-                    "translate": "ultimate_warden.dungeon.weapon.wardensword.skin.lore.1",
-                    "fallback": "Right click this in your offhand while holding a Sword to apply"
-                  },
-                  {
-                    "translate": "ultimate_warden.dungeon.weapon.wardensword.skin.lore.2",
-                    "fallback": "the Power of the Warden to your Sword. Your Sword will get:"
-                  },
-                  {
-                    "translate": "ultimate_warden.dungeon.weapon.wardensword.skin.lore.3",
-                    "fallback": "» A Custom Model"
-                  },
-                  {
-                    "translate": "ultimate_warden.dungeon.weapon.wardensword.skin.lore.4",
-                    "fallback": "» Sharpness V"
-                  },
-                  {
-                    "translate": "ultimate_warden.dungeon.weapon.wardensword.skin.lore.5",
-                    "fallback": "» Warden Slayer IV"
-                  }
+                  [
+                    {
+                      "translate": "ultimate_warden.tools.warden_sword.skin.lore.1",
+                      "fallback": "Right click this in your offhand while holding a Sword",
+                      "color": "blue",
+                      "italic": false
+                    }
+                  ],
+                  [
+                    {
+                      "translate": "ultimate_warden.tools.warden_sword.skin.lore.2",
+                      "fallback": "to apply this Skin to your Sword. Your Sword will get:",
+                      "color": "blue",
+                      "italic": false
+                    }
+                  ],
+                  [
+                    {
+                      "text": "↪ ",
+                      "color": "dark_gray",
+                      "italic": false
+                    },
+                    {
+                      "translate": "ultimate_warden.tools.warden_sword.skin.lore.3",
+                      "fallback": "A Custom Model",
+                      "color": "gray"
+                    }
+                  ],
+                  [
+                    {
+                      "text": "↪ ",
+                      "color": "dark_gray",
+                      "italic": false
+                    },
+                    {
+                      "translate": "ultimate_warden.tools.warden_sword.skin.lore.4",
+                      "fallback": "Sharpness V",
+                      "color": "gray"
+                    }
+                  ],
+                  [
+                    {
+                      "text": "↪ ",
+                      "color": "dark_gray",
+                      "italic": false
+                    },
+                    {
+                      "translate": "ultimate_warden.tools.warden_sword.skin.lore.5",
+                      "fallback": "Warden Slayer IV",
+                      "color": "gold"
+                    }
+                  ]
                 ],
                 "consumable": {
                   "consume_seconds": 5555555555

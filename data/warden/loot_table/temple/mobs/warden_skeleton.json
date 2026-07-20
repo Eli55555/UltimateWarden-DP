@@ -22,11 +22,12 @@
             {
               "function": "set_components",
               "components": {
-                "custom_name": [
+                "item_name": [
                   {
-                    "translate": "ultimate_warden.temple.weapon.warden_bow.skin",
+                    "translate": "ultimate_warden.tools.warden_bow.skin",
                     "fallback": "Warden Bow - Skin",
-                    "color": "dark_blue"
+                    "color": "dark_blue",
+                    "italic": false
                   }
                 ],
                 "custom_data": {
@@ -38,26 +39,58 @@
                   {
                     "text": ""
                   },
-                  {
-                    "translate": "ultimate_warden.temple.weapon.warden_bow.skin.lore.1",
-                    "fallback": "Right click this in your offhand while holding a Bow to apply"
-                  },
-                  {
-                    "translate": "ultimate_warden.temple.weapon.warden_bow.skin.lore.2",
-                    "fallback": "the Power of the Warden to your Bow. Your Bow will get:"
-                  },
-                  {
-                    "translate": "ultimate_warden.temple.weapon.warden_bow.skin.lore.3",
-                    "fallback": "» A Custom Model"
-                  },
-                  {
-                    "translate": "ultimate_warden.temple.weapon.warden_bow.skin.lore.4",
-                    "fallback": "» Power V"
-                  },
-                  {
-                    "translate": "ultimate_warden.temple.weapon.warden_bow.skin.lore.5",
-                    "fallback": "» Warden Bow"
-                  }
+                  [
+                    {
+                      "translate": "ultimate_warden.tools.warden_bow.skin.lore.1",
+                      "fallback": "Right click this in your offhand while holding a Bow",
+                      "color": "blue",
+                      "italic": false
+                    }
+                  ],
+                  [
+                    {
+                      "translate": "ultimate_warden.tools.warden_bow.skin.lore.2",
+                      "fallback": "to apply this Skin to your Bow. Your Bow will get:",
+                      "color": "blue",
+                      "italic": false
+                    }
+                  ],
+                  [
+                    {
+                      "text": "↪ ",
+                      "color": "dark_gray",
+                      "italic": false
+                    },
+                    {
+                      "translate": "ultimate_warden.tools.warden_bow.skin.lore.3",
+                      "fallback": "A Custom Model",
+                      "color": "gray"
+                    }
+                  ],
+                  [
+                    {
+                      "text": "↪ ",
+                      "color": "dark_gray",
+                      "italic": false
+                    },
+                    {
+                      "translate": "ultimate_warden.tools.warden_bow.skin.lore.4",
+                      "fallback": "Power V",
+                      "color": "gray"
+                    }
+                  ],
+                  [
+                    {
+                      "text": "↪ ",
+                      "color": "dark_gray",
+                      "italic": false
+                    },
+                    {
+                      "translate": "ultimate_warden.tools.warden_bow.skin.lore.5",
+                      "fallback": "Warden Bow",
+                      "color": "blue"
+                    }
+                  ]
                 ],
                 "consumable": {
                   "consume_seconds": 5555555555
