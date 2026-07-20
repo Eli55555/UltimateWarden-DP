@@ -10,17 +10,15 @@
             {
               "function": "set_components",
               "components": {
-                "custom_name": [
-                  {
-                    "translate": "ultimate_warden.dungeon.weapon.wardensword",
-                    "fallback": "Warden Sword",
-                    "color": "dark_blue"
-                  }
-                ],
+                "item_name": {
+                  "translate": "ultimate_warden.tools.warden_sword",
+                  "fallback": "Warden Sword",
+                  "color": "dark_blue",
+                  "italic": false
+                },
                 "custom_data": {
                   "ultimate_warden:warden_sword": 1
                 },
-                "rarity": "epic",
                 "item_model": "ultimate_warden:warden_sword",
                 "enchantments": {
                   "warden:warden_slayer": 4,

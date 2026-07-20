@@ -2,30 +2,17 @@
   {
     "function": "minecraft:set_components",
     "components": {
-      "minecraft:item_model": "ultimate_warden:warden_axe"
-    },
-    "conditions": []
-  },
-  {
-    "function": "minecraft:set_enchantments",
-    "enchantments": {
-      "minecraft:sharpness": 5,
-      "minecraft:efficiency": 5
-    },
-    "add": false,
-    "conditions": []
-  },
-  {
-    "function": "minecraft:set_name",
-    "name": {
-      "translate": "ultimate_warden.dungeon.weapon.wardenaxe",
-      "fallback": "Warden Axe",
-      "color": "dark_blue"
-    }
-  },
-  {
-    "function": "minecraft:set_components",
-    "components": {
+      "item_name": {
+        "translate": "ultimate_warden.tools.warden_axe",
+        "fallback": "Warden Axe",
+        "color": "dark_blue",
+        "italic": false
+      },
+      "minecraft:item_model": "ultimate_warden:warden_axe",
+      "enchantments": {
+        "sharpness": 5,
+        "efficiency": 5
+      },
       "minecraft:custom_data": {
         "ultimate_warden:warden_axe": 1
       }

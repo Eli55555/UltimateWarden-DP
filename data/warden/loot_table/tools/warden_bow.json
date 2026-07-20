@@ -10,17 +10,15 @@
             {
               "function": "set_components",
               "components": {
-                "custom_name": [
-                  {
-                    "translate": "ultimate_warden.dungeon.weapon.warden_bow",
-                    "fallback": "Warden Bow",
-                    "color": "dark_blue"
-                  }
-                ],
+                "item_name": {
+                  "translate": "ultimate_warden.tools.warden_bow",
+                  "fallback": "Warden Bow",
+                  "color": "dark_blue",
+                  "italic": false
+                },
                 "custom_data": {
                   "ultimate_warden:warden_bow": 1
                 },
-                "rarity": "epic",
                 "item_model": "ultimate_warden:warden_bow",
                 "enchantments": {
                   "power": 5,

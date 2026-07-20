@@ -10,17 +10,15 @@
             {
               "function": "set_components",
               "components": {
-                "custom_name": [
-                  {
-                    "translate": "ultimate_warden.dungeon.weapon.wardenpickaxe",
-                    "fallback": "Warden Pickaxe",
-                    "color": "blue"
-                  }
-                ],
+                "item_name": {
+                  "translate": "ultimate_warden.tools.warden_pickaxe",
+                  "fallback": "Warden Pickaxe",
+                  "color": "dark_blue",
+                  "italic": false
+                },
                 "custom_data": {
                   "ultimate_warden:warden_pickaxe": 1
                 },
-                "rarity": "epic",
                 "item_model": "ultimate_warden:warden_pickaxe",
                 "enchantments": {
                   "mending": 1,
