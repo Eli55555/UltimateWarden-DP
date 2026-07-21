@@ -44,6 +44,69 @@
         "type": "minecraft:show_dialog",
         "dialog": "warden:debug/advancements"
       }
+    },
+    {
+      "label": [
+        {
+          "type": "object",
+          "object": "atlas",
+          "atlas": "minecraft:blocks",
+          "sprite": "block/sculk"
+        },
+        " Dungeon ",
+        {
+          "type": "object",
+          "object": "atlas",
+          "atlas": "minecraft:blocks",
+          "sprite": "block/sculk"
+        }
+      ],
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "warden:debug/dungeon"
+      }
+    },
+    {
+      "label": [
+        {
+          "type": "object",
+          "object": "atlas",
+          "atlas": "minecraft:blocks",
+          "sprite": "block/structure_block"
+        },
+        " Temple ",
+        {
+          "type": "object",
+          "object": "atlas",
+          "atlas": "minecraft:items",
+          "sprite": "item/wither_skeleton_spawn_egg"
+        }
+      ],
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "warden:debug/temple"
+      }
+    },
+    {
+      "label": [
+        {
+          "type": "object",
+          "object": "atlas",
+          "atlas": "minecraft:items",
+          "sprite": "item/barrier"
+        },
+        " Reset ",
+        {
+          "type": "object",
+          "object": "atlas",
+          "atlas": "minecraft:items",
+          "sprite": "item/barrier"
+        }
+      ],
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "warden:debug/reset"
+      }
     }
   ]
 }

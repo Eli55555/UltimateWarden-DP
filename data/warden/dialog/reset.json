@@ -1,5 +1,5 @@
 {
-  "type": "notice",
+  "type": "minecraft:confirmation",
   "title": "Ultimate Warden Reset",
   "inputs": [
     {
@@ -63,13 +63,20 @@
       ]
     }
   ],
-  "action": {
+  "yes": {
     "label": {
-      "text": "Confirm"
+      "text": "Confirm",
+      "color": "green"
     },
     "action": {
       "type": "dynamic/run_command",
       "template": "function warden:reset/reset {warden_dungeon_reset:$(warden_dungeon_reset),warden_temple_reset:$(warden_temple_reset),warden_advancements_reset:$(warden_advancements_reset),warden_scoreboard_reset:$(warden_scoreboard_reset)}"
+    }
+  },
+  "no": {
+    "label": {
+      "text": "Cancel",
+      "color": "red"
     }
   }
 }

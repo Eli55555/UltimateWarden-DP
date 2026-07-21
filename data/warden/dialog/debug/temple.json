@@ -1,0 +1,61 @@
+{
+  "type": "minecraft:multi_action",
+  "title": "Debug » Temple",
+  "pause": false,
+  "actions": [
+    {
+      "label": [
+        {
+          "type": "object",
+          "object": "atlas",
+          "atlas": "minecraft:blocks",
+          "sprite": "block/structure_block"
+        },
+        " Rebuild ",
+        {
+          "type": "object",
+          "object": "atlas",
+          "atlas": "minecraft:blocks",
+          "sprite": "block/structure_block"
+        }
+      ],
+      "width": 200,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "function warden:debug/temple/rebuild"
+      }
+    },
+    {
+      "label": [
+        {
+          "type": "object",
+          "object": "atlas",
+          "atlas": "minecraft:items",
+          "sprite": "item/wither_skeleton_spawn_egg"
+        },
+        " Spawn Warden Skeleton ",
+        {
+          "type": "object",
+          "object": "atlas",
+          "atlas": "minecraft:items",
+          "sprite": "item/wither_skeleton_spawn_egg"
+        }
+      ],
+      "width": 200,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "function warden:debug/temple/spawn_warden_skeleton"
+      }
+    },
+    {
+      "label": {
+        "translate": "ultimate_warden.menu.button.back",
+        "fallback": "§c« Back"
+      },
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "warden:debug"
+      }
+    }
+  ]
+}
