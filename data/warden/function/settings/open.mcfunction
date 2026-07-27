@@ -1,5 +1,5 @@
 $dialog show @s {\
-  "type": "minecraft:notice",\
+  "type": "minecraft:confirmation",\
   "title": {"text": "Ultimate Warden Settings"},\
   "inputs": [\
     {\
@@ -11,7 +11,7 @@ $dialog show @s {\
     {\
       "type": "minecraft:single_option",\
       "key": "bossbar_activated",\
-      "label": "Bossbar",\
+      "label": "Warden Bossbar",\
       "options": $(bossbar_activated)\
     },\
     {\
@@ -27,11 +27,20 @@ $dialog show @s {\
       "options": $(temple_activated)\
     }\
   ],\
-  "action": {\
-    "label": "Confirm",\
+  "yes": {\
+    "label": {\
+      "text": "Confirm",\
+      "color": "green"\
+    },\
     "action": {\
       "type": "dynamic/run_command",\
       "template": "function warden:settings/change_settings {load_message_activated:\u0024(load_message_activated),bossbar_activated:\u0024(bossbar_activated),dungeon_activated:\u0024(dungeon_activated),temple_activated:\u0024(temple_activated)}"\
+    }\
+  },\
+  "no": {\
+    "label": {\
+      "text": "Cancel",\
+      "color": "red"\
     }\
   }\
 }
