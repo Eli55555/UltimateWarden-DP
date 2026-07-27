@@ -105,7 +105,7 @@
       ],
       "action": {
         "type": "minecraft:show_dialog",
-        "dialog": "warden:debug/reset"
+        "dialog": "warden:reset"
       }
     }
   ]

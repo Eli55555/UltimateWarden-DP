@@ -1,6 +1,6 @@
 {
   "type": "minecraft:confirmation",
-  "title": "Ultimate Warden Reset",
+  "title": "Debug » Reset",
   "inputs": [
     {
       "type": "minecraft:single_option",

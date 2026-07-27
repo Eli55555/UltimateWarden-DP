@@ -1,1 +1,1 @@
-dialog show @s warden:debug/reset
+dialog show @s warden:reset
