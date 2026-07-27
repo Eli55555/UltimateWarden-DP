@@ -8,6 +8,7 @@ execute in warden:ultimatewarden run forceload add -143 22 -147 26
 
 # Key Timer
 function warden:keys/dungeon_key/timer
+function warden:keys/dungeon_boss_key/timer
 function warden:keys/home_key/timer
 function warden:keys/temple_key/timer
 

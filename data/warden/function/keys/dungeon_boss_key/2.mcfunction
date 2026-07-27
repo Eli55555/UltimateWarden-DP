@@ -1,8 +1,12 @@
-scoreboard players set ultimatewarden warden_dungeon_boss_key_debug 1
 
-execute if entity @a[tag=warden_dungeon_boss_key] run tellraw @a[tag=warden_dungeon_boss_key] [{"text":"[Ultimate Warden] ","bold":true,"color":"blue"},{"translate":"ultimate_warden.dungeon.boss.raum.spawn.massage.1","fallback":"There is no way back...","color":"dark_red",bold:false}]
+execute if score ultimatewarden warden_dungeon_activated matches 1 run execute in warden:ultimatewarden run place template warden:dungeon.boss.room -29 78 82 180
+execute in warden:ultimatewarden run tp @a[tag=uw.dungeon] -32 80 63
+execute in warden:ultimatewarden at @s run spawnpoint @a[tag=uw.dungeon] -32 80 63
 
-execute unless entity @a[tag=warden_dungeon_boss_key] run scoreboard players set ultimatewarden warden_dungeon_boss_key 0
-execute unless entity @a[tag=warden_dungeon_boss_key] run scoreboard players set ultimatewarden warden_dungeon_boss_key_debug 0
 
-execute if entity @a[tag=warden_dungeon_boss_key] run schedule function warden:keys/dungeon_boss_key/3 10s
+advancement grant @a[tag=uw.dungeon] only warden:warden/dungeon/bossroom_enter
+execute if score ultimatewarden warden_dungeon_activated matches 1 run scoreboard players set ultimatewarden warden_dungeon_activated 2
+clear @s nautilus_shell[custom_data={warden_boss_key:1b}]
+
+
+execute if score ultimatewarden warden_dungeon_activated matches 2 run schedule function warden:dungeon/boss/fight/spawn_boss 1s

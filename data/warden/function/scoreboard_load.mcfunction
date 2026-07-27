@@ -17,6 +17,7 @@ scoreboard objectives add warden.statistics.temple.clears dummy
 
 # Keys
 scoreboard objectives add warden.key.dungeon_key dummy
+scoreboard objectives add warden.key.dungeon.boss_key dummy
 scoreboard objectives add warden.key.home_key dummy
 scoreboard objectives add warden.key.temple_key dummy
 
@@ -24,10 +25,6 @@ scoreboard objectives add warden.key.temple_key dummy
 scoreboard objectives add warden_dungeon_activated dummy
 
 scoreboard objectives add warden_dungeon_leave_key dummy
-
-
-scoreboard objectives add warden_dungeon_boss_key dummy
-scoreboard objectives add warden_dungeon_boss_key_debug dummy
 
 scoreboard objectives add warden.dungeon.close_dungeon.active dummy
 scoreboard objectives add warden.dungeon.close_dungeon.timer dummy
@@ -78,6 +75,7 @@ scoreboard objectives add warden.settings.temple_activated dummy
 scoreboard players add ultimatewarden warden.version 0
 
 scoreboard players add @a warden.key.dungeon_key 0
+scoreboard players add @a warden.key.dungeon.boss_key 0
 scoreboard players add @a warden.key.home_key 0
 scoreboard players add @a warden.key.temple_key 0
 
@@ -85,9 +83,6 @@ scoreboard players add @a warden.key.temple_key 0
 scoreboard players add ultimatewarden warden_dungeon_activated 0
 
 scoreboard players add ultimatewarden warden_dungeon_leave_key 0
-
-scoreboard players add ultimatewarden warden_dungeon_boss_key 0
-scoreboard players add ultimatewarden warden_dungeon_boss_key_debug 0
 
 scoreboard players add ultimatewarden warden.dungeon.close_dungeon.active 0
 scoreboard players add ultimatewarden warden.dungeon.close_dungeon.timer 0

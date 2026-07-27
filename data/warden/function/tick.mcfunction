@@ -1,5 +1,4 @@
 function warden:bossbar/bossbar_tick
-function warden:keys/key_tick
 function warden:menu/trigger_manager
 
 function warden:advancements
