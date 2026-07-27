@@ -16,6 +16,12 @@ $dialog show @s {\
     },\
     {\
       "type": "minecraft:single_option",\
+      "key": "bossbar_amount",\
+      "label": "Bossbar Amount",\
+      "options": $(bossbar_amount)\
+    },\
+    {\
+      "type": "minecraft:single_option",\
       "key": "dungeon_activated",\
       "label": "Dungeon",\
       "options": $(dungeon_activated)\
@@ -34,7 +40,7 @@ $dialog show @s {\
     },\
     "action": {\
       "type": "dynamic/run_command",\
-      "template": "function warden:settings/change_settings {load_message_activated:\u0024(load_message_activated),bossbar_activated:\u0024(bossbar_activated),dungeon_activated:\u0024(dungeon_activated),temple_activated:\u0024(temple_activated)}"\
+      "template": "function warden:settings/change_settings {load_message_activated:\u0024(load_message_activated),bossbar_activated:\u0024(bossbar_activated),bossbar_amount:\u0024(bossbar_amount),dungeon_activated:\u0024(dungeon_activated),temple_activated:\u0024(temple_activated)}"\
     }\
   },\
   "no": {\

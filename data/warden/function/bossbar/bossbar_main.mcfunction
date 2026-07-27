@@ -1,7 +1,7 @@
 # Bossbar Tag
 execute if score ultimatewarden warden.settings.bossbar_activated matches 0 run tag @e[type=warden] add warden.bossbar
 execute if score ultimatewarden warden.settings.bossbar_activated matches 1 run tag @e[type=warden,tag=!elite_warden] remove warden.bossbar
-tag @e[type=warden,tag=elite_warden] add warden.bossbar
+execute if score ultimatewarden warden.settings.bossbar_activated matches 1 run tag @e[type=warden,tag=elite_warden] add warden.bossbar
 tag @e[type=wither_skeleton,tag=warden_skeleton] add warden.bossbar
 
 
