@@ -1,5 +1,4 @@
 {
-    "values": [
-        "warden:tick"
-    ]    
+	"replace": false,
+	"values": ["animated_java:global/data_manager/on_tick", "warden:tick", "animated_java:global/on_tick"]
 }

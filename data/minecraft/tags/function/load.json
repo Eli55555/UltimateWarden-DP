@@ -1,6 +1,4 @@
 {
-    "replace":false,
-    "values": [
-        "warden:load"
-    ]    
+	"replace": false,
+	"values": ["animated_java:global/on_load", "warden:load"]
 }
