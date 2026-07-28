@@ -16,6 +16,16 @@
     },
     {
       "label": {
+        "translate": "ultimate_warden.menu.button.changelog",
+        "fallback": "§7Changelog"
+      },
+      "action": {
+        "type": "show_dialog",
+        "dialog": "warden:changelog"
+      }
+    },
+    {
+      "label": {
         "translate": "ultimate_warden.menu.button.credits",
         "fallback": "§8Credits"
       },

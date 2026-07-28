@@ -1,0 +1,82 @@
+{
+  "type": "minecraft:multi_action",
+  "title": [
+    {
+      "translate": "ultimate_warden.menu.button.changelog",
+      "fallback": "§7Changelog"
+    },
+    {
+      "text": " »",
+      "color": "dark_gray"
+    },
+    {
+      "text": " 0.2 - The Dungeon Update",
+      "color": "gold"
+    }
+  ],
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "✦ Warden Dungeon ✦",
+        "color": "white",
+        "bold": true
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": [
+        {
+          "text": "  ▪ A completely new dungeon themed around the Warden, featuring a challenging boss fight and unique custom weapons & enchantments",
+          "color": "gray"
+        }
+      ]
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "✦ Warden Slayer Enchantment ✦",
+        "color": "white",
+        "bold": true
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": [
+        {
+          "text": "▪ A new enchantment that increases your damage against the Warden",
+          "color": "gray"
+        }
+      ]
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "✦ Ultimate Warden ✦",
+        "color": "white",
+        "bold": true
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": [
+        {
+          "text": "▪ The Ultimate Warden is the final boss of the Warden Dungeon. He comes with fully custom attack patterns and a unique loot drop",
+          "color": "gray"
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "label": {
+        "translate": "ultimate_warden.menu.button.back",
+        "fallback": "§c« Back"
+      },
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "warden:changelog"
+      }
+    }
+  ]
+}

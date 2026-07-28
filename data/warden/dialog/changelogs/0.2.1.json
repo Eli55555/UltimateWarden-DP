@@ -1,0 +1,49 @@
+{
+  "type": "minecraft:multi_action",
+  "title": [
+    {
+      "translate": "ultimate_warden.menu.button.changelog",
+      "fallback": "§7Changelog"
+    },
+    {
+      "text": " »",
+      "color": "dark_gray"
+    },
+    {
+      "text": " 0.2.1",
+      "color": "gold"
+    }
+  ],
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "✦ Bugfixes✦",
+        "color": "white",
+        "bold": true
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": [
+        {
+          "text": "  ▪ Dungeon Leave Key",
+          "color": "gray"
+        }
+      ]
+    }
+  ],
+  "inputs": [],
+  "actions": [
+    {
+      "label": {
+        "translate": "ultimate_warden.menu.button.back",
+        "fallback": "§c« Back"
+      },
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "warden:changelog"
+      }
+    }
+  ]
+}

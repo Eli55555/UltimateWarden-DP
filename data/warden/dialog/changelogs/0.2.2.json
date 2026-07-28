@@ -1,0 +1,82 @@
+{
+  "type": "minecraft:multi_action",
+  "title": [
+    {
+      "translate": "ultimate_warden.menu.button.changelog",
+      "fallback": "§7Changelog"
+    },
+    {
+      "text": " »",
+      "color": "dark_gray"
+    },
+    {
+      "text": " 0.2.2 - Dungeon Expansion & Improvement Update",
+      "color": "gold"
+    }
+  ],
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "✦ Dungeon Expansion & Improvements ✦",
+        "color": "white",
+        "bold": true
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": [
+        {
+          "text": "  ▪ The Warden Dungeon is now larger, with new rooms and various improvements. There are now custom trial spawners that spawn Wardens and other mobs to provide extra challenges.",
+          "color": "gray"
+        }
+      ]
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "✦ New Warden Tool ✦",
+        "color": "white",
+        "bold": true
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": [
+        {
+          "text": "▪ The Warden Pickaxe is here! It’s hidden somewhere in the dungeon, so explore carefully.",
+          "color": "gray"
+        }
+      ]
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "✦ Bugfixes ✦",
+        "color": "white",
+        "bold": true
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": [
+        {
+          "text": "▪ Dungeon Boss Room Key",
+          "color": "gray"
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "label": {
+        "translate": "ultimate_warden.menu.button.back",
+        "fallback": "§c« Back"
+      },
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "warden:changelog"
+      }
+    }
+  ]
+}

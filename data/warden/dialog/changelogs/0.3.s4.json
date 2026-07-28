@@ -1,0 +1,195 @@
+{
+  "type": "minecraft:multi_action",
+  "title": [
+    {
+      "translate": "ultimate_warden.menu.button.changelog",
+      "fallback": "§7Changelog"
+    },
+    {
+      "text": " »",
+      "color": "dark_gray"
+    },
+    {
+      "text": " 0.3 - Snapshot 4",
+      "color": "red"
+    }
+  ],
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "✦ Skin System & Warden Axe ✦",
+        "color": "white",
+        "bold": true
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": [
+        {
+          "text": "  ▪ Added the Warden Axe",
+          "color": "gray"
+        }
+      ]
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": [
+        {
+          "text": "  ▪ Introduced the Skin System",
+          "color": "gray"
+        }
+      ]
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": [
+        {
+          "text": "  ▪ Skins can now be found in the Dungeon and replace the old Warden Tools",
+          "color": "gray"
+        }
+      ]
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "✦ Temple ✦",
+        "color": "white",
+        "bold": true
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": [
+        {
+          "text": "▪ Reworked loot pool",
+          "color": "gray"
+        }
+      ]
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": [
+        {
+          "text": "▪ Warden Protection enchantment is now more common",
+          "color": "gray"
+        }
+      ]
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": [
+        {
+          "text": "▪ Warden Protection can now drop from spawners",
+          "color": "gray"
+        }
+      ]
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "✦ Warden Tools ✦",
+        "color": "white",
+        "bold": true
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": [
+        {
+          "text": "▪ Warden Tools are no longer hidden inside the dungeon",
+          "color": "gray"
+        }
+      ]
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": [
+        {
+          "text": "▪ They can now be found in dungeon chests",
+          "color": "gray"
+        }
+      ]
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "✦ Bossbar ✦",
+        "color": "white",
+        "bold": true
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": [
+        {
+          "text": "▪ Reworked the bossbar system for improved reliability",
+          "color": "gray"
+        }
+      ]
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "✦ Bugfixes ✦",
+        "color": "white",
+        "bold": true
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": [
+        {
+          "text": "▪ Fixed an issue where players did not lose the Temple & Home Key upon entering the Temple",
+          "color": "gray"
+        }
+      ]
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "▪ Fixed multiple Ultimate Warden attacks not functioning correctly",
+        "color": "gray"
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": [
+        {
+          "text": "▪ Fixed the respawn point spawning outside of the dungeon instead of inside.",
+          "color": "gray"
+        }
+      ]
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": [
+        {
+          "text": "▪ Fixed an issue where the WIP (Work in Progress) Key was not regenerated in the chest after being used",
+          "color": "gray"
+        }
+      ]
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": [
+        {
+          "text": "▪ Fixed an issue where the bossbar would stop displaying correctly",
+          "color": "gray"
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "label": {
+        "translate": "ultimate_warden.menu.button.back",
+        "fallback": "§c« Back"
+      },
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "warden:changelog"
+      }
+    }
+  ]
+}

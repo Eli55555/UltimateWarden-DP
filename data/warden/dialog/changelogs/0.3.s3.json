@@ -1,0 +1,100 @@
+{
+  "type": "minecraft:multi_action",
+  "title": [
+    {
+      "translate": "ultimate_warden.menu.button.changelog",
+      "fallback": "§7Changelog"
+    },
+    {
+      "text": " »",
+      "color": "dark_gray"
+    },
+    {
+      "text": " 0.3 - Snapshot 3",
+      "color": "red"
+    }
+  ],
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "✦ Dungeon ✦",
+        "color": "white",
+        "bold": true
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": [
+        {
+          "text": "  ▪ Added a secret passage in the dungeon library that leads to a hidden temple. You must remove a book to unlock the passage",
+          "color": "gray"
+        }
+      ]
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "✦ Temple ✦",
+        "color": "white",
+        "bold": true
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": [
+        {
+          "text": "▪ Added a new temple with featuring puzzles and unique loot.",
+          "color": "gray"
+        }
+      ]
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": [
+        {
+          "text": "▪ Note: Only the first floor is complete in this snapshot. Floor 2 and 3 will follow in future Snapshots",
+          "color": "gray"
+        }
+      ]
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": [
+        {
+          "text": "▪ At the end of Etage 1, a WIP (Work in Progress) Key is placed, allowing players to exit the temple.",
+          "color": "gray"
+        }
+      ]
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "✦ New Enchantment ✦",
+        "color": "white",
+        "bold": true
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": [
+        {
+          "text": "▪ Added a new enchantment called 'Warden Protection', which reduces damage taken from Wardens.",
+          "color": "gray"
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "label": {
+        "translate": "ultimate_warden.menu.button.back",
+        "fallback": "§c« Back"
+      },
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "warden:changelog"
+      }
+    }
+  ]
+}

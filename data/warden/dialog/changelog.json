@@ -1,0 +1,152 @@
+{
+  "type": "minecraft:multi_action",
+  "title": {
+    "translate": "ultimate_warden.menu.button.changelog",
+    "fallback": "§7Changelog"
+  },
+  "columns": 1,
+  "actions": [
+    {
+      "label": {
+        "text": "0.3 - Pre Release (Current)",
+        "color": "red"
+      },
+      "width": 200,
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "warden:changelogs/0.3.pre"
+      }
+    },
+    {
+      "label": {
+        "text": "0.3 - Snapshot 8",
+        "color": "red"
+      },
+      "width": 200,
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "warden:changelogs/0.3.s8"
+      }
+    },
+    {
+      "label": {
+        "text": "0.3 - Snapshot 7",
+        "color": "red"
+      },
+      "width": 200,
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "warden:changelogs/0.3.s7"
+      }
+    },
+    {
+      "label": {
+        "text": "0.3 - Snapshot 6",
+        "color": "red"
+      },
+      "width": 200,
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "warden:changelogs/0.3.s6"
+      }
+    },
+    {
+      "label": {
+        "text": "0.3 - Snapshot 5",
+        "color": "red"
+      },
+      "width": 200,
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "warden:changelogs/0.3.s5"
+      }
+    },
+    {
+      "label": {
+        "text": "0.3 - Snapshot 4",
+        "color": "red"
+      },
+      "width": 200,
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "warden:changelogs/0.3.s4"
+      }
+    },
+    {
+      "label": {
+        "text": "0.3 - Snapshot 3",
+        "color": "red"
+      },
+      "width": 200,
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "warden:changelogs/0.3.s3"
+      }
+    },
+    {
+      "label": {
+        "text": "0.3 - Snapshot 2",
+        "color": "red"
+      },
+      "width": 200,
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "warden:changelogs/0.3.s2"
+      }
+    },
+    {
+      "label": {
+        "text": "0.3 - Snapshot 1",
+        "color": "red"
+      },
+      "width": 200,
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "warden:changelogs/0.3.s1"
+      }
+    },
+    {
+      "label": {
+        "text": "0.2.2 - Dungeon Expansion&Improvement Update",
+        "color": "gold"
+      },
+      "width": 200,
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "warden:changelogs/0.2.2"
+      }
+    },
+    {
+      "label": {
+        "text": "0.2.1",
+        "color": "gold"
+      },
+      "width": 200,
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "warden:changelogs/0.2.1"
+      }
+    },
+    {
+      "label": {
+        "text": "0.2 - The Dungeon Update",
+        "color": "gold"
+      },
+      "width": 200,
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "warden:changelogs/0.2"
+      }
+    },
+    {
+      "label": {
+        "translate": "ultimate_warden.menu.button.back",
+        "fallback": "§c« Back"
+      },
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "warden:menu"
+      }
+    }
+  ]
+}
