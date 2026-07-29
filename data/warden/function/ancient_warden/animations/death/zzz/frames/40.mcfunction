@@ -16,12 +16,12 @@ $data merge entity $(curve26) {transformation: [-0.9013f,0f,-2.5451f,1.1527f,0f,
 $data merge entity $(curve24) {transformation: [-2.437f,0f,-1.1624f,0.573f,0f,1f,0f,0.8312f,1.1624f,0f,-2.437f,1.1267f,0f,0f,0f,1f],start_interpolation: 0,interpolation_duration: 1}
 $data merge entity $(curve23) {transformation: [-0.9013f,0f,-2.5451f,-1.1451f,0f,1f,0f,0.8312f,2.5451f,0f,-0.9013f,-0.3256f,0f,0f,0f,1f],start_interpolation: 0,interpolation_duration: 1}
 $data merge entity $(curve2) {transformation: [-2.641f,0f,-0.5614f,-0.2282f,0f,1f,0f,0.8312f,0.5614f,0f,-2.641f,-1.1543f,0f,0f,0f,1f],start_interpolation: 0,interpolation_duration: 1}
-$data merge entity $(curve3) {transformation: [0f,0f,2.7f,1.215f,0f,1f,0f,0.8312f,-2.7f,0f,0f,0.0438f,0f,0f,0f,1f],start_interpolation: 0,interpolation_duration: 1}
+$data merge entity $(curve3) {transformation: [0f,0f,2.7f,1.215f,0f,1f,0f,0.8312f,-2.7f,0f,0f,0.0437f,0f,0f,0f,1f],start_interpolation: 0,interpolation_duration: 1}
 $data merge entity $(curve4) {transformation: [-2.4761f,0f,-1.0766f,-0.5659f,0f,1f,0f,0.8312f,1.0766f,0f,-2.4761f,-1.0277f,0f,0f,0f,1f],start_interpolation: 0,interpolation_duration: 1}
 $data merge entity $(curve5) {transformation: [-2.641f,0f,0.5614f,0.2282f,0f,1f,0f,0.8312f,-0.5614f,0f,-2.641f,-1.1543f,0f,0f,0f,1f],start_interpolation: 0,interpolation_duration: 1}
 $data merge entity $(curve6) {transformation: [-2.4267f,0f,-1.1836f,-0.6998f,0f,1f,0f,0.8312f,1.1836f,0f,-2.4267f,-0.9526f,0f,0f,0f,1f],start_interpolation: 0,interpolation_duration: 1}
 $data merge entity $(curve8) {transformation: [-1.9092f,0f,-1.9092f,-0.8548f,0f,1f,0f,0.8312f,1.9092f,0f,-1.9092f,-0.8256f,0f,0f,0f,1f],start_interpolation: 0,interpolation_duration: 1}
-$data merge entity $(curve10) {transformation: [0f,0f,-2.7f,-1.215f,0f,1f,0f,0.8312f,2.7f,0f,0f,0.0437f,0f,0f,0f,1f],start_interpolation: 0,interpolation_duration: 1}
+$data merge entity $(curve10) {transformation: [0f,0f,-2.7f,-1.215f,0f,1f,0f,0.8312f,2.7f,0f,0f,0.0438f,0f,0f,0f,1f],start_interpolation: 0,interpolation_duration: 1}
 $data merge entity $(curve11) {transformation: [-1.9092f,0f,-1.9092f,0.8639f,0f,1f,0f,0.8312f,1.9092f,0f,-1.9092f,0.9221f,0f,0f,0f,1f],start_interpolation: 0,interpolation_duration: 1}
 $data merge entity $(curve13) {transformation: [-0.6074f,0f,-2.6308f,1.1933f,0f,1f,0f,0.8312f,2.6308f,0f,-0.6074f,0.2689f,0f,0f,0f,1f],start_interpolation: 0,interpolation_duration: 1}
 $data merge entity $(curve14) {transformation: [-1.5679f,0f,-2.1981f,-0.9857f,0f,1f,0f,0.8312f,2.1981f,0f,-1.5679f,-0.6709f,0f,0f,0f,1f],start_interpolation: 0,interpolation_duration: 1}
@@ -46,8 +46,8 @@ $data merge entity $(curve38) {transformation: [-1.1197f,0f,2.4569f,-1.0654f,0f,
 $data merge entity $(curve39) {transformation: [-1.1197f,0f,2.4569f,1.0823f,0f,1f,0f,1.0125f,-2.4569f,0f,-1.1197f,-0.487f,0f,0f,0f,1f],start_interpolation: 0,interpolation_duration: 1}
 $data merge entity $(curve40) {transformation: [-1.5679f,0f,2.1981f,-0.9857f,0f,1f,0f,1.0125f,-2.1981f,0f,-1.5679f,0.7635f,0f,0f,0f,1f],start_interpolation: 0,interpolation_duration: 1}
 $data merge entity $(curve41) {transformation: [-1.5679f,0f,2.1981f,0.9857f,0f,1f,0f,1.0125f,-2.1981f,0f,-1.5679f,-0.6709f,0f,0f,0f,1f],start_interpolation: 0,interpolation_duration: 1}
-$data merge entity $(curve42) {transformation: [-1.9092f,0f,1.9092f,-0.7088f,0f,1f,0f,1.0125f,-1.9092f,0f,-1.9092f,1.0056f,0f,0f,0f,1f],start_interpolation: 0,interpolation_duration: 1}
-$data merge entity $(curve43) {transformation: [-1.9092f,0f,1.9092f,0.7594f,0f,1f,0f,1.0125f,-1.9092f,0f,-1.9092f,-0.9687f,0f,0f,0f,1f],start_interpolation: 0,interpolation_duration: 1}
+$data merge entity $(curve42) {transformation: [-1.9092f,0f,1.9092f,-0.7087f,0f,1f,0f,1.0125f,-1.9092f,0f,-1.9092f,1.0056f,0f,0f,0f,1f],start_interpolation: 0,interpolation_duration: 1}
+$data merge entity $(curve43) {transformation: [-1.9092f,0f,1.9092f,0.7594f,0f,1f,0f,1.0125f,-1.9092f,0f,-1.9092f,-0.9688f,0f,0f,0f,1f],start_interpolation: 0,interpolation_duration: 1}
 $data merge entity $(curve44) {transformation: [-2.2251f,0f,1.5293f,-0.6482f,0f,1f,0f,1.0125f,-1.5293f,0f,-2.2251f,1.1179f,0f,0f,0f,1f],start_interpolation: 0,interpolation_duration: 1}
 $data merge entity $(curve45) {transformation: [-1.5679f,0f,-2.1981f,0.9857f,0f,1f,0f,1.0125f,2.1981f,0f,-1.5679f,0.7635f,0f,0f,0f,1f],start_interpolation: 0,interpolation_duration: 1}
 $data merge entity $(curve46) {transformation: [-2.437f,0f,1.1624f,-0.6267f,0f,1f,0f,1.0125f,-1.1624f,0f,-2.437f,1.0824f,0f,0f,0f,1f],start_interpolation: 0,interpolation_duration: 1}

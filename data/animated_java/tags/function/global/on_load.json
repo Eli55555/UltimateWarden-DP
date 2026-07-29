@@ -1,1 +1,4 @@
-{"values":["warden:ancient_warden/on_load"]}
+{
+	"replace": false,
+	"values": ["warden:ancient_warden/on_load"]
+}

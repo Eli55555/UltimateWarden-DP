@@ -4,6 +4,6 @@ execute unless entity @s[type=minecraft:item_display,tag=warden.ancient_warden.r
 execute store result storage animated_java:temp args.id int 1 run scoreboard players get @s aj.id
 # Data Manager: Read
 function animated_java:global/data_manager/read with storage animated_java:temp args
-execute unless data storage animated_java:temp {entry:{data:{rig_hash: '09d56f93ab646f44cde2a180e27627ea1d8a8d169d786acba85b43c1ce581bee'}}} run function animated_java:global/remove/outdated_rig
+execute unless data storage animated_java:temp {entry:{data:{rig_hash: 'f99e88b9176838e9523f906c8b12124a7cbcb3df432de3f782fb087394603fcc'}}} run function animated_java:global/remove/outdated_rig
 function warden:ancient_warden/remove/this/zzz/0 with storage animated_java:temp entry.data.uuids_by_name
 function animated_java:global/remove/entity_stack

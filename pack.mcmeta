@@ -1,11 +1,19 @@
 {
-  "pack": {
-    "description": [
-      {"text":"↪ Ultimate Warden V.0.3.S8-P","color":"dark_blue"},
-      {"text":"\n"},
-      {"text":"↪ Made by: Eli12_5","color":"dark_blue"}
-    ],
-    "min_format": [94,1],
-    "max_format": [101,1]
-  }
+	"pack": {
+		"description": [
+			{
+				"text": "↪ Ultimate Warden V.0.3.S8-P",
+				"color": "dark_blue"
+			},
+			{
+				"text": "\n"
+			},
+			{
+				"text": "↪ Made by: Eli12_5",
+				"color": "dark_blue"
+			}
+		],
+		"min_format": 94,
+		"max_format": 94
+	}
 }
