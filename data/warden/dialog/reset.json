@@ -9,11 +9,17 @@
       "options": [
         {
           "id": "0",
-          "display": "❌"
+          "display": {
+            "text": "❌",
+            "color": "red"
+          }
         },
         {
           "id": "1",
-          "display": "✅"
+          "display": {
+            "text": "✅",
+            "color": "green"
+          }
         }
       ]
     },
@@ -24,11 +30,17 @@
       "options": [
         {
           "id": "0",
-          "display": "❌"
+          "display": {
+            "text": "❌",
+            "color": "red"
+          }
         },
         {
           "id": "1",
-          "display": "✅"
+          "display": {
+            "text": "✅",
+            "color": "green"
+          }
         }
       ]
     },
@@ -39,11 +51,17 @@
       "options": [
         {
           "id": "0",
-          "display": "❌"
+          "display": {
+            "text": "❌",
+            "color": "red"
+          }
         },
         {
           "id": "1",
-          "display": "✅"
+          "display": {
+            "text": "✅",
+            "color": "green"
+          }
         }
       ]
     },
@@ -54,11 +72,17 @@
       "options": [
         {
           "id": "0",
-          "display": "❌"
+          "display": {
+            "text": "❌",
+            "color": "red"
+          }
         },
         {
           "id": "1",
-          "display": "✅"
+          "display": {
+            "text": "✅",
+            "color": "green"
+          }
         }
       ]
     }
