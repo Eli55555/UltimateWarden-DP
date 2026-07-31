@@ -10,67 +10,69 @@
                         {
                             "function": "set_components",
                             "components": {
-                                "item_name": "Dungeon Warden Spawner",
+                                "item_name": "Temple Pillager Spawner",
                                 "block_entity_data": {
                                     "id": "trial_spawner",
                                     "normal_config": {
                                         "spawn_range": 10,
-                                        "total_mobs": 1,
+                                        "total_mobs": 6,
                                         "simultaneous_mobs": 1,
                                         "simultaneous_mobs_added_per_player": 1,
-                                        "ticks_between_spawn": 40,
+                                        "ticks_between_spawn": 10,
                                         "total_mobs_added_per_player": 1,
                                         "spawn_potentials": [
                                             {
                                                 "data": {
                                                     "entity": {
-                                                        "id": "warden",
-                                                        "DeathLootTable": "warden:dungeon/mobs/spawner_wardens",
-                                                        "Brain": {
-                                                            "memories": {
-                                                                "minecraft:dig_cooldown": {
-                                                                    "value": {},
-                                                                    "ttl": 9999999
-                                                                }
+                                                        "id": "pillager",
+                                                        "Inventory": [
+                                                            {
+                                                                "id": "crossbow",
+                                                                "components": {
+                                                                    "enchantments": {
+                                                                        "multishot": 1,
+                                                                        "quick_charge": 2
+                                                                    }
+                                                                },
+                                                                "count": 1
                                                             }
-                                                        }
+                                                        ]
                                                     }
-                                                },
+                                               },
                                                 "weight": 1
                                             }
                                         ],
                                         "loot_tables_to_eject": [
                                             {
-                                                "data": "warden:dungeon/spawner/loot/warden_normal",
-                                                "weight": 6
-                                            },
-                                            {
-                                                "data": "warden:dungeon/spawner/loot/key_normal",
-                                                "weight": 4
+                                                "data": "warden:temple/spawner/loot/pillager_normal",
+                                                "weight": 1
                                             }
                                         ]
                                     },
                                     "ominous_config": {
                                         "spawn_range": 10,
-                                        "total_mobs": 2,
+                                        "total_mobs": 12,
                                         "simultaneous_mobs": 1,
                                         "simultaneous_mobs_added_per_player": 1,
-                                        "ticks_between_spawn": 20,
+                                        "ticks_between_spawn": 5,
                                         "total_mobs_added_per_player": 1,
                                         "spawn_potentials": [
                                             {
                                                 "data": {
                                                     "entity": {
-                                                        "id": "warden",
-                                                        "DeathLootTable": "warden:dungeon/mobs/spawner_wardens",
-                                                        "Brain": {
-                                                            "memories": {
-                                                                "minecraft:dig_cooldown": {
-                                                                    "value": {},
-                                                                    "ttl": 9999999
-                                                                }
+                                                        "id": "pillager",
+                                                        "Inventory": [
+                                                            {
+                                                                "id": "crossbow",
+                                                                "components": {
+                                                                    "enchantments": {
+                                                                        "multishot": 1,
+                                                                        "quick_charge": 3
+                                                                    }
+                                                                },
+                                                                "count": 1
                                                             }
-                                                        }
+                                                        ]
                                                     }
                                                 },
                                                 "weight": 1
@@ -78,16 +80,12 @@
                                         ],
                                         "loot_tables_to_eject": [
                                             {
-                                                "data": "warden:dungeon/spawner/loot/warden_ominous",
-                                                "weight": 6
-                                            },
-                                            {
-                                                "data": "warden:dungeon/spawner/loot/key_ominous",
-                                                "weight": 4
+                                                "data": "warden:temple/spawner/loot/pillager_ominous",
+                                                "weight": 1
                                             }
                                         ]
                                     },
-                                    "required_player_range": 8,
+                                    "required_player_range": 12,
                                     "target_cooldown_length": 36000,
                                     "cooldown_ends_at": 0
                                 }

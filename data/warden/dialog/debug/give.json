@@ -46,6 +46,48 @@
       }
     },
     {
+      "label": [
+        {
+          "type": "object",
+          "object": "atlas",
+          "atlas": "minecraft:blocks",
+          "sprite": "block/trial_spawner_side_active"
+        },
+        " Spawner ",
+        {
+          "type": "object",
+          "object": "atlas",
+          "atlas": "minecraft:blocks",
+          "sprite": "block/trial_spawner_side_active_ominous"
+        }
+      ],
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "warden:debug/give/spawner"
+      }
+    },
+    {
+      "label": [
+        {
+          "type": "object",
+          "object": "atlas",
+          "atlas": "minecraft:blocks",
+          "sprite": "block/vault_front_on"
+        },
+        " Vaults ",
+        {
+          "type": "object",
+          "object": "atlas",
+          "atlas": "minecraft:blocks",
+          "sprite": "block/vault_front_on_ominous"
+        }
+      ],
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "warden:debug/give/vaults"
+      }
+    },
+    {
       "label": {
         "translate": "ultimate_warden.menu.button.back",
         "fallback": "§c« Back"

@@ -1,0 +1,144 @@
+{
+  "type": "minecraft:multi_action",
+  "title": "Debug » Give » Spawner",
+  "pause": false,
+  "columns": 3,
+  "actions": [
+    {
+      "label": [
+        {
+          "type": "object",
+          "object": "atlas",
+          "atlas": "minecraft:items",
+          "sprite": "item/endermite_spawn_egg"
+        },
+        " Dungeon Endermite ",
+        {
+          "type": "object",
+          "object": "atlas",
+          "atlas": "minecraft:items",
+          "sprite": "item/endermite_spawn_egg"
+        }
+      ],
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot warden:dungeon/spawner/give/endermite"
+      }
+    },
+    {
+      "label": [
+        {
+          "type": "object",
+          "object": "atlas",
+          "atlas": "minecraft:items",
+          "sprite": "item/warden_spawn_egg"
+        },
+        " Dungeon Warden ",
+        {
+          "type": "object",
+          "object": "atlas",
+          "atlas": "minecraft:items",
+          "sprite": "item/warden_spawn_egg"
+        }
+      ],
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot warden:dungeon/spawner/give/warden"
+      }
+    },
+    {
+      "label": [
+        {
+          "type": "object",
+          "object": "atlas",
+          "atlas": "minecraft:items",
+          "sprite": "item/wither_skeleton_spawn_egg"
+        },
+        " Dungeon Wither Skeleton ",
+        {
+          "type": "object",
+          "object": "atlas",
+          "atlas": "minecraft:items",
+          "sprite": "item/wither_skeleton_spawn_egg"
+        }
+      ],
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot warden:dungeon/spawner/give/wither_skeleton"
+      }
+    },
+    {
+      "label": [
+        {
+          "type": "object",
+          "object": "atlas",
+          "atlas": "minecraft:items",
+          "sprite": "item/pillager_spawn_egg"
+        },
+        " Temple Pillager ",
+        {
+          "type": "object",
+          "object": "atlas",
+          "atlas": "minecraft:items",
+          "sprite": "item/pillager_spawn_egg"
+        }
+      ],
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot warden:temple/spawner/give/pillager"
+      }
+    },
+    {
+      "label": [
+        {
+          "type": "object",
+          "object": "atlas",
+          "atlas": "minecraft:items",
+          "sprite": "item/warden_spawn_egg"
+        },
+        " Temple Warden ",
+        {
+          "type": "object",
+          "object": "atlas",
+          "atlas": "minecraft:items",
+          "sprite": "item/warden_spawn_egg"
+        }
+      ],
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot warden:temple/spawner/give/warden"
+      }
+    },
+    {
+      "label": [
+        {
+          "type": "object",
+          "object": "atlas",
+          "atlas": "minecraft:items",
+          "sprite": "item/wither_skeleton_spawn_egg"
+        },
+        " Temple Wither Skeleton ",
+        {
+          "type": "object",
+          "object": "atlas",
+          "atlas": "minecraft:items",
+          "sprite": "item/wither_skeleton_spawn_egg"
+        }
+      ],
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot warden:temple/spawner/give/wither_skeleton"
+      }
+    },
+    {
+      "label": {
+        "translate": "ultimate_warden.menu.button.back",
+        "fallback": "§c« Back"
+      },
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "warden:debug/give"
+      }
+    }
+  ]
+}

@@ -10,7 +10,7 @@
                         {
                             "function": "set_components",
                             "components": {
-                                "item_name": "Wither Skeleton Spawner V3",
+                                "item_name": "Dungeon Wither Skeleton Spawner",
                                 "block_entity_data": {
                                     "id": "trial_spawner",
                                     "normal_config": {

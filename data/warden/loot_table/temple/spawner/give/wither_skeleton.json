@@ -10,14 +10,15 @@
                         {
                             "function": "set_components",
                             "components": {
+                                "item_name": "Temple Wither Skeleton Spawner",
                                 "block_entity_data": {
                                     "id": "trial_spawner",
                                     "normal_config": {
                                         "spawn_range": 22,
-                                        "total_mobs": 8,
+                                        "total_mobs": 12,
                                         "simultaneous_mobs": 3,
                                         "simultaneous_mobs_added_per_player": 2,
-                                        "ticks_between_spawn": 10,
+                                        "ticks_between_spawn": 20,
                                         "total_mobs_added_per_player": 3,
                                         "spawn_potentials": [
                                             {
@@ -28,14 +29,20 @@
                                                 },
                                                 "weight": 1
                                             }
+                                        ],
+                                        "loot_tables_to_eject": [
+                                            {
+                                                "data": "warden:temple/spawner/loot/wither_skeleton_normal",
+                                                "weight": 1
+                                            }
                                         ]
                                     },
                                     "ominous_config": {
                                         "spawn_range": 22,
-                                        "total_mobs": 16,
+                                        "total_mobs": 18,
                                         "simultaneous_mobs": 3,
                                         "simultaneous_mobs_added_per_player": 2,
-                                        "ticks_between_spawn": 5,
+                                        "ticks_between_spawn": 15,
                                         "total_mobs_added_per_player": 5,
                                         "spawn_potentials": [
                                             {
@@ -49,14 +56,13 @@
                                         ],
                                         "loot_tables_to_eject": [
                                             {
-                                                "data": "warden:temple/spawner/floor1/loot/wither-skeleton_spawner_loot",
+                                                "data": "warden:temple/spawner/loot/wither_skeleton_ominous",
                                                 "weight": 1
                                             }
                                         ]
                                     },
                                     "required_player_range": 30,
-                                    "target_cooldown_length": 4000,
-                                    "ejecting_loot_table": "warden:temple/spawner/floor1/loot/wither-skeleton_spawner_loot",
+                                    "target_cooldown_length": 36000,
                                     "cooldown_ends_at": 0
                                 }
                             }
