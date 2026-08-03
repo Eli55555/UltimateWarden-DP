@@ -23,7 +23,7 @@
       },
       "action": {
         "type": "minecraft:show_dialog",
-        "dialog": "warden:changelog"
+        "dialog": "warden:menu/changelog"
       }
     }
   ]

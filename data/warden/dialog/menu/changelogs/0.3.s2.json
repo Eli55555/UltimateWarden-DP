@@ -10,15 +10,15 @@
       "color": "dark_gray"
     },
     {
-      "text": " 0.2.2 - Dungeon Expansion & Improvement Update",
-      "color": "gold"
+      "text": " 0.3 - Snapshot 2",
+      "color": "red"
     }
   ],
   "body": [
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "✦ Dungeon Expansion & Improvements ✦",
+        "text": "✦ Dungeon ✦",
         "color": "white",
         "bold": true
       }
@@ -27,7 +27,16 @@
       "type": "minecraft:plain_message",
       "contents": [
         {
-          "text": "  ▪ The Warden Dungeon is now larger, with new rooms and various improvements. There are now custom trial spawners that spawn Wardens and other mobs to provide extra challenges.",
+          "text": "  ▪ Removed the dungeon join lock system during boss fights.",
+          "color": "gray"
+        }
+      ]
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": [
+        {
+          "text": "  ▪ Moved the dungeon to a custom dimension to prevent conflicts with world height–modifying datapacks.",
           "color": "gray"
         }
       ]
@@ -35,7 +44,7 @@
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "✦ New Warden Tool ✦",
+        "text": "✦ Languages ✦",
         "color": "white",
         "bold": true
       }
@@ -44,24 +53,7 @@
       "type": "minecraft:plain_message",
       "contents": [
         {
-          "text": "▪ The Warden Pickaxe is here! It’s hidden somewhere in the dungeon, so explore carefully.",
-          "color": "gray"
-        }
-      ]
-    },
-    {
-      "type": "minecraft:plain_message",
-      "contents": {
-        "text": "✦ Bugfixes ✦",
-        "color": "white",
-        "bold": true
-      }
-    },
-    {
-      "type": "minecraft:plain_message",
-      "contents": [
-        {
-          "text": "▪ Dungeon Boss Room Key",
+          "text": "▪ Removed the German translation.",
           "color": "gray"
         }
       ]
@@ -75,7 +67,7 @@
       },
       "action": {
         "type": "minecraft:show_dialog",
-        "dialog": "warden:changelog"
+        "dialog": "warden:menu/changelog"
       }
     }
   ]

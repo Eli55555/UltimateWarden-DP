@@ -10,7 +10,7 @@
       "color": "dark_gray"
     },
     {
-      "text": " 0.3 - Snapshot 5",
+      "text": " 0.3 - Snapshot 1",
       "color": "red"
     }
   ],
@@ -18,7 +18,7 @@
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "✦ Dungeon ✦",
+        "text": "✦ Dungeon Chests ✦",
         "color": "white",
         "bold": true
       }
@@ -27,7 +27,7 @@
       "type": "minecraft:plain_message",
       "contents": [
         {
-          "text": "  ▪ Completely reworked dungeon with new Trail Spawners & Vaults",
+          "text": "  ▪ Reworked dungeon chest loot tables",
           "color": "gray"
         }
       ]
@@ -36,7 +36,16 @@
       "type": "minecraft:plain_message",
       "contents": [
         {
-          "text": "  ▪ Introduced the Dungeon Clear System, which removes all entities before each new dungeon run",
+          "text": "  ▪ Added Dungeon Home Keys, which teleport you out of the dungeon",
+          "color": "gray"
+        }
+      ]
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": [
+        {
+          "text": "  ▪ Removed Netherite Armor from dungeon chests",
           "color": "gray"
         }
       ]
@@ -44,7 +53,7 @@
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "✦ Settings Menu ✦",
+        "text": "✦ Achievements ✦",
         "color": "white",
         "bold": true
       }
@@ -53,7 +62,16 @@
       "type": "minecraft:plain_message",
       "contents": [
         {
-          "text": "▪ New Settings Menu implemented, openable with: /function warden:settings",
+          "text": "▪ Achievements are no longer hidden",
+          "color": "gray"
+        }
+      ]
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": [
+        {
+          "text": "▪ Upcoming achievements are now visible in the Ultimate Warden tab",
           "color": "gray"
         }
       ]
@@ -61,7 +79,7 @@
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "✦ Enchantments ✦",
+        "text": "✦ Warden Tools ✦",
         "color": "white",
         "bold": true
       }
@@ -70,7 +88,16 @@
       "type": "minecraft:plain_message",
       "contents": [
         {
-          "text": "▪ Nerfed Warden Slayer and Warden Protection",
+          "text": "▪ Warden Tools are no longer hidden inside the dungeon",
+          "color": "gray"
+        }
+      ]
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": [
+        {
+          "text": "▪ They can now be found in dungeon chests",
           "color": "gray"
         }
       ]
@@ -78,7 +105,7 @@
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "✦ Achievement ✦",
+        "text": "✦ Reset Command ✦",
         "color": "white",
         "bold": true
       }
@@ -87,16 +114,7 @@
       "type": "minecraft:plain_message",
       "contents": [
         {
-          "text": "▪ Added new achievements for Dungeon and Temple",
-          "color": "gray"
-        }
-      ]
-    },
-    {
-      "type": "minecraft:plain_message",
-      "contents": [
-        {
-          "text": "▪ Renamed achievement for completing the dungeon: 'Is it a Bird?' → 'Is this a flying Player?'",
+          "text": "▪ Added '/function warden:reset' which fully resets Ultimate Warden",
           "color": "gray"
         }
       ]
@@ -104,7 +122,7 @@
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "✦ Fallbacks ✦",
+        "text": "✦ Key Improvements ✦",
         "color": "white",
         "bold": true
       }
@@ -113,7 +131,7 @@
       "type": "minecraft:plain_message",
       "contents": [
         {
-          "text": "▪ Added fallbacks for all translations for better GeyserMC (Bedrock) support",
+          "text": "▪ Added new key models",
           "color": "gray"
         }
       ]
@@ -121,7 +139,7 @@
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "✦ Bugfixes ✦",
+        "text": "✦ Bug Fixes ✦",
         "color": "white",
         "bold": true
       }
@@ -130,25 +148,7 @@
       "type": "minecraft:plain_message",
       "contents": [
         {
-          "text": "▪ Fixed an issue where players did not lose the Home Key upon completing the Ultimate Warden boss fight",
-          "color": "gray"
-        }
-      ]
-    },
-    {
-      "type": "minecraft:plain_message",
-      "contents": [
-        {
-          "text": "▪ Fixed an issue where the Reset Command did not function correctly",
-          "color": "gray"
-        }
-      ]
-    },
-    {
-      "type": "minecraft:plain_message",
-      "contents": [
-        {
-          "text": "▪ Fixed an issue where Warden Protection could not be applied to armor",
+          "text": "▪ Fixed the respawn point spawning outside of the dungeon instead of inside.",
           "color": "gray"
         }
       ]
@@ -162,7 +162,7 @@
       },
       "action": {
         "type": "minecraft:show_dialog",
-        "dialog": "warden:changelog"
+        "dialog": "warden:menu/changelog"
       }
     }
   ]

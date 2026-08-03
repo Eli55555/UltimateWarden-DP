@@ -21,7 +21,7 @@
       },
       "action": {
         "type": "show_dialog",
-        "dialog": "warden:changelog"
+        "dialog": "warden:menu/changelog"
       }
     },
     {
@@ -31,7 +31,7 @@
       },
       "action": {
         "type": "show_dialog",
-        "dialog": "warden:credits"
+        "dialog": "warden:menu/credits"
       }
     }
   ]

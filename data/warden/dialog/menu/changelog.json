@@ -14,7 +14,7 @@
       "width": 200,
       "action": {
         "type": "minecraft:show_dialog",
-        "dialog": "warden:changelogs/0.3.pre"
+        "dialog": "warden:menu/changelogs/0.3.pre"
       }
     },
     {
@@ -25,7 +25,7 @@
       "width": 200,
       "action": {
         "type": "minecraft:show_dialog",
-        "dialog": "warden:changelogs/0.3.s8"
+        "dialog": "warden:menu/changelogs/0.3.s8"
       }
     },
     {
@@ -36,7 +36,7 @@
       "width": 200,
       "action": {
         "type": "minecraft:show_dialog",
-        "dialog": "warden:changelogs/0.3.s7"
+        "dialog": "warden:menu/changelogs/0.3.s7"
       }
     },
     {
@@ -47,7 +47,7 @@
       "width": 200,
       "action": {
         "type": "minecraft:show_dialog",
-        "dialog": "warden:changelogs/0.3.s6"
+        "dialog": "warden:menu/changelogs/0.3.s6"
       }
     },
     {
@@ -58,7 +58,7 @@
       "width": 200,
       "action": {
         "type": "minecraft:show_dialog",
-        "dialog": "warden:changelogs/0.3.s5"
+        "dialog": "warden:menu/changelogs/0.3.s5"
       }
     },
     {
@@ -69,7 +69,7 @@
       "width": 200,
       "action": {
         "type": "minecraft:show_dialog",
-        "dialog": "warden:changelogs/0.3.s4"
+        "dialog": "warden:menu/changelogs/0.3.s4"
       }
     },
     {
@@ -80,7 +80,7 @@
       "width": 200,
       "action": {
         "type": "minecraft:show_dialog",
-        "dialog": "warden:changelogs/0.3.s3"
+        "dialog": "warden:menu/changelogs/0.3.s3"
       }
     },
     {
@@ -91,7 +91,7 @@
       "width": 200,
       "action": {
         "type": "minecraft:show_dialog",
-        "dialog": "warden:changelogs/0.3.s2"
+        "dialog": "warden:menu/changelogs/0.3.s2"
       }
     },
     {
@@ -102,7 +102,7 @@
       "width": 200,
       "action": {
         "type": "minecraft:show_dialog",
-        "dialog": "warden:changelogs/0.3.s1"
+        "dialog": "warden:menu/changelogs/0.3.s1"
       }
     },
     {
@@ -113,7 +113,7 @@
       "width": 200,
       "action": {
         "type": "minecraft:show_dialog",
-        "dialog": "warden:changelogs/0.2.2"
+        "dialog": "warden:menu/changelogs/0.2.2"
       }
     },
     {
@@ -124,7 +124,7 @@
       "width": 200,
       "action": {
         "type": "minecraft:show_dialog",
-        "dialog": "warden:changelogs/0.2.1"
+        "dialog": "warden:menu/changelogs/0.2.1"
       }
     },
     {
@@ -135,7 +135,7 @@
       "width": 200,
       "action": {
         "type": "minecraft:show_dialog",
-        "dialog": "warden:changelogs/0.2"
+        "dialog": "warden:menu/changelogs/0.2"
       }
     },
     {

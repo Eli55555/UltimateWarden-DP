@@ -19,7 +19,6 @@
           "sprite": "item/golden_apple"
         }
       ],
-      "width": 200,
       "action": {
         "type": "minecraft:run_command",
         "command": "function warden:debug/grant_every_advancement"
@@ -41,7 +40,6 @@
           "sprite": "item/barrier"
         }
       ],
-      "width": 200,
       "action": {
         "type": "minecraft:run_command",
         "command": "function warden:debug/revoke_every_advancement"

@@ -10,7 +10,7 @@
       "color": "dark_gray"
     },
     {
-      "text": " 0.2 - The Dungeon Update",
+      "text": " 0.2.2 - Dungeon Expansion & Improvement Update",
       "color": "gold"
     }
   ],
@@ -18,7 +18,7 @@
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "✦ Warden Dungeon ✦",
+        "text": "✦ Dungeon Expansion & Improvements ✦",
         "color": "white",
         "bold": true
       }
@@ -27,7 +27,7 @@
       "type": "minecraft:plain_message",
       "contents": [
         {
-          "text": "  ▪ A completely new dungeon themed around the Warden, featuring a challenging boss fight and unique custom weapons & enchantments",
+          "text": "  ▪ The Warden Dungeon is now larger, with new rooms and various improvements. There are now custom trial spawners that spawn Wardens and other mobs to provide extra challenges.",
           "color": "gray"
         }
       ]
@@ -35,7 +35,7 @@
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "✦ Warden Slayer Enchantment ✦",
+        "text": "✦ New Warden Tool ✦",
         "color": "white",
         "bold": true
       }
@@ -44,7 +44,7 @@
       "type": "minecraft:plain_message",
       "contents": [
         {
-          "text": "▪ A new enchantment that increases your damage against the Warden",
+          "text": "▪ The Warden Pickaxe is here! It’s hidden somewhere in the dungeon, so explore carefully.",
           "color": "gray"
         }
       ]
@@ -52,7 +52,7 @@
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "✦ Ultimate Warden ✦",
+        "text": "✦ Bugfixes ✦",
         "color": "white",
         "bold": true
       }
@@ -61,7 +61,7 @@
       "type": "minecraft:plain_message",
       "contents": [
         {
-          "text": "▪ The Ultimate Warden is the final boss of the Warden Dungeon. He comes with fully custom attack patterns and a unique loot drop",
+          "text": "▪ Dungeon Boss Room Key",
           "color": "gray"
         }
       ]
@@ -75,7 +75,7 @@
       },
       "action": {
         "type": "minecraft:show_dialog",
-        "dialog": "warden:changelog"
+        "dialog": "warden:menu/changelog"
       }
     }
   ]

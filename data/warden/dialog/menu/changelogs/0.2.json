@@ -10,15 +10,15 @@
       "color": "dark_gray"
     },
     {
-      "text": " 0.3 - Snapshot 2",
-      "color": "red"
+      "text": " 0.2 - The Dungeon Update",
+      "color": "gold"
     }
   ],
   "body": [
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "✦ Dungeon ✦",
+        "text": "✦ Warden Dungeon ✦",
         "color": "white",
         "bold": true
       }
@@ -27,16 +27,7 @@
       "type": "minecraft:plain_message",
       "contents": [
         {
-          "text": "  ▪ Removed the dungeon join lock system during boss fights.",
-          "color": "gray"
-        }
-      ]
-    },
-    {
-      "type": "minecraft:plain_message",
-      "contents": [
-        {
-          "text": "  ▪ Moved the dungeon to a custom dimension to prevent conflicts with world height–modifying datapacks.",
+          "text": "  ▪ A completely new dungeon themed around the Warden, featuring a challenging boss fight and unique custom weapons & enchantments",
           "color": "gray"
         }
       ]
@@ -44,7 +35,7 @@
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "✦ Languages ✦",
+        "text": "✦ Warden Slayer Enchantment ✦",
         "color": "white",
         "bold": true
       }
@@ -53,7 +44,24 @@
       "type": "minecraft:plain_message",
       "contents": [
         {
-          "text": "▪ Removed the German translation.",
+          "text": "▪ A new enchantment that increases your damage against the Warden",
+          "color": "gray"
+        }
+      ]
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "✦ Ultimate Warden ✦",
+        "color": "white",
+        "bold": true
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": [
+        {
+          "text": "▪ The Ultimate Warden is the final boss of the Warden Dungeon. He comes with fully custom attack patterns and a unique loot drop",
           "color": "gray"
         }
       ]
@@ -67,7 +75,7 @@
       },
       "action": {
         "type": "minecraft:show_dialog",
-        "dialog": "warden:changelog"
+        "dialog": "warden:menu/changelog"
       }
     }
   ]

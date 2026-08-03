@@ -10,7 +10,7 @@
       "color": "dark_gray"
     },
     {
-      "text": " 0.3 - Snapshot 1",
+      "text": " 0.3 - Snapshot 4",
       "color": "red"
     }
   ],
@@ -18,7 +18,7 @@
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "✦ Dungeon Chests ✦",
+        "text": "✦ Skin System & Warden Axe ✦",
         "color": "white",
         "bold": true
       }
@@ -27,7 +27,7 @@
       "type": "minecraft:plain_message",
       "contents": [
         {
-          "text": "  ▪ Reworked dungeon chest loot tables",
+          "text": "  ▪ Added the Warden Axe",
           "color": "gray"
         }
       ]
@@ -36,7 +36,7 @@
       "type": "minecraft:plain_message",
       "contents": [
         {
-          "text": "  ▪ Added Dungeon Home Keys, which teleport you out of the dungeon",
+          "text": "  ▪ Introduced the Skin System",
           "color": "gray"
         }
       ]
@@ -45,7 +45,7 @@
       "type": "minecraft:plain_message",
       "contents": [
         {
-          "text": "  ▪ Removed Netherite Armor from dungeon chests",
+          "text": "  ▪ Skins can now be found in the Dungeon and replace the old Warden Tools",
           "color": "gray"
         }
       ]
@@ -53,7 +53,7 @@
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "✦ Achievements ✦",
+        "text": "✦ Temple ✦",
         "color": "white",
         "bold": true
       }
@@ -62,7 +62,7 @@
       "type": "minecraft:plain_message",
       "contents": [
         {
-          "text": "▪ Achievements are no longer hidden",
+          "text": "▪ Reworked loot pool",
           "color": "gray"
         }
       ]
@@ -71,7 +71,16 @@
       "type": "minecraft:plain_message",
       "contents": [
         {
-          "text": "▪ Upcoming achievements are now visible in the Ultimate Warden tab",
+          "text": "▪ Warden Protection enchantment is now more common",
+          "color": "gray"
+        }
+      ]
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": [
+        {
+          "text": "▪ Warden Protection can now drop from spawners",
           "color": "gray"
         }
       ]
@@ -105,7 +114,7 @@
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "✦ Reset Command ✦",
+        "text": "✦ Bossbar ✦",
         "color": "white",
         "bold": true
       }
@@ -114,7 +123,7 @@
       "type": "minecraft:plain_message",
       "contents": [
         {
-          "text": "▪ Added '/function warden:reset' which fully resets Ultimate Warden",
+          "text": "▪ Reworked the bossbar system for improved reliability",
           "color": "gray"
         }
       ]
@@ -122,7 +131,7 @@
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "✦ Key Improvements ✦",
+        "text": "✦ Bugfixes ✦",
         "color": "white",
         "bold": true
       }
@@ -131,7 +140,7 @@
       "type": "minecraft:plain_message",
       "contents": [
         {
-          "text": "▪ Added new key models",
+          "text": "▪ Fixed an issue where players did not lose the Temple & Home Key upon entering the Temple",
           "color": "gray"
         }
       ]
@@ -139,9 +148,8 @@
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "✦ Bug Fixes ✦",
-        "color": "white",
-        "bold": true
+        "text": "▪ Fixed multiple Ultimate Warden attacks not functioning correctly",
+        "color": "gray"
       }
     },
     {
@@ -149,6 +157,24 @@
       "contents": [
         {
           "text": "▪ Fixed the respawn point spawning outside of the dungeon instead of inside.",
+          "color": "gray"
+        }
+      ]
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": [
+        {
+          "text": "▪ Fixed an issue where the WIP (Work in Progress) Key was not regenerated in the chest after being used",
+          "color": "gray"
+        }
+      ]
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": [
+        {
+          "text": "▪ Fixed an issue where the bossbar would stop displaying correctly",
           "color": "gray"
         }
       ]
@@ -162,7 +188,7 @@
       },
       "action": {
         "type": "minecraft:show_dialog",
-        "dialog": "warden:changelog"
+        "dialog": "warden:menu/changelog"
       }
     }
   ]

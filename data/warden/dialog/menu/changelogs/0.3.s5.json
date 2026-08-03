@@ -10,7 +10,7 @@
       "color": "dark_gray"
     },
     {
-      "text": " 0.3 - Snapshot 4",
+      "text": " 0.3 - Snapshot 5",
       "color": "red"
     }
   ],
@@ -18,7 +18,7 @@
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "✦ Skin System & Warden Axe ✦",
+        "text": "✦ Dungeon ✦",
         "color": "white",
         "bold": true
       }
@@ -27,7 +27,7 @@
       "type": "minecraft:plain_message",
       "contents": [
         {
-          "text": "  ▪ Added the Warden Axe",
+          "text": "  ▪ Completely reworked dungeon with new Trail Spawners & Vaults",
           "color": "gray"
         }
       ]
@@ -36,16 +36,7 @@
       "type": "minecraft:plain_message",
       "contents": [
         {
-          "text": "  ▪ Introduced the Skin System",
-          "color": "gray"
-        }
-      ]
-    },
-    {
-      "type": "minecraft:plain_message",
-      "contents": [
-        {
-          "text": "  ▪ Skins can now be found in the Dungeon and replace the old Warden Tools",
+          "text": "  ▪ Introduced the Dungeon Clear System, which removes all entities before each new dungeon run",
           "color": "gray"
         }
       ]
@@ -53,7 +44,7 @@
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "✦ Temple ✦",
+        "text": "✦ Settings Menu ✦",
         "color": "white",
         "bold": true
       }
@@ -62,25 +53,7 @@
       "type": "minecraft:plain_message",
       "contents": [
         {
-          "text": "▪ Reworked loot pool",
-          "color": "gray"
-        }
-      ]
-    },
-    {
-      "type": "minecraft:plain_message",
-      "contents": [
-        {
-          "text": "▪ Warden Protection enchantment is now more common",
-          "color": "gray"
-        }
-      ]
-    },
-    {
-      "type": "minecraft:plain_message",
-      "contents": [
-        {
-          "text": "▪ Warden Protection can now drop from spawners",
+          "text": "▪ New Settings Menu implemented, openable with: /function warden:settings",
           "color": "gray"
         }
       ]
@@ -88,7 +61,7 @@
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "✦ Warden Tools ✦",
+        "text": "✦ Enchantments ✦",
         "color": "white",
         "bold": true
       }
@@ -97,16 +70,7 @@
       "type": "minecraft:plain_message",
       "contents": [
         {
-          "text": "▪ Warden Tools are no longer hidden inside the dungeon",
-          "color": "gray"
-        }
-      ]
-    },
-    {
-      "type": "minecraft:plain_message",
-      "contents": [
-        {
-          "text": "▪ They can now be found in dungeon chests",
+          "text": "▪ Nerfed Warden Slayer and Warden Protection",
           "color": "gray"
         }
       ]
@@ -114,7 +78,7 @@
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "✦ Bossbar ✦",
+        "text": "✦ Achievement ✦",
         "color": "white",
         "bold": true
       }
@@ -123,7 +87,33 @@
       "type": "minecraft:plain_message",
       "contents": [
         {
-          "text": "▪ Reworked the bossbar system for improved reliability",
+          "text": "▪ Added new achievements for Dungeon and Temple",
+          "color": "gray"
+        }
+      ]
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": [
+        {
+          "text": "▪ Renamed achievement for completing the dungeon: 'Is it a Bird?' → 'Is this a flying Player?'",
+          "color": "gray"
+        }
+      ]
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "✦ Fallbacks ✦",
+        "color": "white",
+        "bold": true
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": [
+        {
+          "text": "▪ Added fallbacks for all translations for better GeyserMC (Bedrock) support",
           "color": "gray"
         }
       ]
@@ -140,23 +130,7 @@
       "type": "minecraft:plain_message",
       "contents": [
         {
-          "text": "▪ Fixed an issue where players did not lose the Temple & Home Key upon entering the Temple",
-          "color": "gray"
-        }
-      ]
-    },
-    {
-      "type": "minecraft:plain_message",
-      "contents": {
-        "text": "▪ Fixed multiple Ultimate Warden attacks not functioning correctly",
-        "color": "gray"
-      }
-    },
-    {
-      "type": "minecraft:plain_message",
-      "contents": [
-        {
-          "text": "▪ Fixed the respawn point spawning outside of the dungeon instead of inside.",
+          "text": "▪ Fixed an issue where players did not lose the Home Key upon completing the Ultimate Warden boss fight",
           "color": "gray"
         }
       ]
@@ -165,7 +139,7 @@
       "type": "minecraft:plain_message",
       "contents": [
         {
-          "text": "▪ Fixed an issue where the WIP (Work in Progress) Key was not regenerated in the chest after being used",
+          "text": "▪ Fixed an issue where the Reset Command did not function correctly",
           "color": "gray"
         }
       ]
@@ -174,7 +148,7 @@
       "type": "minecraft:plain_message",
       "contents": [
         {
-          "text": "▪ Fixed an issue where the bossbar would stop displaying correctly",
+          "text": "▪ Fixed an issue where Warden Protection could not be applied to armor",
           "color": "gray"
         }
       ]
@@ -188,7 +162,7 @@
       },
       "action": {
         "type": "minecraft:show_dialog",
-        "dialog": "warden:changelog"
+        "dialog": "warden:menu/changelog"
       }
     }
   ]
