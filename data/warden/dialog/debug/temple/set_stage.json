@@ -2,48 +2,25 @@
   "type": "minecraft:multi_action",
   "title": "Debug » Temple",
   "pause": false,
-  "columns": 3,
   "actions": [
     {
       "label": [
         {
-          "type": "object",
-          "object": "atlas",
-          "atlas": "minecraft:blocks",
-          "sprite": "block/structure_block"
+          "text": "❌",
+          "color": "red"
         },
-        " Rebuild ",
         {
-          "type": "object",
-          "object": "atlas",
-          "atlas": "minecraft:blocks",
-          "sprite": "block/structure_block"
+            "text": " Disable ",
+            "color": "gray"
+        },
+        {
+          "text": "❌",
+          "color": "red"
         }
       ],
       "action": {
         "type": "minecraft:run_command",
-        "command": "function warden:debug/temple/rebuild"
-      }
-    },
-    {
-      "label": [
-        {
-          "type": "object",
-          "object": "atlas",
-          "atlas": "minecraft:items",
-          "sprite": "item/wither_skeleton_spawn_egg"
-        },
-        " Spawn Warden Skeleton ",
-        {
-          "type": "object",
-          "object": "atlas",
-          "atlas": "minecraft:items",
-          "sprite": "item/wither_skeleton_spawn_egg"
-        }
-      ],
-      "action": {
-        "type": "minecraft:run_command",
-        "command": "function warden:debug/temple/spawn_warden_skeleton"
+        "command": "function warden:debug/temple/set_stage {\"stage\": 0}"
       }
     },
     {
@@ -54,7 +31,50 @@
           "atlas": "minecraft:blocks",
           "sprite": "block/jungle_leaves"
         },
-        " Set Stage ",
+        " Floor 1 ",
+        {
+          "type": "object",
+          "object": "atlas",
+          "atlas": "minecraft:blocks",
+          "sprite": "block/jungle_leaves"
+        }
+      ],
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "function warden:debug/temple/set_stage {\"stage\": 1}"
+      }
+    },
+    {
+      "label": [
+        {
+          "type": "object",
+          "object": "atlas",
+          "atlas": "minecraft:blocks",
+          "sprite": "block/polished_blackstone_bricks"
+        },
+        " Floor 2 ",
+        {
+          "type": "object",
+          "object": "atlas",
+          "atlas": "minecraft:blocks",
+          "sprite": "block/polished_blackstone_bricks"
+        }
+      ],
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "function warden:debug/temple/set_stage {\"stage\": 2}"
+      }
+    },
+    
+    {
+      "label": [
+        {
+          "type": "object",
+          "object": "atlas",
+          "atlas": "minecraft:blocks",
+          "sprite": "block/soul_campfire_fire"
+        },
+        " Floor 3 ",
         {
           "type": "object",
           "object": "atlas",
@@ -63,8 +83,8 @@
         }
       ],
       "action": {
-        "type": "minecraft:show_dialog",
-        "dialog": "warden:debug/temple/set_stage"
+        "type": "minecraft:run_command",
+        "command": "function warden:debug/temple/set_stage {\"stage\": 3}"
       }
     },
     {
@@ -74,7 +94,7 @@
       },
       "action": {
         "type": "minecraft:show_dialog",
-        "dialog": "warden:debug"
+        "dialog": "warden:debug/temple"
       }
     }
   ]
