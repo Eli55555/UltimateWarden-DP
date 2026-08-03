@@ -13,6 +13,6 @@
         }
     },
     "rewards": {
-        "function": "warden:skins/warden_pickaxe_skin"
+        "function": "warden:skins/skin_use"
     }
 }

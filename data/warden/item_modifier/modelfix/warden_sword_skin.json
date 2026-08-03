@@ -1,9 +1,89 @@
 [
-    {
+  {
     "function": "minecraft:set_components",
     "components": {
-      "minecraft:item_model": "ultimate_warden:warden_sword_skin"
-    },
-    "conditions": []
+      "item_name": [
+        {
+          "translate": "ultimate_warden.tools.warden_sword.skin",
+          "fallback": "Warden Sword - Skin",
+          "color": "dark_blue",
+          "italic": false
+        }
+      ],
+      "custom_data": {
+        "warden_sword_skin": 1,
+        "warden_skin": 1
+      },
+      "item_model": "ultimate_warden:warden_sword_skin",
+      "lore": [
+        {
+          "text": ""
+        },
+        [
+          {
+            "translate": "ultimate_warden.tools.warden_sword.skin.lore.1",
+            "fallback": "Right click this in your offhand while holding a Sword",
+            "color": "blue",
+            "italic": false
+          }
+        ],
+        [
+          {
+            "translate": "ultimate_warden.tools.warden_sword.skin.lore.2",
+            "fallback": "to apply this Skin to your Sword. Your Sword will get:",
+            "color": "blue",
+            "italic": false
+          }
+        ],
+        [
+          {
+            "text": "↪ ",
+            "color": "dark_gray",
+            "italic": false
+          },
+          {
+            "translate": "ultimate_warden.tools.warden_sword.skin.lore.3",
+            "fallback": "A Custom Model",
+            "color": "gray"
+          }
+        ],
+        [
+          {
+            "text": "↪ ",
+            "color": "dark_gray",
+            "italic": false
+          },
+          {
+            "translate": "ultimate_warden.tools.warden_sword.skin.lore.4",
+            "fallback": "Sharpness V",
+            "color": "gray"
+          }
+        ],
+        [
+          {
+            "text": "↪ ",
+            "color": "dark_gray",
+            "italic": false
+          },
+          {
+            "translate": "ultimate_warden.tools.warden_sword.skin.lore.5",
+            "fallback": "Warden Slayer IV",
+            "color": "gold"
+          }
+        ]
+      ],
+      "consumable": {
+        "consume_seconds": 5555555555
+      },
+      "enchantments": {
+        "unbreaking": 1
+      },
+      "tooltip_display": {
+        "hidden_components": [
+          "enchantments"
+        ]
+      },
+      "max_stack_size": 1
     }
+  }
 ]
