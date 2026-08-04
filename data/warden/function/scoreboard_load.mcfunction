@@ -53,7 +53,6 @@ scoreboard objectives add warden.temple.floor3.guard dummy
 scoreboard objectives add warden.temple.floor3.guard.attack.tree dummy
 
 # Bossbar
-scoreboard objectives add warden.bossbar.reset dummy
 scoreboard objectives add warden.bossbar.id.check dummy
 
 # Settings
@@ -108,7 +107,6 @@ scoreboard players add ultimatewarden warden.temple.floor2.warden_skeleton.skele
 scoreboard players add ultimatewarden warden.temple.floor3.guard.attack.tree 0
 
 # Bossbar
-scoreboard players set ultimatewarden warden.bossbar.reset 0
 scoreboard players set ultimatewarden warden.bossbar.id.check 0
 
 # Settings

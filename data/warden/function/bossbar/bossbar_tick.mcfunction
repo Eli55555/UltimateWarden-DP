@@ -3,26 +3,51 @@ execute if score ultimatewarden warden.settings.bossbar_amount matches 2.. run f
 execute if score ultimatewarden warden.settings.bossbar_amount matches 3.. run function warden:bossbar/bossbar_main {bossbar_id:3}
 execute if score ultimatewarden warden.settings.bossbar_amount matches 4.. run function warden:bossbar/bossbar_main {bossbar_id:4}
 execute if score ultimatewarden warden.settings.bossbar_amount matches 5.. run function warden:bossbar/bossbar_main {bossbar_id:5}
+
+
+execute if score ultimatewarden warden.settings.bossbar_amount matches ..5 run return fail
+
+
 execute if score ultimatewarden warden.settings.bossbar_amount matches 6.. run function warden:bossbar/bossbar_main {bossbar_id:6}
 execute if score ultimatewarden warden.settings.bossbar_amount matches 7.. run function warden:bossbar/bossbar_main {bossbar_id:7}
 execute if score ultimatewarden warden.settings.bossbar_amount matches 8.. run function warden:bossbar/bossbar_main {bossbar_id:8}
 execute if score ultimatewarden warden.settings.bossbar_amount matches 9.. run function warden:bossbar/bossbar_main {bossbar_id:9}
 execute if score ultimatewarden warden.settings.bossbar_amount matches 10.. run function warden:bossbar/bossbar_main {bossbar_id:10}
+
+
+execute if score ultimatewarden warden.settings.bossbar_amount matches ..10 run return fail
+
+
 execute if score ultimatewarden warden.settings.bossbar_amount matches 11.. run function warden:bossbar/bossbar_main {bossbar_id:11}
 execute if score ultimatewarden warden.settings.bossbar_amount matches 12.. run function warden:bossbar/bossbar_main {bossbar_id:12}
 execute if score ultimatewarden warden.settings.bossbar_amount matches 13.. run function warden:bossbar/bossbar_main {bossbar_id:13}
 execute if score ultimatewarden warden.settings.bossbar_amount matches 14.. run function warden:bossbar/bossbar_main {bossbar_id:14}
 execute if score ultimatewarden warden.settings.bossbar_amount matches 15.. run function warden:bossbar/bossbar_main {bossbar_id:15}
+
+
+execute if score ultimatewarden warden.settings.bossbar_amount matches ..15 run return fail
+
+
 execute if score ultimatewarden warden.settings.bossbar_amount matches 16.. run function warden:bossbar/bossbar_main {bossbar_id:16}
 execute if score ultimatewarden warden.settings.bossbar_amount matches 17.. run function warden:bossbar/bossbar_main {bossbar_id:17}
 execute if score ultimatewarden warden.settings.bossbar_amount matches 18.. run function warden:bossbar/bossbar_main {bossbar_id:18}
 execute if score ultimatewarden warden.settings.bossbar_amount matches 19.. run function warden:bossbar/bossbar_main {bossbar_id:19}
 execute if score ultimatewarden warden.settings.bossbar_amount matches 20.. run function warden:bossbar/bossbar_main {bossbar_id:20}
+
+
+execute if score ultimatewarden warden.settings.bossbar_amount matches ..20 run return fail
+
+
 execute if score ultimatewarden warden.settings.bossbar_amount matches 21.. run function warden:bossbar/bossbar_main {bossbar_id:21}
 execute if score ultimatewarden warden.settings.bossbar_amount matches 22.. run function warden:bossbar/bossbar_main {bossbar_id:22}
 execute if score ultimatewarden warden.settings.bossbar_amount matches 23.. run function warden:bossbar/bossbar_main {bossbar_id:23}
 execute if score ultimatewarden warden.settings.bossbar_amount matches 24.. run function warden:bossbar/bossbar_main {bossbar_id:24}
 execute if score ultimatewarden warden.settings.bossbar_amount matches 25.. run function warden:bossbar/bossbar_main {bossbar_id:25}
+
+
+execute if score ultimatewarden warden.settings.bossbar_amount matches ..25 run return fail
+
+
 execute if score ultimatewarden warden.settings.bossbar_amount matches 26.. run function warden:bossbar/bossbar_main {bossbar_id:26}
 execute if score ultimatewarden warden.settings.bossbar_amount matches 27.. run function warden:bossbar/bossbar_main {bossbar_id:27}
 execute if score ultimatewarden warden.settings.bossbar_amount matches 28.. run function warden:bossbar/bossbar_main {bossbar_id:28}
@@ -48,6 +73,11 @@ execute if score ultimatewarden warden.settings.bossbar_amount matches 47.. run 
 execute if score ultimatewarden warden.settings.bossbar_amount matches 48.. run function warden:bossbar/bossbar_main {bossbar_id:48}
 execute if score ultimatewarden warden.settings.bossbar_amount matches 49.. run function warden:bossbar/bossbar_main {bossbar_id:49}
 execute if score ultimatewarden warden.settings.bossbar_amount matches 50.. run function warden:bossbar/bossbar_main {bossbar_id:50}
+
+
+execute if score ultimatewarden warden.settings.bossbar_amount matches ..50 run return fail
+
+
 execute if score ultimatewarden warden.settings.bossbar_amount matches 51.. run function warden:bossbar/bossbar_main {bossbar_id:51}
 execute if score ultimatewarden warden.settings.bossbar_amount matches 52.. run function warden:bossbar/bossbar_main {bossbar_id:52}
 execute if score ultimatewarden warden.settings.bossbar_amount matches 53.. run function warden:bossbar/bossbar_main {bossbar_id:53}
