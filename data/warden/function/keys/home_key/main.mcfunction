@@ -1,4 +1,4 @@
 
-execute as @a[tag=warden.key.home_key,scores={warden.key.home_key=1}] run function warden:keys/home_key/1
+execute if score @s warden.key.home_key matches 1 run function warden:keys/home_key/1
 
-execute as @a[tag=warden.key.home_key,scores={warden.key.home_key=11}] run function warden:keys/home_key/2
+execute if score @s warden.key.home_key matches 11 run function warden:keys/home_key/2
