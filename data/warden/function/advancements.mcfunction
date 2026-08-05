@@ -21,3 +21,13 @@ execute if entity @s[advancements={warden:warden/statistics/playtime/10h=false},
 execute if entity @s[advancements={warden:warden/statistics/temple_clears/2_clears=false},scores={warden.statistics.temple.clears=2..}] run advancement grant @s only warden:warden/statistics/temple_clears/2_clears
 execute if entity @s[advancements={warden:warden/statistics/temple_clears/5_clears=false},scores={warden.statistics.temple.clears=5..}] run advancement grant @s only warden:warden/statistics/temple_clears/5_clears
 execute if entity @s[advancements={warden:warden/statistics/temple_clears/10_clears=false},scores={warden.statistics.temple.clears=10..}] run advancement grant @s only warden:warden/statistics/temple_clears/10_clears
+
+
+
+
+
+#                                                                               Temple
+execute if entity @s[advancements={warden:warden/temple/floor_1=false},tag=uw.temple.floor.1] run advancement grant @s only warden:warden/temple/floor_1
+execute if entity @s[advancements={warden:warden/temple/floor_2=false},tag=uw.temple.floor.2] run advancement grant @s only warden:warden/temple/floor_2
+execute if entity @s[advancements={warden:warden/temple/floor_3=false},tag=uw.temple.floor.3] run advancement grant @s only warden:warden/temple/floor_3
+

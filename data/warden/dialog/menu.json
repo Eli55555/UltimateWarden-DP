@@ -1,6 +1,9 @@
 {
   "type": "minecraft:multi_action",
-  "title": "Ultimate Warden Menu",
+  "title": {
+    "translate": "ultimate_warden.menu.title",
+    "fallback": "Ultimate Warden Menu"
+  },
   "pause": false,
   "actions": [
     {

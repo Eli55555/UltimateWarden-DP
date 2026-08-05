@@ -14,4 +14,4 @@ scoreboard players set ultimatewarden warden.reset.temple 0
 scoreboard players set ultimatewarden warden.reset.advancements 0
 scoreboard players set ultimatewarden warden.reset.scoreboard 0
 
-tellraw @s [{"text":"[Ultimate Warden] ","bold":true,"color":"blue"},{"translate":"ultimate_warden.reset.message.success","fallback":"Successfully reseted Ultimate Warden.","color":"green",bold:false}]
+tellraw @s [{"text":"[Ultimate Warden] ","bold":true,"color":"blue"},{"translate":"ultimate_warden.reset.confirm","fallback":"Successfully reseted Ultimate Warden.","color":"green",bold:false}]
