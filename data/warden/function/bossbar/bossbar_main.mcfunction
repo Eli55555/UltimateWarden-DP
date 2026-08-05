@@ -1,6 +1,5 @@
 # Bossbar Tag
 execute if score ultimatewarden warden.settings.bossbar_activated matches 0 run tag @e[type=warden,tag=!warden.bossbar] add warden.bossbar
-execute if score ultimatewarden warden.settings.bossbar_activated matches 1 run tag @e[type=warden,tag=!elite_warden,tag=warden.bossbar] remove warden.bossbar
 execute if score ultimatewarden warden.settings.bossbar_activated matches 1 run tag @e[type=warden,tag=elite_warden,tag=!warden.bossbar] add warden.bossbar
 tag @e[type=wither_skeleton,tag=warden_skeleton,tag=!warden.bossbar] add warden.bossbar
 
@@ -13,15 +12,15 @@ $execute if score ultimatewarden warden.bossbar.id.check matches 0 if entity @e[
 
 
 # Bossbar Player Tag
-$execute as @a at @s if entity @e[tag=warden.bossbar,distance=..25,tag=!warden.bossbar.mob] run tag @s add warden.bossbar.$(bossbar_id).player
-$execute as @a at @s unless entity @e[tag=warden.bossbar,distance=..25,tag=!warden.bossbar.mob] run tag @s remove warden.bossbar.$(bossbar_id).player
+$tag @a[tag=warden.bossbar.$(bossbar_id).player] remove warden.bossbar.$(bossbar_id).player
+$execute as @a at @s if entity @e[tag=warden.bossbar,distance=..25,tag=!warden.bossbar.mob,limit=1] run tag @s add warden.bossbar.$(bossbar_id).player
 
 # Bosbar Remove
 $execute unless entity @e[tag=warden.bossbar.$(bossbar_id),limit=1] unless entity @a[tag=warden.bossbar.$(bossbar_id).player,limit=1] run return run bossbar remove warden.bossbar.$(bossbar_id)
 
 # Bossbar Mob Tag
-$execute as @a[tag=warden.bossbar.$(bossbar_id).player,limit=1,sort=random] at @s unless entity @e[tag=warden.bossbar,tag=warden.bossbar.$(bossbar_id),tag=!warden.bossbar.mob] run tag @e[tag=warden.bossbar,limit=1,sort=nearest,tag=!warden.bossbar.mob] add warden.bossbar.$(bossbar_id)
-$tag @e[tag=warden.bossbar.$(bossbar_id)] add warden.bossbar.mob
+$execute as @a[tag=warden.bossbar.$(bossbar_id).player,limit=1,sort=random] at @s unless entity @e[tag=warden.bossbar,tag=warden.bossbar.$(bossbar_id),tag=!warden.bossbar.mob,limit=1] run tag @e[tag=warden.bossbar,limit=1,sort=nearest,tag=!warden.bossbar.mob] add warden.bossbar.$(bossbar_id)
+$tag @e[tag=warden.bossbar.$(bossbar_id),limit=1] add warden.bossbar.mob
 
 # Bossbar Name + Health + Max Health
 $bossbar set warden.bossbar.$(bossbar_id) name {selector:"@e[limit=1,tag=warden.bossbar.$(bossbar_id)]"}

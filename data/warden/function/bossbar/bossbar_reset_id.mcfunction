@@ -1,3 +1,6 @@
+execute if score ultimatewarden warden.settings.bossbar_activated matches 1 run tag @s[type=warden,tag=!elite_warden] remove warden.bossbar
+
+
 tag @s remove warden.bossbar.1
 tag @s remove warden.bossbar.2
 tag @s remove warden.bossbar.3
@@ -13,16 +16,25 @@ tag @s remove warden.bossbar.12
 tag @s remove warden.bossbar.13
 tag @s remove warden.bossbar.14
 tag @s remove warden.bossbar.15
+
+execute if score ultimatewarden warden.settings.bossbar_amount matches ..15 run return fail
+
 tag @s remove warden.bossbar.16
 tag @s remove warden.bossbar.17
 tag @s remove warden.bossbar.18
 tag @s remove warden.bossbar.19
 tag @s remove warden.bossbar.20
+
+execute if score ultimatewarden warden.settings.bossbar_amount matches ..20 run return fail
+
 tag @s remove warden.bossbar.21
 tag @s remove warden.bossbar.22
 tag @s remove warden.bossbar.23
 tag @s remove warden.bossbar.24
 tag @s remove warden.bossbar.25
+
+execute if score ultimatewarden warden.settings.bossbar_amount matches ..25 run return fail
+
 tag @s remove warden.bossbar.26
 tag @s remove warden.bossbar.27
 tag @s remove warden.bossbar.28
@@ -48,6 +60,9 @@ tag @s remove warden.bossbar.47
 tag @s remove warden.bossbar.48
 tag @s remove warden.bossbar.49
 tag @s remove warden.bossbar.50
+
+execute if score ultimatewarden warden.settings.bossbar_amount matches ..50 run return fail
+
 tag @s remove warden.bossbar.51
 tag @s remove warden.bossbar.52
 tag @s remove warden.bossbar.53
