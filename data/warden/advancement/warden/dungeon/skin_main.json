@@ -1,20 +1,23 @@
 {
-    "display": {
-        "icon": {
-            "id": "minecraft:nautilus_shell",
-            "components": {
-                  "item_model": "ultimate_warden:warden_sword_skin"
-            }
-        },
-        "hidden": false,
-        "title": {"translate": "ultimate_warden.advancements.dungeon.skin_main.title", "fallback": "How many Skins do you have in Fortnite?"},
-        "description": {"translate": "ultimate_warden.advancements.dungeon.skin_main.description", "fallback": "Obtain a Skin"},
-        "frame": "task",
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:nautilus_shell",
+      "components": {
+        "item_model": "ultimate_warden:warden_sword_skin",
+        "enchantments": {
+          "unbreaking": 1
+        }
+      }
     },
-    "parent": "warden:warden/dungeon/dungeon_join",
-    "criteria": {
-        "requirement": {
+    "hidden": false,
+    "title": {"translate": "ultimate_warden.advancements.dungeon.skin_main.title","fallback": "How many Skins do you have in Fortnite?"},
+    "description": {"translate": "ultimate_warden.advancements.dungeon.skin_main.description","fallback": "Obtain a Skin"},
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "warden:warden/dungeon/dungeon_join",
+  "criteria": {
+    "requirement": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -24,12 +27,12 @@
             ],
             "predicates": {
               "custom_data": {
-                "warden_skin":1
+                "warden_skin": 1
               }
             }
           }
         ]
+      }
     }
-    }
-    }
+  }
 }

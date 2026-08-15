@@ -1,20 +1,20 @@
 {
-    "display": {
-        "icon": {
-            "id": "minecraft:netherite_axe",
-            "components": {
-                  "item_model": "ultimate_warden:warden_axe"
-            }
-        },
-        "hidden": false,
-        "title": {"translate": "ultimate_warden.advancements.skins.warden_axe.title", "fallback": "The Trees are scared of me..."},
-        "description": {"translate": "ultimate_warden.advancements.skins.warden_axe.description", "fallback": "...because I have a Warden Axe"},
-        "frame": "goal",
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_axe",
+      "components": {
+        "item_model": "ultimate_warden:warden_axe"
+      }
     },
-    "parent": "warden:warden/dungeon/skin_main",
-    "criteria": {
-        "requirement": {
+    "hidden": false,
+    "title": {"translate": "ultimate_warden.advancements.skins.warden_axe.title","fallback": "The Trees are scared of me..."},
+    "description": {"translate": "ultimate_warden.advancements.skins.warden_axe.description","fallback": "...because I have a Warden Axe","color": "aqua"},
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "warden:warden/dungeon/skin_main",
+  "criteria": {
+    "requirement": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -24,12 +24,12 @@
             ],
             "predicates": {
               "custom_data": {
-                "ultimate_warden:warden_axe":1
+                "ultimate_warden:warden_axe": 1
               }
             }
           }
         ]
+      }
     }
-    }
-    }
+  }
 }

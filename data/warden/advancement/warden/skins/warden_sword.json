@@ -1,20 +1,20 @@
 {
-    "display": {
-        "icon": {
-            "id": "minecraft:netherite_sword",
-            "components": {
-                  "item_model": "ultimate_warden:warden_sword"
-            }
-        },
-        "hidden": false,
-        "title": {"translate": "ultimate_warden.advancements.skins.warden_sword.title", "fallback": "My first Sword Skin"},
-        "description": {"translate": "ultimate_warden.advancements.skins.warden_sword.description", "fallback": "I want more Skins!!!"},
-        "frame": "goal",
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_sword",
+      "components": {
+        "item_model": "ultimate_warden:warden_sword"
+      }
     },
-    "parent": "warden:warden/dungeon/skin_main",
-    "criteria": {
-        "requirement": {
+    "hidden": false,
+    "title": {"translate": "ultimate_warden.advancements.skins.warden_sword.title","fallback": "My first Sword Skin"},
+    "description": {"translate": "ultimate_warden.advancements.skins.warden_sword.description","fallback": "I want more Skins!!!","color": "aqua"},
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "warden:warden/dungeon/skin_main",
+  "criteria": {
+    "requirement": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -24,12 +24,12 @@
             ],
             "predicates": {
               "custom_data": {
-                "ultimate_warden:warden_sword":1
+                "ultimate_warden:warden_sword": 1
               }
             }
           }
         ]
+      }
     }
-    }
-    }
+  }
 }

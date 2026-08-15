@@ -1,20 +1,20 @@
 {
-    "display": {
-        "icon": {
-            "id": "minecraft:bow",
-            "components": {
-                  "item_model": "ultimate_warden:warden_bow"
-            }
-        },
-        "hidden": false,
-        "title": {"translate": "ultimate_warden.advancements.skins.warden_bow.title", "fallback": "I have a Warden Bow and you don't!!!"},
-        "description": {"translate": "ultimate_warden.advancements.skins.warden_bow.description", "fallback": "Get the Warden Bow"},
-        "frame": "goal",
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:bow",
+      "components": {
+        "item_model": "ultimate_warden:warden_bow"
+      }
     },
-    "parent": "warden:warden/temple/warden_skeleton_kiled",
-    "criteria": {
-        "requirement": {
+    "hidden": false,
+    "title": {"translate": "ultimate_warden.advancements.skins.warden_bow.title","fallback": "I have a Warden Bow and you don't!!!"},
+    "description": {"translate": "ultimate_warden.advancements.skins.warden_bow.description","fallback": "Get the Warden Bow","color": "aqua"},
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "warden:warden/temple/warden_skeleton_kiled",
+  "criteria": {
+    "requirement": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -24,12 +24,12 @@
             ],
             "predicates": {
               "custom_data": {
-                "ultimate_warden:warden_bow":1
+                "ultimate_warden:warden_bow": 1
               }
             }
           }
         ]
+      }
     }
-    }
-    }
+  }
 }

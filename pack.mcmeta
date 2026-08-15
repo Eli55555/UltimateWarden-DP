@@ -2,7 +2,7 @@
 	"pack": {
 		"description": [
 			{
-				"text": "↪ Ultimate Warden V.0.3.S8-P",
+				"text": "↪ Ultimate Warden V.0.3.pre",
 				"color": "dark_blue"
 			},
 			{
@@ -13,7 +13,16 @@
 				"color": "dark_blue"
 			}
 		],
-    	"min_format": [94,1],
-    	"max_format": [101,1]
+    	"min_format": [94.1],
+    	"max_format": [107.1]
+	},
+	"overlays": {
+		"entries": [
+			{
+				"directory": "26.2",
+				"min_format": [107.1],
+				"max_format": [107.1]
+			}
+		]
 	}
 }
