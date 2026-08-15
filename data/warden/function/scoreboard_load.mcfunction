@@ -49,8 +49,7 @@ scoreboard objectives add warden.temple.floor2.timer.stop dummy
 scoreboard objectives add warden.temple.floor2.warden_skeleton.wither_skull dummy
 scoreboard objectives add warden.temple.floor2.warden_skeleton.poisen dummy
 scoreboard objectives add warden.temple.floor2.warden_skeleton.skeleton dummy
-scoreboard objectives add warden.temple.floor3.guard dummy
-scoreboard objectives add warden.temple.floor3.guard.attack.tree dummy
+scoreboard objectives add warden.temple.floor3.ancient_ring dummy
 
 # Bossbar
 scoreboard objectives add warden.bossbar.id.check dummy
@@ -104,7 +103,7 @@ scoreboard players add ultimatewarden warden.temple.floor2.timer.stop 0
 scoreboard players add ultimatewarden warden.temple.floor2.warden_skeleton.wither_skull 0
 scoreboard players add ultimatewarden warden.temple.floor2.warden_skeleton.poisen 0
 scoreboard players add ultimatewarden warden.temple.floor2.warden_skeleton.skeleton 0
-scoreboard players add ultimatewarden warden.temple.floor3.guard.attack.tree 0
+scoreboard players add ultimatewarden warden.temple.floor3.ancient_ring 0
 
 # Bossbar
 scoreboard players set ultimatewarden warden.bossbar.id.check 0
