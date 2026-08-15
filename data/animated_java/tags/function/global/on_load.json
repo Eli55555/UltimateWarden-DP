@@ -1,4 +1,4 @@
 {
 	"replace": false,
-	"values": ["warden:ancient_warden/on_load"]
+	"values": ["warden:ancient_ring/on_load", "warden:ancient_warden/on_load"]
 }
