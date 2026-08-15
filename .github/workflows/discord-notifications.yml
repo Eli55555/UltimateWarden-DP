@@ -14,11 +14,7 @@ jobs:
           webhook_id: ${{ secrets.DISCORD_WEBHOOK_ID }}
           webhook_token: ${{ secrets.DISCORD_WEBHOOK_TOKEN }}
           username: "GitHub"
-          avatar_url: "https://cdn-icons-png.flaticon.com/512/25/25231.png"
+          avatar_url: "https://images.icon-icons.com/3685/PNG/512/github_logo_icon_229278.png"
           message: |
-            <@&1538205057311445212> New updates on Git!
-            
-            📦 **Repo:** ${{ github.repository }}
-            👤 **Author:** ${{ github.actor }}
-            📝 **Commit:** ${{ github.event.head_commit.message }}
+            <@&1538205057311445212>
             🔗 ${{ github.event.head_commit.url }}
