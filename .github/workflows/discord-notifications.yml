@@ -2,7 +2,7 @@ name: Discord Custom Notification
 
 on:
   push:
-    branches: ["main" ] # Reagiert, wenn auf main oder master gepusht wird
+    branches: ["main" ]
 
 jobs:
   discord-ping:
@@ -13,8 +13,8 @@ jobs:
         with:
           webhook_id: ${{ secrets.DISCORD_WEBHOOK_ID }}
           webhook_token: ${{ secrets.DISCORD_WEBHOOK_TOKEN }}
-          username: "Git Bot"
-          avatar_url: "https://githubassets.com"
+          username: "GitHub"
+          avatar_url: "https://cdn-icons-png.flaticon.com/512/25/25231.png"
           message: |
             <@&1538205057311445212> New updates on Git!
             
