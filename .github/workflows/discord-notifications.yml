@@ -1,4 +1,4 @@
-name: Discord Custom Notification
+name: Discord Commit Ping
 
 on:
   push:
