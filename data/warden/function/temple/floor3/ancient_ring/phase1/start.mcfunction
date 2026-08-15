@@ -5,3 +5,5 @@ execute in warden:ultimatewarden positioned -171 63 -52 run summon iron_golem ~ 
 execute as @e[tag=warden.ancient_ring.root] run function warden:ancient_ring/animations/idle2/play_exclusive
 execute as @e[tag=warden.ancient_ring.root] run function warden:ancient_ring/animations/start_phase1/play
 
+function warden:temple/floor3/ancient_ring/phase1/spawn_mobs/timer
+function warden:temple/floor3/ancient_ring/phase1/spawn_mobs/main
