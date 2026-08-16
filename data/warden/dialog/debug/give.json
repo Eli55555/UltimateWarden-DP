@@ -9,14 +9,14 @@
           "type": "object",
           "object": "atlas",
           "atlas": "minecraft:items",
-          "sprite": "ultimate_warden:item/warden_sword_icon"
+          "sprite": "ultimate_warden:item/icons/warden_sword"
         },
         " Skins/Tools ",
         {
           "type": "object",
           "object": "atlas",
           "atlas": "minecraft:items",
-          "sprite": "ultimate_warden:item/warden_sword_skin_icon"
+          "sprite": "ultimate_warden:item/icons/warden_sword_skin"
         }
       ],
       "action": {

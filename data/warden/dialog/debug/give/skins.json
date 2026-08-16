@@ -10,14 +10,14 @@
           "type": "object",
           "object": "atlas",
           "atlas": "minecraft:items",
-          "sprite": "ultimate_warden:item/warden_sword_skin_icon"
+          "sprite": "ultimate_warden:item/icons/warden_sword_skin"
         },
         " Warden Sword Skin ",
         {
           "type": "object",
           "object": "atlas",
           "atlas": "minecraft:items",
-          "sprite": "ultimate_warden:item/warden_sword_skin_icon"
+          "sprite": "ultimate_warden:item/icons/warden_sword_skin"
         }
       ],
       "action": {
@@ -31,14 +31,14 @@
           "type": "object",
           "object": "atlas",
           "atlas": "minecraft:items",
-          "sprite": "ultimate_warden:item/warden_pickaxe_skin_icon"
+          "sprite": "ultimate_warden:item/icons/warden_pickaxe_skin"
         },
         " Warden Pickaxe Skin ",
         {
           "type": "object",
           "object": "atlas",
           "atlas": "minecraft:items",
-          "sprite": "ultimate_warden:item/warden_pickaxe_skin_icon"
+          "sprite": "ultimate_warden:item/icons/warden_pickaxe_skin"
         }
       ],
       "action": {
@@ -52,14 +52,14 @@
           "type": "object",
           "object": "atlas",
           "atlas": "minecraft:items",
-          "sprite": "ultimate_warden:item/warden_axe_skin_icon"
+          "sprite": "ultimate_warden:item/icons/warden_axe_skin"
         },
         " Warden Axe Skin ",
         {
           "type": "object",
           "object": "atlas",
           "atlas": "minecraft:items",
-          "sprite": "ultimate_warden:item/warden_axe_skin_icon"
+          "sprite": "ultimate_warden:item/icons/warden_axe_skin"
         }
       ],
       "action": {
@@ -73,14 +73,14 @@
           "type": "object",
           "object": "atlas",
           "atlas": "minecraft:items",
-          "sprite": "ultimate_warden:item/warden_sword_icon"
+          "sprite": "ultimate_warden:item/icons/warden_sword"
         },
         " Warden Sword ",
         {
           "type": "object",
           "object": "atlas",
           "atlas": "minecraft:items",
-          "sprite": "ultimate_warden:item/warden_sword_icon"
+          "sprite": "ultimate_warden:item/icons/warden_sword"
         }
       ],
       "action": {
@@ -94,14 +94,14 @@
           "type": "object",
           "object": "atlas",
           "atlas": "minecraft:items",
-          "sprite": "ultimate_warden:item/warden_pickaxe_icon"
+          "sprite": "ultimate_warden:item/icons/warden_pickaxe"
         },
         " Warden Pickaxe ",
         {
           "type": "object",
           "object": "atlas",
           "atlas": "minecraft:items",
-          "sprite": "ultimate_warden:item/warden_pickaxe_icon"
+          "sprite": "ultimate_warden:item/icons/warden_pickaxe"
         }
       ],
       "action": {
@@ -115,14 +115,14 @@
           "type": "object",
           "object": "atlas",
           "atlas": "minecraft:items",
-          "sprite": "ultimate_warden:item/warden_axe_icon"
+          "sprite": "ultimate_warden:item/icons/warden_axe"
         },
         " Warden Axe ",
         {
           "type": "object",
           "object": "atlas",
           "atlas": "minecraft:items",
-          "sprite": "ultimate_warden:item/warden_axe_icon"
+          "sprite": "ultimate_warden:item/icons/warden_axe"
         }
       ],
       "action": {
@@ -136,14 +136,14 @@
           "type": "object",
           "object": "atlas",
           "atlas": "minecraft:items",
-          "sprite": "ultimate_warden:item/warden_bow_skin_icon"
+          "sprite": "ultimate_warden:item/icons/warden_bow_skin"
         },
         " Warden Bow Skin ",
         {
           "type": "object",
           "object": "atlas",
           "atlas": "minecraft:items",
-          "sprite": "ultimate_warden:item/warden_bow_skin_icon"
+          "sprite": "ultimate_warden:item/icons/warden_bow_skin"
         }
       ],
       "action": {
@@ -157,14 +157,14 @@
           "type": "object",
           "object": "atlas",
           "atlas": "minecraft:items",
-          "sprite": "ultimate_warden:item/warden_bow_icon"
+          "sprite": "ultimate_warden:item/icons/warden_bow"
         },
         " Warden Bow ",
         {
           "type": "object",
           "object": "atlas",
           "atlas": "minecraft:items",
-          "sprite": "ultimate_warden:item/warden_bow_icon"
+          "sprite": "ultimate_warden:item/icons/warden_bow"
         }
       ],
       "action": {

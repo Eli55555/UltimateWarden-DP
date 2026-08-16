@@ -1,0 +1,61 @@
+{
+  "type": "minecraft:multi_action",
+  "title": "Debug » Testing",
+  "pause": false,
+  "actions": [
+    {
+      "label": [
+        {
+          "type": "object",
+          "object": "atlas",
+          "atlas": "minecraft:items",
+          "sprite": "item/netherite_sword"
+        },
+        " Give Equipment ",
+        {
+          "type": "object",
+          "object": "atlas",
+          "atlas": "minecraft:items",
+          "sprite": "item/netherite_chestplate"
+        }
+      ],
+      "width": 200,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "function warden:debug/testing/give_equipment"
+      }
+    },
+    {
+      "label": [
+        {
+          "type": "object",
+          "object": "atlas",
+          "atlas": "minecraft:items",
+          "sprite": "ultimate_warden:item/icons/warden_sword_skin"
+        },
+        " Give Skins ",
+        {
+          "type": "object",
+          "object": "atlas",
+          "atlas": "minecraft:items",
+          "sprite": "ultimate_warden:item/icons/warden_bow_skin"
+        }
+      ],
+      "width": 200,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "function warden:debug/testing/give_skins"
+      }
+    },
+    {
+      "label": {
+        "translate": "ultimate_warden.menu.button.back",
+        "fallback": "§c« Back"
+      },
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "warden:debug"
+      }
+    }
+  ]
+}

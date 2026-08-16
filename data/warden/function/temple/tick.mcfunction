@@ -46,8 +46,9 @@ execute if score ultimatewarden warden_temple_activated matches 0 if score ultim
 
 # Floor 3
 execute if score ultimatewarden warden_temple_activated matches 3.. run function warden:temple/floor3/tick
-execute if entity @a[tag=uw.temple.floor.3,limit=1] if score ultimatewarden warden_temple_activated matches 2 run scoreboard players set ultimatewarden warden.temple.floor3.ancient_ring 1
 execute if entity @a[tag=uw.temple.floor.3,limit=1] if score ultimatewarden warden_temple_activated matches 2 run scoreboard players set ultimatewarden warden_temple_activated 3
+
+execute if entity @a[tag=uw.temple.floor.3,limit=1] if score ultimatewarden warden_temple_activated matches 2 run scoreboard players set ultimatewarden warden.temple.floor3.ancient_ring 1
 
 execute if score ultimatewarden warden_temple_activated matches 0 if score ultimatewarden warden.temple.floor3.ancient_ring matches 1.. run scoreboard players set ultimatewarden warden.temple.floor3.ancient_ring 0
 execute if score ultimatewarden warden_temple_activated matches 0 if score ultimatewarden warden.temple.floor3.ancient_ring.phase1.timer matches 1.. run scoreboard players set ultimatewarden warden.temple.floor3.ancient_ring.phase1.timer 0

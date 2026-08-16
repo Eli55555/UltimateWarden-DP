@@ -93,6 +93,27 @@
           "type": "object",
           "object": "atlas",
           "atlas": "minecraft:items",
+          "sprite": "item/netherite_chestplate"
+        },
+        " Testing ",
+        {
+          "type": "object",
+          "object": "atlas",
+          "atlas": "minecraft:items",
+          "sprite": "item/netherite_chestplate"
+        }
+      ],
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "warden:debug/testing"
+      }
+    },
+    {
+      "label": [
+        {
+          "type": "object",
+          "object": "atlas",
+          "atlas": "minecraft:items",
           "sprite": "item/barrier"
         },
         " Reset ",
