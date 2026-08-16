@@ -47,3 +47,32 @@ execute if score ultimatewarden warden.temple.floor3.ancient_ring.phase1.timer m
 # Wither Skeleton (sec 73)
 execute if score ultimatewarden warden.temple.floor3.ancient_ring.phase1.timer matches 73 run function warden:temple/floor3/ancient_ring/spawn_mobs/wither_skeleton {x:-172,y:66,z:-46}
 
+# Warden (sec 80)
+execute if score ultimatewarden warden.temple.floor3.ancient_ring.phase1.timer matches 80 run function warden:temple/floor3/ancient_ring/spawn_mobs/warden {x:-188,y:63,z:-57}
+
+# Witch (sec 84)
+execute if score ultimatewarden warden.temple.floor3.ancient_ring.phase1.timer matches 84 run function warden:temple/floor3/ancient_ring/spawn_mobs/wither_skeleton {x:-159,y:63,z:-61}
+
+# Witch (sec 88)
+execute if score ultimatewarden warden.temple.floor3.ancient_ring.phase1.timer matches 88 run function warden:temple/floor3/ancient_ring/spawn_mobs/wither_skeleton {x:-180,y:63,z:-42}
+
+# Wither Skeleton (sec 92)
+execute if score ultimatewarden warden.temple.floor3.ancient_ring.phase1.timer matches 92 run function warden:temple/floor3/ancient_ring/spawn_mobs/wither_skeleton {x:-152,y:63,z:-52}
+
+# Wither Skeleton (sec 96)
+execute if score ultimatewarden warden.temple.floor3.ancient_ring.phase1.timer matches 92 run function warden:temple/floor3/ancient_ring/spawn_mobs/wither_skeleton {x:-190,y:63,z:-51}
+
+# Warden (sec 100)
+execute if score ultimatewarden warden.temple.floor3.ancient_ring.phase1.timer matches 100 run function warden:temple/floor3/ancient_ring/spawn_mobs/warden {x:-171,y:63,z:-52}
+
+# Warden (sec 110)
+execute if score ultimatewarden warden.temple.floor3.ancient_ring.phase1.timer matches 110 run function warden:temple/floor3/ancient_ring/spawn_mobs/warden {x:-171,y:72,z:-39}
+
+# Pillager (sec 115)
+execute if score ultimatewarden warden.temple.floor3.ancient_ring.phase1.timer matches 115 run function warden:temple/floor3/ancient_ring/spawn_mobs/pillager {x:-159,y:63,z:-52}
+
+# Wither Skeleton (sec 130)
+execute if score ultimatewarden warden.temple.floor3.ancient_ring.phase1.timer matches 130 run function warden:temple/floor3/ancient_ring/spawn_mobs/wither_skeleton {x:-164,y:63,z:-62}
+
+# Witch (sec 140)
+execute if score ultimatewarden warden.temple.floor3.ancient_ring.phase1.timer matches 140 run function warden:temple/floor3/ancient_ring/spawn_mobs/wither_skeleton {x:-172,y:63,z:-49}
