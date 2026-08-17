@@ -1,36 +1,15 @@
 {
   "pools": [
-     {
+    {
       "rolls": {
         "min": 6,
         "max": 9
       },
       "entries": [
         {
-                    "type": "minecraft:item",
-                    "name": "nautilus_shell",
-                    "weight": 8,
-                    "functions": [
-                        {
-                            "function": "set_components",
-                            "components": {
-                                "custom_name": [{"translate":"ultimate_warden.dungeon.home.key","fallback":"Dungeon Home Key","color": "green"}],
-                                "rarity": "epic",
-                                "lore": [
-                                    {"text":""},
-                                    {"translate":"ultimate_warden.dungeon.home.key.lore.1","fallback":"Hold this key for 10 seconds to"},
-                                    {"translate":"ultimate_warden.dungeon.home.key.lore.2","fallback":"return to the overworld."}
-                                ],
-                                "item_model": "ultimate_warden:dungeon_leave_key",
-                                "damage_resistant": {
-                                    "types": "#minecraft:is_fire"
-                                },
-                                "custom_data": {
-                                    "warden_home_key":1
-                                }
-                            }
-                        }
-                    ]
+          "type": "minecraft:loot_table",
+          "value": "warden:keys/dungeon/home_key",
+          "weight": 8
         },
         {
           "type": "minecraft:item",
@@ -70,8 +49,8 @@
           "weight": 20
         },
         {
-            "type": "item",
-            "name": "totem_of_undying"
+          "type": "item",
+          "name": "totem_of_undying"
         }
       ]
     }

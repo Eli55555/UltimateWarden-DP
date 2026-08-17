@@ -4,7 +4,7 @@
             "id": "minecraft:soul_campfire"
         },
         "hidden": true,
-        "title": {"translate": "ultimate_warden.advancements.temple.floor3.title", "fallback": "The last floor, but a guard is waiting..."},
+        "title": {"translate": "ultimate_warden.advancements.temple.floor3.title", "fallback": "The last floor..."},
         "description": {"translate": "ultimate_warden.advancements.temple.floor3.description", "fallback": "Reach the third floor of the Temple"},
         "frame": "goal",
         "announce_to_chat": true

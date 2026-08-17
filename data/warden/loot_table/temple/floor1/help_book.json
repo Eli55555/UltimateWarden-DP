@@ -1,42 +1,50 @@
 {
-    "pools": [
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
         {
-            "rolls": 1,
-            "entries": [
-                {
-                    "type": "minecraft:item",
-                    "name": "written_book",
-                    "functions": [
-                        {
-                            "function": "set_components",
-                            "components": {
-                                "written_book_content": {
-                                    "pages": [
-                                        {
-                                            "raw": {"translate": "ultimate_warden.temple.floor1.book.page.1",
-                                            "fallback": "In today’s session, a new security system was introduced. Whoever manages to activate the three hidden switches will gain access to our arena. The system is designed to keep the arena secret. We will build it in the coming days."}
-                                        },
-                                        {
-                                            "raw": {"translate": "ultimate_warden.temple.floor1.book.page.2",
-                                            "fallback": "The system is now complete. We have placed and hidden the switches throughout the facility. All of this serves not only to protect our arena, but also to safeguard a mysterious artifact stored under the Arena."}
-                                        },
-                                        {
-                                            "raw": {"translate": "ultimate_warden.temple.floor1.book.page.3",
-                                            "fallback": "Unidentifiable creatures attacked our headquarter today. They were able to shoot through walls and killed some of us. Things are not looking good for us right now."}
-                                        },
-                                        {
-                                            "raw": {"translate": "ultimate_warden.temple.floor1.book.page.4",
-                                            "fallback": "A large number of these creatures are currently storming our headquarter. This is our end. If anyone ever finds this, this will help you: loot room ceiling, water room upper left, broom closet banner."}
-                                        }
-                                    ],
-                                    "author": "Eli12_5",
-                                    "title": "The System"
-                                }
-                            }
-                        }
-                    ]
+          "type": "minecraft:item",
+          "name": "written_book",
+          "functions": [
+            {
+              "function": "set_components",
+              "components": {
+                "written_book_content": {
+                  "pages": [
+                    {
+                      "raw": {
+                        "translate": "ultimate_warden.temple.floor1.book.page.1",
+                        "fallback": "In today’s session, a new security system was introduced. Whoever manages to activate the three hidden switches will gain access to our arena. The system is designed to keep the arena secret. We will build it in the coming days."
+                      }
+                    },
+                    {
+                      "raw": {
+                        "translate": "ultimate_warden.temple.floor1.book.page.2",
+                        "fallback": "The system is now complete. We have placed and hidden the switches throughout the facility. All of this serves not only to protect our arena, but also to safeguard a mysterious artifact stored under the Arena."
+                      }
+                    },
+                    {
+                      "raw": {
+                        "translate": "ultimate_warden.temple.floor1.book.page.3",
+                        "fallback": "Unidentifiable creatures attacked our headquarter today. They were able to shoot through walls and killed some of us. Things are not looking good for us right now."
+                      }
+                    },
+                    {
+                      "raw": {
+                        "translate": "ultimate_warden.temple.floor1.book.page.4",
+                        "fallback": "A large number of these creatures are currently storming our headquarter. This is our end. If anyone ever finds this, this will help you: loot room ceiling, water room upper left, broom closet banner."
+                      }
+                    }
+                  ],
+                  "author": "Eli12_5",
+                  "title": "The System"
                 }
-            ]
+              }
+            }
+          ]
         }
-    ]
+      ]
+    }
+  ]
 }

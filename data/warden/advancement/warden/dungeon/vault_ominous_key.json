@@ -1,20 +1,20 @@
 {
-    "display": {
-        "icon": {
-            "id": "minecraft:nautilus_shell",
-            "components": {
-                "item_model": "ultimate_warden:dungeon_vault_ominous_key"
-            }
-        },
-        "hidden": false,
-        "title": {"translate": "ultimate_warden.advancements.dungeon.vault_ominous_key.title", "fallback": "The Power of Ominous"},
-        "description": {"translate": "ultimate_warden.advancements.dungeon.vault_ominous_key.description", "fallback": "Hopefully, I have luck"},
-        "frame": "goal",
-        "announce_to_chat": true
+  "display": {
+    "icon": {
+      "id": "minecraft:nautilus_shell",
+      "components": {
+        "item_model": "ultimate_warden:dungeon_vault_ominous_key"
+      }
     },
-    "parent": "warden:warden/dungeon/vault_normal_key",
-    "criteria": {
-        "requirement": {
+    "hidden": false,
+    "title": {"translate": "ultimate_warden.advancements.dungeon.vault_ominous_key.title","fallback": "The Power of Ominous"},
+    "description": {"translate": "ultimate_warden.advancements.dungeon.vault_ominous_key.description","fallback": "Hopefully, I have luck","color": "aqua"},
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "warden:warden/dungeon/vault_normal_key",
+  "criteria": {
+    "requirement": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -24,12 +24,12 @@
             ],
             "predicates": {
               "custom_data": {
-                "ultimate_warden.dungeon.vault.ominous.key":1
+                "ultimate_warden.dungeon.vault.ominous.key": 1
               }
             }
           }
         ]
+      }
     }
-    }
-    }
+  }
 }
