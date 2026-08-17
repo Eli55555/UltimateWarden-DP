@@ -12,7 +12,7 @@ execute if score ultimatewarden warden.temple.floor3.ancient_ring matches 2 run 
 execute if score ultimatewarden warden.temple.floor3.ancient_ring matches 2 unless items entity @e[tag=ancient_ring] weapon.offhand totem_of_undying run function warden:temple/floor3/ancient_ring/phase1/finish
 
 # Phase2
-execute if score ultimatewarden warden.temple.floor3.ancient_ring matches 3 in warden:ultimatewarden positioned -143 67 -52 if entity @a[distance=..7,tag=uw.temple] run function warden:temple/floor3/ancient_ring/phase2/start
+execute if score ultimatewarden warden.temple.floor3.ancient_ring matches 3 in warden:ultimatewarden positioned -143 67 -52 if entity @a[distance=..7,tag=warden.temple] run function warden:temple/floor3/ancient_ring/phase2/start
 execute if score ultimatewarden warden.temple.floor3.ancient_ring matches 4 unless items entity @e[tag=ancient_ring] weapon.offhand totem_of_undying run function warden:temple/floor3/ancient_ring/phase2/finish
 
 

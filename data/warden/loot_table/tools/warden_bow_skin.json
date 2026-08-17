@@ -19,8 +19,8 @@
                   }
                 ],
                 "custom_data": {
-                  "warden_bow_skin": 1,
-                  "warden_skin": 1
+                  "warden.tools.warden_bow.skin": 1,
+                  "warden.skins": 1
                 },
                 "item_model": "ultimate_warden:warden_bow_skin",
                 "lore": [

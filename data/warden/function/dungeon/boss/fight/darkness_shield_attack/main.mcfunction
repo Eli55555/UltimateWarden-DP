@@ -1,14 +1,14 @@
 # 1 Block Tower Spawn
-execute in warden:ultimatewarden run summon armor_stand -48 80 63 {Tags:["uw.dungeon.elite_warden.darkness_attack.1","uw.dungeon.elite_warden.darkness_attack"],Invisible:1b,Invulnerable:1b}
+execute in warden:ultimatewarden run summon armor_stand -48 80 63 {Tags:["warden.dungeon.elite_warden.darkness_attack.1","warden.dungeon.elite_warden.darkness_attack"],Invisible:1b,Invulnerable:1b}
 
 # 2 Block Tower Spawn
-execute in warden:ultimatewarden run summon armor_stand -48 80 63 {Tags:["uw.dungeon.elite_warden.darkness_attack.2","uw.dungeon.elite_warden.darkness_attack"],Invisible:1b,Invulnerable:1b}
+execute in warden:ultimatewarden run summon armor_stand -48 80 63 {Tags:["warden.dungeon.elite_warden.darkness_attack.2","warden.dungeon.elite_warden.darkness_attack"],Invisible:1b,Invulnerable:1b}
 
 # 3 Block Tower Spawn
-execute in warden:ultimatewarden run summon armor_stand -48 80 63 {Tags:["uw.dungeon.elite_warden.darkness_attack.3","uw.dungeon.elite_warden.darkness_attack"],Invisible:1b,Invulnerable:1b}
+execute in warden:ultimatewarden run summon armor_stand -48 80 63 {Tags:["warden.dungeon.elite_warden.darkness_attack.3","warden.dungeon.elite_warden.darkness_attack"],Invisible:1b,Invulnerable:1b}
 
 # 4 Block Tower Spawn
-execute in warden:ultimatewarden run summon armor_stand -48 80 63 {Tags:["uw.dungeon.elite_warden.darkness_attack.4","uw.dungeon.elite_warden.darkness_attack"],Invisible:1b,Invulnerable:1b}
+execute in warden:ultimatewarden run summon armor_stand -48 80 63 {Tags:["warden.dungeon.elite_warden.darkness_attack.4","warden.dungeon.elite_warden.darkness_attack"],Invisible:1b,Invulnerable:1b}
 
 
 # Bossbar Color change

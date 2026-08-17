@@ -24,7 +24,7 @@
             ],
             "predicates": {
               "custom_data": {
-                "ultimate_warden:warden_pickaxe": 1
+                "warden.tools.warden_pickaxe": 1
               }
             }
           }

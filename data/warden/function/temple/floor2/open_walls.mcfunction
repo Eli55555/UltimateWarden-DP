@@ -1,4 +1,4 @@
-advancement grant @a[tag=uw.temple] only warden:warden/temple/arena_finish
+advancement grant @a[tag=warden.temple] only warden:warden/temple/arena_finish
 scoreboard players set ultimatewarden warden.temple.floor2.Mobs 8
 kill @e[tag=warden.temple.floor.2.bossbar.mob]
 

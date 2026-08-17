@@ -17,7 +17,7 @@
                   "italic": false
                 },
                 "custom_data": {
-                  "ultimate_warden:warden_sword": 1
+                  "warden.tools.warden_sword": 1
                 },
                 "item_model": "ultimate_warden:warden_sword",
                 "enchantments": {

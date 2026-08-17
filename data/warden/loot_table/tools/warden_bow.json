@@ -17,7 +17,7 @@
                   "italic": false
                 },
                 "custom_data": {
-                  "ultimate_warden:warden_bow": 1
+                  "warden.warden_bow.skin": 1
                 },
                 "item_model": "ultimate_warden:warden_bow",
                 "enchantments": {

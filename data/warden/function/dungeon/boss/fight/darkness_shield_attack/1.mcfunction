@@ -1,5 +1,5 @@
 # Kill Armor Stand
-kill @e[tag=uw.dungeon.elite_warden.darkness_attack]
+kill @e[tag=warden.dungeon.elite_warden.darkness_attack]
 
 # Bossbar Color change
 tag @e[tag=elite_warden] remove warden.bossbar.color.purple

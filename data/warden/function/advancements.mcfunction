@@ -27,7 +27,7 @@ execute if entity @s[advancements={warden:warden/statistics/temple_clears/10_cle
 
 
 #                                                                               Temple
-execute if entity @s[advancements={warden:warden/temple/floor_1=false},tag=uw.temple.floor.1] run advancement grant @s only warden:warden/temple/floor_1
-execute if entity @s[advancements={warden:warden/temple/floor_2=false},tag=uw.temple.floor.2] run advancement grant @s only warden:warden/temple/floor_2
-execute if entity @s[advancements={warden:warden/temple/floor_3=false},tag=uw.temple.floor.3] run advancement grant @s only warden:warden/temple/floor_3
+execute if entity @s[advancements={warden:warden/temple/floor_1=false},tag=warden.temple.floor.1] run advancement grant @s only warden:warden/temple/floor_1
+execute if entity @s[advancements={warden:warden/temple/floor_2=false},tag=warden.temple.floor.2] run advancement grant @s only warden:warden/temple/floor_2
+execute if entity @s[advancements={warden:warden/temple/floor_3=false},tag=warden.temple.floor.3] run advancement grant @s only warden:warden/temple/floor_3
 

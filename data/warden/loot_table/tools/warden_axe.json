@@ -17,7 +17,7 @@
                   "italic": false
                 },
                 "custom_data": {
-                  "ultimate_warden:warden_axe": 1
+                  "warden.tools.warden_axe": 1
                 },
                 "item_model": "ultimate_warden:warden_axe",
                 "enchantments": {

@@ -1,5 +1,5 @@
 # Slowness Remove
-kill @e[tag=uw.dungeon.elite_warden.slowness_attack]
+kill @e[tag=warden.dungeon.elite_warden.slowness_attack]
 scoreboard players set ultimatewarden warden.dungeon.elite_warden.attack.slowness 0
 
 # Anger

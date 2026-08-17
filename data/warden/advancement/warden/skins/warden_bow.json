@@ -24,7 +24,7 @@
             ],
             "predicates": {
               "custom_data": {
-                "ultimate_warden:warden_bow": 1
+                "warden.tools.warden_bow": 1
               }
             }
           }
