@@ -34,5 +34,11 @@ execute if items entity @s weapon.mainhand minecraft:nautilus_shell[item_model="
 execute if items entity @s weapon.mainhand minecraft:nautilus_shell[item_model="ultimate_warden:warden_axe_skin"] run item modify entity @s weapon.mainhand warden:modelfix/warden_axe_skin
 
 
+# Warden Bow
+execute if items entity @s weapon.mainhand minecraft:bow[item_model="ultimate_warden:warden_bow"] run item modify entity @s weapon.mainhand warden:warden_bow
+
+execute if items entity @s weapon.mainhand minecraft:nautilus_shell[item_model="ultimate_warden:warde_bow_skin"] run item modify entity @s weapon.mainhand warden:modelfix/warden_bow_skin
+
+
 # Scoreboard Reset
 scoreboard players set @s warden.model_fix 0

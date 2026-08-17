@@ -11,8 +11,8 @@
         }
       ],
       "custom_data": {
-        "warden_axe_skin": 1,
-        "warden_skin": 1
+        "warden.tools.warden_axe.skin": 1,
+        "warden.skins": 1
       },
       "item_model": "ultimate_warden:warden_axe_skin",
       "lore": [

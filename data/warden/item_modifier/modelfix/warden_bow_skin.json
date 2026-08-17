@@ -4,33 +4,33 @@
     "components": {
       "item_name": [
         {
-          "translate": "ultimate_warden.tools.warden_pickaxe.skin",
-          "fallback": "Warden Pickaxe - Skin",
+          "translate": "ultimate_warden.tools.warden_bow.skin",
+          "fallback": "Warden Bow - Skin",
           "color": "dark_blue",
           "italic": false
         }
       ],
       "custom_data": {
-        "warden.tools.warden_pickaxe.skin": 1,
+        "warden.tools.warden_bow.skin": 1,
         "warden.skins": 1
       },
-      "item_model": "ultimate_warden:warden_pickaxe_skin",
+      "item_model": "ultimate_warden:warden_bow_skin",
       "lore": [
         {
           "text": ""
         },
         [
           {
-            "translate": "ultimate_warden.tools.warden_pickaxe.skin.lore.1",
-            "fallback": "Right click this in your offhand while holding a Pickaxe",
+            "translate": "ultimate_warden.tools.warden_bow.skin.lore.1",
+            "fallback": "Right click this in your offhand while holding a Bow",
             "color": "blue",
             "italic": false
           }
         ],
         [
           {
-            "translate": "ultimate_warden.tools.warden_pickaxe.skin.lore.2",
-            "fallback": "to apply this Skin to your Pickaxe. Your Pickaxe will get:",
+            "translate": "ultimate_warden.tools.warden_bow.skin.lore.2",
+            "fallback": "to apply this Skin to your Bow. Your Bow will get:",
             "color": "blue",
             "italic": false
           }
@@ -42,7 +42,7 @@
             "italic": false
           },
           {
-            "translate": "ultimate_warden.tools.warden_pickaxe.skin.lore.3",
+            "translate": "ultimate_warden.tools.warden_bow.skin.lore.3",
             "fallback": "A Custom Model",
             "color": "gray"
           }
@@ -54,8 +54,8 @@
             "italic": false
           },
           {
-            "translate": "ultimate_warden.tools.warden_pickaxe.skin.lore.4",
-            "fallback": "Efficiency V",
+            "translate": "ultimate_warden.tools.warden_bow.skin.lore.4",
+            "fallback": "Power V",
             "color": "gray"
           }
         ],
@@ -66,9 +66,9 @@
             "italic": false
           },
           {
-            "translate": "ultimate_warden.tools.warden_pickaxe.skin.lore.5",
-            "fallback": "Mending",
-            "color": "gray"
+            "translate": "ultimate_warden.tools.warden_bow.skin.lore.5",
+            "fallback": "Warden Bow",
+            "color": "blue"
           }
         ]
       ],
