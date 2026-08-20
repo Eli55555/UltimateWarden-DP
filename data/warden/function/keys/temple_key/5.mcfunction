@@ -5,12 +5,12 @@ execute if score ultimatewarden warden.settings.temple_activated matches 1 run r
 
 
 # Tellraw
-execute if score ultimatewarden warden_temple_activated matches 1.. run tellraw @s [{"text":"[Ultimate Warden] ","bold":true,"color":"blue"},{"translate":"ultimate_warden.temple.key.message.join2","fallback":"Joining Temple...","color":"red",bold:false}]
-execute if score ultimatewarden warden_temple_activated matches 0 run tellraw @s [{"text":"[Ultimate Warden] ","bold":true,"color":"blue"},{"translate":"ultimate_warden.temple.key.message.create2","fallback":"Creating Temple...","color":"red",bold:false}]
+execute if score ultimatewarden warden_temple_activated matches 1.. run tellraw @s [{"text":"[Ultimate Warden] ","bold":true,"color":"blue"},{"translate":"ultimate_warden.keys.temple.temple_key.message.join2","fallback":"Joining Temple...","color":"red",bold:false}]
+execute if score ultimatewarden warden_temple_activated matches 0 run tellraw @s [{"text":"[Ultimate Warden] ","bold":true,"color":"blue"},{"translate":"ultimate_warden.keys.temple.temple_key.message.create2","fallback":"Creating Temple...","color":"red",bold:false}]
 
 
 # Key back to chest
-execute in warden:ultimatewarden run item replace block 93 50 21 container.22 with minecraft:nautilus_shell[minecraft:custom_name=[{"translate":"ultimate_warden.temple.key","fallback":"Warden Temple Key","color": "red"}],minecraft:rarity=epic,minecraft:lore=[{"text":""},{"translate":"ultimate_warden.temple.key.lore.1","fallback":"Hold it for 15 seconds to"},{"translate":"ultimate_warden.temple.key.lore.2","fallback":"enter the Warden Temple."}],item_model="ultimate_warden:temple_key",damage_resistant={types:"#is_fire"},custom_data={"warden_temple_key":1b}]
+execute in warden:ultimatewarden run item replace block 93 50 21 container.22 with minecraft:nautilus_shell[item_name=[{"translate": "ultimate_warden.keys.temple.temple_key","fallback": "Warden Temple Key","color": "red","italic": false}],lore=[{"text": ""},{"translate": "ultimate_warden.keys.temple.temple_key.lore.1","fallback": "Hold it for 15 seconds to","color": "gray","italic": false},{"translate": "ultimate_warden.keys.temple.temple_key.lore.2","fallback": "enter the Warden Temple.","color": "gray","italic": false}],item_model="ultimate_warden:temple_key",damage_resistant={"types": "#minecraft:is_fire"},custom_data={"warden.keys.temple.temple_key":1}]
 
 
 # Temple clear

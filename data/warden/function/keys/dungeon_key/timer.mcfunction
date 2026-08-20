@@ -1,6 +1,6 @@
 # Tag
 tag @a remove warden.key.dungeon_key
-execute as @a if items entity @s weapon.mainhand minecraft:nautilus_shell[minecraft:custom_data~{warden_dungeon_key:1b}] run tag @s add warden.key.dungeon_key
+execute as @a if items entity @s weapon.mainhand minecraft:nautilus_shell[minecraft:custom_data~{warden.keys.dungeon.dungeon_key:1b}] run tag @s add warden.key.dungeon_key
 
 scoreboard players add @a[tag=warden.key.dungeon_key] warden.key.dungeon_key 1
 scoreboard players set @a[tag=!warden.key.dungeon_key] warden.key.dungeon_key 0

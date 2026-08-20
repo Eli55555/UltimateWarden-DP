@@ -8,7 +8,7 @@
         },
         "hidden": false,
         "title": {"translate": "ultimate_warden.advancements.dungeon.vault_normal_key.title", "fallback": "I go gambling"},
-        "description": {"translate": "ultimate_warden.advancements.dungeon.vault_normal_key.description", "fallback": "Hopefully, I have luck and get a Skin"},
+        "description": {"translate": "ultimate_warden.advancements.dungeon.vault_normal_key.description", "fallback": "Hopefully, I have luck"},
         "frame": "task",
         "announce_to_chat": true
     },

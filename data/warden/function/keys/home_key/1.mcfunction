@@ -1,1 +1,1 @@
-tellraw @s [{"text":"[Ultimate Warden] ","bold":true,"color":"blue"},{"translate":"ultimate_warden.dungeon.home.key.message.1","fallback":"You will leave the dungeon in 10 seconds...","color":"green",bold:false}]
+tellraw @s [{"text":"[Ultimate Warden] ","bold":true,"color":"blue"},{"translate":"ultimate_warden.keys.dungeon.home_key.message.1","fallback":"You will leave the dungeon in 10 seconds...","color":"green",bold:false}]

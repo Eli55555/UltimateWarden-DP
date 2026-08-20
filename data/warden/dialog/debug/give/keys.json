@@ -22,7 +22,7 @@
       ],
       "action": {
         "type": "minecraft:run_command",
-        "command": "loot give @s loot warden:keys/dungeon/dungeon_key_key"
+        "command": "loot give @s loot warden:keys/dungeon/dungeon_key"
       }
     },
     {

@@ -7,8 +7,8 @@
       }
     },
     "hidden": false,
-    "title": {"translate": "ultimate_warden.advancements.dungeon.vault_ominous_key.title","fallback": "The Power of Ominous"},
-    "description": {"translate": "ultimate_warden.advancements.dungeon.vault_ominous_key.description","fallback": "Hopefully, I have luck","color": "aqua"},
+    "title": {"translate": "ultimate_warden.advancements.dungeon.vault_ominous_key.title","fallback": "Ultimate gambling"},
+    "description": {"translate": "ultimate_warden.advancements.dungeon.vault_ominous_key.description","fallback": "Get an ominous dungeon vault key","color": "aqua"},
     "frame": "goal",
     "announce_to_chat": true
   },

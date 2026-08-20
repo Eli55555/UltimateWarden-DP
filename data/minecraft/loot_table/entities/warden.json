@@ -2,7 +2,7 @@
   "type": "minecraft:entity",
   "random_sequence": "minecraft:entities/warden",
   "pools": [
-     {
+    {
       "rolls": {
         "min": 1,
         "max": 5
@@ -19,19 +19,22 @@
                   "can_summon": "true"
                 },
                 "rarity": "rare",
-                "custom_name": [{"text":"Warden Shrieker","italic":false}]
+                "custom_name": [
+                  {
+                    "text": "Warden Shrieker",
+                    "italic": false
+                  }
+                ]
               }
             }
           ],
           "weight": 5
         },
-
         {
           "type": "minecraft:item",
           "name": "minecraft:sculk_shrieker",
           "weight": 7
         },
-
         {
           "type": "minecraft:item",
           "name": "minecraft:golden_apple",
@@ -53,31 +56,10 @@
     {
       "rolls": 1,
       "entries": [
-          {
-                    "type": "minecraft:item",
-                    "name": "nautilus_shell",
-                    "functions": [
-                        {
-                            "function": "set_components",
-                            "components": {
-                                "custom_name": [{"translate":"ultimate_warden.dungeon.key","fallback": "Warden Dungeon Key","color": "blue"}],
-                                "rarity": "epic",
-                                "lore": [
-                                    {"text":""},
-                                    {"translate":"ultimate_warden.dungeon.key.lore.1", "fallback": "Hold it for 15 seconds to"},
-                                    {"translate":"ultimate_warden.dungeon.key.lore.2", "fallback": "enter the Warden Dungeon."}
-                                ],
-                                "item_model": "ultimate_warden:dungeon_key",
-                                "damage_resistant": {
-                                    "types": "#minecraft:is_fire"
-                                },
-                                "custom_data": {
-                                    "warden_dungeon_key":1
-                                }
-                            }
-                        }
-                    ]
-                }
+        {
+          "type": "minecraft:loot_table",
+          "value": "warden:keys/dungeon/dungeon_key"
+        }
       ]
     }
   ]

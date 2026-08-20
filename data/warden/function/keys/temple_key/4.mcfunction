@@ -5,8 +5,8 @@ execute if score ultimatewarden warden.settings.temple_activated matches 1 run r
 
 
 # Tellraw
-execute if score ultimatewarden warden_temple_activated matches 1.. run tellraw @s [{"text":"[Ultimate Warden] ","bold":true,"color":"blue"},{"translate":"ultimate_warden.temple.key.message.join","fallback":"You will enter an existing Temple run...","color":"red",bold:false}]
-execute if score ultimatewarden warden_temple_activated matches 0 run tellraw @s [{"text":"[Ultimate Warden] ","bold":true,"color":"blue"},{"translate":"ultimate_warden.temple.key.message.create","fallback":"A new Temple run wil be created...","color":"red",bold:false}]
+execute if score ultimatewarden warden_temple_activated matches 1.. run tellraw @s [{"text":"[Ultimate Warden] ","bold":true,"color":"blue"},{"translate":"ultimate_warden.keys.temple.temple_key.message.join","fallback":"You will enter an existing Temple run...","color":"red",bold:false}]
+execute if score ultimatewarden warden_temple_activated matches 0 run tellraw @s [{"text":"[Ultimate Warden] ","bold":true,"color":"blue"},{"translate":"ultimate_warden.keys.temple.temple_key.message.create","fallback":"A new Temple run wil be created...","color":"red",bold:false}]
 
 
 # Redstone reset

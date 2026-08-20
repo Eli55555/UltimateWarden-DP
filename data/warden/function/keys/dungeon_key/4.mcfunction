@@ -3,8 +3,8 @@ execute if score ultimatewarden warden.settings.dungeon_activated matches 1 run 
 execute if score ultimatewarden warden.settings.dungeon_activated matches 1 run return fail
 
 
-execute if score ultimatewarden warden_dungeon_activated matches 1.. run tellraw @s [{"text":"[Ultimate Warden] ","bold":true,"color":"blue"},{"translate":"ultimate_warden.dungeon.tp.message.join2","fallback":"Joining dungeon...","color":"yellow",bold:false}]
-execute if score ultimatewarden warden_dungeon_activated matches 0 run tellraw @s [{"text":"[Ultimate Warden] ","bold":true,"color":"blue"},{"translate":"ultimate_warden.dungeon.tp.message.create2","fallback":"Creating dungeon...","color":"yellow",bold:false}]
+execute if score ultimatewarden warden_dungeon_activated matches 1.. run tellraw @s [{"text":"[Ultimate Warden] ","bold":true,"color":"blue"},{"translate":"ultimate_warden.keys.dungeon.dungeon_key.message.join2","fallback":"Joining dungeon...","color":"yellow",bold:false}]
+execute if score ultimatewarden warden_dungeon_activated matches 0 run tellraw @s [{"text":"[Ultimate Warden] ","bold":true,"color":"blue"},{"translate":"ultimate_warden.keys.dungeon.dungeon_key.message.create2","fallback":"Creating dungeon...","color":"yellow",bold:false}]
 
 execute if score ultimatewarden warden_dungeon_activated matches 0 run execute in warden:ultimatewarden run execute positioned 48.13 -2.00 34.77 run kill @e[distance=..150,type=!player]
 execute if score ultimatewarden warden_dungeon_activated matches 0 run execute in warden:ultimatewarden run execute positioned 48.13 -2.00 34.77 run kill @e[distance=..150,type=item]

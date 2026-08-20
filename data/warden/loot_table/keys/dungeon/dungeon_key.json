@@ -12,9 +12,10 @@
               "components": {
                 "item_name": [
                   {
-                    "translate": "ultimate_warden.keys.dungeon.boss_key",
-                    "fallback": "Dungeon Boss Key",
-                    "color": "yellow"
+                    "translate": "ultimate_warden.keys.dungeon.dungeon_key",
+                    "fallback": "Warden Dungeon Key",
+                    "color": "blue",
+                    "italic": false
                   }
                 ],
                 "lore": [
@@ -22,24 +23,24 @@
                     "text": ""
                   },
                   {
-                    "translate": "ultimate_warden.keys.dungeon.boss_key.lore.1",
-                    "fallback": "Hold it for 10 seconds to",
+                    "translate": "ultimate_warden.keys.dungeon.dungeon_key.lore.1",
+                    "fallback": "Hold it for 15 seconds to",
                     "color": "gray",
                     "italic": false
                   },
                   {
-                    "translate": "ultimate_warden.keys.dungeon.boss_key.lore.2",
-                    "fallback": "start the Boss Fight.",
+                    "translate": "ultimate_warden.keys.dungeon.dungeon_key.lore.2",
+                    "fallback": "enter the Warden Dungeon",
                     "color": "gray",
                     "italic": false
                   }
                 ],
-                "item_model": "ultimate_warden:dungeon_boss_key",
+                "item_model": "ultimate_warden:dungeon_key",
                 "damage_resistant": {
                   "types": "#minecraft:is_fire"
                 },
                 "custom_data": {
-                  "warden.keys.dungeon.boss_key": 1
+                  "warden.keys.dungeon.dungeon_key": 1
                 }
               }
             }

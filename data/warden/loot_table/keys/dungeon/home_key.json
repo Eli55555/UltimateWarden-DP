@@ -11,11 +11,12 @@
             {
               "function": "set_components",
               "components": {
-                "custom_name": [
+                "item_name": [
                   {
-                    "translate": "ultimate_warden.dungeon.home.key",
+                    "translate": "ultimate_warden.keys.dungeon.home_key",
                     "fallback": "Dungeon Home Key",
-                    "color": "green"
+                    "color": "green",
+                    "italic": false
                   }
                 ],
                 "rarity": "epic",
@@ -24,12 +25,16 @@
                     "text": ""
                   },
                   {
-                    "translate": "ultimate_warden.dungeon.home.key.lore.1",
-                    "fallback": "Hold this key for 10 seconds to"
+                    "translate": "ultimate_warden.keys.dungeon.home_key.lore.1",
+                    "fallback": "Hold it for 10 seconds to",
+                    "color": "gray",
+                    "italic": false
                   },
                   {
-                    "translate": "ultimate_warden.dungeon.home.key.lore.2",
-                    "fallback": "return to the overworld."
+                    "translate": "ultimate_warden.keys.dungeon.home_key.lore.2",
+                    "fallback": "return to the overworld.",
+                    "color": "gray",
+                    "italic": false
                   }
                 ],
                 "item_model": "ultimate_warden:dungeon_leave_key",
@@ -37,7 +42,7 @@
                   "types": "#minecraft:is_fire"
                 },
                 "custom_data": {
-                  "warden_home_key": 1
+                  "warden.keys.dungeon.home_key": 1
                 }
               }
             }
