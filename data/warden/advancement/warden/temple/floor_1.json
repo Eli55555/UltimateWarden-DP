@@ -5,7 +5,7 @@
         },
         "hidden": false,
         "title": {"translate": "ultimate_warden.advancements.temple.floor1.title", "fallback": "A Jungle in a Room!?"},
-        "description": {"translate": "ultimate_warden.advancements.temple.floor1.description", "fallback": "Reach the first floor of the Temple"},
+        "description": {"translate": "ultimate_warden.advancements.temple.floor1.description", "fallback": "Reach the first floor of the Temple","color": "aqua"},
         "frame": "goal",
         "announce_to_chat": true
     },

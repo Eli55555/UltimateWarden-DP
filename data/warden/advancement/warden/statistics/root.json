@@ -5,7 +5,7 @@
         },
         "hidden": true,
         "title": {"translate": "ultimate_warden.advancements.statistics.root.title", "fallback": "Statistics"},
-        "description": {"translate": "ultimate_warden.advancements.statistics.root.description", "fallback": "Can you grind?"},
+        "description": {"translate": "ultimate_warden.advancements.statistics.root.description", "fallback": "Can you grind?","color": "aqua"},
         "frame": "goal",
         "announce_to_chat": false,
         "show_toast": true

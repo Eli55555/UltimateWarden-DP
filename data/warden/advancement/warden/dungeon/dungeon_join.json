@@ -5,7 +5,7 @@
         },
         "hidden": true,
         "title": {"translate": "ultimate_warden.advancements.dungeon.dungeon_join.title", "fallback": "A Place for the Warden"},
-        "description": {"translate": "ultimate_warden.advancements.dungeon.dungeon_join.description", "fallback": "Enter the Warden Dungeon"},
+        "description": {"translate": "ultimate_warden.advancements.dungeon.dungeon_join.description", "fallback": "Enter the Warden Dungeon","color": "aqua"},
         "frame": "goal",
         "announce_to_chat": true
     },

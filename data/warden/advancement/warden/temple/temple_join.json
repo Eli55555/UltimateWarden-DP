@@ -5,7 +5,7 @@
         },
         "hidden": true,
         "title": {"translate": "ultimate_warden.advancements.temple.temple_join.title", "fallback": "A Place for more Wardens"},
-        "description": {"translate": "ultimate_warden.advancements.temple.temple_join.description", "fallback": "Enter the Warden Temple"},
+        "description": {"translate": "ultimate_warden.advancements.temple.temple_join.description", "fallback": "Enter the Warden Temple","color": "aqua"},
         "frame": "goal",
         "announce_to_chat": true
     },
