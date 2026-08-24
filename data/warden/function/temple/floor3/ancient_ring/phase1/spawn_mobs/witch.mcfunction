@@ -1,4 +1,4 @@
-$function warden:temple/floor3/ancient_ring/spawn_mobs/shoot_particle {x:$(x),y:$(y),z:$(z)}
+$function warden:temple/floor3/ancient_ring/phase1/spawn_mobs/shoot_particle {x:$(x),y:$(y),z:$(z)}
 
 $data modify storage warden:temple/floor3/ancient_ring/spawn/witch x set value $(x)
 $data modify storage warden:temple/floor3/ancient_ring/spawn/witch y set value $(y)
