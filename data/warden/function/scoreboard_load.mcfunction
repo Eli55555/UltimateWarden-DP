@@ -54,6 +54,7 @@ scoreboard objectives add warden.temple.floor3.ancient_ring.shoot_particle dummy
 scoreboard objectives add warden.temple.floor3.ancient_ring.phase1.timer dummy
 scoreboard objectives add warden.temple.floor3.ancient_ring.phase2.wave dummy
 scoreboard objectives add warden.temple.floor3.ancient_ring.phase2.wave.mobs dummy
+scoreboard objectives add warden.temple.floor3.ancient_ring.phase2.wave.particle dummy
 
 # Bossbar
 scoreboard objectives add warden.bossbar.id.check dummy

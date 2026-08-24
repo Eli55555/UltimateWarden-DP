@@ -4,4 +4,4 @@ $data modify storage warden:temple/floor3/ancient_ring/spawn/wither_skeleton x s
 $data modify storage warden:temple/floor3/ancient_ring/spawn/wither_skeleton y set value $(y)
 $data modify storage warden:temple/floor3/ancient_ring/spawn/wither_skeleton z set value $(z)
 
-schedule function warden:temple/floor3/ancient_ring/spawn_mobs/wither_skeleton/wither_skeleton1 35t
+schedule function warden:temple/floor3/ancient_ring/phase1/spawn_mobs/wither_skeleton/1 35t

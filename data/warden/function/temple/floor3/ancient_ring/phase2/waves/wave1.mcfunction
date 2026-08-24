@@ -1,4 +1,5 @@
 scoreboard players set ultimatewarden warden.temple.floor3.ancient_ring.phase2.wave 1
+scoreboard players set ultimatewarden warden.temple.floor3.ancient_ring.phase2.wave.particle 0
 execute in warden:ultimatewarden run playsound minecraft:entity.warden.roar master @a[tag=warden.temple]
 
 

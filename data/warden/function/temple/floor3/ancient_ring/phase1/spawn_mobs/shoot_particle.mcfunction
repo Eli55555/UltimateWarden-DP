@@ -6,4 +6,4 @@ $data modify storage warden:temple/floor3/ancient_ring/shoot_particle y set valu
 $data modify storage warden:temple/floor3/ancient_ring/shoot_particle z set value $(z)
 
 scoreboard players remove ultimatewarden warden.temple.floor3.ancient_ring.shoot_particle 1
-execute if score ultimatewarden warden.temple.floor3.ancient_ring.shoot_particle matches 1.. run schedule function warden:temple/floor3/ancient_ring/spawn_mobs/shoot_particle_1t 1t
+execute if score ultimatewarden warden.temple.floor3.ancient_ring.shoot_particle matches 1.. run schedule function warden:temple/floor3/ancient_ring/phase1/spawn_mobs/shoot_particle_1t 1t
