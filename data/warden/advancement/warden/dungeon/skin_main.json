@@ -27,7 +27,7 @@
             ],
             "predicates": {
               "custom_data": {
-                "warden_skin": 1
+                "warden.skins": 1
               }
             }
           }

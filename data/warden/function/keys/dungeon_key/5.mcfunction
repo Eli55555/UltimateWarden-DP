@@ -17,4 +17,4 @@ execute if score ultimatewarden warden_dungeon_activated matches 3.. in warden:u
 execute if score ultimatewarden warden_dungeon_activated matches 3.. in warden:ultimatewarden run advancement grant @s only warden:warden/dungeon/bossroom_enter
 
 
-clear @s nautilus_shell[custom_data={warden_dungeon_key:1b}]
+clear @s nautilus_shell[custom_data={warden.keys.dungeon.dungeon_key:1b}]

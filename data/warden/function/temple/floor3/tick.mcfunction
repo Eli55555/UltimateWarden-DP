@@ -21,7 +21,7 @@ execute if score ultimatewarden warden.temple.floor3.ancient_ring matches 4 unle
 
 execute if score ultimatewarden warden.temple.floor3.ancient_ring matches 4 run function warden:temple/floor3/ancient_ring/phase2/waves/bossbar
 execute if score ultimatewarden warden.temple.floor3.ancient_ring matches 4 if score ultimatewarden warden.temple.floor3.ancient_ring.phase2.wave matches 1 if score ultimatewarden warden.temple.floor3.ancient_ring.phase2.wave.particle matches 0 in warden:ultimatewarden unless entity @e[tag=warden.temple.floor3.ancient_ring.phase2.wave1.mob] run function warden:temple/floor3/ancient_ring/phase2/waves/wave2/wave2-start
-execute if score ultimatewarden warden.temple.floor3.ancient_ring matches 4 if score ultimatewarden warden.temple.floor3.ancient_ring.phase2.wave matches 2 if score ultimatewarden warden.temple.floor3.ancient_ring.phase2.wave.particle matches 0 in warden:ultimatewarden unless entity @e[tag=warden.temple.floor3.ancient_ring.phase2.wave2.mob] run function warden:temple/floor3/ancient_ring/phase2/waves/wave2/wave2-start
+execute if score ultimatewarden warden.temple.floor3.ancient_ring matches 4 if score ultimatewarden warden.temple.floor3.ancient_ring.phase2.wave matches 2 if score ultimatewarden warden.temple.floor3.ancient_ring.phase2.wave.particle matches 0 in warden:ultimatewarden unless entity @e[tag=warden.temple.floor3.ancient_ring.phase2.wave2.mob] run function warden:temple/floor3/ancient_ring/phase2/waves/wave3/wave3-start
 
 
 execute if score ultimatewarden warden.temple.floor3.ancient_ring matches 4 if score ultimatewarden warden.temple.floor3.ancient_ring.phase2.wave.particle matches 1.. in warden:ultimatewarden run function warden:temple/floor3/ancient_ring/phase2/waves/particle

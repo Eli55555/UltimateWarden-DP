@@ -47,8 +47,8 @@ execute if score ultimatewarden warden_temple_activated matches 2.. run execute 
 advancement grant @a[tag=warden.temple.key.playerteleport] only warden:warden/temple/temple_join
 
 
-execute at @s run clear @a[distance=..5] minecraft:nautilus_shell[custom_data={warden_temple_key:1b}]
-execute at @s run clear @a[distance=..5] minecraft:nautilus_shell[custom_data={warden_home_key:1b}]
+execute at @s run clear @a[distance=..5] minecraft:nautilus_shell[custom_data={warden.keys.temple.temple_key:1b}]
+execute at @s run clear @a[distance=..5] minecraft:nautilus_shell[custom_data={warden.keys.dungeon.home_key:1b}]
 
 execute as @a[tag=warden.temple.key.playerteleport] run tag @s remove warden.temple.key.playerteleport
 

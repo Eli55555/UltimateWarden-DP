@@ -9,4 +9,4 @@ execute in minecraft:overworld at @s run spawnpoint @s ~ ~ ~
 kill @e[tag=warden.home_key.armor_stand]
 
 execute in minecraft:overworld at @s if entity @s[y=200,dy=50] run effect give @s slow_falling 32 0 true
-clear @s nautilus_shell[custom_data={warden_home_key:1b}]
+clear @s nautilus_shell[custom_data={warden.keys.dungeon.home_key:1b}]

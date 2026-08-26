@@ -21,10 +21,10 @@ execute as @e[tag=warden.temple.floor3.ancient_ring.phase2.wave.mob] run scorebo
 execute if score ultimatewarden warden.temple.floor3.ancient_ring.phase2.wave matches 1 in warden:ultimatewarden run attribute @e[type=armor_stand,tag=warden.temple.floor3.ancient_ring.phase2.wave.bossbar,limit=1] max_health base set 8
 execute if score ultimatewarden warden.temple.floor3.ancient_ring.phase2.wave matches 2 in warden:ultimatewarden run attribute @e[type=armor_stand,tag=warden.temple.floor3.ancient_ring.phase2.wave.bossbar,limit=1] max_health base set 10
 execute if score ultimatewarden warden.temple.floor3.ancient_ring.phase2.wave matches 3 in warden:ultimatewarden run attribute @e[type=armor_stand,tag=warden.temple.floor3.ancient_ring.phase2.wave.bossbar,limit=1] max_health base set 12
-execute if score ultimatewarden warden.temple.floor3.ancient_ring.phase2.wave matches 4 in warden:ultimatewarden run attribute @e[type=armor_stand,tag=warden.temple.floor3.ancient_ring.phase2.wave.bossbar,limit=1] max_health base set 32
-execute if score ultimatewarden warden.temple.floor3.ancient_ring.phase2.wave matches 5 in warden:ultimatewarden run attribute @e[type=armor_stand,tag=warden.temple.floor3.ancient_ring.phase2.wave.bossbar,limit=1] max_health base set 40
-execute if score ultimatewarden warden.temple.floor3.ancient_ring.phase2.wave matches 6 in warden:ultimatewarden run attribute @e[type=armor_stand,tag=warden.temple.floor3.ancient_ring.phase2.wave.bossbar,limit=1] max_health base set 48
-execute if score ultimatewarden warden.temple.floor3.ancient_ring.phase2.wave matches 7 in warden:ultimatewarden run attribute @e[type=armor_stand,tag=warden.temple.floor3.ancient_ring.phase2.wave.bossbar,limit=1] max_health base set 56
+execute if score ultimatewarden warden.temple.floor3.ancient_ring.phase2.wave matches 4 in warden:ultimatewarden run attribute @e[type=armor_stand,tag=warden.temple.floor3.ancient_ring.phase2.wave.bossbar,limit=1] max_health base set 14
+execute if score ultimatewarden warden.temple.floor3.ancient_ring.phase2.wave matches 5 in warden:ultimatewarden run attribute @e[type=armor_stand,tag=warden.temple.floor3.ancient_ring.phase2.wave.bossbar,limit=1] max_health base set 16
+execute if score ultimatewarden warden.temple.floor3.ancient_ring.phase2.wave matches 6 in warden:ultimatewarden run attribute @e[type=armor_stand,tag=warden.temple.floor3.ancient_ring.phase2.wave.bossbar,limit=1] max_health base set 18
+execute if score ultimatewarden warden.temple.floor3.ancient_ring.phase2.wave matches 7 in warden:ultimatewarden run attribute @e[type=armor_stand,tag=warden.temple.floor3.ancient_ring.phase2.wave.bossbar,limit=1] max_health base set 22
 
 
 execute store result entity @e[tag=warden.temple.floor3.ancient_ring.phase2.wave.bossbar,limit=1] Health int 1 run scoreboard players get ultimatewarden warden.temple.floor3.ancient_ring.phase2.wave.mobs
