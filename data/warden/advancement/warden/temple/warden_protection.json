@@ -5,7 +5,7 @@
         },
         "hidden": false,
         "title": {"translate": "ultimate_warden.advancements.temple.warden_protection.title", "fallback": "I'm Protected!"},
-        "description": {"translate": "ultimate_warden.advancements.temple.warden_protection.description", "fallback": "Obtain Warden Protection"},
+        "description": {"translate": "ultimate_warden.advancements.temple.warden_protection.description", "fallback": "Obtain Warden Protection","color": "aqua"},
         "frame": "goal",
         "announce_to_chat": true
     },
