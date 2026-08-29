@@ -2,19 +2,19 @@ execute if score ultimatewarden warden.settings.dungeon_activated matches 1 run 
 execute if score ultimatewarden warden.settings.dungeon_activated matches 1 run scoreboard players set @s warden.key.dungeon_key 0
 execute if score ultimatewarden warden.settings.dungeon_activated matches 1 run return fail
 
-execute if score ultimatewarden warden_dungeon_activated matches ..2 run scoreboard players set ultimatewarden warden_dungeon_activated 1
+execute if score ultimatewarden warden.dungeon.activated matches ..2 run scoreboard players set ultimatewarden warden.dungeon.activated 1
 
 
 advancement grant @s only warden:warden/root
 advancement grant @s only warden:warden/dungeon/dungeon_join
 
 
-execute if score ultimatewarden warden_dungeon_activated matches ..2 in warden:ultimatewarden run tp @s 5 57 33
-execute if score ultimatewarden warden_dungeon_activated matches ..2 in warden:ultimatewarden at @s run spawnpoint @s 5 57 33
+execute if score ultimatewarden warden.dungeon.activated matches ..2 in warden:ultimatewarden run tp @s 5 57 33
+execute if score ultimatewarden warden.dungeon.activated matches ..2 in warden:ultimatewarden at @s run spawnpoint @s 5 57 33
 
-execute if score ultimatewarden warden_dungeon_activated matches 3.. in warden:ultimatewarden run tp @s -32 80 70
-execute if score ultimatewarden warden_dungeon_activated matches 3.. in warden:ultimatewarden at @s run spawnpoint @s -32 80 70
-execute if score ultimatewarden warden_dungeon_activated matches 3.. in warden:ultimatewarden run advancement grant @s only warden:warden/dungeon/bossroom_enter
+execute if score ultimatewarden warden.dungeon.activated matches 3.. in warden:ultimatewarden run tp @s -32 80 70
+execute if score ultimatewarden warden.dungeon.activated matches 3.. in warden:ultimatewarden at @s run spawnpoint @s -32 80 70
+execute if score ultimatewarden warden.dungeon.activated matches 3.. in warden:ultimatewarden run advancement grant @s only warden:warden/dungeon/bossroom_enter
 
 
 clear @s nautilus_shell[custom_data={warden.keys.dungeon.dungeon_key:1b}]

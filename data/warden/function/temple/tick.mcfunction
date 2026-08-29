@@ -1,5 +1,5 @@
 # Temple not Activated
-execute if score ultimatewarden warden_temple_activated matches 0 in warden:ultimatewarden positioned -146 147 -27 run execute as @a[distance=..100] run function warden:temple/close_temple
+execute if score ultimatewarden warden.temple.activated matches 0 in warden:ultimatewarden positioned -146 147 -27 run execute as @a[distance=..100] run function warden:temple/close_temple
 
 
 
@@ -33,24 +33,24 @@ execute as @a[tag=warden.temple.floor.3] at @s run spawnpoint @s -171 63 -52
 
 
 # Floor 2
-execute if score ultimatewarden warden_temple_activated matches 2 run function warden:temple/floor2/mobs/main
+execute if score ultimatewarden warden.temple.activated matches 2 run function warden:temple/floor2/mobs/main
 execute if entity @e[tag=warden_skeleton,limit=1] run function warden:temple/floor2/miniboss/attacks/tick
 
-execute if entity @a[tag=warden.temple.floor.2,limit=1] if score ultimatewarden warden_temple_activated matches 1 run scoreboard players set ultimatewarden warden.temple.floor2.Mobs 1
-execute if entity @a[tag=warden.temple.floor.2,limit=1] if score ultimatewarden warden_temple_activated matches 1 run scoreboard players set ultimatewarden warden_temple_activated 2
+execute if entity @a[tag=warden.temple.floor.2,limit=1] if score ultimatewarden warden.temple.activated matches 1 run scoreboard players set ultimatewarden warden.temple.floor2.Mobs 1
+execute if entity @a[tag=warden.temple.floor.2,limit=1] if score ultimatewarden warden.temple.activated matches 1 run scoreboard players set ultimatewarden warden.temple.activated 2
 
-execute if score ultimatewarden warden_temple_activated matches 0 if score ultimatewarden warden.temple.floor2.Mobs matches 1.. run scoreboard players set ultimatewarden warden.temple.floor2.Mobs 0
-execute if score ultimatewarden warden_temple_activated matches 0 if score ultimatewarden warden.temple.floor2.timer matches 1.. run scoreboard players set ultimatewarden warden.temple.floor2.timer 0
+execute if score ultimatewarden warden.temple.activated matches 0 if score ultimatewarden warden.temple.floor2.Mobs matches 1.. run scoreboard players set ultimatewarden warden.temple.floor2.Mobs 0
+execute if score ultimatewarden warden.temple.activated matches 0 if score ultimatewarden warden.temple.floor2.timer matches 1.. run scoreboard players set ultimatewarden warden.temple.floor2.timer 0
 
 
 
 # Floor 3
-execute if score ultimatewarden warden_temple_activated matches 3.. run function warden:temple/floor3/tick
+execute if score ultimatewarden warden.temple.activated matches 3.. run function warden:temple/floor3/tick
 
-execute if entity @a[tag=warden.temple.floor.3,limit=1] if score ultimatewarden warden_temple_activated matches 2 run scoreboard players set ultimatewarden warden.temple.floor3.ancient_ring 1
-execute if entity @a[tag=warden.temple.floor.3,limit=1] if score ultimatewarden warden_temple_activated matches 2 run scoreboard players set ultimatewarden warden_temple_activated 3
+execute if entity @a[tag=warden.temple.floor.3,limit=1] if score ultimatewarden warden.temple.activated matches 2 run scoreboard players set ultimatewarden warden.temple.floor3.ancient_ring 1
+execute if entity @a[tag=warden.temple.floor.3,limit=1] if score ultimatewarden warden.temple.activated matches 2 run scoreboard players set ultimatewarden warden.temple.activated 3
 
 
-execute if score ultimatewarden warden_temple_activated matches 0 if score ultimatewarden warden.temple.floor3.ancient_ring matches 1.. run scoreboard players set ultimatewarden warden.temple.floor3.ancient_ring 0
-execute if score ultimatewarden warden_temple_activated matches 0 if score ultimatewarden warden.temple.floor3.ancient_ring.phase1.timer matches 1.. run scoreboard players set ultimatewarden warden.temple.floor3.ancient_ring.phase1.timer 0
+execute if score ultimatewarden warden.temple.activated matches 0 if score ultimatewarden warden.temple.floor3.ancient_ring matches 1.. run scoreboard players set ultimatewarden warden.temple.floor3.ancient_ring 0
+execute if score ultimatewarden warden.temple.activated matches 0 if score ultimatewarden warden.temple.floor3.ancient_ring.phase1.timer matches 1.. run scoreboard players set ultimatewarden warden.temple.floor3.ancient_ring.phase1.timer 0
 

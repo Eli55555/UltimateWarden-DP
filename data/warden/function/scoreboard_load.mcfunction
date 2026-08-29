@@ -22,7 +22,7 @@ scoreboard objectives add warden.key.home_key dummy
 scoreboard objectives add warden.key.temple_key dummy
 
 # Dungeon
-scoreboard objectives add warden_dungeon_activated dummy
+scoreboard objectives add warden.dungeon.activated dummy
 
 scoreboard objectives add warden.dungeon.close_dungeon.active dummy
 scoreboard objectives add warden.dungeon.close_dungeon.timer dummy
@@ -39,8 +39,7 @@ scoreboard objectives add warden.reset.advancements dummy
 scoreboard objectives add warden.reset.scoreboard dummy
 
 # Temple
-scoreboard objectives add warden_temple_join dummy
-scoreboard objectives add warden_temple_activated dummy
+scoreboard objectives add warden.temple.activated dummy
 scoreboard objectives add warden.temple.floor2.Mobs dummy
 scoreboard objectives add warden.temple.floor2.bossbar.mobs dummy
 scoreboard objectives add warden.temple.floor2.bossbar.wave dummy
@@ -82,7 +81,7 @@ scoreboard players add @a warden.key.home_key 0
 scoreboard players add @a warden.key.temple_key 0
 
 # Dungeon
-scoreboard players add ultimatewarden warden_dungeon_activated 0
+scoreboard players add ultimatewarden warden.dungeon.activated 0
 
 scoreboard players add ultimatewarden warden.dungeon.close_dungeon.active 0
 scoreboard players add ultimatewarden warden.dungeon.close_dungeon.timer 0
@@ -98,8 +97,7 @@ scoreboard players add ultimatewarden warden.reset.temple 0
 scoreboard players add ultimatewarden warden.reset.scoreboard 0
 
 # Temple
-scoreboard players add ultimatewarden warden_temple_join 0
-scoreboard players add ultimatewarden warden_temple_activated 0
+scoreboard players add ultimatewarden warden.temple.activated 0
 scoreboard players add ultimatewarden warden.temple.floor2.Mobs 0
 scoreboard players add ultimatewarden warden.temple.floor2.bossbar.mobs 0
 scoreboard players add ultimatewarden warden.temple.floor2.bossbar.wave 0

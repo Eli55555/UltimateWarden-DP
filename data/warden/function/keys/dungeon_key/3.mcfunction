@@ -3,7 +3,7 @@ execute if score ultimatewarden warden.settings.dungeon_activated matches 1 run 
 execute if score ultimatewarden warden.settings.dungeon_activated matches 1 run return fail
 
 
-execute if score ultimatewarden warden_dungeon_activated matches 1..2 run tellraw @s [{"text":"[Ultimate Warden] ","bold":true,"color":"blue"},{"translate":"ultimate_warden.keys.dungeon.dungeon_key.message.join","fallback":"You will join an existing dungeon...","color":"yellow",bold:false}]
-execute if score ultimatewarden warden_dungeon_activated matches 0 run tellraw @s [{"text":"[Ultimate Warden] ","bold":true,"color":"blue"},{"translate":"ultimate_warden.keys.dungeon.dungeon_key.message.create","fallback":"A new dungeon will be created...","color":"yellow",bold:false}]
+execute if score ultimatewarden warden.dungeon.activated matches 1..2 run tellraw @s [{"text":"[Ultimate Warden] ","bold":true,"color":"blue"},{"translate":"ultimate_warden.keys.dungeon.dungeon_key.message.join","fallback":"You will join an existing dungeon...","color":"yellow",bold:false}]
+execute if score ultimatewarden warden.dungeon.activated matches 0 run tellraw @s [{"text":"[Ultimate Warden] ","bold":true,"color":"blue"},{"translate":"ultimate_warden.keys.dungeon.dungeon_key.message.create","fallback":"A new dungeon will be created...","color":"yellow",bold:false}]
 
 
