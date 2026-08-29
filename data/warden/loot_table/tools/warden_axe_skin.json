@@ -63,8 +63,12 @@
                       "italic": false
                     },
                     {
-                      "translate": "ultimate_warden.tools.warden_axe.skin.lore.4",
-                      "fallback": "Sharpness V",
+                      "translate": "enchantment.minecraft.sharpness",
+                      "color": "gray"
+                    },
+                    " ",
+                    {
+                      "translate": "enchantment.level.5",
                       "color": "gray"
                     }
                   ],
@@ -75,8 +79,12 @@
                       "italic": false
                     },
                     {
-                      "translate": "ultimate_warden.tools.warden_axe.skin.lore.5",
-                      "fallback": "Efficiency V",
+                      "translate": "enchantment.minecraft.efficiency",
+                      "color": "gray"
+                    },
+                    " ",
+                    {
+                      "translate": "enchantment.level.5",
                       "color": "gray"
                     }
                   ]

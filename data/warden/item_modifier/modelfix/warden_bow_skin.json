@@ -54,8 +54,12 @@
             "italic": false
           },
           {
-            "translate": "ultimate_warden.tools.warden_bow.skin.lore.4",
-            "fallback": "Power V",
+            "translate": "enchantment.minecraft.power",
+            "color": "gray"
+          },
+          " ",
+          {
+            "translate": "enchantment.level.5",
             "color": "gray"
           }
         ],
@@ -66,9 +70,10 @@
             "italic": false
           },
           {
-            "translate": "ultimate_warden.tools.warden_bow.skin.lore.5",
+            "translate": "ultimate_warden.enchantment.warden_bow",
             "fallback": "Warden Bow",
-            "color": "blue"
+            "color": "blue",
+            "italic": false
           }
         ]
       ],

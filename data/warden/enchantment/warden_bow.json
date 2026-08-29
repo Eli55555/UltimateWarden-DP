@@ -1,6 +1,6 @@
 {
   "description": {
-    "translate": "enchantment.ultimate_warden.warden_bow",
+    "translate": "ultimate_warden.enchantment.warden_bow",
     "fallback": "Warden Bow",
     "color": "blue"
   },
