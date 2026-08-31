@@ -14,7 +14,7 @@ tag @e[tag=ancient_ring,limit=1] add warden.bossbar.color.white
 
 
 # Teleport & Mob Clear
-execute in warden:ultimatewarden run tp @e[tag=ancient_ring,limit=1] -126 63 -52
+execute in warden:ultimatewarden run tp @e[tag=ancient_ring,limit=1] -125.25 63 -52
 execute in warden:ultimatewarden run kill @e[tag=warden.temple.floor3.ancient_ring.phase1.mob]
 
 

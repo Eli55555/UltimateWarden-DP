@@ -19,7 +19,7 @@
                       "components": {
                         "item_model": "ultimate_warden:dungeon_vault_normal_key",
                         "item_name": {
-                          "translate": "ultimate_warden.dungeon.key.vault.normal",
+                          "translate": "ultimate_warden.keys.dungeon.vault_normal",
                           "fallback": "Dungeon Vault Key",
                           "color": "blue",
                           "italic": false
@@ -32,7 +32,7 @@
                           ]
                         },
                         "custom_data": {
-                          "ultimate_warden.dungeon.vault.normal.key": 1
+                          "warden.keys.dungeon.vault_normal": 1
                         },
                         "max_stack_size": 64
                       }

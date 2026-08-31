@@ -24,7 +24,7 @@
             ],
             "predicates": {
               "custom_data": {
-                "ultimate_warden.dungeon.vault.ominous.key": 1
+                "warden.keys.dungeon.vault_ominous": 1
               }
             }
           }

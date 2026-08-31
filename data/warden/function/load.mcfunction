@@ -25,6 +25,7 @@ schedule function warden:version/load 1s
 # Bossbar
 schedule function warden:bossbar/bossbar_reset 1s replace
 
+
 team add elite_warden
 team add warden_skeleton
 

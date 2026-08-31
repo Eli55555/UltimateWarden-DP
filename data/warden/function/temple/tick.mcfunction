@@ -4,8 +4,8 @@ execute if score ultimatewarden warden.temple.activated matches 0 in warden:ulti
 
 
 # Tags
-execute in warden:ultimatewarden positioned -146 147 -27 run tag @a[distance=..100,tag=!warden.temple] add warden.temple
-execute in warden:ultimatewarden positioned -146 147 -27 run tag @a[distance=100..,tag=warden.temple] remove warden.temple
+execute in warden:ultimatewarden positioned -146 115 -27 run tag @a[distance=..105,tag=!warden.temple] add warden.temple
+execute in warden:ultimatewarden positioned -146 115 -27 run tag @a[distance=105..,tag=warden.temple] remove warden.temple
 execute as @a[tag=warden.temple] at @s unless dimension warden:ultimatewarden run tag @s remove warden.temple
 
 

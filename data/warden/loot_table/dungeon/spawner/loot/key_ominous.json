@@ -13,7 +13,7 @@
               "components": {
                 "item_model": "ultimate_warden:dungeon_vault_ominous_key",
                 "item_name": {
-                  "translate": "ultimate_warden.dungeon.key.vault.ominous",
+                  "translate": "ultimate_warden.keys.dungeon.vault_ominous",
                   "fallback": "Ominous Dungeon Vault Key",
                   "color": "blue",
                   "italic": false
@@ -26,7 +26,7 @@
                   ]
                 },
                 "custom_data": {
-                  "ultimate_warden.dungeon.vault.ominous.key": 1
+                  "warden.keys.dungeon.vault_ominous": 1
                 },
                 "max_stack_size": 64
               }

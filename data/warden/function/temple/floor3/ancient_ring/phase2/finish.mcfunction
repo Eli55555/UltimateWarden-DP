@@ -13,7 +13,7 @@ tag @e[tag=ancient_ring,limit=1] remove warden.bossbar
 
 
 # Teleport & Mob Clear
-execute in warden:ultimatewarden run tp @e[tag=ancient_ring,limit=1] -126 63 -14
+execute in warden:ultimatewarden run tp @e[tag=ancient_ring,limit=1] -125.25 63 -14
 
 
 # Scoreboard & Open Wall

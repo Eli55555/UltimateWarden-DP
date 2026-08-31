@@ -24,7 +24,7 @@
             ],
             "predicates": {
               "custom_data": {
-                "ultimate_warden.dungeon.vault.normal.key":1
+                "warden.keys.dungeon.vault_normal": 1
               }
             }
           }
