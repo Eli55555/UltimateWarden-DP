@@ -54,6 +54,7 @@ scoreboard objectives add warden.temple.floor3.ancient_ring.phase1.timer dummy
 scoreboard objectives add warden.temple.floor3.ancient_ring.phase2.wave dummy
 scoreboard objectives add warden.temple.floor3.ancient_ring.phase2.wave.mobs dummy
 scoreboard objectives add warden.temple.floor3.ancient_ring.phase2.wave.particle dummy
+scoreboard objectives add warden.temple.floor3.ancient_ring.phase3.move dummy
 
 # Bossbar
 scoreboard objectives add warden.bossbar.id.check dummy
@@ -111,6 +112,7 @@ scoreboard players add ultimatewarden warden.temple.floor3.ancient_ring.shoot_pa
 scoreboard players add ultimatewarden warden.temple.floor3.ancient_ring.phase1.timer 0
 scoreboard players add ultimatewarden warden.temple.floor3.ancient_ring.phase2.wave 0
 scoreboard players add ultimatewarden warden.temple.floor3.ancient_ring.phase2.wave.mobs 0
+scoreboard players add ultimatewarden warden.temple.floor3.ancient_ring.phase3.move 0
 
 # Bossbar
 scoreboard players set ultimatewarden warden.bossbar.id.check 0

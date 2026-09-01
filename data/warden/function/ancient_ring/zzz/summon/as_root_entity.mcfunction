@@ -12,7 +12,7 @@ function animated_java:global/data_manager/read with storage animated_java:temp 
 data modify storage animated_java:temp entry.data.uuids append from storage animated_java:gu out
 data modify storage animated_java:temp entry.data.root_uuid set from storage animated_java:gu out
 data modify storage animated_java:temp entry.data.blueprint_id set value "warden:ancient_ring"
-data modify storage animated_java:temp entry.data.rig_hash set value "cbc405f004a4843e0e082e905218ab39fd986b92bf6aa7b01e562f102e2289de"
+data modify storage animated_java:temp entry.data.rig_hash set value "a86d18d6f2496d5016b6cfd3176c4dba91f57e027d4301a73945a3cc2f083896"
 tp @s ~ ~ ~ ~ ~
 execute on passengers if entity @s[tag=warden.ancient_ring.node.line90] run function warden:ancient_ring/zzz/summon/as_node/line90
 data modify storage animated_java:temp entry.data.uuids append from storage animated_java:gu out
