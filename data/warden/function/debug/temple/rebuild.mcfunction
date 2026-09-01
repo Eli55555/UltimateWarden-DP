@@ -10,4 +10,4 @@ execute in warden:ultimatewarden run place template warden:temple.09 -146 50 -74
 execute in warden:ultimatewarden run place template warden:temple.10 -194 50 -74
 execute in warden:ultimatewarden run place template warden:temple.11 -194 50 -26
 execute in warden:ultimatewarden run place template warden:temple.12 -146 50 -26
-execute in warden:ultimatewarden run place template warden:temple.bossroom -146 28 -26
+execute in warden:ultimatewarden run place template warden:temple.bossroom -146 28 -29

@@ -3,7 +3,7 @@ scoreboard players set ultimatewarden warden.temple.floor3.ancient_ring.phase3.m
 
 
 # Destroy
-execute in warden:ultimatewarden run fill -139 63 -24 -111 61 16 air
+execute in warden:ultimatewarden run fill -139 63 -27 -111 61 16 air
 execute in warden:ultimatewarden run fill -122 69 16 -129 63 13 air
 
 execute in warden:ultimatewarden run fill -116 63 -25 -112 69 15 air
@@ -25,4 +25,4 @@ execute as @e[tag=ancient_ring.move.warden] run kill @s
 
 
 # Sound
-execute in warden:ultimatewarden positioned -125.25 64 15 run playsound entity.generic.explode master @a[distance=..70] -125.25 64 15 30
+execute in warden:ultimatewarden positioned -125.25 64 0 run playsound entity.generic.explode master @a[distance=..70] ~ ~ ~ 50

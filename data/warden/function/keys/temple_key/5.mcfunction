@@ -31,7 +31,7 @@ execute if score ultimatewarden warden.temple.activated matches 0 in warden:ulti
 execute if score ultimatewarden warden.temple.activated matches 0 in warden:ultimatewarden run place template warden:temple.10 -194 50 -74
 execute if score ultimatewarden warden.temple.activated matches 0 in warden:ultimatewarden run place template warden:temple.11 -194 50 -26
 execute if score ultimatewarden warden.temple.activated matches 0 in warden:ultimatewarden run place template warden:temple.12 -146 50 -26
-execute if score ultimatewarden warden.temple.activated matches 0 in warden:ultimatewarden run place template warden:temple.bossroom -146 28 -26
+execute if score ultimatewarden warden.temple.activated matches 0 in warden:ultimatewarden run place template warden:temple.bossroom -146 28 -29
 
 execute if score ultimatewarden warden.temple.activated matches 0 run scoreboard players set ultimatewarden warden.temple.activated 1
 
