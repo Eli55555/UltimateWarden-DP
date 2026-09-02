@@ -3,4 +3,5 @@ execute if entity @s[tag=warden.ancient_warden.animation.idle.playing] run funct
 execute if entity @s[tag=warden.ancient_warden.animation.death.playing] run function warden:ancient_warden/animations/death/zzz/on_tick
 execute if entity @s[tag=warden.ancient_warden.animation.spawn.playing] run function warden:ancient_warden/animations/spawn/zzz/on_tick
 execute if entity @s[tag=warden.ancient_warden.animation.shield_attack_start.playing] run function warden:ancient_warden/animations/shield_attack_start/zzz/on_tick
+execute if entity @s[tag=warden.ancient_warden.animation.walk.playing] run function warden:ancient_warden/animations/walk/zzz/on_tick
 execute on passengers run rotate @s ~ ~

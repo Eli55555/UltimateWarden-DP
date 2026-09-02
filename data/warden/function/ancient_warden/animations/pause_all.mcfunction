@@ -3,3 +3,4 @@ tag @s remove warden.ancient_warden.animation.idle.playing
 tag @s remove warden.ancient_warden.animation.death.playing
 tag @s remove warden.ancient_warden.animation.spawn.playing
 tag @s remove warden.ancient_warden.animation.shield_attack_start.playing
+tag @s remove warden.ancient_warden.animation.walk.playing

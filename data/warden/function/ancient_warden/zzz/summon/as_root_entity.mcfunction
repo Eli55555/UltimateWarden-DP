@@ -12,14 +12,8 @@ function animated_java:global/data_manager/read with storage animated_java:temp 
 data modify storage animated_java:temp entry.data.uuids append from storage animated_java:gu out
 data modify storage animated_java:temp entry.data.root_uuid set from storage animated_java:gu out
 data modify storage animated_java:temp entry.data.blueprint_id set value "warden:ancient_warden"
-data modify storage animated_java:temp entry.data.rig_hash set value "bc2b0208e785026b370f5d2653e85be4867293197a92f5678571f4fa2afe7ae9"
+data modify storage animated_java:temp entry.data.rig_hash set value "b0b9ea65e9ea671bcad282600e17944691420582c20878dc40a31b81d3d517e6"
 tp @s ~ ~ ~ ~ ~
-execute on passengers if entity @s[tag=warden.ancient_warden.node.right_ribcage] run function warden:ancient_warden/zzz/summon/as_node/right_ribcage
-data modify storage animated_java:temp entry.data.uuids append from storage animated_java:gu out
-data modify storage animated_java:temp entry.data.uuids_by_name.right_ribcage set from storage animated_java:gu out
-execute on passengers if entity @s[tag=warden.ancient_warden.node.left_ribcage] run function warden:ancient_warden/zzz/summon/as_node/left_ribcage
-data modify storage animated_java:temp entry.data.uuids append from storage animated_java:gu out
-data modify storage animated_java:temp entry.data.uuids_by_name.left_ribcage set from storage animated_java:gu out
 execute on passengers if entity @s[tag=warden.ancient_warden.node.right_tendril] run function warden:ancient_warden/zzz/summon/as_node/right_tendril
 data modify storage animated_java:temp entry.data.uuids append from storage animated_java:gu out
 data modify storage animated_java:temp entry.data.uuids_by_name.right_tendril set from storage animated_java:gu out
@@ -35,6 +29,9 @@ data modify storage animated_java:temp entry.data.uuids_by_name.right_arm set fr
 execute on passengers if entity @s[tag=warden.ancient_warden.node.left_arm] run function warden:ancient_warden/zzz/summon/as_node/left_arm
 data modify storage animated_java:temp entry.data.uuids append from storage animated_java:gu out
 data modify storage animated_java:temp entry.data.uuids_by_name.left_arm set from storage animated_java:gu out
+execute on passengers if entity @s[tag=warden.ancient_warden.node.body1] run function warden:ancient_warden/zzz/summon/as_node/body1
+data modify storage animated_java:temp entry.data.uuids append from storage animated_java:gu out
+data modify storage animated_java:temp entry.data.uuids_by_name.body1 set from storage animated_java:gu out
 execute on passengers if entity @s[tag=warden.ancient_warden.node.body] run function warden:ancient_warden/zzz/summon/as_node/body
 data modify storage animated_java:temp entry.data.uuids append from storage animated_java:gu out
 data modify storage animated_java:temp entry.data.uuids_by_name.body set from storage animated_java:gu out
