@@ -2,4 +2,5 @@
 data modify storage warden:ancient_warden rig_hash set value 'bc2b0208e785026b370f5d2653e85be4867293197a92f5678571f4fa2afe7ae9'
 scoreboard objectives add aj.idle.frame dummy
 scoreboard objectives add aj.death.frame dummy
+scoreboard objectives add aj.spawn.frame dummy
 scoreboard objectives add aj.shield_attack_start.frame dummy

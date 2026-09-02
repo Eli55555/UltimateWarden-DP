@@ -25,4 +25,4 @@ execute as @e[tag=ancient_ring.move.warden] run kill @s
 
 
 # Sound
-execute in warden:ultimatewarden positioned -125.25 64 0 run playsound entity.generic.explode master @a[distance=..70] ~ ~ ~ 50
+execute in warden:ultimatewarden positioned -125.25 55 0 run playsound entity.generic.explode master @a[distance=..70] ~ ~ ~ 50
