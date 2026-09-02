@@ -45,8 +45,12 @@ execute if score ultimatewarden warden.temple.activated matches 1 in warden:ulti
 execute if score ultimatewarden warden.temple.activated matches 2 in warden:ultimatewarden run tp @a[tag=warden.temple.key.playerteleport] -146 113 -27
 execute if score ultimatewarden warden.temple.activated matches 2 in warden:ultimatewarden at @s run spawnpoint @a[tag=warden.temple.key.playerteleport] -146 113 -27
 
-execute if score ultimatewarden warden.temple.activated matches 3.. in warden:ultimatewarden run tp @a[tag=warden.temple.key.playerteleport] -171 63 -52
-execute if score ultimatewarden warden.temple.activated matches 3.. in warden:ultimatewarden at @s run spawnpoint @a[tag=warden.temple.key.playerteleport] -171 63 -52
+execute if score ultimatewarden warden.temple.activated matches 3 in warden:ultimatewarden run tp @a[tag=warden.temple.key.playerteleport] -171 63 -52
+execute if score ultimatewarden warden.temple.activated matches 3 in warden:ultimatewarden at @s run spawnpoint @a[tag=warden.temple.key.playerteleport] -171 63 -52
+
+execute if score ultimatewarden warden.temple.activated matches 4.. in warden:ultimatewarden run tp @a[tag=warden.temple.key.playerteleport] -125 34 -24
+execute if score ultimatewarden warden.temple.activated matches 4.. in warden:ultimatewarden at @s run spawnpoint @a[tag=warden.temple.key.playerteleport] -125 34 -24
+
 
 advancement grant @a[tag=warden.temple.key.playerteleport] only warden:warden/temple/temple_join
 

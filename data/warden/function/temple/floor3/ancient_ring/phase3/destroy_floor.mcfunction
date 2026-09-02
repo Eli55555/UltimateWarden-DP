@@ -26,3 +26,7 @@ execute as @e[tag=ancient_ring.move.warden] run kill @s
 
 # Sound
 execute in warden:ultimatewarden positioned -125.25 55 0 run playsound entity.generic.explode master @a[distance=..70] ~ ~ ~ 50
+
+
+# Ancient Warden Start
+schedule function warden:temple/floor3/ancient_warden/start 5s

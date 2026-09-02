@@ -37,3 +37,4 @@ execute if score ultimatewarden warden.temple.floor3.ancient_ring matches 4 if s
 execute if score ultimatewarden warden.temple.floor3.ancient_ring matches 5 in warden:ultimatewarden positioned -125 67 -22 if entity @a[distance=..7,tag=warden.temple] run function warden:temple/floor3/ancient_ring/phase3/start
 execute if score ultimatewarden warden.temple.floor3.ancient_ring matches 6 if score ultimatewarden warden.temple.floor3.ancient_ring.phase3.move matches 1.. run function warden:temple/floor3/ancient_ring/phase3/move
 
+execute if score ultimatewarden warden.temple.floor3.ancient_warden matches 1.. run function warden:temple/floor3/ancient_warden/tick
