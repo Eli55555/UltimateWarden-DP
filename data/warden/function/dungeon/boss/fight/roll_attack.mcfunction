@@ -1,3 +1,4 @@
+execute in warden:ultimatewarden unless entity @a[tag=warden.dungeon] run return run schedule function warden:dungeon/boss/fight/roll_attack 1s
 execute in warden:ultimatewarden run place template warden:dungeon.boss.roll_attack -25 81 61
 
 execute unless entity @e[type=armor_stand,tag=warden.dungeon.elite_warden.roll] in warden:ultimatewarden run summon armor_stand -23 82 63 {Tags:["warden.dungeon.elite_warden.roll"]}
