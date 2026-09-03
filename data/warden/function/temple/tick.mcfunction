@@ -23,6 +23,8 @@ execute in warden:ultimatewarden positioned -171 66 -52 run tag @a[distance=..10
 execute in warden:ultimatewarden positioned -171 66 -52 run tag @a[distance=11..,tag=warden.temple.floor.3] remove warden.temple.floor.3
 execute as @a[tag=warden.temple.floor.3] at @s unless dimension warden:ultimatewarden run tag @s remove warden.temple.floor.3
 
+execute in warden:ultimatewarden unless entity @a[tag=warden.temple] run return fail
+
 
 
 # Spawnpoints
