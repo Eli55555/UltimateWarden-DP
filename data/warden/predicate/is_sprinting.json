@@ -5,8 +5,8 @@
     "type": "minecraft:warden",
     "movement": {
       "horizontal_speed": {
-        "min": 0.01,
-        "max": 10.27
+        "min": 0.28,
+        "max": 10.0
       }
     }
   }

@@ -1,0 +1,1 @@
+execute as @e[tag=warden.ancient_warden.attacks.summon.particle] at @e[tag=warden.ancient_warden.root] positioned ~ ~3.5 ~ facing entity @s feet run particle minecraft:soul_fire_flame ~ ~ ~ ^ ^ ^1000000 0.0000009 0
