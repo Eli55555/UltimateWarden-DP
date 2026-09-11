@@ -8,3 +8,4 @@ execute as @e[type=armor_stand,tag=warden.temple.ancient_warden.roll] in warden:
 execute positioned as @e[type=armor_stand,tag=warden.temple.ancient_warden.roll] in warden:ultimatewarden if block ~ ~-1 ~ white_concrete if entity @e[type=warden,tag=ancient_warden,limit=1] run function warden:temple/floor3/ancient_warden/attacks/roll_attack
 
 execute positioned as @e[type=armor_stand,tag=warden.temple.ancient_warden.roll] in warden:ultimatewarden if block ~ ~-1 ~ light_blue_concrete if entity @e[type=warden,tag=ancient_warden,limit=1] run function warden:temple/floor3/ancient_warden/attacks/summon/main
+execute positioned as @e[type=armor_stand,tag=warden.temple.ancient_warden.roll] in warden:ultimatewarden if block ~ ~-1 ~ light_gray_concrete if entity @e[type=warden,tag=ancient_warden,limit=1] run function warden:temple/floor3/ancient_warden/attacks/shield/main

@@ -6,3 +6,6 @@ execute as @e[tag=ancient_warden] unless predicate warden:is_moving if score ult
 
 # Summon Attack
 execute if entity @e[tag=warden.ancient_warden.attacks.summon] run function warden:temple/floor3/ancient_warden/attacks/summon/tick
+
+# Shield Attack
+function warden:temple/floor3/ancient_warden/attacks/shield/tick
