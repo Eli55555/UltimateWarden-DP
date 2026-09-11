@@ -1,0 +1,47 @@
+{
+  "pools": [
+    {
+      "rolls": {
+        "min": 6,
+        "max": 12
+      },
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "warden:tools/warden_pickaxe_skin",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "warden:tools/warden_axe_skin",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:experience_bottle",
+          "weight": 15
+        },
+        {
+          "type": "minecraft:item",
+          "name": "golden_apple",
+          "weight": 8
+        },
+        {
+          "type": "minecraft:item",
+          "name": "enchanted_golden_apple",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_scrap",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "silence_armor_trim_smithing_template",
+          "weight": 2
+        }
+      ]
+    }
+  ]
+}

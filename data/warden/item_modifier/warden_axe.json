@@ -1,0 +1,21 @@
+[
+  {
+    "function": "minecraft:set_components",
+    "components": {
+      "item_name": {
+        "translate": "ultimate_warden.tools.warden_axe",
+        "fallback": "Warden Axe",
+        "color": "dark_blue",
+        "italic": false
+      },
+      "minecraft:item_model": "ultimate_warden:warden_axe",
+      "enchantments": {
+        "sharpness": 5,
+        "efficiency": 5
+      },
+      "minecraft:custom_data": {
+        "warden.tools.warden_axe": 1
+      }
+    }
+  }
+]

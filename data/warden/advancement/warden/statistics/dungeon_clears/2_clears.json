@@ -1,0 +1,24 @@
+{
+    "display":{
+        "icon":{
+            "id": "minecraft:vault",
+            "components": {
+                "enchantments": {
+                    "unbreaking": 1
+                }
+            }
+        },
+        "hidden": false,
+        "title": {"translate": "ultimate_warden.advancements.statistics.dungeon_clears.2_clears.title", "fallback": "Twice is better than one"},
+        "description": {"translate": "ultimate_warden.advancements.statistics.dungeon_clears.2_clears.description", "fallback": "Clear the dungeon twice"},
+        "frame": "task",
+        "announce_to_chat": true,
+        "show_toast": true
+    },
+    "parent": "warden:warden/statistics/root",
+    "criteria": {
+        "requirement": {
+        "trigger": "impossible"
+        }
+    }
+}

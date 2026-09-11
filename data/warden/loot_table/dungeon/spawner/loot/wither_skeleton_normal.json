@@ -1,0 +1,27 @@
+{
+  "pools": [
+     {
+      "rolls": {
+        "min": 2,
+        "max": 4
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_apple",
+          "weight": 8
+        },
+        {
+          "type": "minecraft:item",
+          "name": "enchanted_golden_apple",
+          "weight": 3
+        },
+        {
+          "type": "item",
+          "name": "totem_of_undying",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

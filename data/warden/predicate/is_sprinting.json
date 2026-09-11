@@ -1,0 +1,13 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "type": "minecraft:warden",
+    "movement": {
+      "horizontal_speed": {
+        "min": 0.28,
+        "max": 10.0
+      }
+    }
+  }
+}

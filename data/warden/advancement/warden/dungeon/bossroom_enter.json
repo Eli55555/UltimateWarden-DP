@@ -1,0 +1,35 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:nautilus_shell",
+            "components": {
+                  "item_model": "ultimate_warden:dungeon_boss_key"
+            }
+        },
+        "hidden": false,
+        "title": {"translate": "ultimate_warden.advancements.dungeon.bossroom_enter.title", "fallback": "The Final Fight"},
+        "description": {"translate": "ultimate_warden.advancements.dungeon.bossroom_enter.description", "fallback": "Enter the Elite Warden boss fight"},
+        "frame": "task",
+        "announce_to_chat": true
+    },
+    "parent": "warden:warden/dungeon/dungeon_join",
+    "criteria": {
+        "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:nautilus_shell"
+            ],
+            "predicates": {
+              "custom_data": {
+                "warden_dungeon_bossroom_join":1
+              }
+            }
+          }
+        ]
+    }
+    }
+    }
+}

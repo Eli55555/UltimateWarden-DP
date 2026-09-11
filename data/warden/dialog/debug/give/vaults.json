@@ -1,0 +1,60 @@
+{
+  "type": "minecraft:multi_action",
+  "title": "Debug » Give » Vaults",
+  "pause": false,
+  "columns": 2,
+  "actions": [
+    {
+      "label": [
+        {
+          "type": "object",
+          "object": "atlas",
+          "atlas": "minecraft:blocks",
+          "sprite": "block/vault_front_on"
+        },
+        " Dungeon Normal ",
+        {
+          "type": "object",
+          "object": "atlas",
+          "atlas": "minecraft:blocks",
+          "sprite": "block/vault_front_on"
+        }
+      ],
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot warden:dungeon/vault/give/normal"
+      }
+    },
+    {
+      "label": [
+        {
+          "type": "object",
+          "object": "atlas",
+          "atlas": "minecraft:blocks",
+          "sprite": "block/vault_front_on_ominous"
+        },
+        " Dungeon Ominous ",
+        {
+          "type": "object",
+          "object": "atlas",
+          "atlas": "minecraft:blocks",
+          "sprite": "block/vault_front_on_ominous"
+        }
+      ],
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot warden:dungeon/vault/give/ominous"
+      }
+    },
+    {
+      "label": {
+        "translate": "ultimate_warden.menu.button.back",
+        "fallback": "§c« Back"
+      },
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "warden:debug/give"
+      }
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "barrel",
+                    "functions": [
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "container_loot": {
+                                    "loot_table": "warden:temple/floor1/barrel_loot"
+                                },
+                                "item_name": {"text": "Temple Floor1 Barrel"}
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
