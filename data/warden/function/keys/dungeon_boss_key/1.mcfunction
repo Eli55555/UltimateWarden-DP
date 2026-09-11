@@ -1,1 +1,0 @@
-tellraw @s [{"text":"[Ultimate Warden] ","bold":true,"color":"blue"},{"translate":"ultimate_warden.keys.dungeon.boss_key.message.1","fallback":"There is no way back...","color":"dark_red",bold:false}]
