@@ -10,8 +10,7 @@ execute as @e[tag=ancient_warden] if predicate warden:is_sprinting if score ulti
 execute as @e[tag=ancient_warden] if predicate warden:is_moving if score ultimatewarden warden.temple.floor3.ancient_warden.move_animation matches 0 run function warden:temple/floor3/ancient_warden/animations/walk
 execute as @e[tag=ancient_warden] unless predicate warden:is_moving if score ultimatewarden warden.temple.floor3.ancient_warden.move_animation matches 1 run execute as @e[tag=warden.ancient_warden.root] run function warden:ancient_warden/animations/walk/pause
 
-# Summon Attack
-execute if entity @e[tag=warden.ancient_warden.attacks.summon] run function warden:temple/floor3/ancient_warden/attacks/summon/tick
-
-# Shield Attack
+# Attacks
+execute in warden:ultimatewarden if entity @e[tag=warden.ancient_warden.attacks.summon] run function warden:temple/floor3/ancient_warden/attacks/summon/tick
 function warden:temple/floor3/ancient_warden/attacks/shield/tick
+execute in warden:ultimatewarden if entity @e[tag=warden.ancient_warden.attacks.ring_explosion.summond] run function warden:temple/floor3/ancient_warden/attacks/ring_explosion/tick

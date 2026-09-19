@@ -1,7 +1,7 @@
 $dialog show @s {\
   "type": "minecraft:multi_action",\
   "title": {\
-        "translate": "warden.menu.button.statistics",\
+        "translate": "ultimate_warden.menu.button.statistics",\
         "fallback": "Statistics",\
         "color": "red"\
       },\
