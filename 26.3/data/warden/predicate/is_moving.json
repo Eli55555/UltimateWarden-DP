@@ -6,7 +6,7 @@
     "movement": {
       "horizontal_speed": {
         "min": 0.01,
-        "max": 10.27
+        "max": 555555
       }
     }
   }

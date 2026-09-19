@@ -12,6 +12,6 @@ execute in warden:ultimatewarden as @e[tag=ancient_warden,limit=1] at @s run sum
 execute in warden:ultimatewarden as @e[tag=ancient_warden,limit=1] at @s run summon armor_stand ~ ~ ~ {Tags:["warden.ancient_warden.attacks.summon"],Invisible:1b,Invulnerable:1b}
 
 
-execute in warden:ultimatewarden as @e[tag=warden.ancient_warden.attacks.summon] at @s run spreadplayers -125 77 1 20 false @s
+execute in warden:ultimatewarden as @e[tag=warden.ancient_warden.attacks.summon,type=armor_stand] at @s run spreadplayers -125 77 1 20 false @s
 
-schedule function warden:temple/floor3/ancient_warden/attacks/summon/1 1s
+schedule function warden:temple/floor3/ancient_warden/attacks/summon/1 1s replace

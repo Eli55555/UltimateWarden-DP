@@ -2,6 +2,6 @@
 $data merge entity $(right_tendril) {transformation: [-1f,-0.0023f,-0.0023f,-0.5017f,-0.0023f,1f,-0.0023f,2.8739f,0.0023f,-0.0023f,-1f,-0.0006f,0f,0f,0f,1f],start_interpolation: 0,interpolation_duration: 1}
 $data merge entity $(left_tendril) {transformation: [-1f,-0.0023f,-0.0023f,0.4983f,-0.0023f,1f,-0.0023f,2.8761f,0.0023f,-0.0023f,-1f,-0.0029f,0f,0f,0f,1f],start_interpolation: 0,interpolation_duration: 1}
 $data merge entity $(head) {transformation: [-1f,-0.0023f,-0.0023f,0f,-0.0023f,1f,-0.0023f,2.125f,0.0023f,-0.0023f,-1f,0f,0f,0f,0f,1f],start_interpolation: 0,interpolation_duration: 1}
-$data merge entity $(right_arm) {transformation: [-1.1667f,-0.0027f,-0.0027f,-0.8158f,-0.0027f,1.1667f,0f,2.125f,0.0027f,0f,-1.1667f,-0.0629f,0f,0f,0f,1f],start_interpolation: 0,interpolation_duration: 1}
-$data merge entity $(left_arm) {transformation: [-1.1667f,-0.0027f,0.0027f,0.8116f,-0.0027f,1.1667f,0f,2.125f,-0.0027f,0f,-1.1667f,-0.0618f,0f,0f,0f,1f],start_interpolation: 0,interpolation_duration: 1}
+$data merge entity $(right_arm) {transformation: [-1.1667f,-0.0027f,-0.0027f,-0.8125f,-0.0027f,1.1667f,0f,2.125f,0.0027f,0f,-1.1667f,-0.0625f,0f,0f,0f,1f],start_interpolation: 0,interpolation_duration: 1}
+$data merge entity $(left_arm) {transformation: [-1.1667f,-0.0027f,0.0027f,0.8125f,-0.0027f,1.1667f,0f,2.125f,-0.0027f,0f,-1.1667f,-0.0625f,0f,0f,0f,1f],start_interpolation: 0,interpolation_duration: 1}
 $data merge entity $(body1) {transformation: [-1f,-0.0023f,0.0023f,0f,-0.0023f,1f,-0.0001f,1.3125f,-0.0023f,-0.0001f,-1f,0f,0f,0f,0f,1f],start_interpolation: 0,interpolation_duration: 1}
