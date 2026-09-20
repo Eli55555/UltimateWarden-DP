@@ -8,6 +8,17 @@
   "actions": [
     {
       "label": {
+        "translate": "ultimate_warden.menu.button.profile",
+        "fallback": "Profile",
+        "color": "green"
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "trigger warden.menu.profile set 1"
+      }
+    },
+    {
+      "label": {
         "translate": "ultimate_warden.menu.button.statistics",
         "fallback": "Statistics",
         "color": "red"

@@ -1,0 +1,71 @@
+{
+  "type": "minecraft:multi_action",
+  "title": {
+    "translate": "ultimate_warden.menu.button.profile",
+    "fallback": "Profile",
+    "color": "green"
+  },
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "translate": "ultimate_warden.menu.button.profile.items",
+        "fallback": "Your Items:"
+      }
+    },
+    {
+      "type": "minecraft:item",
+      "item": {
+        "id": "minecraft:nautilus_shell",
+        "components": {
+          "minecraft:item_model": "ultimate_warden:ancient_ring",
+          "minecraft:item_name": {
+            "translate": "ultimate_warden.temple.item.ancient_ring.name",
+            "fallback": "Ancient Ring"
+          },
+          "minecraft:lore": [
+            "",
+            {
+              "translate": "ultimate_warden.temple.item.ancient_ring.lore.1",
+              "fallback": "A mysterious artifact",
+              "italic": false,
+              "color": "gray"
+            },
+            {
+              "translate": "ultimate_warden.temple.item.ancient_ring.lore.2",
+              "fallback": "that summons Wardens",
+              "italic": false,
+              "color": "gray"
+            }
+          ]
+        }
+      },
+      "description": {
+        "translate": "ultimate_warden.temple.item.ancient_ring.name",
+        "fallback": "Ancient Ring",
+        "color": "yellow"
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "translate": "ultimate_warden.menu.button.profile.items.no_items",
+        "fallback": "You have currently no items",
+        "color": "gray"
+      }
+    }
+  ],
+  "pause": false,
+  "actions": [
+    {
+      "label": {
+        "translate": "ultimate_warden.menu.button.back",
+        "fallback": "§c« Back"
+      },
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "warden:menu"
+      }
+    }
+  ]
+}

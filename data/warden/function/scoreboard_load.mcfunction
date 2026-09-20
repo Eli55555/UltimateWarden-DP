@@ -5,7 +5,11 @@ scoreboard objectives add warden.model_fix trigger
 
 # Trigger
 scoreboard objectives add warden.menu trigger
+scoreboard objectives add warden.menu.profile trigger
 scoreboard objectives add warden.menu.statistics trigger
+
+# Profile
+scoreboard objectives add warden.profile.items.ancient_ring dummy
 
 # Statistics
 scoreboard objectives add warden.statistics.playtime.seconds dummy

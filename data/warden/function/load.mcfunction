@@ -28,4 +28,4 @@ schedule function warden:bossbar/bossbar_reset 1s replace
 
 team add elite_warden
 team add warden_skeleton
-
+team add ancient_warden
