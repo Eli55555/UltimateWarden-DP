@@ -12,8 +12,11 @@ function animated_java:global/data_manager/read with storage animated_java:temp 
 data modify storage animated_java:temp entry.data.uuids append from storage animated_java:gu out
 data modify storage animated_java:temp entry.data.root_uuid set from storage animated_java:gu out
 data modify storage animated_java:temp entry.data.blueprint_id set value "warden:ancient_ring"
-data modify storage animated_java:temp entry.data.rig_hash set value "a86d18d6f2496d5016b6cfd3176c4dba91f57e027d4301a73945a3cc2f083896"
+data modify storage animated_java:temp entry.data.rig_hash set value "f2330f849333e48f200dd45e10a5bd419111d11d49361ddec343257ab8f28487"
 tp @s ~ ~ ~ ~ ~
+execute on passengers if entity @s[tag=warden.ancient_ring.node.hexadecagon] run function warden:ancient_ring/zzz/summon/as_node/hexadecagon
+data modify storage animated_java:temp entry.data.uuids append from storage animated_java:gu out
+data modify storage animated_java:temp entry.data.uuids_by_name.hexadecagon set from storage animated_java:gu out
 execute on passengers if entity @s[tag=warden.ancient_ring.node.line90] run function warden:ancient_ring/zzz/summon/as_node/line90
 data modify storage animated_java:temp entry.data.uuids append from storage animated_java:gu out
 data modify storage animated_java:temp entry.data.uuids_by_name.line90 set from storage animated_java:gu out
@@ -26,150 +29,6 @@ data modify storage animated_java:temp entry.data.uuids_by_name.line1 set from s
 execute on passengers if entity @s[tag=warden.ancient_ring.node.line2] run function warden:ancient_ring/zzz/summon/as_node/line2
 data modify storage animated_java:temp entry.data.uuids append from storage animated_java:gu out
 data modify storage animated_java:temp entry.data.uuids_by_name.line2 set from storage animated_java:gu out
-execute on passengers if entity @s[tag=warden.ancient_ring.node.curve25] run function warden:ancient_ring/zzz/summon/as_node/curve25
-data modify storage animated_java:temp entry.data.uuids append from storage animated_java:gu out
-data modify storage animated_java:temp entry.data.uuids_by_name.curve25 set from storage animated_java:gu out
-execute on passengers if entity @s[tag=warden.ancient_ring.node.curve26] run function warden:ancient_ring/zzz/summon/as_node/curve26
-data modify storage animated_java:temp entry.data.uuids append from storage animated_java:gu out
-data modify storage animated_java:temp entry.data.uuids_by_name.curve26 set from storage animated_java:gu out
-execute on passengers if entity @s[tag=warden.ancient_ring.node.curve24] run function warden:ancient_ring/zzz/summon/as_node/curve24
-data modify storage animated_java:temp entry.data.uuids append from storage animated_java:gu out
-data modify storage animated_java:temp entry.data.uuids_by_name.curve24 set from storage animated_java:gu out
-execute on passengers if entity @s[tag=warden.ancient_ring.node.curve23] run function warden:ancient_ring/zzz/summon/as_node/curve23
-data modify storage animated_java:temp entry.data.uuids append from storage animated_java:gu out
-data modify storage animated_java:temp entry.data.uuids_by_name.curve23 set from storage animated_java:gu out
-execute on passengers if entity @s[tag=warden.ancient_ring.node.curve2] run function warden:ancient_ring/zzz/summon/as_node/curve2
-data modify storage animated_java:temp entry.data.uuids append from storage animated_java:gu out
-data modify storage animated_java:temp entry.data.uuids_by_name.curve2 set from storage animated_java:gu out
-execute on passengers if entity @s[tag=warden.ancient_ring.node.curve3] run function warden:ancient_ring/zzz/summon/as_node/curve3
-data modify storage animated_java:temp entry.data.uuids append from storage animated_java:gu out
-data modify storage animated_java:temp entry.data.uuids_by_name.curve3 set from storage animated_java:gu out
-execute on passengers if entity @s[tag=warden.ancient_ring.node.curve4] run function warden:ancient_ring/zzz/summon/as_node/curve4
-data modify storage animated_java:temp entry.data.uuids append from storage animated_java:gu out
-data modify storage animated_java:temp entry.data.uuids_by_name.curve4 set from storage animated_java:gu out
-execute on passengers if entity @s[tag=warden.ancient_ring.node.curve5] run function warden:ancient_ring/zzz/summon/as_node/curve5
-data modify storage animated_java:temp entry.data.uuids append from storage animated_java:gu out
-data modify storage animated_java:temp entry.data.uuids_by_name.curve5 set from storage animated_java:gu out
-execute on passengers if entity @s[tag=warden.ancient_ring.node.curve6] run function warden:ancient_ring/zzz/summon/as_node/curve6
-data modify storage animated_java:temp entry.data.uuids append from storage animated_java:gu out
-data modify storage animated_java:temp entry.data.uuids_by_name.curve6 set from storage animated_java:gu out
-execute on passengers if entity @s[tag=warden.ancient_ring.node.curve8] run function warden:ancient_ring/zzz/summon/as_node/curve8
-data modify storage animated_java:temp entry.data.uuids append from storage animated_java:gu out
-data modify storage animated_java:temp entry.data.uuids_by_name.curve8 set from storage animated_java:gu out
-execute on passengers if entity @s[tag=warden.ancient_ring.node.curve10] run function warden:ancient_ring/zzz/summon/as_node/curve10
-data modify storage animated_java:temp entry.data.uuids append from storage animated_java:gu out
-data modify storage animated_java:temp entry.data.uuids_by_name.curve10 set from storage animated_java:gu out
-execute on passengers if entity @s[tag=warden.ancient_ring.node.curve11] run function warden:ancient_ring/zzz/summon/as_node/curve11
-data modify storage animated_java:temp entry.data.uuids append from storage animated_java:gu out
-data modify storage animated_java:temp entry.data.uuids_by_name.curve11 set from storage animated_java:gu out
-execute on passengers if entity @s[tag=warden.ancient_ring.node.curve13] run function warden:ancient_ring/zzz/summon/as_node/curve13
-data modify storage animated_java:temp entry.data.uuids append from storage animated_java:gu out
-data modify storage animated_java:temp entry.data.uuids_by_name.curve13 set from storage animated_java:gu out
-execute on passengers if entity @s[tag=warden.ancient_ring.node.curve14] run function warden:ancient_ring/zzz/summon/as_node/curve14
-data modify storage animated_java:temp entry.data.uuids append from storage animated_java:gu out
-data modify storage animated_java:temp entry.data.uuids_by_name.curve14 set from storage animated_java:gu out
-execute on passengers if entity @s[tag=warden.ancient_ring.node.curve15] run function warden:ancient_ring/zzz/summon/as_node/curve15
-data modify storage animated_java:temp entry.data.uuids append from storage animated_java:gu out
-data modify storage animated_java:temp entry.data.uuids_by_name.curve15 set from storage animated_java:gu out
-execute on passengers if entity @s[tag=warden.ancient_ring.node.curve16] run function warden:ancient_ring/zzz/summon/as_node/curve16
-data modify storage animated_java:temp entry.data.uuids append from storage animated_java:gu out
-data modify storage animated_java:temp entry.data.uuids_by_name.curve16 set from storage animated_java:gu out
-execute on passengers if entity @s[tag=warden.ancient_ring.node.curve19] run function warden:ancient_ring/zzz/summon/as_node/curve19
-data modify storage animated_java:temp entry.data.uuids append from storage animated_java:gu out
-data modify storage animated_java:temp entry.data.uuids_by_name.curve19 set from storage animated_java:gu out
-execute on passengers if entity @s[tag=warden.ancient_ring.node.curve20] run function warden:ancient_ring/zzz/summon/as_node/curve20
-data modify storage animated_java:temp entry.data.uuids append from storage animated_java:gu out
-data modify storage animated_java:temp entry.data.uuids_by_name.curve20 set from storage animated_java:gu out
-execute on passengers if entity @s[tag=warden.ancient_ring.node.curve21] run function warden:ancient_ring/zzz/summon/as_node/curve21
-data modify storage animated_java:temp entry.data.uuids append from storage animated_java:gu out
-data modify storage animated_java:temp entry.data.uuids_by_name.curve21 set from storage animated_java:gu out
-execute on passengers if entity @s[tag=warden.ancient_ring.node.curve22] run function warden:ancient_ring/zzz/summon/as_node/curve22
-data modify storage animated_java:temp entry.data.uuids append from storage animated_java:gu out
-data modify storage animated_java:temp entry.data.uuids_by_name.curve22 set from storage animated_java:gu out
-execute on passengers if entity @s[tag=warden.ancient_ring.node.curve27] run function warden:ancient_ring/zzz/summon/as_node/curve27
-data modify storage animated_java:temp entry.data.uuids append from storage animated_java:gu out
-data modify storage animated_java:temp entry.data.uuids_by_name.curve27 set from storage animated_java:gu out
-execute on passengers if entity @s[tag=warden.ancient_ring.node.curve28] run function warden:ancient_ring/zzz/summon/as_node/curve28
-data modify storage animated_java:temp entry.data.uuids append from storage animated_java:gu out
-data modify storage animated_java:temp entry.data.uuids_by_name.curve28 set from storage animated_java:gu out
-execute on passengers if entity @s[tag=warden.ancient_ring.node.curve29] run function warden:ancient_ring/zzz/summon/as_node/curve29
-data modify storage animated_java:temp entry.data.uuids append from storage animated_java:gu out
-data modify storage animated_java:temp entry.data.uuids_by_name.curve29 set from storage animated_java:gu out
-execute on passengers if entity @s[tag=warden.ancient_ring.node.curve30] run function warden:ancient_ring/zzz/summon/as_node/curve30
-data modify storage animated_java:temp entry.data.uuids append from storage animated_java:gu out
-data modify storage animated_java:temp entry.data.uuids_by_name.curve30 set from storage animated_java:gu out
-execute on passengers if entity @s[tag=warden.ancient_ring.node.curve31] run function warden:ancient_ring/zzz/summon/as_node/curve31
-data modify storage animated_java:temp entry.data.uuids append from storage animated_java:gu out
-data modify storage animated_java:temp entry.data.uuids_by_name.curve31 set from storage animated_java:gu out
-execute on passengers if entity @s[tag=warden.ancient_ring.node.curve32] run function warden:ancient_ring/zzz/summon/as_node/curve32
-data modify storage animated_java:temp entry.data.uuids append from storage animated_java:gu out
-data modify storage animated_java:temp entry.data.uuids_by_name.curve32 set from storage animated_java:gu out
-execute on passengers if entity @s[tag=warden.ancient_ring.node.curve33] run function warden:ancient_ring/zzz/summon/as_node/curve33
-data modify storage animated_java:temp entry.data.uuids append from storage animated_java:gu out
-data modify storage animated_java:temp entry.data.uuids_by_name.curve33 set from storage animated_java:gu out
-execute on passengers if entity @s[tag=warden.ancient_ring.node.curve34] run function warden:ancient_ring/zzz/summon/as_node/curve34
-data modify storage animated_java:temp entry.data.uuids append from storage animated_java:gu out
-data modify storage animated_java:temp entry.data.uuids_by_name.curve34 set from storage animated_java:gu out
-execute on passengers if entity @s[tag=warden.ancient_ring.node.curve35] run function warden:ancient_ring/zzz/summon/as_node/curve35
-data modify storage animated_java:temp entry.data.uuids append from storage animated_java:gu out
-data modify storage animated_java:temp entry.data.uuids_by_name.curve35 set from storage animated_java:gu out
-execute on passengers if entity @s[tag=warden.ancient_ring.node.curve36] run function warden:ancient_ring/zzz/summon/as_node/curve36
-data modify storage animated_java:temp entry.data.uuids append from storage animated_java:gu out
-data modify storage animated_java:temp entry.data.uuids_by_name.curve36 set from storage animated_java:gu out
-execute on passengers if entity @s[tag=warden.ancient_ring.node.curve37] run function warden:ancient_ring/zzz/summon/as_node/curve37
-data modify storage animated_java:temp entry.data.uuids append from storage animated_java:gu out
-data modify storage animated_java:temp entry.data.uuids_by_name.curve37 set from storage animated_java:gu out
-execute on passengers if entity @s[tag=warden.ancient_ring.node.curve38] run function warden:ancient_ring/zzz/summon/as_node/curve38
-data modify storage animated_java:temp entry.data.uuids append from storage animated_java:gu out
-data modify storage animated_java:temp entry.data.uuids_by_name.curve38 set from storage animated_java:gu out
-execute on passengers if entity @s[tag=warden.ancient_ring.node.curve39] run function warden:ancient_ring/zzz/summon/as_node/curve39
-data modify storage animated_java:temp entry.data.uuids append from storage animated_java:gu out
-data modify storage animated_java:temp entry.data.uuids_by_name.curve39 set from storage animated_java:gu out
-execute on passengers if entity @s[tag=warden.ancient_ring.node.curve40] run function warden:ancient_ring/zzz/summon/as_node/curve40
-data modify storage animated_java:temp entry.data.uuids append from storage animated_java:gu out
-data modify storage animated_java:temp entry.data.uuids_by_name.curve40 set from storage animated_java:gu out
-execute on passengers if entity @s[tag=warden.ancient_ring.node.curve41] run function warden:ancient_ring/zzz/summon/as_node/curve41
-data modify storage animated_java:temp entry.data.uuids append from storage animated_java:gu out
-data modify storage animated_java:temp entry.data.uuids_by_name.curve41 set from storage animated_java:gu out
-execute on passengers if entity @s[tag=warden.ancient_ring.node.curve42] run function warden:ancient_ring/zzz/summon/as_node/curve42
-data modify storage animated_java:temp entry.data.uuids append from storage animated_java:gu out
-data modify storage animated_java:temp entry.data.uuids_by_name.curve42 set from storage animated_java:gu out
-execute on passengers if entity @s[tag=warden.ancient_ring.node.curve43] run function warden:ancient_ring/zzz/summon/as_node/curve43
-data modify storage animated_java:temp entry.data.uuids append from storage animated_java:gu out
-data modify storage animated_java:temp entry.data.uuids_by_name.curve43 set from storage animated_java:gu out
-execute on passengers if entity @s[tag=warden.ancient_ring.node.curve44] run function warden:ancient_ring/zzz/summon/as_node/curve44
-data modify storage animated_java:temp entry.data.uuids append from storage animated_java:gu out
-data modify storage animated_java:temp entry.data.uuids_by_name.curve44 set from storage animated_java:gu out
-execute on passengers if entity @s[tag=warden.ancient_ring.node.curve45] run function warden:ancient_ring/zzz/summon/as_node/curve45
-data modify storage animated_java:temp entry.data.uuids append from storage animated_java:gu out
-data modify storage animated_java:temp entry.data.uuids_by_name.curve45 set from storage animated_java:gu out
-execute on passengers if entity @s[tag=warden.ancient_ring.node.curve46] run function warden:ancient_ring/zzz/summon/as_node/curve46
-data modify storage animated_java:temp entry.data.uuids append from storage animated_java:gu out
-data modify storage animated_java:temp entry.data.uuids_by_name.curve46 set from storage animated_java:gu out
-execute on passengers if entity @s[tag=warden.ancient_ring.node.curve47] run function warden:ancient_ring/zzz/summon/as_node/curve47
-data modify storage animated_java:temp entry.data.uuids append from storage animated_java:gu out
-data modify storage animated_java:temp entry.data.uuids_by_name.curve47 set from storage animated_java:gu out
-execute on passengers if entity @s[tag=warden.ancient_ring.node.curve48] run function warden:ancient_ring/zzz/summon/as_node/curve48
-data modify storage animated_java:temp entry.data.uuids append from storage animated_java:gu out
-data modify storage animated_java:temp entry.data.uuids_by_name.curve48 set from storage animated_java:gu out
-execute on passengers if entity @s[tag=warden.ancient_ring.node.curve49] run function warden:ancient_ring/zzz/summon/as_node/curve49
-data modify storage animated_java:temp entry.data.uuids append from storage animated_java:gu out
-data modify storage animated_java:temp entry.data.uuids_by_name.curve49 set from storage animated_java:gu out
-execute on passengers if entity @s[tag=warden.ancient_ring.node.curve50] run function warden:ancient_ring/zzz/summon/as_node/curve50
-data modify storage animated_java:temp entry.data.uuids append from storage animated_java:gu out
-data modify storage animated_java:temp entry.data.uuids_by_name.curve50 set from storage animated_java:gu out
-execute on passengers if entity @s[tag=warden.ancient_ring.node.curve51] run function warden:ancient_ring/zzz/summon/as_node/curve51
-data modify storage animated_java:temp entry.data.uuids append from storage animated_java:gu out
-data modify storage animated_java:temp entry.data.uuids_by_name.curve51 set from storage animated_java:gu out
-execute on passengers if entity @s[tag=warden.ancient_ring.node.curve52] run function warden:ancient_ring/zzz/summon/as_node/curve52
-data modify storage animated_java:temp entry.data.uuids append from storage animated_java:gu out
-data modify storage animated_java:temp entry.data.uuids_by_name.curve52 set from storage animated_java:gu out
-execute on passengers if entity @s[tag=warden.ancient_ring.node.curve53] run function warden:ancient_ring/zzz/summon/as_node/curve53
-data modify storage animated_java:temp entry.data.uuids append from storage animated_java:gu out
-data modify storage animated_java:temp entry.data.uuids_by_name.curve53 set from storage animated_java:gu out
-execute on passengers if entity @s[tag=warden.ancient_ring.node.curve0] run function warden:ancient_ring/zzz/summon/as_node/curve0
-data modify storage animated_java:temp entry.data.uuids append from storage animated_java:gu out
-data modify storage animated_java:temp entry.data.uuids_by_name.curve0 set from storage animated_java:gu out
 execute on passengers if entity @s[tag=warden.ancient_ring.node.ring] run function warden:ancient_ring/zzz/summon/as_node/ring
 data modify storage animated_java:temp entry.data.uuids append from storage animated_java:gu out
 data modify storage animated_java:temp entry.data.uuids_by_name.ring set from storage animated_java:gu out

@@ -7,6 +7,7 @@ execute in warden:ultimatewarden positioned -125.0 34 6 run summon warden ~ ~ ~ 
 execute as @e[tag=ancient_warden] at @s positioned ~ ~ ~ rotated ~ 0 run function warden:ancient_warden/summon {args: {animation: "spawn",start_animation: true}}
 execute as @e[tag=ancient_warden] run effect give @s resistance infinite 3 true
 execute as @e[tag=ancient_warden] run effect give @s invisibility infinite 255 true
+execute as @e[tag=ancient_warden] run team join ancient_warden
 
 
 # Boss Start

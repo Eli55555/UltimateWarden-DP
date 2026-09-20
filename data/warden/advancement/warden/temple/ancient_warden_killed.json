@@ -6,7 +6,7 @@
               "item_model": "ultimate_warden:ancient_ring"
             }
         },
-        "hidden": false,
+        "hidden": true,
         "title": {"translate": "ultimate_warden.advancements.temple.ancient_warden_kiled.title", "fallback": "Ancient Trash"},
         "description": {"translate": "ultimate_warden.advancements.temple.ancient_warden_kiled.description", "fallback": "Kill the Ancient Warden"},
         "frame": "challenge",
