@@ -13,3 +13,6 @@ execute in warden:ultimatewarden as @e[tag=ancient_warden] unless predicate ward
 execute in warden:ultimatewarden if entity @e[tag=warden.ancient_warden.attacks.summon.particle] run function warden:temple/floor3/ancient_warden/attacks/summon/tick
 function warden:temple/floor3/ancient_warden/attacks/shield/tick
 execute in warden:ultimatewarden if entity @e[tag=warden.ancient_warden.attacks.ring_explosion.summond] run function warden:temple/floor3/ancient_warden/attacks/ring_explosion/tick
+function warden:temple/floor3/ancient_warden/attacks/ring_fall/tick
+
+

@@ -8,6 +8,8 @@ execute in warden:ultimatewarden run fill -111 49 55 -139 32 54 air
 execute in warden:ultimatewarden as @e[tag=ancient_warden,limit=1] at @s run summon armor_stand ~ ~ ~ {Tags:["warden.ancient_warden.attacks.ring_explosion"],Invisible:1b,Invulnerable:1b}
 execute in warden:ultimatewarden as @e[tag=ancient_warden,limit=1] at @s run summon armor_stand ~ ~ ~ {Tags:["warden.ancient_warden.attacks.ring_explosion"],Invisible:1b,Invulnerable:1b}
 execute in warden:ultimatewarden as @e[tag=ancient_warden,limit=1] at @s run summon armor_stand ~ ~ ~ {Tags:["warden.ancient_warden.attacks.ring_explosion"],Invisible:1b,Invulnerable:1b}
+execute in warden:ultimatewarden as @e[tag=ancient_warden,limit=1] at @s run summon armor_stand ~ ~ ~ {Tags:["warden.ancient_warden.attacks.ring_explosion"],Invisible:1b,Invulnerable:1b}
+execute in warden:ultimatewarden as @e[tag=ancient_warden,limit=1] at @s run summon armor_stand ~ ~ ~ {Tags:["warden.ancient_warden.attacks.ring_explosion"],Invisible:1b,Invulnerable:1b}
 
 execute in warden:ultimatewarden as @e[tag=warden.ancient_warden.attacks.ring_explosion,type=armor_stand] at @s run spreadplayers -125 77 1 20 false @s
 

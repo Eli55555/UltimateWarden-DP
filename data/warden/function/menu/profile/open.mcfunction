@@ -15,6 +15,10 @@ $dialog show @s {\
     },\
     $(ancient_ring),\
     $(no_items),\
+    {\
+      "type": "minecraft:plain_message",\
+      "contents": ""\
+    },\
   ],\
   "pause": false,\
   "actions": [\
