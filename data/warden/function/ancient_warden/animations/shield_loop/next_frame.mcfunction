@@ -3,7 +3,7 @@
 execute store result storage animated_java:temp args.id int 1 run scoreboard players get @s aj.id
 # Data Manager: Read
 function animated_java:global/data_manager/read with storage animated_java:temp args
-execute if score @s aj.shield_loop.frame matches 11.. run scoreboard players set @s aj.shield_loop.frame 1
+execute if score @s aj.shield_loop.frame matches 41.. run scoreboard players set @s aj.shield_loop.frame 1
 data remove storage animated_java:temp args
 execute store result storage animated_java:temp args.frame int 1 run scoreboard players get @s aj.shield_loop.frame
 execute at @s run function warden:ancient_warden/animations/shield_loop/zzz/apply_frame with storage animated_java:temp args

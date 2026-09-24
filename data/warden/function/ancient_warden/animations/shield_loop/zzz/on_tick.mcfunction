@@ -6,5 +6,5 @@ execute if score @s aj.shield_loop.frame matches -1 run function warden:ancient_
 data remove storage animated_java:temp args
 execute store result storage animated_java:temp args.frame int 1 run scoreboard players get @s aj.shield_loop.frame
 function warden:ancient_warden/animations/shield_loop/zzz/apply_frame with storage animated_java:temp args
-execute if score @s aj.shield_loop.frame matches 9.. run return run scoreboard players set @s aj.shield_loop.frame -1
+execute if score @s aj.shield_loop.frame matches 39.. run return run scoreboard players set @s aj.shield_loop.frame -1
 scoreboard players add @s aj.shield_loop.frame 1
