@@ -5,3 +5,4 @@ execute in warden:ultimatewarden as @e[tag=warden.ancient_warden.attacks.ring_fa
 
 schedule function warden:temple/floor3/ancient_warden/attacks/ring_fall/fall_manager 30t
 schedule function warden:temple/floor3/ancient_warden/attacks/ring_fall/3 2s replace
+#schedule function warden:temple/floor3/ancient_warden/attacks/roll_attack 9s replace
