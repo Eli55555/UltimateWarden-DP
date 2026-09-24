@@ -5,8 +5,11 @@ execute unless entity @e[type=armor_stand,tag=warden.temple.ancient_warden.roll]
 execute as @e[type=armor_stand,tag=warden.temple.ancient_warden.roll] in warden:ultimatewarden run spreadplayers -124 25 1 3 false @s
 
 
-execute positioned as @e[type=armor_stand,tag=warden.temple.ancient_warden.roll] in warden:ultimatewarden if block ~ ~-1 ~ white_concrete if entity @e[type=warden,tag=ancient_warden,limit=1] run function warden:temple/floor3/ancient_warden/attacks/roll_attack
+execute positioned as @e[type=armor_stand,tag=warden.temple.ancient_warden.roll] in warden:ultimatewarden if block ~ ~-1 ~ white_concrete if entity @e[type=warden,tag=ancient_warden,limit=1] run function warden:temple/floor3/ancient_warden/attacks/ring_explosion/main
+execute positioned as @e[type=armor_stand,tag=warden.temple.ancient_warden.roll] in warden:ultimatewarden if block ~ ~-1 ~ white_concrete if entity @e[type=warden,tag=ancient_warden,limit=1] run function warden:temple/floor3/ancient_warden/attacks/ring_fall/main
 
 execute positioned as @e[type=armor_stand,tag=warden.temple.ancient_warden.roll] in warden:ultimatewarden if block ~ ~-1 ~ light_blue_concrete if entity @e[type=warden,tag=ancient_warden,limit=1] run function warden:temple/floor3/ancient_warden/attacks/summon/main
 execute positioned as @e[type=armor_stand,tag=warden.temple.ancient_warden.roll] in warden:ultimatewarden if block ~ ~-1 ~ light_gray_concrete if entity @e[type=warden,tag=ancient_warden,limit=1] run function warden:temple/floor3/ancient_warden/attacks/shield/main
 execute positioned as @e[type=armor_stand,tag=warden.temple.ancient_warden.roll] in warden:ultimatewarden if block ~ ~-1 ~ yellow_concrete if entity @e[type=warden,tag=ancient_warden,limit=1] run function warden:temple/floor3/ancient_warden/attacks/ring_explosion/main
+execute positioned as @e[type=armor_stand,tag=warden.temple.ancient_warden.roll] in warden:ultimatewarden if block ~ ~-1 ~ lime_concrete if entity @e[type=warden,tag=ancient_warden,limit=1] run function warden:temple/floor3/ancient_warden/attacks/ring_fall/main
+execute positioned as @e[type=armor_stand,tag=warden.temple.ancient_warden.roll] in warden:ultimatewarden if block ~ ~-1 ~ cyan_concrete if entity @e[type=warden,tag=ancient_warden,limit=1] run function warden:temple/floor3/ancient_warden/attacks/ring_summon/main

@@ -14,5 +14,5 @@ execute in warden:ultimatewarden if entity @e[tag=warden.ancient_warden.attacks.
 function warden:temple/floor3/ancient_warden/attacks/shield/tick
 execute in warden:ultimatewarden if entity @e[tag=warden.ancient_warden.attacks.ring_explosion.summond] run function warden:temple/floor3/ancient_warden/attacks/ring_explosion/tick
 function warden:temple/floor3/ancient_warden/attacks/ring_fall/tick
-
+function warden:temple/floor3/ancient_warden/attacks/ring_summon/tick
 

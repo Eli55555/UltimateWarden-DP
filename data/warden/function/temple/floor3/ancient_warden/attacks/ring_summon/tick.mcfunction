@@ -1,0 +1,4 @@
+execute in warden:ultimatewarden if entity @e[tag=warden.ancient_warden.attacks.ring_summon] run execute as @a at @s run tp @e[tag=warden.ancient_warden.attacks.ring_summon,distance=..4,limit=1,sort=nearest] ~ ~3 ~
+
+execute as @e[tag=warden.ancient_warden.attacks.ring_summon] at @s if entity @e[tag=warden.ancient_warden.attacks.ring_summon.summon_point] positioned ~ ~0.5 ~ facing entity @e[tag=warden.ancient_warden.attacks.ring_summon.summon_point,limit=4,sort=nearest] feet run particle minecraft:soul_fire_flame ~ ~ ~ ^ ^ ^1000000 0.000001 0 force
+execute as @e[tag=warden.ancient_warden.attacks.ring_summon] at @s if entity @e[tag=warden.ancient_ring.root,distance=..2,limit=1,sort=nearest] run tp @e[tag=warden.ancient_ring.root,distance=..2,limit=1,sort=nearest] @s
