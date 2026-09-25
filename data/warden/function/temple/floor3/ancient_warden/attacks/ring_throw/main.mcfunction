@@ -5,4 +5,4 @@ schedule function warden:temple/floor3/ancient_warden/attacks/ring_throw/summon_
 
 schedule function warden:temple/floor3/ancient_warden/attacks/ring_throw/1 4s
 
-#schedule function warden:temple/floor3/ancient_warden/attacks/roll_attack 8s
+schedule function warden:temple/floor3/ancient_warden/attacks/roll_attack 8s replace

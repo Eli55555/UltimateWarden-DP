@@ -1,1 +1,1 @@
-execute as @e[tag=warden.ancient_warden.attacks.ring_explosion.summond] at @s in warden:ultimatewarden if entity @a[distance=..3] run function warden:temple/floor3/ancient_warden/attacks/ring_explosion/explosion
+execute in warden:ultimatewarden as @e[tag=warden.ancient_warden.attacks.ring_explosion.summond] at @s if entity @e[distance=..3,limit=1,type=!item,type=!armor_stand,type=!block_display,type=!item_display,type=!text_display] run function warden:temple/floor3/ancient_warden/attacks/ring_explosion/explosion

@@ -1,0 +1,18 @@
+{
+  "display": {
+    "icon": {
+      "id": "heartbreak_pottery_sherd"
+    },
+    "hidden": true,
+    "title": {"translate": "ultimate_warden.advancements.temple.ancient_warden_bossfight.title","fallback": "The Warden stole the ring for my girlfriend"},
+    "description": {"translate": "ultimate_warden.advancements.temple.ancient_warden_bossfight.description","fallback": "Enter the Ancient Warden Bossfight"},
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "warden:warden/temple/floor_3",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

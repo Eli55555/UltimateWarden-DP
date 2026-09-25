@@ -8,5 +8,5 @@ execute in warden:ultimatewarden as @e[tag=warden.ancient_warden.attacks.ring_su
 
 execute in warden:ultimatewarden as @e[tag=warden.ancient_warden.attacks.ring_summon.summon_point] at @s run function warden:temple/floor3/ancient_warden/attacks/summon/spawn_pillager
 
-#schedule function warden:temple/floor3/ancient_warden/attacks/roll_attack 5s replace
+schedule function warden:temple/floor3/ancient_warden/attacks/roll_attack 5s replace
 

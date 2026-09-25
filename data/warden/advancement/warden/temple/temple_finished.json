@@ -9,7 +9,7 @@
     "frame": "goal",
     "announce_to_chat": true
   },
-  "parent": "warden:warden/temple/floor_3",
+  "parent": "warden:warden/temple/ancient_warden_bossfight",
   "criteria": {
     "requirement": {
       "trigger": "minecraft:impossible"

@@ -3,4 +3,4 @@ execute in warden:ultimatewarden as @e[tag=warden.ancient_warden.root] run funct
 execute in warden:ultimatewarden run tag @e[tag=ancient_warden] add warden.ancient_warden.shield_active
 
 execute in warden:ultimatewarden at @e[tag=ancient_warden] run summon warden ~ ~ ~ {NoAI:1b,Team:"no_collision",CustomName:[{"translate":"ultimate_warden.mobs.ancient_warden"}," ",{"translate":"item.minecraft.shield"}],attributes:[{id:scale,base:1.2},{id:movement_speed,base:0}],active_effects:[{id:invisibility,amplifier:255,duration:555555555,show_particles:false}],Tags:["warden.ancient_warden.attacks.shield","warden.bossbar","warden.bossbar.color.white","warden.bossbar.style.notched_12"],DeathLootTable:"warden:no_loot"}
-#schedule function warden:temple/floor3/ancient_warden/attacks/roll_attack 8.5s replace
+schedule function warden:temple/floor3/ancient_warden/attacks/roll_attack 8.5s replace

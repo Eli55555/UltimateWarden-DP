@@ -1,0 +1,18 @@
+{
+  "display": {
+    "icon": {
+      "id": "heart_pottery_sherd"
+    },
+    "hidden": true,
+    "title": {"translate": "ultimate_warden.advancements.temple.ancient_ring_bossfight.title","fallback": "A ring for my girlfriend"},
+    "description": {"translate": "ultimate_warden.advancements.temple.ancient_ring_bossfight.description","fallback": "Enter the Ancient Ring Bossfight"},
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "warden:warden/temple/floor_3",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

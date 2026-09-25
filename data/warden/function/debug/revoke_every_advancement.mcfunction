@@ -18,12 +18,17 @@ advancement revoke @s only warden:warden/skins/warden_pickaxe
 
 
 # Temple
-advancement revoke @s only warden:warden/temple/arena_finish
-advancement revoke @s only warden:warden/temple/warden_skeleton_kiled
-advancement revoke @s only warden:warden/temple/floor_1
-advancement revoke @s only warden:warden/temple/floor_2
-advancement revoke @s only warden:warden/temple/warden_protection
 advancement revoke @s only warden:warden/temple/temple_join
+advancement revoke @s only warden:warden/temple/floor_1
+advancement revoke @s only warden:warden/temple/warden_protection
+advancement revoke @s only warden:warden/temple/floor_2
+advancement revoke @s only warden:warden/temple/warden_skeleton_kiled
+advancement revoke @s only warden:warden/temple/arena_finish
+advancement revoke @s only warden:warden/temple/floor_3
+advancement revoke @s only warden:warden/temple/ancient_ring_bossfight
+advancement revoke @s only warden:warden/temple/ancient_warden_bossfight
+advancement revoke @s only warden:warden/temple/ancient_warden_killed
+advancement revoke @s only warden:warden/temple/temple_finished
 
 
 # Statistics

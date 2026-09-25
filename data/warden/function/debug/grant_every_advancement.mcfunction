@@ -18,12 +18,17 @@ advancement grant @s only warden:warden/skins/warden_pickaxe
 
 
 # Temple
-advancement grant @s only warden:warden/temple/arena_finish
-advancement grant @s only warden:warden/temple/warden_skeleton_kiled
-advancement grant @s only warden:warden/temple/floor_1
-advancement grant @s only warden:warden/temple/floor_2
-advancement grant @s only warden:warden/temple/warden_protection
 advancement grant @s only warden:warden/temple/temple_join
+advancement grant @s only warden:warden/temple/floor_1
+advancement grant @s only warden:warden/temple/warden_protection
+advancement grant @s only warden:warden/temple/floor_2
+advancement grant @s only warden:warden/temple/warden_skeleton_kiled
+advancement grant @s only warden:warden/temple/arena_finish
+advancement grant @s only warden:warden/temple/floor_3
+advancement grant @s only warden:warden/temple/ancient_ring_bossfight
+advancement grant @s only warden:warden/temple/ancient_warden_bossfight
+advancement grant @s only warden:warden/temple/ancient_warden_killed
+advancement grant @s only warden:warden/temple/temple_finished
 
 
 # Statistics

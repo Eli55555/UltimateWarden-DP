@@ -14,4 +14,5 @@ execute as @e[tag=warden.ancient_ring.root] run function warden:ancient_ring/ani
 execute in warden:ultimatewarden run tp @e[tag=warden.ancient_ring.root,limit=1] -125.25 74 -14
 
 # Close Wall
+execute in warden:ultimatewarden run tp @a[tag=warden.temple] -125 63 -25
 function warden:temple/floor3/room2/close_wall
