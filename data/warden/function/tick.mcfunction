@@ -12,3 +12,6 @@ function warden:dungeon/tick
 #        Temple
 function warden:temple/tick
 
+
+#       Technical
+function warden:technical/abilitys/ancient_warden_sword/tick

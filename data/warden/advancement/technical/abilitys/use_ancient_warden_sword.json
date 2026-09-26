@@ -1,0 +1,19 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": {
+              "warden.tools.ancient_warden_sword": 1
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "warden:technical/abilitys/ancient_warden_sword/main"
+  }
+}
