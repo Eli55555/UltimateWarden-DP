@@ -1,0 +1,45 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "netherite_sword",
+          "functions": [
+            {
+              "function": "set_components",
+              "components": {
+                "item_name": {
+                  "translate": "ultimate_warden.tools.ancient_warden_sword",
+                  "fallback": "Ancient Warden Sword",
+                  "color": "yellow",
+                  "italic": false
+                },
+                "custom_data": {
+                  "warden.tools.ancient_warden_sword": 1,
+                  "warden.returnable": true
+                },
+                "consumable": {
+                    "consume_seconds": 0,
+                    "has_consume_particles": false,
+                    "animation": "none",
+                    "sound": "intentionally_empty"
+                },
+                "use_cooldown": {
+                    "seconds": 5,
+                    "cooldown_group": "warden.tools.ancient_warden_sword"
+                },
+                "item_model": "ultimate_warden:warden_sword",
+                "enchantments": {
+                  "warden:warden_slayer": 4,
+                  "sharpness": 5
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
