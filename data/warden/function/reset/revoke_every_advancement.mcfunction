@@ -11,7 +11,7 @@ advancement revoke @a only warden:warden/skins/warden_sword
 advancement revoke @a only warden:warden/skins/warden_axe
 advancement revoke @a only warden:warden/skins/warden_pickaxe
 advancement revoke @a only warden:warden/temple/arena_finish
-advancement revoke @a only warden:warden/temple/warden_skeleton_kiled
+advancement revoke @a only warden:warden/temple/warden_skeleton_killed
 advancement revoke @a only warden:warden/temple/floor_1
 advancement revoke @a only warden:warden/temple/floor_2
 advancement revoke @a only warden:warden/temple/warden_protection

@@ -11,5 +11,5 @@ execute as @e[tag=ancient_warden] run team join ancient_warden
 
 
 # Boss Start
-execute in warden:ultimatewarden as @e[tag=ancient_warden,limit=1] at @s run advancement grant @a[distance=.50,tag=warden.temple] only warden:warden/temple/ancient_warden_bossfight
+execute in warden:ultimatewarden as @e[tag=ancient_warden] at @s run advancement grant @a[distance=..50,tag=warden.temple] only warden:warden/temple/ancient_warden_bossfight
 schedule function warden:temple/floor3/ancient_warden/start2 2s

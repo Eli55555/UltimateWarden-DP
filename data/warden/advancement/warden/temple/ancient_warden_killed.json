@@ -7,8 +7,8 @@
             }
         },
         "hidden": true,
-        "title": {"translate": "ultimate_warden.advancements.temple.ancient_warden_kiled.title", "fallback": "Ancient Trash"},
-        "description": {"translate": "ultimate_warden.advancements.temple.ancient_warden_kiled.description", "fallback": "Kill the Ancient Warden"},
+        "title": {"translate": "ultimate_warden.advancements.temple.ancient_warden_killed.title", "fallback": "Ancient Trash"},
+        "description": {"translate": "ultimate_warden.advancements.temple.ancient_warden_killed.description", "fallback": "Kill the Ancient Warden"},
         "frame": "challenge",
         "announce_to_chat": true
     },

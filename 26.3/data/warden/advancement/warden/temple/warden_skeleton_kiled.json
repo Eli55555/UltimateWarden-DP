@@ -5,11 +5,11 @@
     },
     "hidden": false,
     "title": {
-      "translate": "ultimate_warden.advancements.temple.warden_skeleton_kiled.title",
+      "translate": "ultimate_warden.advancements.temple.warden_skeleton_killed.title",
       "fallback": "Warden Skeletons have a very bad aim"
     },
     "description": {
-      "translate": "ultimate_warden.advancements.temple.warden_skeleton_kiled.description",
+      "translate": "ultimate_warden.advancements.temple.warden_skeleton_killed.description",
       "fallback": "Kill the Warden Skeleton"
     },
     "frame": "challenge",

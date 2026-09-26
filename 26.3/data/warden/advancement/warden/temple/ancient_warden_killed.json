@@ -7,12 +7,12 @@
             }
         },
         "hidden": false,
-        "title": {"translate": "ultimate_warden.advancements.temple.ancient_warden_kiled.title", "fallback": "Ancient Trash"},
-        "description": {"translate": "ultimate_warden.advancements.temple.ancient_warden_kiled.description", "fallback": "Kill the Ancient Warden"},
+        "title": {"translate": "ultimate_warden.advancements.temple.ancient_warden_killed.title", "fallback": "Ancient Trash"},
+        "description": {"translate": "ultimate_warden.advancements.temple.ancient_warden_killed.description", "fallback": "Kill the Ancient Warden"},
         "frame": "challenge",
         "announce_to_chat": true
     },
-    "parent": "warden:warden/temple/floor_3",
+    "parent": "warden:warden/temple/ancient_warden_bossfight",
     "criteria": {
     "kill_warden": {
       "trigger": "minecraft:player_killed_entity",
