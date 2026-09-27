@@ -3,19 +3,19 @@
     "icon": {
       "id": "minecraft:nautilus_shell",
       "components": {
-        "item_model": "ultimate_warden:warden_sword_skin",
+        "item_model": "ultimate_warden:ancient_sword_upgrade",
         "enchantments": {
           "unbreaking": 1
         }
       }
     },
     "hidden": false,
-    "title": {"translate": "ultimate_warden.advancements.dungeon.skin_main.title","fallback": "How many Skins do you have in Fortnite?"},
-    "description": {"translate": "ultimate_warden.advancements.dungeon.skin_main.description","fallback": "Obtain a Skin"},
-    "frame": "task",
+    "title": {"translate": "ultimate_warden.advancements.upgrades.upgrades_main.title","fallback": "Upgrades!?"},
+    "description": {"translate": "ultimate_warden.advancements.upgrades.upgrades_main.description","fallback": "Obtain your first Upgrade","color": "aqua"},
+    "frame": "goal",
     "announce_to_chat": true
   },
-  "parent": "warden:warden/dungeon/dungeon_join",
+  "parent": "warden:warden/root",
   "criteria": {
     "requirement": {
       "trigger": "minecraft:inventory_changed",
@@ -27,7 +27,7 @@
             ],
             "predicates": {
               "custom_data": {
-                "warden.skins": 1
+                "warden.upgrades": 1
               }
             }
           }

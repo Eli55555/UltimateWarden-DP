@@ -12,10 +12,13 @@
       "enchantments": {
         "warden:warden_bow": 1,
         "power": 5
-      },
-      "minecraft:custom_data": {
-        "warden.tools.warden_bow": 1
       }
+    }
+  },
+  {
+    "function": "set_custom_data",
+    "tag": {
+      "warden.tools.warden_bow": 1
     }
   }
 ]

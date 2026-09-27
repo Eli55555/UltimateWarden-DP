@@ -136,6 +136,27 @@
           "type": "object",
           "object": "atlas",
           "atlas": "minecraft:items",
+          "sprite": "ultimate_warden:item/icons/ancient_sword_upgrade"
+        },
+        " Ancient Sword Upgrade ",
+        {
+          "type": "object",
+          "object": "atlas",
+          "atlas": "minecraft:items",
+          "sprite": "ultimate_warden:item/icons/ancient_sword_upgrade"
+        }
+      ],
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot warden:tools/ancient_sword_upgrade"
+      }
+    },
+    {
+      "label": [
+        {
+          "type": "object",
+          "object": "atlas",
+          "atlas": "minecraft:items",
           "sprite": "ultimate_warden:item/icons/warden_bow_skin"
         },
         " Warden Bow Skin ",
@@ -149,6 +170,30 @@
       "action": {
         "type": "minecraft:run_command",
         "command": "loot give @s loot warden:tools/warden_bow_skin"
+      }
+    },
+    {
+      "label": ""
+    },
+    {
+      "label": [
+        {
+          "type": "object",
+          "object": "atlas",
+          "atlas": "minecraft:items",
+          "sprite": "ultimate_warden:item/icons/ancient_sword"
+        },
+        " Ancient Warden Sword ",
+        {
+          "type": "object",
+          "object": "atlas",
+          "atlas": "minecraft:items",
+          "sprite": "ultimate_warden:item/icons/ancient_sword"
+        }
+      ],
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot warden:tools/ancient_warden_sword"
       }
     },
     {
@@ -171,6 +216,9 @@
         "type": "minecraft:run_command",
         "command": "loot give @s loot warden:tools/warden_bow"
       }
+    },
+    {
+      "label": ""
     },
     {
       "label": {

@@ -6,9 +6,9 @@
         {
           "type": "minecraft:item",
           "name": "netherite_sword",
-          "functions": [
+          "modifier": [
             {
-              "function": "set_components",
+              "type": "set_components",
               "components": {
                 "item_name": {
                   "translate": "ultimate_warden.tools.ancient_warden_sword",
@@ -21,14 +21,14 @@
                   "warden.returnable": true
                 },
                 "consumable": {
-                    "consume_seconds": 0,
-                    "has_consume_particles": false,
-                    "animation": "none",
-                    "sound": "intentionally_empty"
+                  "consume_seconds": 0,
+                  "has_consume_particles": false,
+                  "animation": "none",
+                  "sound": "intentionally_empty"
                 },
                 "use_cooldown": {
-                    "seconds": 7,
-                    "cooldown_group": "warden.tools.ancient_warden_sword"
+                  "seconds": 7,
+                  "cooldown_group": "warden.tools.ancient_warden_sword"
                 },
                 "item_model": "ultimate_warden:ancient_warden_sword"
               }

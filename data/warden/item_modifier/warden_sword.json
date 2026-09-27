@@ -12,10 +12,13 @@
       "enchantments": {
         "warden:warden_slayer": 4,
         "sharpness": 5
-      },
-      "minecraft:custom_data": {
-        "warden.tools.warden_sword": 1
       }
+    }
+  },
+  {
+    "function": "set_custom_data",
+    "tag": {
+      "warden.tools.warden_sword": 1
     }
   }
 ]

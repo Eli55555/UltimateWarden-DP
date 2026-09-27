@@ -94,7 +94,7 @@
     },
     "action": {
       "type": "dynamic/run_command",
-      "template": "function warden:reset/reset {warden_dungeon_reset:$(warden_dungeon_reset),warden_temple_reset:$(warden_temple_reset),warden_advancements_reset:$(warden_advancements_reset),warden_scoreboard_reset:$(warden_scoreboard_reset)}"
+      "template": "function warden:technical/reset/reset {warden_dungeon_reset:$(warden_dungeon_reset),warden_temple_reset:$(warden_temple_reset),warden_advancements_reset:$(warden_advancements_reset),warden_scoreboard_reset:$(warden_scoreboard_reset)}"
     }
   },
   "no": {

@@ -12,10 +12,13 @@
       "enchantments": {
         "sharpness": 5,
         "efficiency": 5
-      },
-      "minecraft:custom_data": {
-        "warden.tools.warden_axe": 1
       }
+    }
+  },
+  {
+    "function": "set_custom_data",
+    "tag": {
+      "warden.tools.warden_axe": 1
     }
   }
 ]

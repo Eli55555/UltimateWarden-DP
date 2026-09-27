@@ -1,19 +1,27 @@
 {
-  "type": "set_components",
-  "components": {
-    "item_name": {
-       "translate": "ultimate_warden.tools.warden_axe",
-       "fallback": "Warden Axe",
-       "color": "dark_blue",
-       "italic": false
-     },
-     "minecraft:item_model": "ultimate_warden:warden_axe",
-     "enchantments": {
-      "sharpness": 5,
-       "efficiency": 5
-     },
-    "minecraft:custom_data": {
-       "warden.tools.warden_axe": 1
+  "type": "minecraft:sequence",
+  "functions": [
+    {
+      "type": "minecraft:set_components",
+      "components": {
+        "item_name": {
+          "translate": "ultimate_warden.tools.warden_sword",
+          "fallback": "Warden Sword",
+          "color": "dark_blue",
+          "italic": false
+        },
+        "minecraft:item_model": "ultimate_warden:warden_sword",
+        "enchantments": {
+          "warden:warden_slayer": 4,
+          "sharpness": 5
+        }
+      }
+    },
+    {
+      "type": "set_custom_data",
+      "tag": {
+        "warden.tools.warden_axe": 1
+      }
     }
-  }
+  ]
 }

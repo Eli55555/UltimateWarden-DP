@@ -3,16 +3,16 @@
     "icon": {
       "id": "minecraft:netherite_sword",
       "components": {
-        "item_model": "ultimate_warden:warden_sword"
+        "item_model": "ultimate_warden:ancient_warden_sword"
       }
     },
-    "hidden": false,
-    "title": {"translate": "ultimate_warden.advancements.skins.warden_sword.title","fallback": "My first Sword Skin"},
-    "description": {"translate": "ultimate_warden.advancements.skins.warden_sword.description","fallback": "I want more Skins!!!","color": "aqua"},
-    "frame": "goal",
+    "hidden": true,
+    "title": {"translate": "ultimate_warden.advancements.upgrades.ancient_sword.title","fallback": "Ultimate Sword"},
+    "description": {"translate": "ultimate_warden.advancements.upgrades.ancient_sword.description","fallback": "Give me more Upgrades!!!"},
+    "frame": "challenge",
     "announce_to_chat": true
   },
-  "parent": "warden:warden/skins/skin_main",
+  "parent": "warden:warden/upgrades/upgrades_main",
   "criteria": {
     "requirement": {
       "trigger": "minecraft:inventory_changed",
@@ -24,7 +24,7 @@
             ],
             "predicates": {
               "custom_data": {
-                "warden.tools.warden_sword": 1
+                "warden.tools.ancient_warden_sword": 1
               }
             }
           }
