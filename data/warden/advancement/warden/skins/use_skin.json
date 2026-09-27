@@ -13,6 +13,6 @@
         }
     },
     "rewards": {
-        "function": "warden:skins/skin_use"
+        "function": "warden:technical/skins/skin_use"
     }
 }

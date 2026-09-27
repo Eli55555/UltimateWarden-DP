@@ -27,7 +27,7 @@
                     "sound": "intentionally_empty"
                 },
                 "use_cooldown": {
-                    "seconds": 10,
+                    "seconds": 7,
                     "cooldown_group": "warden.tools.ancient_warden_sword"
                 },
                 "item_model": "ultimate_warden:warden_sword",

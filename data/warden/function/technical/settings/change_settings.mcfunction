@@ -4,6 +4,6 @@ $scoreboard players set ultimatewarden warden.settings.bossbar_amount $(bossbar_
 $scoreboard players set ultimatewarden warden.settings.dungeon_activated $(dungeon_activated)
 $scoreboard players set ultimatewarden warden.settings.temple_activated $(temple_activated)
 
-function warden:settings/storage_save
+function warden:technical/settings/storage_save
 
 

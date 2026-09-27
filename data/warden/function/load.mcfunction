@@ -13,14 +13,14 @@ function warden:keys/home_key/timer
 function warden:keys/temple_key/timer
 
 # Setting Storage
-function warden:settings/storage_save
+function warden:technical/settings/storage_save
 
 # Menu
-function warden:menu/statistics/playtime/playtime
+function warden:technical/menu/statistics/playtime/playtime
 
 # Scoreboard Load
 function warden:scoreboard_load
-schedule function warden:version/load 1s
+schedule function warden:technical/version/load 1s
 
 # Bossbar
 schedule function warden:bossbar/bossbar_reset 1s replace

@@ -15,4 +15,4 @@ execute as @a[scores={warden.statistics.playtime.hours=24..}] run scoreboard pla
 
 # Schedule
 execute as @a run function warden:advancements
-schedule function warden:menu/statistics/playtime/playtime 1s replace
+schedule function warden:technical/menu/statistics/playtime/playtime 1s replace

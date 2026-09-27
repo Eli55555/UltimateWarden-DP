@@ -1,1 +1,1 @@
-function warden:settings/open with storage warden:settings {}
+function warden:technical/settings/open with storage warden:settings {}

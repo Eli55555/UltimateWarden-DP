@@ -25,6 +25,6 @@
     }
   },
   "rewards": {
-    "function": "warden:menu/profile/add_ancient_ring"
+    "function": "warden:technical/menu/profile/add_ancient_ring"
   }
 }
