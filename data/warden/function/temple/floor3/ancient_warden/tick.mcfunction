@@ -16,3 +16,6 @@ execute in warden:ultimatewarden if entity @e[tag=warden.ancient_warden.attacks.
 function warden:temple/floor3/ancient_warden/attacks/ring_fall/tick
 function warden:temple/floor3/ancient_warden/attacks/ring_summon/tick
 function warden:temple/floor3/ancient_warden/attacks/ring_throw/tick
+
+# Death
+execute in warden:ultimatewarden unless entity @e[tag=ancient_warden] if score ultimatewarden warden.temple.close_temple.active matches 0 run function warden:temple/floor3/ancient_warden/death/main

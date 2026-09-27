@@ -1,36 +1,36 @@
 # Temple not Activated
-execute if score ultimatewarden warden.temple.activated matches 0 in warden:ultimatewarden positioned -146 147 -27 run execute as @a[distance=..100] run function warden:temple/close_temple
+execute if score ultimatewarden warden.temple.activated matches 0 in warden:ultimatewarden positioned -146 115 -27 run execute as @a[distance=..105,tag=warden.temple] run function warden:temple/close_temple
 
 
 
 # Tags
-execute in warden:ultimatewarden positioned -146 115 -27 run tag @a[distance=..105,tag=!warden.temple] add warden.temple
-execute in warden:ultimatewarden positioned -146 115 -27 run tag @a[distance=105..,tag=warden.temple] remove warden.temple
-execute as @a[tag=warden.temple] at @s unless dimension warden:ultimatewarden run tag @s remove warden.temple
+execute if score ultimatewarden warden.temple.activated matches 1.. in warden:ultimatewarden positioned -146 115 -27 run tag @a[distance=..105,tag=!warden.temple] add warden.temple
+execute if score ultimatewarden warden.temple.activated matches 1.. in warden:ultimatewarden positioned -146 115 -27 run tag @a[distance=105..,tag=warden.temple] remove warden.temple
+execute if score ultimatewarden warden.temple.activated matches 1.. as @a[tag=warden.temple] at @s unless dimension warden:ultimatewarden run tag @s remove warden.temple
 
 
-execute in warden:ultimatewarden positioned -148 177 -43 run tag @a[distance=..10,tag=!warden.temple.floor.1] add warden.temple.floor.1
-execute in warden:ultimatewarden positioned -148 177 -43 run tag @a[distance=11..,tag=warden.temple.floor.1] remove warden.temple.floor.1
-execute as @a[tag=warden.temple.floor.1] at @s unless dimension warden:ultimatewarden run tag @s remove warden.temple.floor.1
+execute if score ultimatewarden warden.temple.activated matches 1.. in warden:ultimatewarden positioned -148 177 -43 run tag @a[distance=..10,tag=!warden.temple.floor.1] add warden.temple.floor.1
+execute if score ultimatewarden warden.temple.activated matches 1.. in warden:ultimatewarden positioned -148 177 -43 run tag @a[distance=11..,tag=warden.temple.floor.1] remove warden.temple.floor.1
+execute if score ultimatewarden warden.temple.activated matches 1.. as @a[tag=warden.temple.floor.1] at @s unless dimension warden:ultimatewarden run tag @s remove warden.temple.floor.1
 
 
-execute in warden:ultimatewarden positioned -146 118 -27 run tag @a[distance=..10,tag=!warden.temple.floor.2] add warden.temple.floor.2
-execute in warden:ultimatewarden positioned -146 118 -27 run tag @a[distance=11..,tag=warden.temple.floor.2] remove warden.temple.floor.2
-execute as @a[tag=warden.temple.floor.2] at @s unless dimension warden:ultimatewarden run tag @s remove warden.temple.floor.2
+execute if score ultimatewarden warden.temple.activated matches 1.. in warden:ultimatewarden positioned -146 118 -27 run tag @a[distance=..10,tag=!warden.temple.floor.2] add warden.temple.floor.2
+execute if score ultimatewarden warden.temple.activated matches 1.. in warden:ultimatewarden positioned -146 118 -27 run tag @a[distance=11..,tag=warden.temple.floor.2] remove warden.temple.floor.2
+execute if score ultimatewarden warden.temple.activated matches 1.. as @a[tag=warden.temple.floor.2] at @s unless dimension warden:ultimatewarden run tag @s remove warden.temple.floor.2
 
 
-execute in warden:ultimatewarden positioned -171 66 -52 run tag @a[distance=..10,tag=!warden.temple.floor.3] add warden.temple.floor.3
-execute in warden:ultimatewarden positioned -171 66 -52 run tag @a[distance=11..,tag=warden.temple.floor.3] remove warden.temple.floor.3
-execute as @a[tag=warden.temple.floor.3] at @s unless dimension warden:ultimatewarden run tag @s remove warden.temple.floor.3
+execute if score ultimatewarden warden.temple.activated matches 1.. in warden:ultimatewarden positioned -171 66 -52 run tag @a[distance=..10,tag=!warden.temple.floor.3] add warden.temple.floor.3
+execute if score ultimatewarden warden.temple.activated matches 1.. in warden:ultimatewarden positioned -171 66 -52 run tag @a[distance=11..,tag=warden.temple.floor.3] remove warden.temple.floor.3
+execute if score ultimatewarden warden.temple.activated matches 1.. as @a[tag=warden.temple.floor.3] at @s unless dimension warden:ultimatewarden run tag @s remove warden.temple.floor.3
 
-execute in warden:ultimatewarden unless entity @a[tag=warden.temple] run return fail
+execute if score ultimatewarden warden.temple.activated matches 1.. in warden:ultimatewarden unless entity @a[tag=warden.temple] run return fail
 
 
 
 # Spawnpoints
-execute as @a[tag=warden.temple.floor.1] at @s run spawnpoint @s -148 176 -37
-execute as @a[tag=warden.temple.floor.2] at @s run spawnpoint @s -146 113 -27
-execute as @a[tag=warden.temple.floor.3] at @s run spawnpoint @s -171 63 -52
+execute if score ultimatewarden warden.temple.activated matches 1.. as @a[tag=warden.temple.floor.1] at @s run spawnpoint @s -148 176 -37
+execute if score ultimatewarden warden.temple.activated matches 1.. as @a[tag=warden.temple.floor.2] at @s run spawnpoint @s -146 113 -27
+execute if score ultimatewarden warden.temple.activated matches 1.. as @a[tag=warden.temple.floor.3] at @s run spawnpoint @s -171 63 -52
 
 
 
@@ -56,3 +56,6 @@ execute if entity @a[tag=warden.temple.floor.3,limit=1] if score ultimatewarden 
 execute if score ultimatewarden warden.temple.activated matches 0 if score ultimatewarden warden.temple.floor3.ancient_ring matches 1.. run scoreboard players set ultimatewarden warden.temple.floor3.ancient_ring 0
 execute if score ultimatewarden warden.temple.activated matches 0 if score ultimatewarden warden.temple.floor3.ancient_ring.phase1.timer matches 1.. run scoreboard players set ultimatewarden warden.temple.floor3.ancient_ring.phase1.timer 0
 
+execute if score ultimatewarden warden.temple.activated matches 0 if score ultimatewarden warden.temple.floor3.ancient_warden matches 1.. run scoreboard players set ultimatewarden warden.temple.floor3.ancient_warden 0
+execute if score ultimatewarden warden.temple.activated matches 0 if score ultimatewarden warden.temple.floor3.ancient_warden.idle_animation matches 1.. run scoreboard players set ultimatewarden warden.temple.floor3.ancient_warden.idle_animation 0
+execute if score ultimatewarden warden.temple.activated matches 0 if score ultimatewarden warden.temple.floor3.ancient_warden.move_animation matches 1.. run scoreboard players set ultimatewarden warden.temple.floor3.ancient_warden.move_animation 0

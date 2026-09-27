@@ -14,8 +14,8 @@ execute in warden:ultimatewarden run item replace block 93 50 21 container.22 wi
 
 
 # Temple clear
-execute if score ultimatewarden warden.temple.activated matches 0 run execute in warden:ultimatewarden run execute positioned -146 147 -27 run kill @e[distance=..100,type=!player]
-execute if score ultimatewarden warden.temple.activated matches 0 run execute in warden:ultimatewarden run execute positioned -146 147 -27 run kill @e[distance=..100,type=item]
+execute if score ultimatewarden warden.temple.activated matches 0 run execute in warden:ultimatewarden run execute positioned -146 115 -27 run kill @e[distance=..105,type=!player]
+execute if score ultimatewarden warden.temple.activated matches 0 run execute in warden:ultimatewarden run execute positioned -146 115 -27 run kill @e[distance=..105,type=item]
 
 
 # Temple generate

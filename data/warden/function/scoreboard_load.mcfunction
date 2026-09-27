@@ -44,14 +44,19 @@ scoreboard objectives add warden.reset.scoreboard dummy
 
 # Temple
 scoreboard objectives add warden.temple.activated dummy
+scoreboard objectives add warden.temple.close_temple.active dummy
+scoreboard objectives add warden.temple.close_temple.timer dummy
+
 scoreboard objectives add warden.temple.floor2.Mobs dummy
 scoreboard objectives add warden.temple.floor2.bossbar.mobs dummy
 scoreboard objectives add warden.temple.floor2.bossbar.wave dummy
 scoreboard objectives add warden.temple.floor2.timer dummy
 scoreboard objectives add warden.temple.floor2.timer.stop dummy
+
 scoreboard objectives add warden.temple.floor2.warden_skeleton.wither_skull dummy
 scoreboard objectives add warden.temple.floor2.warden_skeleton.poisen dummy
 scoreboard objectives add warden.temple.floor2.warden_skeleton.skeleton dummy
+
 scoreboard objectives add warden.temple.floor3.ancient_ring dummy
 scoreboard objectives add warden.temple.floor3.ancient_ring.shoot_particle dummy
 scoreboard objectives add warden.temple.floor3.ancient_ring.phase1.timer dummy
@@ -59,6 +64,7 @@ scoreboard objectives add warden.temple.floor3.ancient_ring.phase2.wave dummy
 scoreboard objectives add warden.temple.floor3.ancient_ring.phase2.wave.mobs dummy
 scoreboard objectives add warden.temple.floor3.ancient_ring.phase2.wave.particle dummy
 scoreboard objectives add warden.temple.floor3.ancient_ring.phase3.move dummy
+
 scoreboard objectives add warden.temple.floor3.ancient_warden dummy
 scoreboard objectives add warden.temple.floor3.ancient_warden.move_animation dummy
 scoreboard objectives add warden.temple.floor3.ancient_warden.idle_animation dummy

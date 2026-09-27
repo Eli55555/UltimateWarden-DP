@@ -15,4 +15,5 @@ execute in warden:ultimatewarden run tp @e[tag=warden.ancient_ring.root,limit=1]
 
 # Close Wall
 execute in warden:ultimatewarden run tp @a[tag=warden.temple] -125 63 -25
+execute in warden:ultimatewarden run spawnpoint @a[tag=warden.temple] -125 63 -25
 function warden:temple/floor3/room2/close_wall
