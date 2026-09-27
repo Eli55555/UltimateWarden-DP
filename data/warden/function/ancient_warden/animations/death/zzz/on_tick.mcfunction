@@ -5,5 +5,5 @@ execute if score @s aj.tween_duration matches 0 on passengers run data modify en
 data remove storage animated_java:temp args
 execute store result storage animated_java:temp args.frame int 1 run scoreboard players get @s aj.death.frame
 function warden:ancient_warden/animations/death/zzz/apply_frame with storage animated_java:temp args
-execute if score @s aj.death.frame matches 55 run return run function warden:ancient_warden/animations/death/zzz/loop_mode_stop
+execute if score @s aj.death.frame matches 87 run return run function warden:ancient_warden/animations/death/zzz/loop_mode_stop
 scoreboard players add @s aj.death.frame 1

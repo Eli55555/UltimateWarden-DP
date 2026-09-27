@@ -9,7 +9,7 @@
         }
       }
     },
-    "hidden": false,
+    "hidden": true,
     "title": {"translate": "ultimate_warden.advancements.upgrades.upgrades_main.title","fallback": "Upgrades!?"},
     "description": {"translate": "ultimate_warden.advancements.upgrades.upgrades_main.description","fallback": "Obtain your first Upgrade","color": "aqua"},
     "frame": "goal",
