@@ -6,7 +6,7 @@
         "item_model": "ultimate_warden:dungeon_vault_ominous_key"
       }
     },
-    "hidden": false,
+    "hidden": true,
     "title": {"translate": "ultimate_warden.advancements.dungeon.vault_ominous_key.title","fallback": "Ultimate gambling"},
     "description": {"translate": "ultimate_warden.advancements.dungeon.vault_ominous_key.description","fallback": "Get an ominous dungeon vault key","color": "aqua"},
     "frame": "goal",

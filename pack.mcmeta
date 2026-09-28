@@ -13,8 +13,8 @@
 				"color": "dark_blue"
 			}
 		],
-		"min_format": [94,1],
-		"max_format": [121,0]
+		"min_format": [107, 1],
+		"max_format": [107, 1]
 	},
 	"overlays": {
 		"entries": [
@@ -26,7 +26,7 @@
 			{
 				"directory": "26.3",
 				"min_format": [121, 0],
-				"max_format": [121, 0]
+				"max_format": [107, 1]
 			}
 		]
 	}

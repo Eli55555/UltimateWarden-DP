@@ -6,15 +6,20 @@ advancement grant @s only warden:warden/dungeon/home_key
 advancement grant @s only warden:warden/dungeon/temple_key
 advancement grant @s only warden:warden/dungeon/vault_normal_key
 advancement grant @s only warden:warden/dungeon/vault_ominous_key
-advancement grant @s only warden:warden/dungeon/skin_main
 advancement grant @s only warden:warden/dungeon/elite_warden_killed
 
 
 # Skins
+advancement grant @s only warden:warden/skins/skin_main
 advancement grant @s only warden:warden/skins/warden_bow
 advancement grant @s only warden:warden/skins/warden_sword
 advancement grant @s only warden:warden/skins/warden_axe
 advancement grant @s only warden:warden/skins/warden_pickaxe
+
+
+# Upgrades
+advancement grant @s only warden:warden/upgrades/upgrades_main
+advancement grant @s only warden:warden/upgrades/ancient_sword
 
 
 # Temple

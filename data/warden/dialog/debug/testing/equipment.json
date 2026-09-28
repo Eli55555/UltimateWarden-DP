@@ -1,6 +1,6 @@
 {
   "type": "minecraft:multi_action",
-  "title": "Debug » Testing",
+  "title": "Debug » Testing » Equipment",
   "pause": false,
   "actions": [
     {
@@ -11,7 +11,7 @@
           "atlas": "minecraft:items",
           "sprite": "item/netherite_sword"
         },
-        " Give Equipment ",
+        " Give Early Equipment ",
         {
           "type": "object",
           "object": "atlas",
@@ -21,8 +21,8 @@
       ],
       "width": 200,
       "action": {
-        "type": "minecraft:show_dialog",
-        "dialog": "warden:debug/testing/equipment"
+        "type": "minecraft:run_command",
+        "command": "function warden:debug/testing/give_early_equipment"
       }
     },
     {
@@ -31,20 +31,20 @@
           "type": "object",
           "object": "atlas",
           "atlas": "minecraft:items",
-          "sprite": "ultimate_warden:item/icons/warden_sword_skin"
+          "sprite": "item/netherite_sword"
         },
-        " Give Skins ",
+        " Give Late Equipment ",
         {
           "type": "object",
           "object": "atlas",
           "atlas": "minecraft:items",
-          "sprite": "ultimate_warden:item/icons/warden_bow_skin"
+          "sprite": "item/netherite_chestplate"
         }
       ],
       "width": 200,
       "action": {
         "type": "minecraft:run_command",
-        "command": "function warden:debug/testing/give_skins"
+        "command": "function warden:debug/testing/give_late_equipment"
       }
     },
     {
@@ -54,7 +54,7 @@
       },
       "action": {
         "type": "minecraft:show_dialog",
-        "dialog": "warden:debug"
+        "dialog": "warden:debug/testing"
       }
     }
   ]
