@@ -20,6 +20,9 @@ scoreboard objectives add warden.statistics.playtime.hours dummy
 scoreboard objectives add warden.statistics.playtime.days dummy
 scoreboard objectives add warden.statistics.dungeon.clears dummy
 scoreboard objectives add warden.statistics.temple.clears dummy
+scoreboard objectives add warden.statistics.mobs.elite_warden_kills dummy
+scoreboard objectives add warden.statistics.mobs.ancient_warden_kills dummy
+scoreboard objectives add warden.statistics.mobs.warden_skeleton_kills dummy
 
 # Keys
 scoreboard objectives add warden.key.dungeon_key dummy

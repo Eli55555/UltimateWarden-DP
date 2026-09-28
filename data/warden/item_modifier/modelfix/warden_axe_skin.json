@@ -42,7 +42,7 @@
             "italic": false
           },
           {
-            "translate": "ultimate_warden.tools.warden_axe.skin.lore.3",
+            "translate": "ultimate_warden.tools.skins.lore.custom_model",
             "fallback": "A Custom Model",
             "color": "gray"
           }

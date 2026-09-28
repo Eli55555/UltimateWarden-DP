@@ -1,0 +1,16 @@
+{
+    "criteria": {
+    "kill_warden": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:wither_skeleton",
+         "team": "warden_skeleton" 
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "warden:technical/menu/statistics/add_warden_skeleton_kill"
+  }
+}

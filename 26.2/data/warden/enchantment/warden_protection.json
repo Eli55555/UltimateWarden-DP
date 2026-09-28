@@ -1,6 +1,6 @@
 {
   "description": {
-    "translate": "enchantment.ultimate_warden.warden_protection",
+    "translate": "ultimate_warden.enchantment.warden_protection",
     "fallback": "Warden Protection",
     "color": "dark_blue"
   },

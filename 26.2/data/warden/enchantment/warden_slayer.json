@@ -1,6 +1,6 @@
 {
   "description": {
-    "translate": "enchantment.ultimate_warden.warden_slayer",
+    "translate": "ultimate_warden.enchantment.warden_slayer",
     "fallback": "Warden Slayer",
     "color": "gold"
   },
