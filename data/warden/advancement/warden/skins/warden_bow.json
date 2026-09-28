@@ -6,7 +6,7 @@
         "item_model": "ultimate_warden:warden_bow"
       }
     },
-    "hidden": false,
+    "hidden": true,
     "title": {"translate": "ultimate_warden.advancements.skins.warden_bow.title","fallback": "I have a Warden Bow and you don't!!!"},
     "description": {"translate": "ultimate_warden.advancements.skins.warden_bow.description","fallback": "Get the Warden Bow","color": "aqua"},
     "frame": "goal",

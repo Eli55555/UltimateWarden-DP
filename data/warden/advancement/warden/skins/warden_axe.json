@@ -6,7 +6,7 @@
         "item_model": "ultimate_warden:warden_axe"
       }
     },
-    "hidden": false,
+    "hidden": true,
     "title": {"translate": "ultimate_warden.advancements.skins.warden_axe.title","fallback": "The Trees are scared of me..."},
     "description": {"translate": "ultimate_warden.advancements.skins.warden_axe.description","fallback": "...because I have a Warden Axe","color": "aqua"},
     "frame": "goal",
