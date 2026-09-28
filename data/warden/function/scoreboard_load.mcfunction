@@ -4,6 +4,8 @@ scoreboard objectives add warden.version dummy
 scoreboard objectives add warden.model_fix trigger
 
 # Trigger
+scoreboard objectives add warden.skins trigger
+
 scoreboard objectives add warden.menu trigger
 scoreboard objectives add warden.menu.profile trigger
 scoreboard objectives add warden.menu.statistics trigger
