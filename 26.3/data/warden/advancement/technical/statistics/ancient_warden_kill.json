@@ -1,0 +1,19 @@
+{
+    "criteria": {
+    "kill_warden": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "team": "ancient_warden" 
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "warden:technical/menu/statistics/add_ancient_warden_kill"
+  }
+}

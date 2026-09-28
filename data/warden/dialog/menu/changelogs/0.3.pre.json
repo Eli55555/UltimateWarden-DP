@@ -125,7 +125,7 @@
       "type": "minecraft:plain_message",
       "contents": [
         {
-          "text": "▪ Fixed a lightning bug in 26.2",
+          "text": "▪ Fixed the lightning bug in 26.1 & 26.2",
           "color": "gray"
         }
       ]
