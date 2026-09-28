@@ -8,17 +8,20 @@
         "color": "dark_blue",
         "italic": false
       },
-      "minecraft:item_model": "ultimate_warden:warden_axe",
-      "enchantments": {
-        "sharpness": 5,
-        "efficiency": 5
-      }
+      "minecraft:item_model": "ultimate_warden:warden_axe"
     }
   },
   {
     "function": "set_custom_data",
     "tag": {
       "warden.tools.warden_axe": 1
+    }
+  },
+  {
+    "function": "set_enchantments",
+    "enchantments": {
+      "sharpness": 5,
+      "efficiency": 5
     }
   }
 ]

@@ -8,17 +8,20 @@
         "color": "dark_blue",
         "italic": false
       },
-      "minecraft:item_model": "ultimate_warden:warden_pickaxe",
-      "enchantments": {
-        "mending": 1,
-        "efficiency": 5
-      }
+      "minecraft:item_model": "ultimate_warden:warden_pickaxe"
     }
   },
   {
     "function": "set_custom_data",
     "tag": {
       "warden.tools.warden_pickaxe": 1
+    }
+  },
+  {
+    "function": "set_enchantments",
+    "enchantments": {
+      "mending": 1,
+      "efficiency": 5
     }
   }
 ]

@@ -117,6 +117,9 @@ scoreboard players add ultimatewarden warden.reset.scoreboard 0
 
 # Temple
 scoreboard players add ultimatewarden warden.temple.activated 0
+scoreboard players add ultimatewarden warden.temple.close_temple.active 0
+scoreboard players add ultimatewarden warden.temple.close_temple.timer 0
+
 scoreboard players add ultimatewarden warden.temple.floor2.Mobs 0
 scoreboard players add ultimatewarden warden.temple.floor2.bossbar.mobs 0
 scoreboard players add ultimatewarden warden.temple.floor2.bossbar.wave 0

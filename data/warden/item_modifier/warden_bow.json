@@ -8,17 +8,20 @@
         "color": "dark_blue",
         "italic": false
       },
-      "minecraft:item_model": "ultimate_warden:warden_bow",
-      "enchantments": {
-        "warden:warden_bow": 1,
-        "power": 5
-      }
+      "minecraft:item_model": "ultimate_warden:warden_bow"
     }
   },
   {
     "function": "set_custom_data",
     "tag": {
       "warden.tools.warden_bow": 1
+    }
+  },
+  {
+    "function": "set_enchantments",
+    "enchantments": {
+      "warden:warden_bow": 1,
+      "power": 5
     }
   }
 ]

@@ -3,7 +3,7 @@
     "icon": {
       "id": "minecraft:sculk"
     },
-    "hidden": false,
+    "hidden": true,
     "title": {
       "translate": "ultimate_warden.advancements.dungeon.elite_warden_killed.title",
       "fallback": "The Elite Warrior"

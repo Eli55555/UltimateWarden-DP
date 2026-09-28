@@ -9,7 +9,7 @@
         }
       }
     },
-    "hidden": false,
+    "hidden": true,
     "title": {"translate": "ultimate_warden.advancements.dungeon.skin_main.title","fallback": "How many Skins do you have in Fortnite?"},
     "description": {"translate": "ultimate_warden.advancements.dungeon.skin_main.description","fallback": "Obtain a Skin"},
     "frame": "task",
