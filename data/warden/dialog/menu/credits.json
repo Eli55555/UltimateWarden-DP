@@ -46,6 +46,24 @@
     },
     {
       "type": "minecraft:plain_message",
+      "contents": [
+        {
+          "text": "  ▪ ",
+          "color": "gray"
+        },
+        {
+          "translate": "ultimate_warden.menu.button.credits.text.testing",
+          "fallback": "Testing:",
+          "color": "gray"
+        },
+        {
+          "text": " Eli12_5 & nino5559",
+          "color": "yellow"
+        }
+      ]
+    },
+    {
+      "type": "minecraft:plain_message",
       "contents": {
         "text": "────────────────────",
         "color": "dark_gray"
