@@ -24,7 +24,7 @@
           "color": "gray"
         },
         {
-          "text": "4d 3h 1m 43s",
+          "text": "$(playtime_days)d, $(playtime_hours)h, $(playtime_minutes)min, $(playtime_seconds)sec",
           "color": "yellow"
         }
       ]
@@ -45,7 +45,7 @@
           "color": "gray"
         },
         {
-          "text": "14",
+          "text": "$(dungeon_clears)",
           "color": "yellow"
         }
       ]
@@ -66,7 +66,7 @@
           "color": "gray"
         },
         {
-          "text": "13",
+          "text": "$(temple_clears)",
           "color": "yellow"
         }
       ]
@@ -95,7 +95,7 @@
           "color": "gray"
         },
         {
-          "text": "42",
+          "text": "$(elite_warden_kills)",
           "color": "red"
         }
       ]
@@ -120,7 +120,7 @@
           "color": "gray"
         },
         {
-          "text": "3",
+          "text": "$(warden_skeleton_kills)",
           "color": "red"
         }
       ]
@@ -145,7 +145,7 @@
           "color": "gray"
         },
         {
-          "text": "-55",
+          "text": "$(ancient_warden_kills)",
           "color": "red"
         }
       ]
