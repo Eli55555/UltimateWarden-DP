@@ -1,0 +1,168 @@
+{
+  "type": "minecraft:multi_action",
+  "title": {
+    "translate": "ultimate_warden.menu.button.statistics",
+    "fallback": "Statistics",
+    "color": "red"
+  },
+  "inputs": [],
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": [
+        {
+          "text": "⏱ ",
+          "color": "gold"
+        },
+        {
+          "translate": "ultimate_warden.menu.button.statistics.playtime",
+          "fallback": "Playtime",
+          "color": "gray"
+        },
+        {
+          "text": ": ",
+          "color": "gray"
+        },
+        {
+          "text": "4d 3h 1m 43s",
+          "color": "yellow"
+        }
+      ]
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": [
+        {
+          "text": "⚔ ",
+          "color": "gold"
+        },
+        {
+          "text": "Dungeon Clears",
+          "color": "gray"
+        },
+        {
+          "text": ": ",
+          "color": "gray"
+        },
+        {
+          "text": "14",
+          "color": "yellow"
+        }
+      ]
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": [
+        {
+          "text": "🏛 ",
+          "color": "gold"
+        },
+        {
+          "text": "Temple Clears",
+          "color": "gray"
+        },
+        {
+          "text": ": ",
+          "color": "gray"
+        },
+        {
+          "text": "13",
+          "color": "yellow"
+        }
+      ]
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": ""
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": [
+        {
+          "type": "object",
+          "object": "atlas",
+          "atlas": "minecraft:items",
+          "sprite": "ultimate_warden:item/icons/warden_sword"
+        },
+        " ",
+        {
+          "translate": "ultimate_warden.menu.button.statistics.elite_warden_kills",
+          "fallback": "Elite Warden Kills",
+          "color": "gray"
+        },
+        {
+          "text": ": ",
+          "color": "gray"
+        },
+        {
+          "text": "42",
+          "color": "red"
+        }
+      ]
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": [
+        {
+          "type": "object",
+          "object": "atlas",
+          "atlas": "minecraft:items",
+          "sprite": "ultimate_warden:item/icons/warden_bow"
+        },
+        " ",
+        {
+          "translate": "ultimate_warden.menu.button.statistics.warden_skeleton_kills",
+          "fallback": "Warden Skeleton Kills",
+          "color": "gray"
+        },
+        {
+          "text": ": ",
+          "color": "gray"
+        },
+        {
+          "text": "3",
+          "color": "red"
+        }
+      ]
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": [
+        {
+          "type": "object",
+          "object": "atlas",
+          "atlas": "minecraft:items",
+          "sprite": "ultimate_warden:item/icons/ancient_ring"
+        },
+        " ",
+        {
+          "translate": "ultimate_warden.menu.button.statistics.ancient_warden_kills",
+          "fallback": "Ancient Warden Kills",
+          "color": "gray"
+        },
+        {
+          "text": ": ",
+          "color": "gray"
+        },
+        {
+          "text": "-55",
+          "color": "red"
+        }
+      ]
+    }
+  ],
+  "pause": false,
+  "actions": [
+    {
+      "label": {
+        "translate": "ultimate_warden.menu.button.back",
+        "fallback": "« Back",
+        "color": "red"
+      },
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "warden:menu"
+      }
+    }
+  ]
+}

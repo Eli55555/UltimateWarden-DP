@@ -63,7 +63,8 @@ $dialog show @s {\
     {\
       "label": {\
         "translate": "ultimate_warden.menu.button.back",\
-        "fallback": "§c« Back"\
+        "fallback": "« Back",\
+        "color": "red"\
       },\
       "action": {\
         "type": "minecraft:show_dialog",\
