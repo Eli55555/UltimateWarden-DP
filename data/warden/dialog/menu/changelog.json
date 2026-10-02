@@ -8,7 +8,18 @@
   "actions": [
     {
       "label": {
-        "text": "0.3 - Pre Release (Current)",
+        "text": "0.3 (Current)",
+        "color": "gold"
+      },
+      "width": 200,
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "warden:menu/changelogs/0.3"
+      }
+    },
+    {
+      "label": {
+        "text": "0.3 - Pre Release",
         "color": "red"
       },
       "width": 200,
