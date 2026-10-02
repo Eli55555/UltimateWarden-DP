@@ -1,3 +1,28 @@
+# Bossbar Tag
+execute unless score ultimatewarden warden.settings.bossbar_amount matches 1.. run return fail
+execute if score ultimatewarden warden.settings.bossbar_activated matches 0 run tag @e[type=warden,tag=!warden.bossbar,tag=!warden.bossbar.disable] add warden.bossbar
+execute if score ultimatewarden warden.settings.bossbar_activated matches 1 run tag @e[type=warden,tag=elite_warden,tag=!warden.bossbar] add warden.bossbar
+tag @e[type=wither_skeleton,tag=warden_skeleton,tag=!warden.bossbar] add warden.bossbar
+
+# No Mob
+execute store success score ultimatewarden.bossbar.ismob warden.bossbar.id.check if entity @e[tag=warden.bossbar,limit=1]
+execute if score ultimatewarden.bossbar.ismob warden.bossbar.id.check matches 0 if score ultimatewarden.bossbar.ismob.last_result warden.bossbar.id.check matches 0 run return fail
+scoreboard players operation ultimatewarden.bossbar.ismob.last_result warden.bossbar.id.check = ultimatewarden.bossbar.ismob warden.bossbar.id.check
+
+# Bossbar Update
+scoreboard players add ultimatewarden.bossbar.wait warden.bossbar.id.check 1
+execute if score ultimatewarden.bossbar.wait warden.bossbar.id.check matches 2.. run scoreboard players set ultimatewarden.bossbar.wait warden.bossbar.id.check 0
+scoreboard players set ultimatewarden.bossbar.2tick warden.bossbar.id.check 0
+execute if score ultimatewarden.bossbar.wait warden.bossbar.id.check matches 0 run scoreboard players set ultimatewarden.bossbar.2tick warden.bossbar.id.check 1
+
+# Bossbar Near
+function warden:bossbar/bossbar_near
+
+
+
+
+
+# Bossbar Main
 execute if score ultimatewarden warden.settings.bossbar_amount matches 1.. run function warden:bossbar/bossbar_main {bossbar_id:1}
 execute if score ultimatewarden warden.settings.bossbar_amount matches 2.. run function warden:bossbar/bossbar_main {bossbar_id:2}
 execute if score ultimatewarden warden.settings.bossbar_amount matches 3.. run function warden:bossbar/bossbar_main {bossbar_id:3}
