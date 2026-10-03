@@ -1,5 +1,5 @@
 # Tag
-tag @a remove warden.key.temple_key
+tag @a[tag=warden.key.temple_key] remove warden.key.temple_key
 execute as @a if items entity @s weapon.mainhand minecraft:nautilus_shell[minecraft:custom_data~{warden.keys.temple.temple_key:1b}] run tag @s add warden.key.temple_key
 execute as @a if items entity @s weapon.offhand minecraft:nautilus_shell[minecraft:custom_data~{warden.keys.temple.temple_key:1b}] run tag @s add warden.key.temple_key
 

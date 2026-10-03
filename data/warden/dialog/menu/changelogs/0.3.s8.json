@@ -1,5 +1,5 @@
 {
-  "type": "minecraft:multi_action",
+  "type": "minecraft:notice",
   "title": [
     {
       "translate": "ultimate_warden.menu.button.changelog",
@@ -261,17 +261,15 @@
       ]
     }
   ],
-  "actions": [
-    {
-      "label": {
-        "translate": "ultimate_warden.menu.button.back",
-        "fallback": "« Back",
-        "color": "red"
-      },
-      "action": {
-        "type": "minecraft:show_dialog",
-        "dialog": "warden:menu/changelog"
-      }
+  "action": {
+    "label": {
+      "translate": "ultimate_warden.menu.button.back",
+      "fallback": "« Back",
+      "color": "red"
+    },
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "warden:menu/changelog"
     }
-  ]
+  }
 }

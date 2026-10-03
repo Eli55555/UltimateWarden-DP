@@ -1,5 +1,5 @@
 {
-  "type": "minecraft:multi_action",
+  "type": "minecraft:notice",
   "title": [
     {
       "translate": "ultimate_warden.menu.button.changelog",
@@ -10,22 +10,20 @@
       "color": "dark_gray"
     },
     {
-      "text": " 0.3",
+      "text": " 0.3 - The Temple Update",
       "color": "gold"
     }
   ],
   "body": [],
-  "actions": [
-    {
-      "label": {
-        "translate": "ultimate_warden.menu.button.back",
-        "fallback": "« Back",
-        "color": "red"
-      },
-      "action": {
-        "type": "minecraft:show_dialog",
-        "dialog": "warden:menu/changelog"
-      }
+  "action": {
+    "label": {
+      "translate": "ultimate_warden.menu.button.back",
+      "fallback": "« Back",
+      "color": "red"
+    },
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "warden:menu/changelog"
     }
-  ]
+  }
 }

@@ -8,7 +8,7 @@
                 }
             }
         },
-        "hidden": false,
+        "hidden": true,
         "title": {"translate": "ultimate_warden.advancements.statistics.temple_clears.2_clears.title", "fallback": "I've played these games before"},
         "description": {"translate": "ultimate_warden.advancements.statistics.temple_clears.2_clears.description", "fallback": "Clear the temple twice"},
         "frame": "task",
