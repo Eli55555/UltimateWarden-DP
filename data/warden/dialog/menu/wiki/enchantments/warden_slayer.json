@@ -1,0 +1,157 @@
+{
+  "type": "minecraft:notice",
+  "title": [
+    {
+      "translate": "ultimate_warden.menu.button.wiki",
+      "fallback": "Wiki",
+      "color": "gold"
+    },
+    {
+      "text": " » ",
+      "color": "dark_gray"
+    },
+    {
+      "translate": "ultimate_warden.menu.button.wiki.enchantments",
+      "fallback": "Enchantments",
+      "color": "white"
+    },
+    {
+      "text": " » ",
+      "color": "dark_gray"
+    },
+    {
+      "translate": "ultimate_warden.enchantment.warden_slayer",
+      "fallback": "Warden Slayer",
+      "color": "gold"
+    }
+  ],
+  "can_close_with_escape": true,
+  "pause": false,
+  "body": [
+    {
+      "type": "minecraft:item",
+      "item": {
+        "id": "minecraft:enchanted_book",
+        "count": 1,
+        "components": {
+          "minecraft:stored_enchantments": {
+            "warden:warden_slayer": 1
+          }
+        }
+      },
+      "description": {
+        "contents": {
+          "translate": "ultimate_warden.enchantment.warden_slayer",
+          "fallback": "Warden Slayer",
+          "color": "gold"
+        }
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "translate": "ultimate_warden.menu.wiki.enchantments.warden_slayer.info",
+        "fallback": "Increases your damage against the Warden",
+        "color": "gray"
+      },
+      "width": 300
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "translate": "ultimate_warden.menu.wiki.header.damage",
+        "fallback": "Damage",
+        "color": "gold",
+        "extra": [
+          { "text": "\n" },
+          {
+            "translate": "ultimate_warden.menu.wiki.enchantments.warden_slayer.damage",
+            "fallback": "Adds extra damage against the Warden",
+            "color": "gray"
+          },
+          { "text": "\n" },
+          {
+            "text": "I: +12.5  |  II: +17.5  |  III: +22.5  |  IV: +27.5",
+            "color": "gray"
+          }
+        ]
+      },
+      "width": 300
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "translate": "effect.minecraft.slowness",
+        "fallback": "Slowness",
+        "color": "gold",
+        "extra": [
+          { "text": "\n" },
+          {
+            "translate": "ultimate_warden.menu.wiki.enchantments.warden_slayer.slowness.description",
+            "fallback": "Critical hits on the Warden apply Slowness I-III",
+            "color": "gray"
+          },
+          { "text": "\n" },
+          {
+            "translate": "ultimate_warden.menu.wiki.enchantments.warden_slayer.slowness.duration",
+            "fallback": "Duration: between 1.25s and the maximum for your level",
+            "color": "gray"
+          },
+          { "text": "\n" },
+          {
+            "text": "I: 1.25s  |  II: 1.4s  |  III: 1.55s  |  IV: 1.7s",
+            "color": "gray"
+          }
+        ]
+      },
+      "width": 300
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "translate": "ultimate_warden.menu.wiki.header.details",
+        "fallback": "Details",
+        "color": "gold",
+        "extra": [
+          { "text": "\n" },
+          {
+            "translate": "ultimate_warden.menu.wiki.enchantments.max_level",
+            "fallback": "Max level:",
+            "color": "gray"
+          },
+          { "text": " IV", "color": "gray" },
+          { "text": "\n" },
+          {
+            "translate": "ultimate_warden.menu.wiki.enchantments.applies_to",
+            "fallback": "Applies to:",
+            "color": "gray"
+          },
+          " ",
+          {"type": "object","object": "atlas","atlas": "minecraft:items","sprite": "minecraft:item/netherite_sword","color": "white","hover_event": {"action":"show_text","value":{"translate": "ultimate_warden.menu.wiki.enchantments.applies_to.all_swords","fallback": "All Swords"}}},
+          {"type": "object","object": "atlas","atlas": "minecraft:items","sprite": "minecraft:item/netherite_axe","color": "white","hover_event": {"action":"show_text","value":{"translate": "ultimate_warden.menu.wiki.enchantments.applies_to.all_axes","fallback": "All Axes"}}},
+          {"type": "object","object": "atlas","atlas": "minecraft:items","sprite": "minecraft:item/trident","color": "white"},
+          {"type": "object","object": "atlas","atlas": "minecraft:items","sprite": "minecraft:item/mace","color": "white"},
+          { "text": "\n" },
+          {
+            "translate": "ultimate_warden.menu.wiki.enchantments.warden_slayer.details.description",
+            "fallback": "Only works against the Warden. Slowness only triggers on critical hits",
+            "color": "gray"
+          }
+        ]
+      },
+      "width": 300
+    }
+  ],
+  "action": {
+    "label": {
+      "translate": "ultimate_warden.menu.button.back",
+      "fallback": "« Back",
+      "color": "red"
+    },
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "warden:menu/wiki/enchantments"
+    }
+  }
+}
+

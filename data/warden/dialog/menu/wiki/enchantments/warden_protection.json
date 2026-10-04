@@ -1,0 +1,135 @@
+{
+  "type": "minecraft:notice",
+  "title": [
+    {
+      "translate": "ultimate_warden.menu.button.wiki",
+      "fallback": "Wiki",
+      "color": "gold"
+    },
+    {
+      "text": " » ",
+      "color": "dark_gray"
+    },
+    {
+      "translate": "ultimate_warden.menu.button.wiki.enchantments",
+      "fallback": "Enchantments",
+      "color": "white"
+    },
+    {
+      "text": " » ",
+      "color": "dark_gray"
+    },
+    {
+      "translate": "ultimate_warden.enchantment.warden_protection",
+      "fallback": "Warden Protection",
+      "color": "blue"
+    }
+  ],
+  "can_close_with_escape": true,
+  "pause": false,
+  "body": [
+    {
+      "type": "minecraft:item",
+      "item": {
+        "id": "minecraft:enchanted_book",
+        "count": 1,
+        "components": {
+          "minecraft:stored_enchantments": {
+            "warden:warden_protection": 1
+          }
+        }
+      },
+      "description": {
+        "contents": {
+          "translate": "ultimate_warden.enchantment.warden_protection",
+          "fallback": "Warden Protection",
+          "color": "blue"
+        }
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "translate": "ultimate_warden.menu.wiki.enchantments.warden_protection.info",
+        "fallback": "Reduces the damage you take from the Warden",
+        "color": "gray"
+      },
+      "width": 300
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "translate": "enchantment.minecraft.protection",
+        "fallback": "Protection",
+        "color": "gold",
+        "extra": [
+          { "text": "\n" },
+          {
+            "translate": "ultimate_warden.menu.wiki.enchantments.warden_protection.protection.description",
+            "fallback": "Reduces damage from the Warden per armor piece",
+            "color": "gray"
+          },
+          { "text": "\n" },
+          {
+            "text": "I: 4.4%  |  II: 8.8%  |  III: 13.2%  |  IV: 17.6%",
+            "color": "gray"
+          },
+          { "text": "\n" },
+          {
+            "translate": "ultimate_warden.menu.wiki.enchantments.warden_protection.protection.stacking",
+            "fallback": "Stacks across all armor pieces and with normal Protection (max. 80%% in total)",
+            "color": "gray"
+          }
+        ]
+      },
+      "width": 300
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "translate": "ultimate_warden.menu.wiki.header.details",
+        "fallback": "Details",
+        "color": "gold",
+        "extra": [
+          { "text": "\n" },
+          {
+            "translate": "ultimate_warden.menu.wiki.enchantments.max_level",
+            "fallback": "Max level:",
+            "color": "gray"
+          },
+          { "text": " IV", "color": "gray" },
+          { "text": "\n" },
+          {
+            "translate": "ultimate_warden.menu.wiki.enchantments.applies_to",
+            "fallback": "Applies to:",
+            "color": "gray"
+          },
+          " ",
+          {"type": "object","object": "atlas","atlas": "minecraft:items","sprite": "minecraft:item/netherite_helmet","color": "white","hover_event": {"action":"show_text","value":{"translate": "ultimate_warden.menu.wiki.enchantments.applies_to.all_helmets","fallback": "All Helmets"}}},
+          {"type": "object","object": "atlas","atlas": "minecraft:items","sprite": "minecraft:item/netherite_chestplate","color": "white","hover_event": {"action":"show_text","value":{"translate": "ultimate_warden.menu.wiki.enchantments.applies_to.all_chestplates","fallback": "All Chestplates"}}},
+          {"type": "object","object": "atlas","atlas": "minecraft:items","sprite": "minecraft:item/elytra","color": "white"},
+          {"type": "object","object": "atlas","atlas": "minecraft:items","sprite": "minecraft:item/netherite_leggings","color": "white","hover_event": {"action":"show_text","value":{"translate": "ultimate_warden.menu.wiki.enchantments.applies_to.all_leggings","fallback": "All Leggings"}}},
+          {"type": "object","object": "atlas","atlas": "minecraft:items","sprite": "minecraft:item/netherite_boots","color": "white","hover_event": {"action":"show_text","value":{"translate": "ultimate_warden.menu.wiki.enchantments.applies_to.all_boots","fallback": "All Boots"}}},
+          { "text": "\n" },
+          {
+            "translate": "ultimate_warden.menu.wiki.enchantments.warden_protection.details.description",
+            "fallback": "Only works against damage caused by the Warden",
+            "color": "gray"
+          }
+        ]
+      },
+      "width": 300
+    }
+  ],
+  "action": {
+    "label": {
+      "translate": "ultimate_warden.menu.button.back",
+      "fallback": "« Back",
+      "color": "red"
+    },
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "warden:menu/wiki/enchantments"
+    }
+  }
+}

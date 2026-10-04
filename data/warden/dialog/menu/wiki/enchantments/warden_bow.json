@@ -1,0 +1,142 @@
+{
+  "type": "minecraft:notice",
+  "title": [
+    {
+      "translate": "ultimate_warden.menu.button.wiki",
+      "fallback": "Wiki",
+      "color": "gold"
+    },
+    {
+      "text": " » ",
+      "color": "dark_gray"
+    },
+    {
+      "translate": "ultimate_warden.menu.button.wiki.enchantments",
+      "fallback": "Enchantments",
+      "color": "white"
+    },
+    {
+      "text": " » ",
+      "color": "dark_gray"
+    },
+    {
+      "translate": "ultimate_warden.enchantment.warden_bow",
+      "fallback": "Warden Bow",
+      "color": "blue"
+    }
+  ],
+  "can_close_with_escape": true,
+  "pause": false,
+  "body": [
+    {
+      "type": "minecraft:item",
+      "item": {
+        "id": "minecraft:enchanted_book",
+        "count": 1,
+        "components": {
+          "minecraft:stored_enchantments": {
+            "warden:warden_bow": 1
+          }
+        }
+      },
+      "description": {
+        "contents": {
+          "translate": "ultimate_warden.enchantment.warden_bow",
+          "fallback": "Warden Bow",
+          "color": "blue"
+        }
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "translate": "ultimate_warden.menu.wiki.enchantments.warden_bow.info",
+        "fallback": "Increases your arrow damage against the Warden",
+        "color": "gray"
+      },
+      "width": 300
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "translate": "ultimate_warden.menu.wiki.header.damage",
+        "fallback": "Damage",
+        "color": "gold",
+        "extra": [
+          { "text": "\n" },
+          {
+            "translate": "ultimate_warden.menu.wiki.enchantments.warden_bow.damage",
+            "fallback": "Adds extra damage against the Warden",
+            "color": "gray"
+          },
+          { "text": "\n" },
+          {
+            "text": "I: +12.5",
+            "color": "gray"
+          }
+        ]
+      },
+      "width": 300
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "translate": "ultimate_warden.menu.wiki.header.obtaining",
+        "fallback": "Obtaining",
+        "color": "gold",
+        "extra": [
+          { "text": "\n" },
+          {
+            "translate": "ultimate_warden.menu.wiki.enchantments.warden_bow.obtaining",
+            "fallback": "Can only be obtained from the Warden Bow Skin",
+            "color": "gray"
+          }
+        ]
+      },
+      "width": 300
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "translate": "ultimate_warden.menu.wiki.header.details",
+        "fallback": "Details",
+        "color": "gold",
+        "extra": [
+          { "text": "\n" },
+          {
+            "translate": "ultimate_warden.menu.wiki.enchantments.max_level",
+            "fallback": "Max level:",
+            "color": "gray"
+          },
+          { "text": " I", "color": "gray" },
+          { "text": "\n" },
+          {
+            "translate": "ultimate_warden.menu.wiki.enchantments.applies_to",
+            "fallback": "Applies to:",
+            "color": "gray"
+          },
+          " ",
+          {"type": "object","object": "atlas","atlas": "minecraft:items","sprite": "minecraft:item/bow","color": "white"},
+          { "text": "\n" },
+          {
+            "translate": "ultimate_warden.menu.wiki.enchantments.warden_bow.details.description",
+            "fallback": "Only works against the Warden",
+            "color": "gray"
+          }
+        ]
+      },
+      "width": 300
+    }
+  ],
+  "action": {
+    "label": {
+      "translate": "ultimate_warden.menu.button.back",
+      "fallback": "« Back",
+      "color": "red"
+    },
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "warden:menu/wiki/enchantments"
+    }
+  }
+}

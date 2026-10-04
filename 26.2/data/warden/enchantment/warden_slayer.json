@@ -70,6 +70,20 @@
               "predicate": {
                 "is_direct": true
               }
+            },
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "attacker",
+              "predicate": {
+                "flags": {
+                  "is_on_ground": false
+                },
+                "movement": {
+                  "fall_distance": {
+                    "min": 0.0001
+                  }
+                }
+              }
             }
           ]
         }

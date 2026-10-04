@@ -6,7 +6,7 @@
         "item_model": "ultimate_warden:warden_sword"
       }
     },
-    "hidden": true,
+    "hidden": false,
     "title": {"translate": "ultimate_warden.advancements.skins.warden_sword.title","fallback": "My first Sword Skin"},
     "description": {"translate": "ultimate_warden.advancements.skins.warden_sword.description","fallback": "I want more Skins!!!","color": "aqua"},
     "frame": "goal",

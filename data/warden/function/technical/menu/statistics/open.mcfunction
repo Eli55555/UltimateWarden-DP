@@ -37,7 +37,8 @@ $dialog show @s {\
           "color": "gold"\
         },\
         {\
-          "text": "Dungeon Clears",\
+          "translate": "ultimate_warden.menu.button.statistics.dungeon_clears",\
+          "fallback": "Dungeon Clears",\
           "color": "gray"\
         },\
         {\
@@ -58,7 +59,8 @@ $dialog show @s {\
           "color": "gold"\
         },\
         {\
-          "text": "Temple Clears",\
+          "translate": "ultimate_warden.menu.button.statistics.temple_clears",\
+          "fallback": "Temple Clears",\
           "color": "gray"\
         },\
         {\

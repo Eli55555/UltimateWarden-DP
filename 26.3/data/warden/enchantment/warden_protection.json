@@ -2,9 +2,9 @@
   "description": {
     "translate": "ultimate_warden.enchantment.warden_protection",
     "fallback": "Warden Protection",
-    "color": "dark_blue"
+    "color": "blue"
   },
-  "supported_items": "#minecraft:enchantable/armor",
+  "supported_items": "#warden:enchantable/warden_protection",
   "weight": 10,
   "max_level": 4,
   "min_cost": {

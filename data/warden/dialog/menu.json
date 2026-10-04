@@ -40,6 +40,17 @@
     },
     {
       "label": {
+        "translate": "ultimate_warden.menu.button.wiki",
+        "fallback": "Wiki",
+        "color": "gold"
+      },
+      "action": {
+        "type": "show_dialog",
+        "dialog": "warden:menu/wiki"
+      }
+    },
+    {
+      "label": {
         "translate": "ultimate_warden.menu.button.credits",
         "fallback": "§8Credits"
       },

@@ -6,7 +6,7 @@
         "item_model": "ultimate_warden:warden_pickaxe"
       }
     },
-    "hidden": true,
+    "hidden": false,
     "title": {"translate": "ultimate_warden.advancements.skins.warden_pickaxe.title","fallback": "A Pickaxe Skin"},
     "description": {"translate": "ultimate_warden.advancements.skins.warden_pickaxe.description","fallback": "I like Skins and Mining, so why not both?","color": "aqua"},
     "frame": "goal",

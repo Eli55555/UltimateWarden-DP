@@ -1,0 +1,116 @@
+{
+  "type": "minecraft:multi_action",
+  "title": [
+    {
+      "translate": "ultimate_warden.menu.button.wiki",
+      "fallback": "Wiki",
+      "color": "gold"
+    },
+    {
+      "text": " » ",
+      "color": "dark_gray"
+    },
+    {
+      "translate": "ultimate_warden.menu.button.wiki.enchantments",
+      "fallback": "Enchantments",
+      "color": "white"
+    }
+  ],
+  "can_close_with_escape": true,
+  "pause": false,
+  "columns": 3,
+  "actions": [
+    {
+      "label": [
+        {
+          "type": "object",
+          "object": "atlas",
+          "atlas": "minecraft:items",
+          "sprite": "minecraft:item/enchanted_book"
+        },
+        " ",
+        {
+          "translate": "ultimate_warden.enchantment.warden_slayer",
+          "fallback": "Warden Slayer",
+          "color": "gold"
+        },
+        " ",
+        {
+          "type": "object",
+          "object": "atlas",
+          "atlas": "minecraft:items",
+          "sprite": "minecraft:item/enchanted_book"
+        }
+      ],
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "warden:menu/wiki/enchantments/warden_slayer"
+      }
+    },
+    {
+      "label": [
+        {
+          "type": "object",
+          "object": "atlas",
+          "atlas": "minecraft:items",
+          "sprite": "minecraft:item/enchanted_book"
+        },
+        " ",
+        {
+          "translate": "ultimate_warden.enchantment.warden_protection",
+          "fallback": "Warden Protection",
+          "color": "blue"
+        },
+        " ",
+        {
+          "type": "object",
+          "object": "atlas",
+          "atlas": "minecraft:items",
+          "sprite": "minecraft:item/enchanted_book"
+        }
+      ],
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "warden:menu/wiki/enchantments/warden_protection"
+      }
+    },
+    {
+      "label": [
+        {
+          "type": "object",
+          "object": "atlas",
+          "atlas": "minecraft:items",
+          "sprite": "minecraft:item/enchanted_book"
+        },
+        " ",
+        {
+          "translate": "ultimate_warden.enchantment.warden_bow",
+          "fallback": "Warden Bow",
+          "color": "blue"
+        },
+        " ",
+        {
+          "type": "object",
+          "object": "atlas",
+          "atlas": "minecraft:items",
+          "sprite": "minecraft:item/enchanted_book"
+        }
+      ],
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "warden:menu/wiki/enchantments/warden_bow"
+      }
+    },
+    {
+      "label": {
+        "translate": "ultimate_warden.menu.button.back",
+        "fallback": "« Back",
+        "color": "red"
+      },
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "warden:menu/wiki"
+      }
+    }
+  ]
+}
