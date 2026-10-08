@@ -1,0 +1,169 @@
+{
+  "type": "minecraft:notice",
+  "title": [
+    {
+      "translate": "ultimate_warden.menu.button.wiki",
+      "fallback": "Wiki",
+      "color": "gold"
+    },
+    {
+      "text": " » ",
+      "color": "dark_gray"
+    },
+    {
+      "translate": "ultimate_warden.menu.button.wiki.keys",
+      "fallback": "Keys",
+      "color": "white"
+    },
+    {
+      "text": " » ",
+      "color": "dark_gray"
+    },
+    {
+      "translate": "ultimate_warden.keys.dungeon.dungeon_key",
+      "fallback": "Warden Dungeon Key",
+      "color": "blue"
+    }
+  ],
+  "can_close_with_escape": true,
+  "body": [
+    {
+      "type": "minecraft:item",
+      "item": {
+        "id": "minecraft:nautilus_shell",
+        "count": 1,
+        "components": {
+          "item_name": [
+            {
+              "translate": "ultimate_warden.keys.dungeon.dungeon_key",
+              "fallback": "Warden Dungeon Key",
+              "color": "blue",
+              "italic": false
+            }
+          ],
+          "lore": [
+            {
+              "text": ""
+            },
+            {
+              "translate": "ultimate_warden.keys.dungeon.dungeon_key.lore.1",
+              "fallback": "Hold it for 15 seconds to",
+              "color": "gray",
+              "italic": false
+            },
+            {
+              "translate": "ultimate_warden.keys.dungeon.dungeon_key.lore.2",
+              "fallback": "enter the Warden Dungeon",
+              "color": "gray",
+              "italic": false
+            }
+          ],
+          "item_model": "ultimate_warden:dungeon_key",
+          "damage_resistant": {
+            "types": "#minecraft:is_fire"
+          },
+          "custom_data": {
+            "warden.keys.dungeon.dungeon_key": 1
+          }
+        }
+      },
+      "description": {
+        "contents": {
+          "translate": "ultimate_warden.keys.dungeon.dungeon_key",
+          "fallback": "Warden Dungeon Key",
+          "color": "blue"
+        }
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "translate": "ultimate_warden.menu.wiki.keys.dungeon_key.info",
+        "fallback": "Grants you access to the Warden Dungeon",
+        "color": "gray"
+      },
+      "width": 300
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "translate": "ultimate_warden.menu.wiki.header.obtaining",
+        "fallback": "Obtaining",
+        "color": "gold",
+        "extra": [
+          { "text": "\n" },
+          {
+            "translate": "ultimate_warden.menu.wiki.keys.dungeon_key.obtaining",
+            "fallback": "Dropped by the Warden",
+            "color": "gray"
+          },
+          { "text": "\n" },
+          {
+            "translate": "ultimate_warden.menu.wiki.drop_chance",
+            "fallback": "Drop chance:",
+            "color": "gray"
+          },
+          { "text": " 100%", "color": "gray" }
+        ]
+      },
+      "width": 300
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "translate": "ultimate_warden.menu.wiki.header.usage",
+        "fallback": "Usage",
+        "color": "gold",
+        "extra": [
+          { "text": "\n" },
+          {
+            "translate": "ultimate_warden.keys.dungeon.dungeon_key.lore.1",
+            "fallback": "Hold it for 15 seconds to",
+            "color": "gray"
+          },
+          " ",
+          {
+            "translate": "ultimate_warden.keys.dungeon.dungeon_key.lore.2",
+            "fallback": "enter the Warden Dungeon",
+            "color": "gray"
+          },
+          { "text": "\n" },
+          {
+            "translate": "ultimate_warden.menu.wiki.keys.consumed",
+            "fallback": "You lose the key after using it",
+            "color": "gray"
+          }
+        ]
+      },
+      "width": 300
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "translate": "ultimate_warden.menu.wiki.header.details",
+        "fallback": "Details",
+        "color": "gold",
+        "extra": [
+          { "text": "\n" },
+          {
+            "translate": "ultimate_warden.menu.wiki.keys.fire_resistant",
+            "fallback": "Fire resistant: the key won't burn up in fire or lava",
+            "color": "gray"
+          }
+        ]
+      },
+      "width": 300
+    }
+  ],
+  "action": {
+    "label": {
+      "translate": "ultimate_warden.menu.button.back",
+      "fallback": "« Back",
+      "color": "red"
+    },
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "warden:menu/wiki/keys"
+    }
+  }
+}

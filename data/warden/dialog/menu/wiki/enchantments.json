@@ -17,7 +17,6 @@
     }
   ],
   "can_close_with_escape": true,
-  "pause": false,
   "columns": 3,
   "actions": [
     {

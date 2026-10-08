@@ -26,7 +26,6 @@
     }
   ],
   "can_close_with_escape": true,
-  "pause": false,
   "body": [
     {
       "type": "minecraft:item",
@@ -51,7 +50,7 @@
       "type": "minecraft:plain_message",
       "contents": {
         "translate": "ultimate_warden.menu.wiki.enchantments.warden_protection.info",
-        "fallback": "Reduces the damage you take from the Warden",
+        "fallback": "Reduces the damage you take from the Warden and repairs your armor when it hits you",
         "color": "gray"
       },
       "width": 300
@@ -71,7 +70,7 @@
           },
           { "text": "\n" },
           {
-            "text": "I: 4.4%  |  II: 8.8%  |  III: 13.2%  |  IV: 17.6%",
+            "text": "I: 4.8%  |  II: 9.6%  |  III: 14.4%  |  IV: 19.2%",
             "color": "gray"
           },
           { "text": "\n" },
@@ -87,13 +86,65 @@
     {
       "type": "minecraft:plain_message",
       "contents": {
+        "translate": "ultimate_warden.menu.wiki.header.durability",
+        "fallback": "Durability",
+        "color": "gold",
+        "extra": [
+          { "text": "\n" },
+          {
+            "translate": "ultimate_warden.menu.wiki.enchantments.warden_protection.durability.description",
+            "fallback": "Every time the Warden hits you, each armor piece with this enchantment restores durability",
+            "color": "gray"
+          },
+          { "text": "\n" },
+          {
+            "text": "I: +1  |  II: +2  |  III: +3  |  IV: +4",
+            "color": "gray"
+          }
+        ]
+      },
+      "width": 300
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "translate": "ultimate_warden.menu.wiki.header.obtaining",
+        "fallback": "Obtaining",
+        "color": "gold",
+        "extra": [
+          { "text": "\n" },
+          {
+            "translate": "ultimate_warden.menu.wiki.enchantments.warden_protection.obtaining.drop",
+            "fallback": "Dropped by the Warden in the Temple as an enchanted book with a random level",
+            "color": "gray"
+          },
+          { "text": "\n" },
+          {
+            "translate": "ultimate_warden.menu.wiki.drop_chance",
+            "fallback": "Drop chance:",
+            "color": "gray"
+          },
+          { "text": " ~7%", "color": "gray" },
+          { "text": "\n" },
+          {
+            "translate": "ultimate_warden.menu.wiki.enchantments.warden_protection.obtaining.found",
+            "fallback": "Can also be found in chests in the Temple",
+            "color": "gray"
+          }
+        ]
+      },
+      "width": 300
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
         "translate": "ultimate_warden.menu.wiki.header.details",
         "fallback": "Details",
         "color": "gold",
         "extra": [
           { "text": "\n" },
           {
-            "translate": "ultimate_warden.menu.wiki.enchantments.max_level",
+            "translate": "ultimate_warden.menu.wiki.max_level",
             "fallback": "Max level:",
             "color": "gray"
           },

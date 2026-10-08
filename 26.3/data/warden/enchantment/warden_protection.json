@@ -26,8 +26,8 @@
           "type": "minecraft:add",
           "value": {
             "type": "minecraft:linear",
-            "base": 1.1,
-            "per_level_above_first": 1.1
+            "base": 1.2,
+            "per_level_above_first": 1.2
           }
         },
         "requirements": {
@@ -35,6 +35,28 @@
           "predicate": {
             "source_entity": {
               "entity_type": "minecraft:warden"
+            }
+          }
+        }
+      }
+    ],
+    "minecraft:post_attack": [
+      {
+        "enchanted": "victim",
+        "affected": "victim",
+        "effect": {
+          "type": "minecraft:change_item_damage",
+          "amount": {
+            "type": "minecraft:linear",
+            "base": -2,
+            "per_level_above_first": -1
+          }
+        },
+        "requirements": {
+          "type": "minecraft:damage_source_properties",
+          "predicate": {
+            "source_entity": {
+              "type": "minecraft:warden"
             }
           }
         }

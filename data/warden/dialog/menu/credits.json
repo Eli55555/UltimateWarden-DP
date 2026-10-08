@@ -2,129 +2,101 @@
   "type": "minecraft:multi_action",
   "title": {
     "translate": "ultimate_warden.menu.button.credits",
-    "fallback": "§8Credits"
+    "fallback": "Credits",
+    "color": "dark_gray"
   },
   "body": [
     {
       "type": "minecraft:plain_message",
       "contents": [
-        {
-          "text": "✦ ",
-          "color": "dark_aqua",
-          "bold": true
-        },
+        {"text": "✦ ","color": "dark_aqua","bold": true},
         {
           "translate": "ultimate_warden.menu.button.credits.headline.main",
           "fallback": "MAIN",
           "color": "dark_aqua",
           "bold": true
         },
+        {"text": " ✦","color": "dark_aqua","bold": true},
+        "\n\n",
         {
-          "text": " ✦",
-          "color": "dark_aqua",
-          "bold": true
-        }
-      ]
-    },
-    {
-      "type": "minecraft:plain_message",
-      "contents": [
-        {
-          "text": "  ▪ ",
-          "color": "gray"
+          "text": "▪ ",
+          "color": "gray",
+          "bold": false
         },
         {
           "translate": "ultimate_warden.menu.button.credits.text.programming",
           "fallback": "Programming:",
-          "color": "gray"
+          "color": "gray",
+          "bold": false
         },
         {
           "text": " Eli12_5",
-          "color": "green"
-        }
-      ]
-    },
-    {
-      "type": "minecraft:plain_message",
-      "contents": [
-        {
-          "text": "  ▪ ",
-          "color": "gray"
+          "color": "green",
+          "bold": false
         },
+        "\n",
+        {"text": "▪ ","color": "gray","bold": false},
         {
           "translate": "ultimate_warden.menu.button.credits.text.testing",
           "fallback": "Testing:",
-          "color": "gray"
+          "color": "gray",
+          "bold": false
         },
         {
           "text": " Eli12_5 & nino5559",
-          "color": "yellow"
+          "color": "yellow",
+          "bold": false
         }
-      ]
+      ],
+      "width": 225
     },
     {
       "type": "minecraft:plain_message",
       "contents": {
         "text": "────────────────────",
         "color": "dark_gray"
-      }
+      },
+      "width": 225
     },
     {
       "type": "minecraft:plain_message",
       "contents": [
-        {
-          "text": "✦ ",
-          "color": "dark_aqua",
-          "bold": true
-        },
+        {"text": "✦ ","color": "dark_aqua","bold": true},
         {
           "translate": "ultimate_warden.menu.button.credits.headline.dungeon",
           "fallback": "DUNGEON",
           "color": "dark_aqua",
           "bold": true
         },
-        {
-          "text": " ✦",
-          "color": "dark_aqua",
-          "bold": true
-        }
-      ]
-    },
-    {
-      "type": "minecraft:plain_message",
-      "contents": [
-        {
-          "text": "▪ ",
-          "color": "gray"
-        },
+        {"text": " ✦","color": "dark_aqua","bold": true},
+        "\n\n",
+        {"text": "▪ ","color": "gray","bold": false},
         {
           "translate": "ultimate_warden.menu.button.credits.text.building",
           "fallback": "Building:",
-          "color": "gray"
+          "color": "gray",
+          "bold": false
         },
         {
           "text": " NotRisk_v1_ & Eli12_5",
-          "color": "gold"
-        }
-      ]
-    },
-    {
-      "type": "minecraft:plain_message",
-      "contents": [
-        {
-          "text": "▪ ",
-          "color": "gray"
+          "color": "gold",
+          "bold": false
         },
+        "\n",
+        {"text": "▪ ","color": "gray","bold": false},
         {
           "translate": "ultimate_warden.menu.button.credits.text.redstone",
           "fallback": "Redstone:",
-          "color": "gray"
+          "color": "gray",
+          "bold": false
         },
         {
           "text": " nino5559",
-          "color": "red"
+          "color": "red",
+          "bold": false
         }
-      ]
+      ],
+      "width": 225
     },
     {
       "type": "minecraft:plain_message",
@@ -136,105 +108,77 @@
     {
       "type": "minecraft:plain_message",
       "contents": [
-        {
-          "text": "✦ ",
-          "color": "dark_aqua",
-          "bold": true
-        },
+        {"text": "✦ ","color": "dark_aqua","bold": true},
         {
           "translate": "ultimate_warden.menu.button.credits.headline.temple",
           "fallback": "TEMPLE",
           "color": "dark_aqua",
           "bold": true
         },
-        {
-          "text": " ✦",
-          "color": "dark_aqua",
-          "bold": true
-        }
-      ]
-    },
-    {
-      "type": "minecraft:plain_message",
-      "contents": [
-        {
-          "text": "▪ ",
-          "color": "gray"
-        },
+        {"text": " ✦","color": "dark_aqua","bold": true},
+        "\n\n",
+        {"text": "▪ ","color": "gray","bold": false},
         {
           "translate": "ultimate_warden.menu.button.credits.text.building",
           "fallback": "Building:",
-          "color": "gray"
+          "color": "gray",
+          "bold": false
         },
         {
           "text": " EffectedCar7817 & Eli12_5",
-          "color": "gold"
-        }
-      ]
-    },
-    {
-      "type": "minecraft:plain_message",
-      "contents": [
-        {
-          "text": "▪ ",
-          "color": "gray"
+          "color": "gold",
+          "bold": false
         },
+        "\n",
+        {"text": "▪ ","color": "gray","bold": false},
         {
           "translate": "ultimate_warden.menu.button.credits.text.redstone",
           "fallback": "Redstone:",
-          "color": "gray"
+          "color": "gray",
+          "bold": false
         },
         {
           "text": " nino5559",
-          "color": "red"
+          "color": "red",
+          "bold": false
         }
-      ]
+      ],
+      "width": 225
     },
     {
       "type": "minecraft:plain_message",
       "contents": {
         "text": "────────────────────",
         "color": "dark_gray"
-      }
+      },
+      "width": 225
     },
     {
       "type": "minecraft:plain_message",
       "contents": [
-        {
-          "text": "✦ ",
-          "color": "dark_aqua",
-          "bold": true
-        },
+        {"text": "✦ ","color": "dark_aqua","bold": true},
         {
           "translate": "ultimate_warden.menu.button.credits.headline.translation",
           "fallback": "TRANSLATION",
           "color": "dark_aqua",
           "bold": true
         },
-        {
-          "text": " ✦",
-          "color": "dark_aqua",
-          "bold": true
-        }
-      ]
-    },
-    {
-      "type": "minecraft:plain_message",
-      "contents": [
-        {
-          "text": "▪ ",
-          "color": "gray"
-        },
+        {"text": " ✦","color": "dark_aqua","bold": true},
+        "\n\n",
+        {"text": "▪ ","color": "gray","bold": false},
         {
           "translate": "ultimate_warden.menu.button.credits.text.german",
           "fallback": "German:",
-          "color": "gray"
+          "color": "gray",
+          "bold": false
         },
         {
           "text": " Eli12_5 & nino5559",
-          "color": "red"
+          "color": "red",
+          "bold": false
         }
-      ]
+      ],
+      "width": 225
     }
   ],
   "actions": [

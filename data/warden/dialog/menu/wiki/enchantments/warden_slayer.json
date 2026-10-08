@@ -26,7 +26,6 @@
     }
   ],
   "can_close_with_escape": true,
-  "pause": false,
   "body": [
     {
       "type": "minecraft:item",
@@ -71,7 +70,7 @@
           },
           { "text": "\n" },
           {
-            "text": "I: +12.5  |  II: +17.5  |  III: +22.5  |  IV: +27.5",
+            "text": "I: +13  |  II: +18.25  |  III: +23.5  |  IV: +28.75",
             "color": "gray"
           }
         ]
@@ -109,13 +108,43 @@
     {
       "type": "minecraft:plain_message",
       "contents": {
+        "translate": "ultimate_warden.menu.wiki.header.obtaining",
+        "fallback": "Obtaining",
+        "color": "gold",
+        "extra": [
+          { "text": "\n" },
+          {
+            "translate": "ultimate_warden.menu.wiki.enchantments.warden_slayer.obtaining.drop",
+            "fallback": "Dropped by the Warden as an enchanted book with a random level",
+            "color": "gray"
+          },
+          { "text": "\n" },
+          {
+            "translate": "ultimate_warden.menu.wiki.drop_chance",
+            "fallback": "Drop chance:",
+            "color": "gray"
+          },
+          { "text": " ~51%", "color": "gray" },
+          { "text": "\n" },
+          {
+            "translate": "ultimate_warden.menu.wiki.enchantments.warden_slayer.obtaining.found",
+            "fallback": "Can also be found in the Dungeon and the Temple",
+            "color": "gray"
+          }
+        ]
+      },
+      "width": 300
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
         "translate": "ultimate_warden.menu.wiki.header.details",
         "fallback": "Details",
         "color": "gold",
         "extra": [
           { "text": "\n" },
           {
-            "translate": "ultimate_warden.menu.wiki.enchantments.max_level",
+            "translate": "ultimate_warden.menu.wiki.max_level",
             "fallback": "Max level:",
             "color": "gray"
           },
@@ -154,4 +183,3 @@
     }
   }
 }
-

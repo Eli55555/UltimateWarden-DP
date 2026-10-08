@@ -6,7 +6,6 @@
     "color": "gold"
   },
   "can_close_with_escape": true,
-  "pause": false,
   "columns": 2,
   "actions": [
     {
@@ -33,6 +32,32 @@
       "action": {
         "type": "minecraft:show_dialog",
         "dialog": "warden:menu/wiki/enchantments"
+      }
+    },
+     {
+      "label": [
+        {
+          "type": "object",
+          "object": "atlas",
+          "atlas": "minecraft:items",
+          "sprite": "ultimate_warden:item/dungeon_key"
+        },
+        " ",
+        {
+          "translate": "ultimate_warden.menu.button.wiki.keys",
+          "fallback": "Keys"
+        },
+        " ",
+        {
+          "type": "object",
+          "object": "atlas",
+          "atlas": "minecraft:items",
+          "sprite": "ultimate_warden:item/dungeon_leave_key"
+        }
+      ],
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "warden:menu/wiki/keys"
       }
     },
     {
