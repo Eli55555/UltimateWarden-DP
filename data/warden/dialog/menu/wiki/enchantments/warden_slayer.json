@@ -115,7 +115,7 @@
           { "text": "\n" },
           {
             "translate": "ultimate_warden.menu.wiki.enchantments.warden_slayer.obtaining.drop",
-            "fallback": "Dropped by the Warden as an enchanted book with a random level",
+            "fallback": "Dropped by the Warden with a random level",
             "color": "gray"
           },
           { "text": "\n" },
@@ -128,7 +128,7 @@
           { "text": "\n" },
           {
             "translate": "ultimate_warden.menu.wiki.enchantments.warden_slayer.obtaining.found",
-            "fallback": "Can also be found in the Dungeon and the Temple",
+            "fallback": "Can also be found in the Dungeon and Temple",
             "color": "gray"
           }
         ]

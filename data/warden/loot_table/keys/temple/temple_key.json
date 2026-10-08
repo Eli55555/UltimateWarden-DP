@@ -13,7 +13,7 @@
                 "item_name": [
                   {
                     "translate": "ultimate_warden.keys.temple.temple_key",
-                    "fallback": "Warden Temple Key",
+                    "fallback": "Temple Key",
                     "color": "red",
                     "italic": false
                   }
